@@ -1,0 +1,51 @@
+---
+title: "Hill_ILE"
+author: "Carolina Monzo"
+date: "7/31/2020"
+output: pdf_document
+---
+
+In order to get this working we had to annotate the database with the file name and then merge them:
+(MPI) CMonzo@LP-080:~/workspace/CM_IgSeq_tmp
+$ ParseDb.py add -d dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv -f sample_id -u I10_S10_001_PRIMER-S3_R1 --outdir ./
+
+(MPI) CMonzo@LP-080:~/workspace/CM_IgSeq_tmp
+$ ParseDb.py add -d dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv -f sample_id -u I10_S10_001_PRIMER-S4_R1 --outdir ./
+
+(MPI) CMonzo@LP-080:~/workspace/CM_IgSeq_tmp
+$ ParseDb.py merge -d dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass_parse-add.tsv dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass_parse-add.tsv -o merged_I10_S3_S4.tsv
+
+```{r libraries, message = FALSE}
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+
+#names(IG_COLORS) <- c( "IGA", "IGD", "IGE", "IGG12", "IGM", "IGG3")
+names(IG_COLORS) <- c( "IGM", "IGG12", "IGA", "IGD", "IGE", "IGG3")
+
+# Read file that passed cloning and germline creation
+db <- read_airr("~/workspace/CM_IgSeq_tmp/merged_I10_S3_S4.tsv")
+```
+```{r}
+sample_colors <- c("I10_S10_001_PRIMER-S4_R1"="#000099", "I10_S10_001_PRIMER-S3_R1"="#000099")
+
+curve <- estimateAbundance(db, group = "sample_id", ci = 0.95, nboot = 200, clone = "clone_id")
+
+plot(curve, colors = sample_colors, legend_title="Sample")
+```
+```{r}
+sample_curve <- alphaDiversity(db, group = "sample_id", clone="clone_id", min_q=0, max_q=4, step_q=0.1, ci=0.95, nboot=200)
+
+sample_main <- paste0("Sample diversity")
+
+plot(sample_curve, colors=sample_colors, main_title=sample_main, legend_title="Sample")
+```
+```{r}
+sample_test <- alphaDiversity(db, group="sample_id", clone="clone_id", min_q=0, max_q=2, step_q=1, nboot=200)
+print(sample_test@tests)
+```
+

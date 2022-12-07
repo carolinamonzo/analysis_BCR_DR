@@ -1,0 +1,220 @@
+---
+title: "Clonal studies"
+author: "Carolina Monzo"
+date: "6/30/2020"
+output: html_document
+---
+```{r libraries, message = FALSE}
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+
+# Upate names in alakazam’s default colors (IG_COLORS)
+#names(IG_COLORS) <- c( "IGA", "IGD", "IGE", "IGG12", "IGM", "IGG3")
+names(IG_COLORS) <- c( "IGM", "IGG12", "IGA", "IGD", "IGE", "IGG3")
+
+# Read file that passed cloning and germline creation
+db <- read_airr("~/workspace/CM_IgSeq_tmp/defined_germlines/dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv")
+# Subset data to IgM, IgG and IgA
+#db <- subset(db, isotype %in% c("IGM","IGG12","IGA"))
+```
+
+```{r}
+# Calculate rank-abundance curve
+a <- estimateAbundance(db, group="isotype")
+plot(a, colors=IG_COLORS)
+```
+```{r}
+# Generate Hill diversity curve
+d <- alphaDiversity(db, group="isotype")
+p <- plot(d, silent=T, colors=IG_COLORS)
+p + 
+   geom_vline(xintercept=c(0,1,2), color="grey50", linetype="dashed") + 
+   geom_text(data=data.frame(q=c(0,1,2), y=round(max(p$data$d_upper)/2), 
+             label=c("Richness", "Shannon", "Simpson")), 
+             aes(x=q, y=y,label=label), size=3, angle=90, vjust=-0.4, inherit.aes = F, color="grey50")
+```
+```{r}
+# Instead of rarefraction curves, test diversity at q=0, q=1, q=2 accross values in the sample_id column
+# Use 200 bootstrap
+isotype_test <- alphaDiversity(db, group="isotype", min_q=0, max_q=2, step_q=1, nboot=200, clone="clone_id")
+# Print P-value table
+print(isotype_test@tests)
+```
+```{r}
+# Plot the mean and standard deviations 
+# Species richness
+plot(isotype_test, 0, colors=IG_COLORS, main_title="Species richness", 
+     legend_title="Isotype")
+```
+```{r}
+# Shannon entropy
+plot(isotype_test, 1, colors=IG_COLORS, main_title="Shannon entropy", 
+     legend_title="Isotype")
+```
+```{r}
+# Simpson's index
+plot(isotype_test, 1, colors=IG_COLORS, main_title="Simpson's index", 
+     legend_title="Isotype")
+```
+
+
+
+
+
+
+Physicochemical properties of CDR3
+
+```{r}
+# Define a ggplot theme for all plots
+tmp_theme <- theme_bw()
+
+db_props <- aminoAcidProperties(db, seq="junction", nt=TRUE, trim=TRUE, 
+                                label="cdr3")
+
+# Checkout all properties we can use
+dplyr::select(db_props[1:3, ], starts_with("cdr3"))
+
+# Generate plots for all four of the properties
+g1 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_length)) + tmp_theme +
+    ggtitle("CDR3 length") + 
+    xlab("Isotype") + ylab("Amino acids") +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+g2 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_gravy)) + tmp_theme + 
+    ggtitle("CDR3 hydrophobicity") + 
+    xlab("Isotype") + ylab("GRAVY") +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+g3 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_basic)) + tmp_theme +
+    ggtitle("CDR3 basic residues") + 
+    xlab("Isotype") + ylab("Basic residues") +
+    scale_y_continuous(labels=scales::percent) +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+g4 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_acidic)) + tmp_theme +
+    ggtitle("CDR3 acidic residues") + 
+    xlab("Isotype") + ylab("Acidic residues") +
+    scale_y_continuous(labels=scales::percent) +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+g5 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_polarity)) + tmp_theme +
+    ggtitle("CDR3 polarity") + 
+    xlab("Isotype") + ylab("Polarity") +
+    scale_y_continuous(labels=scales::percent) +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+g6 <- ggplot(db_props, aes(x=isotype, y=cdr3_aa_charge)) + tmp_theme +
+    ggtitle("CDR3 charge") + 
+    xlab("Isotype") + ylab("Charge") +
+    scale_y_continuous(labels=scales::percent) +
+    scale_fill_manual(name="Isotype", values=IG_COLORS) +
+    geom_boxplot(aes(fill=isotype))
+
+print(g1)
+print(g2)
+print(g3)
+print(g4)
+print(g5)
+print(g6)
+```
+Get aminoacid sequence of the CDR3 sequence, trimming first and last codon
+```{r}
+cdr3 <- translateDNA(db$junction, trim=TRUE)
+```
+
+### V family usage by isotype
+```{r}
+# V family usage by isotype
+# "clone" specifies to consider one gene per clone_id,
+# the most common gene within each clone
+usage_fam_iso <- countGenes(db, gene="v_call_genotyped", groups="isotype", clone="clone_id", mode="family")
+# groups="isotype", then usage by isotype sums 1
+usage_fam_iso %>% group_by(isotype) %>% summarize(total=sum(clone_freq))
+```
+```{r}
+ggplot(usage_fam_iso, aes(x=isotype, y=clone_freq)) + 
+geom_point(aes(color=isotype), size=2) +
+scale_fill_manual(name="Isotype", values=IG_COLORS) + 
+facet_wrap(~gene, nrow=4) +
+theme_bw() + ggtitle("V Family usage by isotype") +
+ylab("Percent of repertoire") + xlab("Isotype")
+```
+```{r}
+# Same but with a longer Y axis so we see the differences better
+ggplot(usage_fam_iso, aes(x=isotype, y=clone_freq)) + 
+geom_point(aes(color=isotype), size=2) +
+scale_fill_manual(name="Isotype", values=IG_COLORS) + 
+facet_wrap(~gene, nrow=1) +
+theme_bw() + ggtitle("V Family usage by isotype") +
+ylab("Percent of repertoire") + xlab("Isotype")
+```
+## Lineage reconstruction
+We use phylip and maximum parsimony
+The function makeChangeoClone takes as input a data.frame with information for a clone (db_clone). text_fields="isotype" specifies that annotation in the column isotype should be merged during duplicate removal. For example, if two duplicate sequences (defined by identical nucleotide composition) are found, and one is annotated as IGHM and the second one is an IGHG, then they will be "collapsed" into a single sequence that will have the isotype value "IGHM,IGHG". The preprocessing done by makeChangeoClone also includes masking gap positions and masking ragged ends.
+```{r}
+# Select one clone, the 2nd largest, just as an example
+largest_clone <- countClones(db) %>% slice(2) %>% select(clone_id)
+# Subset db, get db with data for largest_clone
+db_clone <- subset(db, v_call="v_call_genotyped", clone_id == largest_clone[['clone_id']])
+# Build tree from a single clone
+x <- makeChangeoClone(db_clone, text_fields="isotype")
+
+# Lineage reconstruction
+g <- buildPhylipLineage(x, phylip_exec="/Users/CMonzo/software/phylip-3.695/exe/dnapars")
+suppressPackageStartupMessages(library(igraph))
+plot(g)
+```
+
+```{r}
+# Retrieve the most ancestral sequence
+getMRCA(g, root="Germline")
+```
+```{r}
+# Calculate distance from germline
+getPathLengths(g, root="Germline") %>% top_n(2)
+```
+```{r}
+# Calculate subtree properties
+summarizeSubtrees(g, fields="isotype") %>% top_n(2)
+```
+```{r}
+# Tabulate isotype edge relationships
+tableEdges(g, "isotype", exclude=c("Germline", NA))
+```
+
+
+## Shazam mutational load SOMATIC HYPERMUTATION
+Having identified the germline sequence (germline_alignment_d_mask) in previous steps, we first identify the set of somatic hypermutations by comparing the observed sequence (sequence_alignment) to the germline sequence. observedMutations is next used to quantify the mutational load of each sequence using either absolute counts (frequency=F) or as a frequency (the number of mutations divided by the number of informative positions (frequency=T). Each mutation can be defined as either a replacement mutation (R, or non-synonymous mutation, which changes the amino acid sequence) or a silent mutation (S, or synonymous mutation, which does not change the amino acid sequence). R and S mutations can be counted together (conmbine=T) or independently (combine=F). Counting can be limited to mutations occurring within a particular region of the sequence (for example, to focus on the V region regionDefinition=IMGT_V) or use the whole sequence (regionDefinition=NULL).
+```{r}
+# Calculate total mutation count, R and S combined
+db <- observedMutations(db,
+            sequenceColumn="sequence_alignment", 
+            germlineColumn="germline_alignment",
+            regionDefinition=NULL, frequency=F, combine = T)
+ggplot(db, aes(x=isotype, y=mu_count, fill=isotype)) +
+geom_boxplot() +
+scale_fill_manual(name="Isotype",values=IG_COLORS) +
+xlab("Isotype") + ylab("Mutation count") + theme_bw()
+```
+```{r}
+# Build and plot SHM targeting model
+m <- createTargetingModel(db, vCallColumn="v_call_genotyped")
+# nucleotides: center nucleotide characters to plot
+plotMutability(m, nucleotides=c("A","C"), size=1.2)
+```
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+---
+title: "IG-Seq_tigger"
+author: "Carolina Monzo"
+date: "6/22/2020"
+output: pdf_document
+---
+
+# Novel allele detection  
+We are looking for novel alleles in our IG-Seq samples. They have already been processed, consensus built, mapped to reference IMGT database and extracted statistics.  
+  
+### Identify potentially novel V gene alleles
+
+```{r libraries, message = FALSE}
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+
+# Load database for IGHV genes
+ighv <- readIgFasta("~/workspace/CM_IgSeq_tmp/igblast_database/germlines/imgt/mouse/vdj/imgt_mouse_IGHV.fasta")
+# See first germline
+ighv[1]
+```
+
+Load all Ileum summary files and loop through them to get the name of the samples that have novel alleles.  
+
+```{r, message = FALSE}
+# Load files
+
+path <- "~/workspace/CM_IgSeq_tmp/vdj_data/"
+list_files <- sort(list.files(path, pattern="parse-select.tsv", full.names = TRUE))
+
+
+## LOOP THROUGH ALL SAMPLES
+
+#for (i in 1:length(list_files)) {
+#  DF <- read_airr(list_files[[i]])
+  # Remove na in juction length
+#  db <- DF[DF$junction_length != 0,]
+  # find novel alleles
+#  nv <- findNovelAlleles(db, germline_db = ighv, nproc = 6)
+  # Select novel alleles
+#  if(nrow(selectNovel(nv)) !=0) {
+#    print(list_files[[i]])
+#    }
+  
+#}
+```
+
+## Load sample with Novel alleles (corresponds to SGRO-0975, a DR mouse of 20M).  
+
+```{r, message = FALSE}
+# Load sample
+DF <- read_airr("/Users/CMonzo/workspace/CM_IgSeq_tmp/vdj_data/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv")
+# Remove na in juction length
+db <- DF[DF$junction_length != 0,]
+# find novel alleles
+nv <- findNovelAlleles(db, germline_db = ighv)
+# Remove the problematic novel allele call
+nv <- nv[!(nv$polymorphism_call=="IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A"),]
+#nv_again <- findNovelAlleles(db, germline_db = ighv, )
+```
+```{r}
+nov <- selectNovel(nv)
+nov
+```
+
+```{r}
+nov <- selectNovel(nv_again)
+nov
+```
+
+```{r}
+#for (i in 1:dim(nov)[1]) {
+#  plotNovel(db, nov[i,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "junction", junction_length = "junction_length")
+#  allele_name <- gsub("\\*", "-", nov[i,3])
+#  }
+```
+
+Plot Novel alleles:
+
+```{r}
+#plotNovel(db, selectNovel(nv)[1,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "junction", junction_length = "junction_length")
+#ggsave("~/workspace/CM_IgSeq_tmp/SGRO-0975_IGHV1-5-01_A73G_A87C_A159T_G162C_C249T.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 20, units = "cm")
+```
+
+```{r}
+#plotNovel(db, selectNovel(nv)[2,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "juction", junction_length = "junction_length")
+#ggsave("~/workspace/CM_IgSeq_tmp/SGRO-0975_IGHV1-69-01_T226G.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 20, units = "cm")
+```
+
+#### Genotype and include novel V gene alleles
+This new subject's genotype will improve the V gene calls. The method inferGenotypeBayesian analyzes the posterior probabilities of possible allele distributions, considering up to four distinct alleles per V gene, corresponding to a gene duplication with both loci being heterozygous (i.e., homozygous, heterozygous with one copy of each allele, etc.). The posterior probabilities for these four possible models are compared and a Bayes factor is calculated for the two most probable models. This Bayes factor reflects the confidence in the genotyping call of the method. The bayesian method doesn’t use the strict cutoff criterion fraction_to_explain that  inferGenotype uses wherein only the minimum set of alleles explaining 88% (7/8) of apparently-unmutated sequences are included in the genotype.
+
+```{r}
+# Infer the individual's genotype using the bayesian method
+geno_bayesian <- inferGenotypeBayesian(db, germline_db = ighv, novel = nv, find_unmutated = TRUE)
+# Visualize the begining of the genotype and sequence counts
+geno_bayesian %>% arrange(total) %>% slice(1:3)
+```
+
+In this plots, each row is a gene, with colored cells indicating each of the alleles for that gene that are included in the inferred genotype.
+
+```{r}
+# Plotting the genotypes
+plotGenotype(geno_bayesian, text_size=10)
+ggsave("~/workspace/CM_IgSeq_tmp/SGRO-0975_Genotype.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 40, units = "cm")
+```
+
+```{r}
+# save the genotype information in .fasta format to be used later with CreateGermlines.py
+gtseq <- genotypeFasta(geno_bayesian, ighv, nv)
+writeFasta(gtseq, "~/workspace/CM_IgSeq_tmp/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_vgenotype.fasta")
+```
+
+##### Correcting allele calls (reassign gene calls)
+Reducing the number of ambiguous allele calls where a single samle sequences is assigned to multiple V alleles, thus preventing the mutations analysis of allele-differentiating positions. 
+
+```{r}
+# Use the personalized genotype to determine corrected allele assignments
+# Updated genotype will be place din the v_call genotyped column
+sample_db <- reassignAlleles(db, gtseq)
+
+# Store
+write_airr(sample_db, "~/workspace/CM_IgSeq_tmp/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_genotype_airr.tsv")
+# show some of the corrected gene calls
+sample_db %>% filter(v_call != v_call_genotyped) %>%
+sample_n(3) %>% select(v_call, v_call_genotyped)
+
+```
+
+```{r}
+
+# Find the set of alleles in the original calls that were not in the genotype
+not_in_genotype <- sample_db$v_call %>%
+  strsplit(",") %>%
+  unlist() %>%
+  unique() %>%
+  setdiff(names(gtseq))
+
+# Determine the fraction of calls that were ambiguous before/after correction and the fraction
+# that contained original calls to non-genotype alleles. Note that by dessign, only genotype
+# alleles are allowed in the "after" calls
+
+data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),
+                         mean(grepl(",", sample_db$v_call_genotyped))),
+            NotInGenotype = c(mean(sample_db$v_call %in% not_in_genotype),
+                              mean(sample_db$v_call_genotyped %in% not_in_genotype)),
+            row.names = c("Before", "After")) %>%
+             t() %>% round(3)
+```
+These results show that in general, our original calls were very good since only 11% were ambiguous calls, but now after reassignment this goes down to 5.2%.
+
+Finally we use the final corrected calls to build a table of evidence metrics supporting the final novel V allele detection.
+
+```{r}
+evidence <- generateEvidence(sample_db, nv, geno_bayesian, gtseq, ighv, fields = NULL)
+evidence %>% select(gene, allele, polymorphism_call, sequences, unmutated_frequency)
+```
+So we have now that 783 sequences were unambiguously assigned to allele IGHV1-5*01_A73G_A87C_A159T_G162C_C249T, 6.2% of them unmutated.  
+And 473 sequences unambiguously assigned to allele	IGHV1-69*01_T226G, 30.6% of them unmutated.  
+
+
+## Load other sample with Novel alleles (corresponds to SGRO-1137, an AL mouse of 16M)
+
+```{r, message=FALSE}
+# Load sample
+DF <- read_airr("/Users/CMonzo/workspace/CM_IgSeq_tmp/vdj_data/dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv")
+# Remove na in juction length
+db <- DF[DF$junction_length != 0,]
+# find novel alleles
+nv <- findNovelAlleles(db, germline_db = ighv, nproc = 6)
+```
+
+Plot Novel alleles:
+
+```{r}
+plotNovel(db, selectNovel(nv)[1,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "juction", junction_length = "junction_length")
+ggsave("~/workspace/CM_IgSeq_tmp/SGRO-1137_IGHV1-5-01_A73G_A87C_A159T_G162C_C249T.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 20, units = "cm")
+```
+
+```{r}
+plotNovel(db, selectNovel(nv)[2,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "juction", junction_length = "junction_length")
+ggsave("~/workspace/CM_IgSeq_tmp/SGRO-1137_IGHV1-82-01_C84T.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 20, units = "cm")
+```
+
+```{r}
+plotNovel(db, selectNovel(nv)[3,], multiplot = TRUE, v_call = "v_call", j_call = "j_call", seq = "sequence_alignment", junction = "juction", junction_length = "junction_length")
+ggsave("~/workspace/CM_IgSeq_tmp/SGRO-1137_IGHV5-9-04_A163T_C164A_G172A_T222C_A251G.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 20, units = "cm")
+```
+
+#### Genotype and include novel V gene alleles
+
+```{r}
+# Infer the individual's genotype using the bayesian method
+geno_bayesian <- inferGenotypeBayesian(db, germline_db = ighv, novel = nv, find_unmutated = TRUE)
+# Visualize the genotype and sequence counts
+geno_bayesian %>% arrange(total) %>% slice(1:3)
+```
+
+```{r}
+# Plotting the genotypes
+plotGenotype(geno_bayesian, text_size=10)
+ggsave("~/workspace/CM_IgSeq_tmp/SGRO-1137_Genotype.svg", plot = last_plot(), device = NULL, path = NULL, width = 20, height = 40, units = "cm")
+```
+```{r}
+# save the genotype information in .fasta format to be used later with CreateGermlines.py
+gtseq <- genotypeFasta(geno_bayesian, ighv, nv)
+writeFasta(gtseq, "~/workspace/CM_IgSeq_tmp/mpg_L19249_I6_S6_001_PRIMER-S5_R1_vgenotype.fasta")
+```
+
+##### Correcting allele calls (reassign gene calls)
+Reducing the number of ambiguous allele calls where a single samle sequences is assigned to multiple V alleles, thus preventing the mutations analysis of allele-differentiating positions. 
+
+```{r}
+# Use the personalized genotype to determine corrected allele assignments
+# Updated genotype will be place din the v_call genotyped column
+sample_db <- reassignAlleles(db, gtseq)
+
+# Store
+write_airr(sample_db, "~/workspace/CM_IgSeq_tmp/mpg_L19249_I6_S6_001_PRIMER-S5_R1_genotype_airr.tsv")
+# show some of the corrected gene calls
+sample_db %>% filter(v_call != v_call_genotyped) %>%
+sample_n(3) %>% select(v_call, v_call_genotyped)
+
+```
+
+```{r}
+
+# Find the set of alleles in the original calls that were not in the genotype
+not_in_genotype <- sample_db$v_call %>%
+  strsplit(",") %>%
+  unlist() %>%
+  unique() %>%
+  setdiff(names(gtseq))
+
+# Determine the fraction of calls that were ambiguous before/after correction and the fraction
+# that contained original calls to non-genotype alleles. Note that by dessign, only genotype
+# alleles are allowed in the "after" calls
+
+data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),
+                         mean(grepl(",", sample_db$v_call_genotyped))),
+            NotInGenotype = c(mean(sample_db$v_call %in% not_in_genotype),
+                              mean(sample_db$v_call_genotyped %in% not_in_genotype)),
+            row.names = c("Before", "After")) %>%
+             t() %>% round(3)
+```
+These results show that in general, our original calls were very good since only 9.6% were ambiguous calls, but now after reassignment this goes down to 4.4%.
+
+Finally we use the final corrected calls to build a table of evidence metrics supporting the final novel V allele detection.
+
+```{r}
+evidence <- generateEvidence(sample_db, nv, geno_bayesian, gtseq, ighv, fields = NULL)
+evidence %>% select(gene, allele, polymorphism_call, sequences, unmutated_frequency)
+```
+So we have now that 325 sequences were unambiguously assigned to allele IGHV1-5*01_A73G_A87C_A159T_G162C_C249T, 20.6% of them unmutated.  
+4111 sequences unambiguously assigned to allele	IGHV1-82*01_C84T, 3.7% of them unmutated.  
+And 903 sequences unambiguosly assigned to allele IGHV5-9*04_A163T_C164A_G172A_T222C_A251G, 5.1% of them unmutated.

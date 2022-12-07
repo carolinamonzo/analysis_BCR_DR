@@ -1,0 +1,215 @@
+---
+title: "mixomics_ilesplmicro"
+author: "Carolina Monzo"
+date: "9/2/2021"
+output: html_document
+---
+
+```{r}
+suppressPackageStartupMessages(library(mixOmics))
+suppressPackageStartupMessages(library(dplyr))
+theme_set(theme_bw())
+setwd("~/workspace/CM_IgSeq_tmp/analysis/plots/diablo_ALDR_ILESPLmi/")
+path <- "~/workspace/CM_IgSeq_tmp/analysis/plots/diablo_ALDR_ILESPLmi/"
+
+metadata <- read.table("~/workspace/16S_final/CM_16S_cross-sectionalF245/metadata/metadata_F245_16S.csv", sep = ";", header = T, row.names = 1, stringsAsFactors = F, comment.char = "")
+
+ile <- read.table("~/workspace/CM_IgSeq_tmp/analysis/relCounts_Clones_ILE.csv", sep = ";", header = T, row.names = 1, stringsAsFactors = F)
+colnames(ile) <- gsub("\\.", "-", colnames(ile))
+
+spl <- read.table("~/workspace/CM_IgSeq_tmp/analysis/relCounts_Clones_SPL.csv", sep = ";", header = T, row.names = 1, stringsAsFactors = F)
+colnames(spl) <- gsub("\\.", "-", colnames(spl))
+
+microbiome <-  read.table("~/workspace/16S_final/CM_16S_cross-sectionalF245/analysis/seqtab_merge3/mergedQC/norm-CLEAN_ASVs_counts_merged_20210615.tsv", sep = "\t", header = T, row.names = 1, stringsAsFactors = F, comment.char = "")
+colnames(microbiome) <- gsub("\\.", "-", colnames(microbiome))
+
+# Keep only samples where we also have igseq
+microbiome <- microbiome[, colnames(microbiome) %in% colnames(ile)]
+ile <- ile[, colnames(ile) %in% colnames(microbiome)]
+ile[is.na(ile)] <- 0
+spl <- spl[, colnames(spl) %in% colnames(microbiome)]
+spl[is.na(spl)] <- 0
+
+ile <- ile[, order(colnames(ile))]
+spl <- spl[, order(colnames(spl))]
+microbiome <- microbiome[, order(colnames(microbiome))]
+
+
+
+metadata <- metadata[metadata$ID %in% colnames(microbiome), ]
+# Analysing only differences between diets
+metadata <- metadata[metadata$Months == 24,]
+##IF all diets, comment
+#metadata <- metadata[metadata$Treatment %in% c("AL_lifelong", "DR_lifelong"), ]
+ile <- ile[, colnames(ile) %in% metadata$ID]
+spl <- spl[, colnames(spl) %in% metadata$ID]
+microbiome <- microbiome[, colnames(microbiome) %in% metadata$ID]
+#
+
+
+diet <- metadata[, c("Treatment")]
+months <- metadata[, c("Months")]
+
+Y <- diet
+
+# Removing clones only found in one sample as they dont add variability
+ile <- t(ile)
+presabsile <- ile
+presabsile[presabsile>0] <-1
+presabsile <- presabsile[, which(colSums(presabsile) > 1)]
+ile <-  ile[, colnames(ile) %in% colnames(presabsile)]
+
+spl <- t(spl)
+presabspl <- spl
+presabspl[presabspl>0] <-1
+presabspl <- presabspl[, which(colSums(presabspl) > 1)]
+spl <-  spl[, colnames(spl) %in% colnames(presabspl)]
+
+spl<-as.data.frame(spl)
+ile<-as.data.frame(ile)
+microbiome <- as.data.frame(microbiome)
+```
+
+```{r}
+# Now that we have the same order of columns, transpose and put together
+data = list(ile = ile, spl = spl,
+            microbiome = t(microbiome))
+# check dimension
+lapply(data, dim)
+```
+```{r}
+design = matrix(0.1, ncol = length(data), nrow = length(data), 
+                dimnames = list(names(data), names(data)))
+diag(design) = 0
+
+design 
+```
+
+```{r}
+sgccda.res = block.splsda(X = data, Y = Y, ncomp = 5, 
+                           design = design)
+
+set.seed(333) # for reproducibility, only when the `cpus' argument is not used
+# this code takes a couple of min to run
+perf.diablo = perf(sgccda.res, validation = 'Mfold', folds = 4, nrepeat = 10)
+
+#perf.diablo  # lists the different outputs
+pdf(paste0(path,"PCcontributions.pdf"))
+plot(perf.diablo) 
+dev.off()
+```
+
+```{r}
+perf.diablo$choice.ncomp$WeightedVote
+```
+
+```{r}
+# By looking at the PC plots, this combination is most logical
+ncomp = perf.diablo$choice.ncomp$WeightedVote["Overall.ER", "max.dist"]
+```
+
+```{r}
+#Tuning
+test.keepX = list(ile = c(5:9, seq(10, 18, 2), seq(20,30,5)), microbiome = c(5:9, seq(10, 18, 2), seq(20,30,5)), spl = c(5:9, seq(10, 18, 2), seq(20,30,5)))
+
+BPPARAM <- BiocParallel::SnowParam(workers = max(parallel::detectCores()-1, 2))
+                  
+tune.TCGA = tune.block.splsda(X = data, Y = Y, ncomp = ncomp, test.keepX = test.keepX, design = design, validation = 'Mfold', folds = 4, nrepeat = 1, dist = "max.dist", BPPARAM = BPPARAM)
+
+list.keepX = tune.TCGA$choice.keepX
+list.keepX
+```
+
+```{r}
+# Final model
+sgccda.res = block.splsda(X = data, Y = Y, ncomp = ncomp, 
+                          keepX = list.keepX, design = design)
+# List the functions related to the object
+sgccda.res
+
+## Y has been included automatically in the design, so that the covariance between each block's component and the outcome is maximised
+```
+
+```{r}
+sgccda.res$design
+```
+```{r}
+# Extract the selected variables
+varmicrobiome <- selectVar(sgccda.res, block = 'microbiome', comp = 1)$microbiome$name
+varspl <- selectVar(sgccda.res, block = 'spl', comp = 1)$spl$name
+varile <- selectVar(sgccda.res, block = 'ile', comp = 1)$ile$name
+```
+
+```{r}
+#check whether the correlation between components from each data set has been maximized as specified in the design matrix
+## For all diets
+col.per.group <- c("darkgreen", "gold", "dodgerblue", "red")
+names(col.per.group) <- levels(Y)
+# for ALDR
+#col.per.group <- c("dodgerblue", "red")
+#names(col.per.group) <- levels(Y)
+
+pdf(paste0(path,"datasets_correlation_new.pdf"))
+plotDiablo(sgccda.res, ncomp = 1, col.per.group = col.per.group)
+dev.off()
+```
+```{r}
+pdf(paste0(path,"PCindiv.pdf"))
+plotIndiv(sgccda.res, ind.names = FALSE, legend = TRUE, title = 'DIABLO', ellipse = TRUE, col.per.group = col.per.group)
+dev.off()
+```
+```{r}
+pdf(paste0(path,"PCcombinedArrows.pdf"))
+plotArrow(sgccda.res, ind.names = FALSE, legend = TRUE, title = 'DIABLO', col.per.group = col.per.group, ellipse = TRUE)
+dev.off()
+```
+```{r}
+pdf(paste0(path,"VarContributions.pdf"))
+plotLoadings(sgccda.res, comp = 1, contrib = 'max', method = 'median', legend.color = col.per.group, legend = FALSE)
+dev.off()
+```
+
+```{r}
+network.res <- network(sgccda.res, save = "pdf", name.save = "myNetwork")
+# Save for cytoscape
+library(igraph)
+write.graph(network.res$gR, file = "myNetwork.gml", format = "gml")
+```
+
+```{r}
+# Calculate performance of the model
+set.seed(123)# for reproducibility, only when the `cpus' argument is not used
+perf.diablo = perf(sgccda.res, validation = 'Mfold', M = 4, nrepeat = 10, 
+                   dist = 'max.dist')
+#perf.diablo  # lists the different outputs
+
+# Performance with Majority vote
+perf.diablo$MajorityVote.error.rate
+
+pdf(paste0(path,"AUROC_microbiome.pdf"))
+auc.splsda = auroc(sgccda.res, roc.block = "microbiome", roc.comp = 1)
+dev.off()
+
+pdf(paste0(path,"AUROC_ile.pdf"))
+auc.splsda = auroc(sgccda.res, roc.block = "ile", roc.comp = 1)
+dev.off()
+
+pdf(paste0(path,"AUROC_spl.pdf"))
+auc.splsda = auroc(sgccda.res, roc.block = "spl", roc.comp = 1)
+dev.off()
+```
+
+```{r}
+pdf(paste0(path, "cimDiablo.pdf"))
+cimDiablo(sgccda.res, color.blocks= c('lightblue', "darkgreen", 'chocolate3'), color.Y = col.per.group, margins=c(10,5))
+dev.off()
+```
+
+```{r}
+pdf(paste0(path,"circos.pdf"))
+circosPlot(sgccda.res, cutoff = 0.7, line = TRUE, 
+           color.blocks= c('lightblue', "darkgreen", 'chocolate3'),
+           color.cor = c("lightgreen","grey20"), size.labels = 1.5, color.Y = col.per.group)
+dev.off()
+```
+

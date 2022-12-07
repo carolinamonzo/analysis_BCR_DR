@@ -1,0 +1,111 @@
+---
+title: "Clonal distance"
+author: "Carolina Monzo"
+date: "6/25/2020"
+output: html_document
+---
+```{r libraries, message = FALSE}
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+
+# Load database for IGHV genes
+ighv <- readIgFasta("~/workspace/CM_IgSeq_tmp/igblast_database/germlines/imgt/mouse/vdj/imgt_mouse_IGHV.fasta")
+
+path <- "~/workspace/CM_IgSeq_tmp/vdj_data/"
+list_files <- sort(list.files(path, pattern="parse-select.tsv", full.names = TRUE))
+```
+
+```{r}
+# Load sample
+DF <- read_airr("/Users/CMonzo/workspace/CM_IgSeq_tmp/vdj_data/dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv")
+# Remove na in juction length
+db <- DF[DF$junction_length != 0,]
+
+# find novel alleles
+nv <- findNovelAlleles(db, germline_db = ighv, nproc = 6)
+
+# Infer the individual's genotype using the bayesian method
+geno_bayesian <- inferGenotypeBayesian(db, germline_db = ighv, novel = nv, find_unmutated = TRUE)
+gtseq <- genotypeFasta(geno_bayesian, ighv, nv)
+sample_db <- reassignAlleles(db, gtseq)
+
+# Calculate distance
+db_t <- distToNearest(sample_db, model = "ham", normalize = "len", vCallColumn = "v_call_genotyped", nproc = 6)
+```
+
+```{r}
+res <- tryCatch(
+  {
+    results <- spectralClones(sample_db, method="vj",
+                          germline="germline_alignment")
+    print("ML")
+    slot(results, 'eff_threshold')
+  },
+  error = function(cond){
+    # Calculate distance
+    db_t <- distToNearest(sample_db, model = "ham", normalize = "len", 
+                          vCallColumn = "v_call_genotyped", nproc = 6)
+    # Determine Threshold
+    threshold <- findThreshold(db_t$dist_nearest, method = "density")
+    print("Density")
+    return(round(threshold@threshold, 2))
+  }
+)
+```
+
+
+# Standard hamming plus density
+```{r}
+# Determine Threshold
+threshold <- findThreshold(db_t$dist_nearest, method = "density")
+thr <- round(threshold@threshold, 2)
+print(thr)
+# Plot the distribution
+#plot(threshold)
+```
+# 
+```{r}
+models <- c("gamma-gamma", "gamma-norm", "norm-gamma", "norm-norm")
+thresholds <- numeric(length(models))
+likelihoods <- numeric(length(models))
+for (n in 1:length(models)){
+    tm <- tryCatch(findThreshold(as.numeric(db_t$dist_nearest), method = "gmm", model=models[[n]], cutoff="opt"), error = function(e) return(e$message), warning = function(w) return(w$message))
+    
+    thresholds[n] <- ifelse(isS4(tm), tm@threshold , NA)
+    likelihoods[n] <- ifelse(isS4(tm), tm@loglk , NA)
+}
+
+if (!all(is.na(thresholds))){
+    print(thresholds[last(which(likelihoods ==max(likelihoods , na.rm = TRUE)))])
+}
+```
+
+
+
+```{r}
+results <- spectralClones(sample_db, method="vj",
+                          germline="germline_alignment")
+```
+```{r}
+results_db <- as.data.frame(results)
+```
+```{r}
+# Plot a histogram of inter clonal distances
+plot(results, binwidth=0.02)
+```
+```{r}
+# Print the value
+slot(results, 'eff_threshold')
+```
+
+```{r}
+x <- sprintf('DefineClones.py -d ~/workspace/CM_IgSeq_tmp/mpg_L19249_I6_S6_001_PRIMER-S5_R1_genotype_airr.tsv --vf v_call_genotyped --model ham --norm len --dist %s --format airr --nproc 8 --outdir ~/workspace/CM_IgSeq_tmp/', slot(results, 'eff_threshold'))
+
+#system(x)
+```
+
