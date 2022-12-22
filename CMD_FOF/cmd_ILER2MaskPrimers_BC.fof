@@ -1,0 +1,5 @@
+MaskPrimers.py align -s ../../data/fastq_filtered/mpg_L19249_I6_S6_R2_001_quality-pass.fastq --outdir ../../data/fastq_barcode/annotated_BC/ --bf BARCODE -p ../../metadata/presto_PCR2_BC.fasta --mode cut
+MaskPrimers.py align -s ../../data/fastq_filtered/mpg_L19250_I7_S7_R2_001_quality-pass.fastq --outdir ../../data/fastq_barcode/annotated_BC/ --bf BARCODE -p ../../metadata/presto_PCR2_BC.fasta --mode cut
+MaskPrimers.py align -s ../../data/fastq_filtered/mpg_L19251_I8_S8_R2_001_quality-pass.fastq --outdir ../../data/fastq_barcode/annotated_BC/ --bf BARCODE -p ../../metadata/presto_PCR2_BC.fasta --mode cut
+MaskPrimers.py align -s ../../data/fastq_filtered/mpg_L19252_I9_S9_R2_001_quality-pass.fastq --outdir ../../data/fastq_barcode/annotated_BC/ --bf BARCODE -p ../../metadata/presto_PCR2_BC.fasta --mode cut
+MaskPrimers.py align -s ../../data/fastq_filtered/mpg_L19253_I10_S10_R2_001_quality-pass.fastq --outdir ../../data/fastq_barcode/annotated_BC/ --bf BARCODE -p ../../metadata/presto_PCR2_BC.fasta --mode cut

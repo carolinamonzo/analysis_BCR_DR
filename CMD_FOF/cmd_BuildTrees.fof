@@ -1,0 +1,2 @@
+BuildTrees.py -d ../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv --outname sel --log ./logs/BuildTree_ILE.log --collapse --sample 3000 --igphyml --clean all --nproc 32 --ncdr3 --omega ce,ce
+BuildTrees.py -d ../../analysis/created_germlines/reannotated_db/merged_changeo_SPL.tsv --outname sel --log ./logs/BuildTree_SPL.log --collapse --sample 3000 --igphyml --clean all --nproc 32 --ncdr3 --omega ce,ce

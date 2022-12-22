@@ -1,0 +1,5 @@
+SplitSeq.py group -f PRIMER -s ../../data/fastq_barcode/annotated_BC/mpg_L19244_S1_S1_R2_001_quality-pass_primers-pass.fastq --outdir ../../data/fastq_barcode/split_BC/
+SplitSeq.py group -f PRIMER -s ../../data/fastq_barcode/annotated_BC/mpg_L19245_S2_S2_R2_001_quality-pass_primers-pass.fastq --outdir ../../data/fastq_barcode/split_BC/
+SplitSeq.py group -f PRIMER -s ../../data/fastq_barcode/annotated_BC/mpg_L19246_S3_S3_R2_001_quality-pass_primers-pass.fastq --outdir ../../data/fastq_barcode/split_BC/
+SplitSeq.py group -f PRIMER -s ../../data/fastq_barcode/annotated_BC/mpg_L19247_S4_S4_R2_001_quality-pass_primers-pass.fastq --outdir ../../data/fastq_barcode/split_BC/
+SplitSeq.py group -f PRIMER -s ../../data/fastq_barcode/annotated_BC/mpg_L19248_S5_S5_R2_001_quality-pass_primers-pass.fastq --outdir ../../data/fastq_barcode/split_BC/
