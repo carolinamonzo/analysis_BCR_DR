@@ -1,0 +1,16 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+Warning: 13655034 parsing failures.
+row              col               expected actual                                                                            file
+  1 d_sequence_start no trailing characters     .0 '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE_isosum.tsv'
+  1 d_sequence_end   no trailing characters     .0 '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE_isosum.tsv'
+  1 d_germline_start no trailing characters     .0 '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE_isosum.tsv'
+  1 d_germline_end   no trailing characters     .0 '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE_isosum.tsv'
+  1 np2_length       no trailing characters     .0 '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE_isosum.tsv'
+... ................ ...................... ...... ...............................................................................
+See problems(...) for more details.
+
+Warning message:
+In validate_airr(data, schema = schema) :
+  Warning: sequence_id(s) are not unique: TTTTCTCGTTTTGCTT, TGTGCTTGGTTGTCTT, TTCGTTATTGTCGTTT, TTTGTTGGGCTGTCTT, TCTTGTGGTTTTCTTT, TTACTTGGCTTCTTTT, TTTTTTTTATTGGGCT, TGGTTTGTTTTCTGTT, TCTCTTAATTTCTTTT, TGGCTTTTGGTGTTCT, TGTTGTTCTTTTTGGT, TGCCTTTGACTTTGTT, TGTGTTAAGCTGTCGT, TGGCTTCTCTTCGTAT, TTAGGTGGGCTTATTT, TGATTTATTTTGACTT, TGTCCTTTGCTTGCTT, TCCGCTTGGTTTTGTT, TTCTATTCGGTGTCTT, TGTTTTTCTTTGTCTT, TCTTTTCTTTTGGGAT, TTTCCTCTCTTCTGCT, TGTTCTTTCCTGTTCT, TTTTGTTACCTGTTGT, TTATTTTGTCTCGTTT, TGGCGTGTGTTTTTTT, TAGTTTATGGTCTTTT, TGGGATGCCTTGGGTT, TTGTTTTGTTTTTATT, TTGGGTTCGGCGGGCT, TTACTTTGTTTTGCTT, TTTGATGTTATATTTT, TACCTTGTGGTTTTTT, TCCGTTGTTCTGGGGT, TTTTTTGGATTTGGCT, TGCCTTTTCGTTTTAT, TTTCTTGTTTTATGTT, TGTTTTAGTTTGCGGT, TGCTTTTAATTCTTGT, TCATTTGTGATTTTGT, TGTTATTCGTTGCGGT, TTGTCTTCTTTTTCTT, TGGGTTGTAGTTTTCT, TTTGTTGTTTTCTTTT, TCCTCTGTTTTTGTTT, TTATTTTGTTTGTGCT, TTGTATAGTATCTCTT, TGTGTTCTTTTGATTT, TGCCTTCGTCTCGTTT, TAGTTTTCATTTATGT, TTTTTTCTTGTTCGTT, TTGTTTGTTTTCTCTT, TTTGATTCATTTTGGT, TTTTAT [... truncated]
+There were 50 or more warnings (use warnings() to see the first 50)

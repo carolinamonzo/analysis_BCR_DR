@@ -1,0 +1,32 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+size 
+  NA 
+Warning: 3844 parsing failures.
+  row       col           expected actual                                                                     file
+39528 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39536 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39566 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39595 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39715 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+..... ......... .................. ...... ........................................................................
+See problems(...) for more details.
+
+Warning message:
+In validate_airr(data, schema = schema) :
+  Warning: sequence_id(s) are not unique: TTTTCTCGTTTTGCTT, TGTGCTTGGTTGTCTT, TTCGTTATTGTCGTTT, TTTGTTGGGCTGTCTT, TCTTGTGGTTTTCTTT, TTACTTGGCTTCTTTT, TTTTTTTTATTGGGCT, TGGTTTGTTTTCTGTT, TCTCTTAATTTCTTTT, TGGCTTTTGGTGTTCT, TGTTGTTCTTTTTGGT, TGCCTTTGACTTTGTT, TGTGTTAAGCTGTCGT, TGGCTTCTCTTCGTAT, TTAGGTGGGCTTATTT, TGATTTATTTTGACTT, TGTCCTTTGCTTGCTT, TCCGCTTGGTTTTGTT, TTCTATTCGGTGTCTT, TGTTTTTCTTTGTCTT, TCTTTTCTTTTGGGAT, TTTCCTCTCTTCTGCT, TGTTCTTTCCTGTTCT, TTTTGTTACCTGTTGT, TTATTTTGTCTCGTTT, TGGCGTGTGTTTTTTT, TAGTTTATGGTCTTTT, TGGGATGCCTTGGGTT, TTGTTTTGTTTTTATT, TTGGGTTCGGCGGGCT, TTACTTTGTTTTGCTT, TTTGATGTTATATTTT, TACCTTGTGGTTTTTT, TCCGTTGTTCTGGGGT, TTTTTTGGATTTGGCT, TGCCTTTTCGTTTTAT, TTTCTTGTTTTATGTT, TGTTTTAGTTTGCGGT, TGCTTTTAATTCTTGT, TCATTTGTGATTTTGT, TGTTATTCGTTGCGGT, TTGTCTTCTTTTTCTT, TGGGTTGTAGTTTTCT, TTTGTTGTTTTCTTTT, TCCTCTGTTTTTGTTT, TTATTTTGTTTGTGCT, TTGTATAGTATCTCTT, TGTGTTCTTTTGATTT, TGCCTTCGTCTCGTTT, TAGTTTTCATTTATGT, TTTTTTCTTGTTCGTT, TTGTTTGTTTTCTCTT, TTTGATTCATTTTGGT, TTTTAT [... truncated]
+Error: Theme element `lwd` is not defined in the element hierarchy.
+Backtrace:
+     █
+  1. ├─graphics::plot(curve, lwd = 2, colors = sample_colors, legend_title = "Sample")
+  2. └─alakazam::plot(curve, lwd = 2, colors = sample_colors, legend_title = "Sample")
+  3.   └─alakazam::plotAbundanceCurve(x, ...)
+  4.     ├─graphics::plot(p1)
+  5.     ├─graphics::plot(p1)
+  6.     └─ggplot2:::plot.ggplot(p1)
+  7.       ├─ggplot2::ggplot_gtable(data)
+  8.       └─ggplot2:::ggplot_gtable.ggplot_built(data)
+  9.         └─ggplot2:::plot_theme(plot)
+ 10.           └─base::mapply(validate_element, theme, names(theme), MoreArgs = list(element_tree = get_element_tree()))
+ 11.             └─(function (el, elname, element_tree) ...
+Execution halted
