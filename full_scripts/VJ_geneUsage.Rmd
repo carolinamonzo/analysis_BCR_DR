@@ -1,0 +1,40 @@
+---
+title: "VJ-geneUsage"
+output: html_document
+---
+```{r}
+setwd("~/CM_IGseq/scripts/full_scripts")
+
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+#library(cowplot)
+
+text = "SPLEEN"
+```
+
+```{r}
+db <- read_airr("../../analysis/created_germlines/reannotated_db/merged_changeo_SPL.tsv")
+sample_colors <- c("5AL_lifelong"="#D3E0F1", "16AL_lifelong"="#A2C2DD", "20AL_lifelong"="#6897C6", "24AL_lifelong"="#3D64A8", "5DR_lifelong"="#ECBAA1", "20DR_lifelong"="#DD694D", "24DR_lifelong"="#AD1E22","20AL_DR16M"="#779D45", "24AL_DR16M"="#416F6F", "24AL_DR20M"="#EDD853")
+```
+
+```{r}
+family <- countGenes(db, gene="v_call", groups=c("sample_id", "isotype"), mode="allele")
+write.table(family, file = "../../analysis/results_tables/Vallele_usage_isotype_SPL.tsv", col.names = TRUE, row.names = TRUE)
+
+family <- countGenes(db, gene="v_call", groups=c("sample_id", "isotype"), mode="gene")
+write.table(family, file = "../../analysis/results_tables/Vgene_usage_isotype_SPL.tsv", col.names = TRUE, row.names = TRUE)
+
+J <- countGenes(db, gene="j_call", groups = c("sample_id", "isotype"), mode="gene")
+write.table(J, file = "../../analysis/results_tables/Jgene_usage_isotype_SPL.tsv", col.names = TRUE, row.names = TRUE)
+
+J <- countGenes(db, gene="j_call", groups = c("sample_id", "isotype"), mode="allele")
+write.table(J, file = "../../analysis/results_tables/Jallele_usage_isotype_SPL.tsv", col.names = TRUE, row.names = TRUE)
+```
+
+
+

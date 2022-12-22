@@ -1,0 +1,124 @@
+---
+title: "tumour_alpha_stats"
+output: html_document
+---
+
+
+```{r}
+setwd("~/CM_IGseq/scripts/full_scripts")
+
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(lme4))
+
+path <- "../../analysis/plots/alpha_phenotype/"
+```
+
+```{r}
+df <- read.table(paste0(path, "df_tumour_counts_alpha.csv"), header = T, sep = ",", check.names = F)
+richness_df <- df[df$q %in% 0, ]
+shannon_df <- df[df$q %in% 1, ]
+simpson_df <- df[df$q %in% 2, ]
+```
+
+```{r}
+full_model <- lmer(counts ~ d + (1|Age) + (1|Diet), data = richness_df, REML = FALSE)
+small_model <- lmer(counts ~ (1|Age) + (1|Diet), data = richness_df, REML = FALSE)
+anova(full_model, small_model)
+```
+
+```{r}
+summary(lm(counts ~ d, data = simpson_df))
+```
+
+
+```{r}
+# Studying if Diet and age have an effect on tumour count
+
+small <- shannon_df[shannon_df$Diet %in% c("AL_DR16M", "AL_DR20M"), ]
+
+full_model <- lmer(counts ~ 0 + Diet + (1|Age), data = small, REML = FALSE)
+small_model <- lmer(counts ~ 0 + (1|Age), data = small, REML = FALSE)
+anova(full_model, small_model)
+```
+```{r}
+aldr_shannon = shannon_df[shannon_df$Diet %in% c("AL_lifelong", "DR_lifelong"), ]
+aldr_simpson = simpson_df[simpson_df$Diet %in% c("AL_lifelong", "DR_lifelong"), ]
+aldr_richness = richness_df[richness_df$Diet %in% c("AL_lifelong", "DR_lifelong"), ]
+
+summary(lm(counts ~ d, data = aldr_richness))
+
+ggplot(aldr_shannon, aes(d, counts)) + geom_point()
+
+#summary(lm(counts ~ Diet + Age + d, data = shannon_df))
+
+# In this case the intercept is AL_DR16M, what we learn from the estimates is that ALDR20M when comming from ALDR16M will increase the probability of predicting tumour counts by 0.44, 
+# while going to AL_lifelong from ALDR16M, will decrease the probability of predicting tumour counts by -0.47
+```
+
+## Doing now tumour counts per type dependent on alpha diversity
+```{r}
+df <- read.table(paste0(path, "df_tumtis_alpha.csv"), header = T, sep = ",", check.names = F)
+richness_tis <- df[df$q %in% 0, ]
+shannon_tis <- df[df$q %in% 1, ]
+simpson_tis <- df[df$q %in% 2, ]
+```
+
+```{r}
+full_model <- lmer(Eye ~ d + (1|Age) + (1|Diet), data = shannon_tis, REML = FALSE)
+small_model <- lmer(Eye ~ (1|Age) + (1|Diet), data = shannon_tis, REML = FALSE)
+anova(full_model, small_model)
+```
+```{r}
+list_cols <- colnames(simpson_tis)
+richness_tis$Diet <- as.factor(simpson_tis$Diet)
+for (i in 2:12){
+  print(list_cols[[i]])
+  full_model <- lmer(formula = paste0(list_cols[[i]], " ~ d + Diet + (1|Age)"), data = simpson_tis, REML = FALSE)
+  small_model <- lmer(formula = paste0(list_cols[[i]], " ~  + Diet + (1|Age)"), data = simpson_tis, REML = FALSE)
+  print(anova(full_model, small_model))
+  print("\n\n regression")
+  print(summary(lm(formula = paste0(list_cols[[i]], "~ d"), data = simpson_tis)))
+  print("\n\n\n\n\n")
+}
+```
+## Now studying tumours but presence absence
+
+```{r}
+df <- read.table(paste0(path, "df_tumtisPA_alpha.csv"), header = T, sep = ",", check.names = F)
+
+# Make a column with presence absence of tumours in any tissue
+df$total_tissues <- df$Eye + df$Connective_tissue + df$Liver + df$Kidney + df$Ovary + df$Uterine + df$Lymph_node + df$Lung + df$Colorectal + df$Brain + df$Heart
+df$total_tissues[df$total_tissues > 0] <- 1
+
+richness_df <- df[df$q %in% 0, ]
+shannon_df <- df[df$q %in% 1, ]
+simpson_df <- df[df$q %in% 2, ]
+```
+
+
+```{r}
+simpson_df$Diet <- as.factor(simpson_df$Diet)
+
+list_cols <- colnames(simpson_df)
+
+list_cols2 <- c("Animal_ID", "Connective_tissue", "Liver", "Lung", "total_tissues", "biogroup", "q", "d", "Age", "Diet")
+
+for (i in 2:5){
+  print(list_cols2[[i]])
+  
+  m <- glmer(paste0(list_cols2[[i]], "~ d + (1|Age)  + (1|Diet)"), data = simpson_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  sm <- glmer(paste0(list_cols2[[i]], "~ (1|Age)  +(1|Diet)"), data = simpson_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  
+  print(anova(m, sm))
+  print("-------------------")
+}
+```
+
+```{r}
+# Make a column with general presence absence of tumours
+
+```
+
+

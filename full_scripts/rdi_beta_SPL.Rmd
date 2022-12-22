@@ -1,0 +1,168 @@
+---
+title: "rdi_beta_SPL"
+output: pdf_document
+---
+
+```{r}
+setwd("~/CM_IGseq/scripts/full_scripts")
+
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+suppressPackageStartupMessages(library(rdi))
+#suppressPackageStartupMessages(library(phyloseq))
+suppressPackageStartupMessages(library(dendextend))
+suppressPackageStartupMessages(library(cowplot))
+suppressPackageStartupMessages(library(ape))
+suppressPackageStartupMessages(library(ggfortify))
+suppressPackageStartupMessages(library(vegan))
+library(reshape2)
+```
+
+```{r}
+names(IG_COLORS) <- c( "IGM", "IGG12", "IGA", "IGD", "IGE", "IGG3")
+
+db <- read_airr("../../analysis/created_germlines/reannotated_db/merged_changeo_SPL_isosum.tsv")
+
+sample_colors <- c("5AL_lifelong"="#D3E0F1", "16AL_lifelong"="#A2C2DD", "20AL_lifelong"="#6897C6", "24AL_lifelong"="#3D64A8", "5DR_lifelong"="#ECBAA1", "20DR_lifelong"="#DD694D", "24DR_lifelong"="#AD1E22","20AL_DR16M"="#779D45", "24AL_DR16M"="#416F6F", "24AL_DR20M"="#EDD853")
+```
+
+```{r}
+list_iso <- unique(db[["sum_iso"]])
+
+
+for (i in 1:length(list_iso)){
+  vc <- c(list_iso[[i]])
+  fil <- db[db$sum_iso %in% vc,]
+  genes <- data.frame(vgene = fil$v_call_genotyped, 
+                      jgene = fil$j_call,
+                      cdr3 = fil$junction_length)
+  
+  seqAnnot <- data.frame(sample_id = fil$sample_id, biogroup = fil$biogroup)
+  cts <- calcVDJcounts(genes, seqAnnot)
+  d <- calcRDI(cts, nIter = 100)
+  
+  df_d <- melt(as.matrix(d), varnames = c("row", "col"))
+  df_d_new <- data.frame(df_d)
+  df_d_new$row <- sapply(strsplit(as.character(df_d$row), " "), "[", 2)
+  df_d_new$col <- sapply(strsplit(as.character(df_d$col), " "), "[", 2)
+  df_d_new <- df_d_new[df_d_new$row == df_d_new$col, ]
+  # Save the dataframe to plot in python
+  write.table(df_d_new, file = paste0("../../analysis/results_tables/RDI_", list_iso[[i]], "_biogroup_SPL_isosum.tsv"), append = TRUE, col.names = TRUE, row.names = TRUE)
+}
+```
+
+```{r}
+## Isotypes per sample
+
+list_iso <- unique(db[["sum_iso"]])
+
+
+for (i in 1:length(list_iso)){
+  vc <- c(list_iso[[i]])
+
+  fil <- db[db$sum_iso %in% vc,]
+  genes <- data.frame(vgene = fil$v_call_genotyped, 
+                        jgene = fil$j_call,
+                        cdr3 = fil$junction_length)
+    
+  seqAnnot <- data.frame(sample_id = fil$sample_id)
+  cts <- calcVDJcounts(genes, seqAnnot)
+  d <- calcRDI(cts, nIter = 100)
+    
+  df_d <- melt(as.matrix(d), varnames = c("row", "col"))
+  df_d_new <- data.frame(df_d)
+  # Save the dataframe to plot in python
+  write.table(df_d_new, file = paste0("../../analysis/results_tables/RDI_", list_iso[[i]], "_samp_SPL_isosum.tsv"), append = TRUE, col.names = TRUE, row.names = TRUE)
+}
+```
+
+
+
+```{r}
+# Making dataframe for RDI
+genes = data.frame(vgene = db$v_call_genotyped,
+                   jgene = db$j_call,
+                   cdr3 = db$junction_length)
+
+seqAnnot = data.frame(sample_id = db$sample_id)#, biogroup = db$biogroup)
+
+##generate repertoire counts for all repertoires
+cts = calcVDJcounts(genes,seqAnnot) 
+
+##calculate RDI 
+d = calcRDI(cts, nIter = 100)
+
+##convert RDI to actual 'lfc' estimates and compare
+dtrue = convertRDI(d)$pred
+plot(d, dtrue)
+```
+
+```{r}
+# For RDI per sample
+df_d <- melt(as.matrix(d), varnames = c("row", "col"))
+df_d_new <- data.frame(df_d)
+
+
+# Save the dataframe to plot in python
+write.table(df_d_new, file = paste0("../../analysis/results_tables/RDI_samp_SPL.tsv"), append = TRUE, col.names = TRUE, row.names = TRUE)
+```
+
+
+
+```{r}
+metadata <- data.frame(sample_id = db$sample_id, biogroup = db$biogroup, both = paste(db$sample_id, db$biogroup), pal = "")
+metadata <- unique(metadata)
+metadata$pal[metadata$biogroup == "5AL_lifelong"] <- "#D3E0F1"
+metadata$pal[metadata$biogroup == "16AL_lifelong"] <- "#A2C2DD"
+metadata$pal[metadata$biogroup == "20AL_lifelong"] <- "#6897C6"
+metadata$pal[metadata$biogroup == "24AL_lifelong"] <- "#3D64A8"
+metadata$pal[metadata$biogroup == "5DR_lifelong"] <- "#ECBAA1"
+metadata$pal[metadata$biogroup == "20DR_lifelong"] <- "#DD694D"
+metadata$pal[metadata$biogroup == "24DR_lifelong"] <- "#AD1E22"
+metadata$pal[metadata$biogroup == "20AL_DR16M"] <- "#779D45"
+metadata$pal[metadata$biogroup == "24AL_DR16M"] <- "#416F6F"
+metadata$pal[metadata$biogroup == "24AL_DR20M"] <- "#EDD853"
+```
+
+
+```{r}
+# Calculate euclidean distance
+#euc_dist <- dist(t(d))
+euc_clust <- hclust(d)
+euc_dend <- as.dendrogram(euc_clust, hang=-1, cex=0.6)
+# Keep only biogroups as labels
+labels(euc_dend) <- sapply(strsplit(labels(euc_dend), "\\s+"), "[", 2)
+labels_colors(euc_dend) <- c("24AL_DR20M"="#EDD853", "24AL_DR16M"="#416F6F", "24AL_lifelong"="#3D64A8", "24AL_DR16M"="#416F6F", "24DR_lifelong"="#AD1E22", "24AL_lifelong"="#3D64A8", "20DR_lifelong"="#DD694D", "16AL_lifelong"="#A2C2DD", "24DR_lifelong"="#AD1E22", "20AL_lifelong"="#6897C6", "24AL_DR20M"="#EDD853", "20AL_DR16M"="#416F6F", "24AL_DR20M"="#EDD853", "16AL_lifelong"="#A2C2DD", "20DR_lifelong"="#DD694D", "20DR_lifelong"="#DD694D", "16AL_lifelong"="#A2C2DD", "24AL_DR16M"="#416F6F", "5DR_lifelong"="#ECBAA1", "5AL_lifelong"="#D3E0F1", "5DR_lifelong"="#ECBAA1", "5AL_lifelong"="#D3E0F1", "5AL_lifelong"="#D3E0F1", "5AL_lifelong"="#D3E0F1", "5DR_lifelong"="#ECBAA1", "5AL_lifelong"="#D3E0F1", "5DR_lifelong"="#ECBAA1", "24AL_DR16M"="#416F6F", "20AL_lifelong"="#6897C6", "24AL_lifelong"="#3D64A8", "5DR_lifelong"="#ECBAA1",  "20AL_DR16M"="#779D45",    "24DR_lifelong"="#AD1E22", "20AL_lifelong"="#6897C6", "20AL_lifelong"="#6897C6", "20AL_DR16M"="#779D45", "20DR_lifelong"="#DD694D", "24AL_DR16M"="#416F6F", "24AL_DR20M"="#EDD853", "16AL_lifelong"="#A2C2DD", "24DR_lifelong"="#AD1E22", "20DR_lifelong"="#DD694D", "24DR_lifelong"="#AD1E22", "20AL_lifelong"="#6897C6", "20AL_DR16M"="#779D45", "20AL_DR16M"="#779D45", "24AL_lifelong"="#3D64A8", "24AL_lifelong"="#3D64A8", "24AL_DR20M"="#EDD853")
+plot(euc_dend)
+```
+
+
+
+
+```{r}
+res <- pcoa(d)
+test <- data.frame(res$vectors)
+ggbiplot(test, data = metadata, colour = metadata$pal, size = 2.5, xlab = paste0("PCoA 1 (", format(round(res$values$Relative_eig[1]*100, 2), nsmall = 2), " %)"), ylab = paste0("PCoA 2 (", format(round(res$values$Relative_eig[2]*100, 2), nsmall = 2), " %)")) + theme_classic()
+ggsave("../../analysis/plots/RDI_pcoa_SPL.svg", plot = last_plot(), device = NULL, path = NULL, width = 8, height = 8, units = "cm")
+```
+
+```{r}
+df_d <- melt(as.matrix(d), varnames = c("row", "col"))
+df_d_new <- data.frame(df_d)
+df_d_new$row <- sapply(strsplit(as.character(df_d$row), " "), "[", 2)
+df_d_new$col <- sapply(strsplit(as.character(df_d$col), " "), "[", 2)
+df_d_new <- df_d_new[df_d_new$row == df_d_new$col, ]
+# Save the dataframe to plot in python
+write.table(df_d_new, file = "../../analysis/results_tables/RDI_biogroups_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+```
+
+
+
+
+
+

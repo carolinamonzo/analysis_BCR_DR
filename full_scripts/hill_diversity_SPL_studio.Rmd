@@ -1,0 +1,266 @@
+---
+title: "hill_diversity_test"
+output: pdf_document
+---
+
+
+```{r}
+setwd("~/CM_IGseq/scripts/full_scripts")
+
+suppressPackageStartupMessages(library(alakazam))
+suppressPackageStartupMessages(library(tigger))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(airr))
+suppressPackageStartupMessages(library(shazam))
+suppressPackageStartupMessages(library(scoper))
+library(cowplot)
+
+text = "SPLEEN"
+```
+
+```{r}
+names(IG_COLORS) <- c( "IGM", "IGG12", "IGA", "IGD", "IGE", "IGG3")
+
+db <- read_airr("../../analysis/created_germlines/reannotated_db/merged_changeo_SPL.tsv")
+
+sample_colors <- c("5AL_lifelong"="#D3E0F1", "16AL_lifelong"="#A2C2DD", "20AL_lifelong"="#6897C6", "24AL_lifelong"="#3D64A8", "5DR_lifelong"="#ECBAA1", "20DR_lifelong"="#DD694D", "24DR_lifelong"="#AD1E22","20AL_DR16M"="#779D45", "24AL_DR16M"="#416F6F", "24AL_DR20M"="#EDD853")
+
+#curve <- estimateAbundance(db, group = "biogroup", ci = 0.95, nboot = 200, clone = "clone_id")
+
+#plot(curve, colors = sample_colors, legend_title="Sample")
+#ggsave("/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/plots/Clonal_abundance_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+write.table(curve@abundance, file = "../../analysis/plots/clonal_abundance_values_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+```
+
+```{r}
+ab1 <- estimateAbundance(db %>% filter(biogroup == "5AL_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab1@abundance, file = "../../analysis/plots/clonal_abundance/clab_5AL_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab2 <- estimateAbundance(db %>% filter(biogroup == "16AL_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab2@abundance, file = "../../analysis/plots/clonal_abundance/clab_16AL_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab3 <- estimateAbundance(db %>% filter(biogroup == "20AL_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab3@abundance, file = "../../analysis/plots/clonal_abundance/clab_20AL_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab4 <- estimateAbundance(db %>% filter(biogroup == "24AL_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab4@abundance, file = "../../analysis/plots/clonal_abundance/clab_24AL_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab5 <- estimateAbundance(db %>% filter(biogroup == "5DR_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab5@abundance, file = "../../analysis/plots/clonal_abundance/clab_5DR_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab6 <- estimateAbundance(db %>% filter(biogroup == "20DR_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab6@abundance, file = "../../analysis/plots/clonal_abundance/clab_20DR_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab7 <- estimateAbundance(db %>% filter(biogroup == "24DR_lifelong"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab7@abundance, file = "../../analysis/plots/clonal_abundance/clab_24DR_lifelong_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab8 <- estimateAbundance(db %>% filter(biogroup == "20AL_DR16M"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab8@abundance, file = "../../analysis/plots/clonal_abundance/clab_20AL_DR16M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab9 <- estimateAbundance(db %>% filter(biogroup == "24AL_DR16M"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab9@abundance, file = "../../analysis/plots/clonal_abundance/clab_24AL_DR16M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+ab10 <- estimateAbundance(db %>% filter(biogroup == "24AL_DR20M"), group = "sample_id", clone = "clone_id", ci = 0.95, nboot = 200)
+write.table(ab10@abundance, file = "../../analysis/plots/clonal_abundance/clab_24AL_DR20M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+```
+
+
+
+```{r}
+sample_curve <- alphaDiversity(db, group = "biogroup", clone="clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200)
+
+sample_main <- paste0("Sample diversity")
+
+p <- plot(sample_curve, colors=sample_colors, main_title=sample_main, legend_title="Sample") 
+p + geom_vline(xintercept=c(0,1,2), color="grey50", linetype="dashed") + geom_text(data=data.frame(q=c(0,1,2), y=round(max(p$data$d_upper)/2), 
+             label=c("Richness", "Shannon", "Simpson")), 
+             aes(x=q, y=y,label=label), size=3, angle=90, vjust=-0.4, inherit.aes = F, color="grey50")
+ggsave("../../analysis/plots/Alpha_Hill_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+sample_test <- alphaDiversity(db, group="biogroup", clone="clone_id", min_q=0, max_q=2, step_q=1, nboot=200, uniform = TRUE)
+write.table(sample_test@diversity, file = "../../analysis/plots/alpha_values_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(sample_test@tests, file = "../../analysis/plots/alpha_values_stats_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+```
+
+```{r}
+# 5M DR_lifelong
+small_curve <- alphaDiversity(db %>% filter(biogroup == "5DR_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve@diversity, file = "../../analysis/plots/alpha_values_5DR_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve@tests, file = "../../analysis/plots/alpha_values_stats_5DR_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main <- paste0("5M DR_Lifelong")
+# Get lists of samples
+small_curve@groups
+small_colors = c("S1_S1_001_PRIMER-S2_R1"="#ECBAA1","S2_S2_001_PRIMER-S4_R1"="#ECBAA1", "S3_S3_001_PRIMER-S6_R1"="#ECBAA1","S4_S4_001_PRIMER-S9_R1"="#ECBAA1", "S5_S5_001_PRIMER-S10_R1"="#ECBAA1")
+
+p1 <- plot(small_curve, colors=small_colors, main_title=small_main, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.border = element_blank(),
+    panel.background = element_blank()) + ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_5DR_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+```{r}
+# 5M AL_lifelong
+small_curve2 <- alphaDiversity(db %>% filter(biogroup == "5AL_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve2@diversity, file = "../../analysis/plots/alpha_values_5AL_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve2@tests, file = "../../analysis/plots/alpha_values_stats_5AL_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main2 <- paste0("5M AL_Lifelong")
+# Get lists of samples
+small_curve2@groups
+small_colors2 = c("S1_S1_001_PRIMER-S4_R1"="#D3E0F1","S2_S2_001_PRIMER-S6_R1"="#D3E0F1", "S3_S3_001_PRIMER-S7_R1"="#D3E0F1","S4_S4_001_PRIMER-S10_R1"="#D3E0F1", "S5_S5_001_PRIMER-S1_R1"="#D3E0F1")
+
+p2 <- plot(small_curve2, colors=small_colors2, main_title=small_main2, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.border = element_blank(),
+    panel.background = element_blank())+ ylim(0, 20000)
+
+ggsave("../../analysis/plots/Alpha_5AL_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 16M AL_lifelong
+small_curve3 <- alphaDiversity(db %>% filter(biogroup == "16AL_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve3@diversity, file = "../../analysis/plots/alpha_values_16AL_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve3@tests, file = "../../analysis/plots/alpha_values_stats_16AL_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main3 <- paste0("16M AL_Lifelong")
+# Get lists of samples
+small_curve3@groups
+small_colors3 = c("S1_S1_001_PRIMER-S5_R1"="#A2C2DD", "S3_S3_001_PRIMER-S10_R1"="#A2C2DD","S4_S4_001_PRIMER-S3_R1"="#A2C2DD", "S5_S5_001_PRIMER-S8_R1"="#A2C2DD")
+
+p3 <- plot(small_curve3, colors=small_colors3, main_title=small_main3, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.border = element_blank(),
+    panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_16AL_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 20M AL_lifelong
+small_curve4 <- alphaDiversity(db %>% filter(biogroup == "20AL_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve4@diversity, file = "../../analysis/plots/alpha_values_20AL_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve4@tests, file = "../../analysis/plots/alpha_values_stats_20AL_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main4 <- paste0("20M AL_Lifelong")
+# Get lists of samples
+small_curve4@groups
+small_colors4 = c("S1_S1_001_PRIMER-S3_R1"="#6897C6","S2_S2_001_PRIMER-S5_R1"="#6897C6", "S3_S3_001_PRIMER-S8_R1"="#6897C6","S4_S4_001_PRIMER-S1_R1"="#6897C6", "S5_S5_001_PRIMER-S2_R1"="#6897C6")
+
+p4 <- plot(small_curve4, colors=small_colors4, main_title=small_main4, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_20AL_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 24M AL_lifelong
+small_curve5 <- alphaDiversity(db %>% filter(biogroup == "24AL_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve5@diversity, file = "../../analysis/plots/alpha_values_24AL_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve5@tests, file = "../../analysis/plots/alpha_values_stats_24AL_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main5 <- paste0("24M AL_Lifelong")
+# Get lists of samples
+small_curve5@groups
+small_colors5 = c("S1_S1_001_PRIMER-S7_R1"="#3D64A8","S2_S2_001_PRIMER-S9_R1"="#3D64A8", "S3_S3_001_PRIMER-S1_R1"="#3D64A8","S4_S4_001_PRIMER-S5_R1"="#3D64A8", "S5_S5_001_PRIMER-S6_R1"="#3D64A8")
+
+p5 <- plot(small_curve5, colors=small_colors5, main_title=small_main5, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_24AL_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 20M DR_lifelong
+small_curve6 <- alphaDiversity(db %>% filter(biogroup == "20DR_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve6@diversity, file = "../../analysis/plots/alpha_values_20DR_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve6@tests, file = "../../analysis/plots/alpha_values_stats_20DR_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main6 <- paste0("20M DR_Lifelong")
+# Get lists of samples
+small_curve6@groups
+small_colors6 = c("S1_S1_001_PRIMER-S6_R1"="#DD694D","S2_S2_001_PRIMER-S8_R1"="#DD694D", "S3_S3_001_PRIMER-S9_R1"="#DD694D","S4_S4_001_PRIMER-S6_R1"="#DD694D", "S5_S5_001_PRIMER-S3_R1"="#DD694D")
+
+p6 <- plot(small_curve6, colors=small_colors6, main_title=small_main6, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_20DR_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+```{r}
+# 24M DR_lifelong
+small_curve7 <- alphaDiversity(db %>% filter(biogroup == "24DR_lifelong"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve7@diversity, file = "../../analysis/plots/alpha_values_24DR_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve7@tests, file = "../../analysis/plots/alpha_values_stats_24DR_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main7 <- paste0("24M DR_Lifelong")
+# Get lists of samples
+small_curve7@groups
+small_colors7 = c("S1_S1_001_PRIMER-S8_R1"="#AD1E22","S2_S2_001_PRIMER-S10_R1"="#AD1E22", "S3_S3_001_PRIMER-S4_R1"="#AD1E22","S4_S4_001_PRIMER-S2_R1"="#AD1E22", "S5_S5_001_PRIMER-S9_R1"="#AD1E22")
+
+p7 <- plot(small_curve7, colors=small_colors7, main_title=small_main7, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_24DR_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 20M AL_DR16M
+small_curve8 <- alphaDiversity(db %>% filter(biogroup == "20AL_DR16M"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve8@diversity, file = "../../analysis/plots/alpha_values_20AL_DR16M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve8@tests, file = "../../analysis/plots/alpha_values_stats_20AL_DR16M_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main8 <- paste0("20M AL_DR16M")
+# Get lists of samples
+small_curve8@groups
+small_colors8 = c("S1_S1_001_PRIMER-S1_R1"="#779D45","S2_S2_001_PRIMER-S2_R1"="#779D45", "S3_S3_001_PRIMER-S3_R1"="#779D45","S4_S4_001_PRIMER-S4_R1"="#779D45", "S5_S5_001_PRIMER-S5_R1"="#779D45")
+
+p8 <- plot(small_curve8, colors=small_colors8, main_title=small_main8, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_20AL_DR16M_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 24M AL_DR16M
+small_curve9 <- alphaDiversity(db %>% filter(biogroup == "24AL_DR16M"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve9@diversity, file = "../../analysis/plots/alpha_values_24AL_DR16M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve9@tests, file = "../../analysis/plots/alpha_values_stats_24AL_DR16M_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main9 <- paste0("24M AL_DR16M")
+# Get lists of samples
+small_curve9@groups
+small_colors9 = c("S1_S1_001_PRIMER-S9_R1"="#416F6F","S2_S2_001_PRIMER-S1_R1"="#416F6F", "S3_S3_001_PRIMER-S5_R1"="#416F6F","S4_S4_001_PRIMER-S8_R1"="#416F6F", "S5_S5_001_PRIMER-S4_R1"="#416F6F")
+
+p9 <- plot(small_curve9, colors=small_colors9, main_title=small_main9, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_24AL_DR16M_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# 24M AL_DR20M
+small_curve10 <- alphaDiversity(db %>% filter(biogroup == "24AL_DR20M"), group = "sample_id", clone = "clone_id", min_q=0, max_q=3, step_q=0.1, ci=0.95, nboot=200, uniform=TRUE)
+write.table(small_curve10@diversity, file = "../../analysis/plots/alpha_values_24AL_DR20M_SPL.tsv", append = TRUE, col.names = TRUE, row.names = TRUE)
+write.table(small_curve10@tests, file = "../../analysis/plots/alpha_values_stats_24AL_DR20M_SPL.tsv", append=TRUE, col.names = TRUE, row.names = TRUE)
+small_main10 <- paste0("24M AL_DR20M")
+# Get lists of samples
+small_curve10@groups
+small_colors10 = c("S1_S1_001_PRIMER-S10_R1"="#EDD853","S2_S2_001_PRIMER-S3_R1"="#EDD853", "S3_S3_001_PRIMER-S2_R1"="#EDD853","S4_S4_001_PRIMER-S7_R1"="#EDD853", "S5_S5_001_PRIMER-S7_R1"="#EDD853")
+
+p10 <- plot(small_curve10, colors=small_colors10, main_title=small_main10, legend_title="Sample") + theme_bw() + theme(axis.line = element_line(colour = "black"),panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),panel.border = element_blank(),panel.background = element_blank())+ ylim(0, 20000)
+ggsave("../../analysis/plots/Alpha_24AL_DR20M_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 12, height = 6, units = "cm")
+```
+
+```{r}
+# PLOT GRID AL
+plot_grid(p2 + theme(legend.position = "none"), p3+ theme(legend.position = "none"), p4+ theme(legend.position = "none"), p5+ theme(legend.position = "none"), ncol = 4)
+ggsave("../../analysis/plots/Alpha_AL_grid_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 25, height = 6, units = "cm")
+```
+
+```{r}
+# PLOT GRID DR
+plot_grid(p1 + theme(legend.position = "none"), NULL, p6+ theme(legend.position = "none"), p7+ theme(legend.position = "none"), ncol = 4)
+ggsave("../../analysis/plots/Alpha_DR_grid_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 25, height = 6, units = "cm")
+```
+
+```{r}
+# PLOT GRID AL_DR16M
+plot_grid(NULL, NULL, p8+ theme(legend.position = "none"), p9+ theme(legend.position = "none"), ncol = 4)
+ggsave("../../analysis/plots/Alpha_AL_DR16M_grid_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 25, height = 6, units = "cm")
+```
+
+```{r}
+# PLOT GRID AL_DR20M
+plot_grid(NULL, NULL, NULL, p10+ theme(legend.position = "none"), ncol = 4)
+ggsave("../../analysis/plots/Alpha_AL_DR20M_grid_SPL.svg", plot = last_plot(), device = NULL, path=NULL, width = 25, height = 6, units = "cm")
+```
+
+
+
+

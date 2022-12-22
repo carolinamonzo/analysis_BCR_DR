@@ -1,0 +1,153 @@
+---
+title: "pathology_alpha_stats"
+output: html_document
+---
+
+```{r}
+setwd("~/CM_IGseq/scripts/full_scripts")
+
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(lme4))
+
+path <- "../../analysis/plots/alpha_phenotype/"
+```
+
+```{r}
+df <- read.table(paste0(path, "df_pathologysumPA_alpha.csv"), header = T, sep = ";", check.names = F)
+richness_df <- df[df$q %in% 0, ]
+shannon_df <- df[df$q %in% 1, ]
+simpson_df <- df[df$q %in% 2, ]
+```
+
+```{r}
+shannon_df$Diet <- as.factor(shannon_df$Diet)
+
+list_cols <- colnames(shannon_df)
+
+for (i in 2:16){
+  print(list_cols[[i]])
+
+  logit <- glm(paste0(list_cols[[i]], "~ d * Diet * Age"), data = shannon_df, family = "binomial")
+  print(summary(logit))
+  print("-------------------")
+}
+```
+
+```{r}
+suppressPackageStartupMessages(library(GGally))
+suppressPackageStartupMessages(library(reshape2))
+suppressPackageStartupMessages(library(compiler))
+suppressPackageStartupMessages(library(parallel))
+suppressPackageStartupMessages(library(boot))
+suppressPackageStartupMessages(library(lattice))
+```
+
+```{r}
+tmp <- melt(shannon_df[, c("Spleen", "d", "Age", "Diet")], id.vars = "Spleen")
+
+ggplot(tmp, aes(factor(Spleen), y = value, fill=factor(Spleen))) + geom_boxplot() + facet_wrap(~variable, scales="free_y")
+```
+
+```{r}
+# Estimate the model
+m <- glmer(Spleen ~ Diet + (1|Age), data = shannon_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+sm <- glmer(Spleen ~  (1|Age), data = shannon_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+
+# Print the model result without correlations among fixed effects
+print(anova(m, sm))
+
+print(summary(m))
+```
+```{r}
+shannon_df$Diet <- as.factor(richness_df$Diet)
+
+list_cols <- colnames(richness_df)
+
+list_cols2 <- c("Animal_ID", "All_organs", "Spleen", "WAT", "Pancreas", "Kidneys", "Reproductive_tract", "Physical_appearance", "Adrenal_gland", "biogroup", "q", "d", "Age", "Diet")
+
+for (i in 3:9){
+  print(list_cols2[[i]])
+  
+  m <- glmer(paste0(list_cols2[[i]], "~ d  + (1|Diet) + (1|Age)"), data = richness_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  sm <- glmer(paste0(list_cols2[[i]], "~ (1|Diet) + (1|Age)"), data = richness_df, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  
+  print(anova(m, sm))
+  print("-------------------")
+}
+```
+
+```{r}
+big <- read.table(paste0(path, "df_pathologyallPA_alpha.csv"), header = T, sep = ";", check.names = F)
+richness_big <- big[big$q %in% 0, ]
+shannon_big <- big[big$q %in% 1, ]
+simpson_big <- big[big$q %in% 2, ]
+```
+
+```{r}
+simpson_big$Diet <- as.factor(simpson_big$Diet)
+
+list_cols <- colnames(simpson_big)
+
+list_cols2 <- c("Animal_ID",                    
+"Crooked_back_bad_habitus",                "Enlarged_spleen",                        
+"Spleen_discoloured_black",                "Greyishgreenish_blackish_WAT",           
+"WAT_brown",                               "Pancreas_knotty",                        
+"Pancreas_black",    
+"Uterine_cyst_left_horn",                 
+"Uterine_cyst_right_horn",                 "Uterus_discoloured_black",                 
+"Enlarged_kidneys",                
+"enlarged_adrenal_gland",           
+"biogroup",                               
+"q",                                       "d",                                      
+"Age",                                     "Diet")
+
+for (i in 2:13){
+  print(list_cols2[[i]])
+  
+  m <- glmer(paste0(list_cols2[[i]], "~ d  + (1|Diet)"), data = simpson_big, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  sm <- glmer(paste0(list_cols2[[i]], "~ (1|Diet)"), data = simpson_big, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  
+  print(anova(m, sm))
+  print("-------------------")
+}
+```
+
+
+# Checking only age as a predictor without alpha diversity
+
+```{r}
+shannon_big$Diet <- as.factor(shannon_big$Diet)
+
+list_cols <- colnames(shannon_big)
+
+list_cols2 <- c("Animal_ID",                    
+"Crooked_back_bad_habitus",                "Enlarged_spleen",                        
+"Spleen_discoloured_black",                "Greyishgreenish_blackish_WAT",           
+"WAT_brown",                               "Pancreas_knotty",                        
+"Pancreas_black",    
+"Uterine_cyst_left_horn",                 
+"Uterine_cyst_right_horn",                 "Uterus_discoloured_black",                 
+"Enlarged_kidneys",                
+"enlarged_adrenal_gland",           
+"biogroup",                               
+"q",                                       "d",                                      
+"Age",                                     "Diet")
+
+for (i in 2:13){
+  print(list_cols2[[i]])
+  
+  m <- glmer(paste0(list_cols2[[i]], "~ (1|Age) + Diet"), data = shannon_big, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  sm <- glmer(paste0(list_cols2[[i]], "~ (1|Age)"), data = shannon_big, family = "binomial", 
+           control = glmerControl(optimizer = "bobyqa"))
+  
+  print(anova(m, sm))
+  print("-------------------")
+}
+```
