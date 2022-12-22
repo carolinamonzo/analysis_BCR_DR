@@ -1,0 +1,44 @@
+   START> BuildTrees
+    FILE> merged_changeo_ILE.tsv
+COLLAPSE> True
+
+PROGRESS> 18:32:51 |Correcting frames and indels of sequences         | 0.0 minPROGRESS> 18:56:09 |Processing clones                                 | 23.3 min/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:488: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if germline is "":
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:543: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if ngermline is "":
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:801: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if regions["cdr3_imgt"] is not "" and regions["cdr3_imgt"] is not None:
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:827: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif regions["fwr3_imgt"] is not "" and regions["fwr3_imgt"] is not None:
+Traceback (most recent call last):
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 1364, in <module>
+    buildTrees(**args_dict)
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 1184, in buildTrees
+    clonesizes[str(k)] = outputIgPhyML(clones[str(k)], cloneseqs[str(k)], meta_data=meta_data, collapse=collapse,
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 661, in outputIgPhyML
+    imgtar, germline, sites, nseqs = characterizePartitionErrors(sequences, clones, meta_data)
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 535, in characterizePartitionErrors
+    printError("IMGT assignments are not the same within clone %d!\n" % c.clone, False)
+TypeError: %d format: a number is required, not str
+   START> BuildTrees
+    FILE> merged_changeo_SPL.tsv
+COLLAPSE> True
+
+PROGRESS> 18:32:51 |Correcting frames and indels of sequences         | 0.0 minPROGRESS> 19:31:14 |Processing clones                                 | 58.4 min/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:488: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if germline is "":
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:543: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if ngermline is "":
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:801: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if regions["cdr3_imgt"] is not "" and regions["cdr3_imgt"] is not None:
+/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py:827: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif regions["fwr3_imgt"] is not "" and regions["fwr3_imgt"] is not None:
+Traceback (most recent call last):
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 1364, in <module>
+    buildTrees(**args_dict)
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 1184, in buildTrees
+    clonesizes[str(k)] = outputIgPhyML(clones[str(k)], cloneseqs[str(k)], meta_data=meta_data, collapse=collapse,
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 661, in outputIgPhyML
+    imgtar, germline, sites, nseqs = characterizePartitionErrors(sequences, clones, meta_data)
+  File "/beegfs/group_lp/home/CMonzo/.local/bin/BuildTrees.py", line 535, in characterizePartitionErrors
+    printError("IMGT assignments are not the same within clone %d!\n" % c.clone, False)
+TypeError: %d format: a number is required, not str

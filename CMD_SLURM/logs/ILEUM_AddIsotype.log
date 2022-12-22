@@ -1,0 +1,1080 @@
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 16:30:55 |                    |   0% (      0) 0.0 minPROGRESS> 16:31:13 |#                   |   5% ( 13,320) 0.3 minPROGRESS> 16:31:32 |##                  |  10% ( 26,640) 0.6 minPROGRESS> 16:31:52 |###                 |  15% ( 39,960) 1.0 minPROGRESS> 16:32:14 |####                |  20% ( 53,280) 1.3 minPROGRESS> 16:32:36 |#####               |  25% ( 66,600) 1.7 minPROGRESS> 16:33:00 |######              |  30% ( 79,920) 2.1 minPROGRESS> 16:33:24 |#######             |  35% ( 93,240) 2.5 minPROGRESS> 16:33:50 |########            |  40% (106,560) 2.9 minPROGRESS> 16:34:16 |#########           |  45% (119,880) 3.4 minPROGRESS> 16:34:43 |##########          |  50% (133,200) 3.8 minPROGRESS> 16:35:11 |###########         |  55% (146,520) 4.3 minPROGRESS> 16:35:40 |############        |  60% (159,840) 4.7 minPROGRESS> 16:36:08 |#############       |  65% (173,160) 5.2 minPROGRESS> 16:36:43 |##############      |  70% (186,480) 5.8 minPROGRESS> 16:37:27 |###############     |  75% (199,800) 6.5 minPROGRESS> 16:38:12 |################    |  80% (213,120) 7.3 minPROGRESS> 16:38:58 |#################   |  85% (226,440) 8.1 minPROGRESS> 16:39:44 |##################  |  90% (239,760) 8.8 minPROGRESS> 16:40:29 |################### |  95% (253,080) 9.6 minPROGRESS> 16:41:15 |####################| 100% (266,394) 10.3 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 266394
+     PASS> 145700
+     FAIL> 120694
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 16:41:22 |                    |   0% (      0) 0.0 minPROGRESS> 16:41:57 |#                   |   5% ( 16,853) 0.6 minPROGRESS> 16:42:37 |##                  |  10% ( 33,706) 1.3 minPROGRESS> 16:43:19 |###                 |  15% ( 50,559) 1.9 minPROGRESS> 16:44:03 |####                |  20% ( 67,412) 2.7 minPROGRESS> 16:44:47 |#####               |  25% ( 84,265) 3.4 minPROGRESS> 16:45:32 |######              |  30% (101,118) 4.2 minPROGRESS> 16:46:17 |#######             |  35% (117,971) 4.9 minPROGRESS> 16:47:04 |########            |  40% (134,824) 5.7 minPROGRESS> 16:47:48 |#########           |  45% (151,677) 6.4 minPROGRESS> 16:48:32 |##########          |  50% (168,530) 7.2 minPROGRESS> 16:49:14 |###########         |  55% (185,383) 7.9 minPROGRESS> 16:50:08 |############        |  60% (202,236) 8.8 minPROGRESS> 16:51:09 |#############       |  65% (219,089) 9.8 minPROGRESS> 16:52:14 |##############      |  70% (235,942) 10.9 minPROGRESS> 16:53:17 |###############     |  75% (252,795) 11.9 minPROGRESS> 16:54:18 |################    |  80% (269,648) 12.9 minPROGRESS> 16:55:21 |#################   |  85% (286,501) 14.0 minPROGRESS> 16:56:24 |##################  |  90% (303,354) 15.0 minPROGRESS> 16:57:26 |################### |  95% (320,207) 16.1 minPROGRESS> 16:58:28 |####################| 100% (337,059) 17.1 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 337059
+     PASS> 141174
+     FAIL> 195885
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 16:58:34 |                    |   0% (      0) 0.0 minPROGRESS> 16:58:43 |#                   |   5% (  9,159) 0.2 minPROGRESS> 16:58:54 |##                  |  10% ( 18,318) 0.3 minPROGRESS> 16:59:05 |###                 |  15% ( 27,477) 0.5 minPROGRESS> 16:59:17 |####                |  20% ( 36,636) 0.7 minPROGRESS> 16:59:29 |#####               |  25% ( 45,795) 0.9 minPROGRESS> 16:59:42 |######              |  30% ( 54,954) 1.1 minPROGRESS> 16:59:56 |#######             |  35% ( 64,113) 1.4 minPROGRESS> 17:00:11 |########            |  40% ( 73,272) 1.6 minPROGRESS> 17:00:26 |#########           |  45% ( 82,431) 1.9 minPROGRESS> 17:00:43 |##########          |  50% ( 91,590) 2.1 minPROGRESS> 17:00:59 |###########         |  55% (100,749) 2.4 minPROGRESS> 17:01:17 |############        |  60% (109,908) 2.7 minPROGRESS> 17:01:34 |#############       |  65% (119,067) 3.0 minPROGRESS> 17:01:54 |##############      |  70% (128,226) 3.3 minPROGRESS> 17:02:20 |###############     |  75% (137,385) 3.8 minPROGRESS> 17:02:47 |################    |  80% (146,544) 4.2 minPROGRESS> 17:03:14 |#################   |  85% (155,703) 4.7 minPROGRESS> 17:03:41 |##################  |  90% (164,862) 5.1 minPROGRESS> 17:04:07 |################### |  95% (174,021) 5.6 minPROGRESS> 17:04:34 |####################| 100% (183,170) 6.0 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 183170
+     PASS> 109135
+     FAIL> 74035
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:04:42 |                    |   0% (      0) 0.0 minPROGRESS> 17:05:10 |#                   |   5% ( 17,312) 0.5 minPROGRESS> 17:05:39 |##                  |  10% ( 34,624) 1.0 minPROGRESS> 17:06:12 |###                 |  15% ( 51,936) 1.5 minPROGRESS> 17:06:45 |####                |  20% ( 69,248) 2.1 minPROGRESS> 17:07:22 |#####               |  25% ( 86,560) 2.7 minPROGRESS> 17:07:58 |######              |  30% (103,872) 3.3 minPROGRESS> 17:08:37 |#######             |  35% (121,184) 3.9 minPROGRESS> 17:09:18 |########            |  40% (138,496) 4.6 minPROGRESS> 17:09:57 |#########           |  45% (155,808) 5.3 minPROGRESS> 17:10:40 |##########          |  50% (173,120) 6.0 minPROGRESS> 17:11:22 |###########         |  55% (190,432) 6.7 minPROGRESS> 17:12:02 |############        |  60% (207,744) 7.3 minPROGRESS> 17:12:44 |#############       |  65% (225,056) 8.0 minPROGRESS> 17:13:48 |##############      |  70% (242,368) 9.1 minPROGRESS> 17:14:53 |###############     |  75% (259,680) 10.2 minPROGRESS> 17:15:58 |################    |  80% (276,992) 11.3 minPROGRESS> 17:17:02 |#################   |  85% (294,304) 12.3 minPROGRESS> 17:18:08 |##################  |  90% (311,616) 13.4 minPROGRESS> 17:19:13 |################### |  95% (328,928) 14.5 minPROGRESS> 17:20:16 |####################| 100% (346,225) 15.6 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 346225
+     PASS> 189103
+     FAIL> 157122
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:20:21 |                    |   0% (      0) 0.0 minPROGRESS> 17:20:27 |#                   |   5% (  7,529) 0.1 minPROGRESS> 17:20:33 |##                  |  10% ( 15,058) 0.2 minPROGRESS> 17:20:39 |###                 |  15% ( 22,587) 0.3 minPROGRESS> 17:20:45 |####                |  20% ( 30,116) 0.4 minPROGRESS> 17:20:52 |#####               |  25% ( 37,645) 0.5 minPROGRESS> 17:20:58 |######              |  30% ( 45,174) 0.6 minPROGRESS> 17:21:04 |#######             |  35% ( 52,703) 0.7 minPROGRESS> 17:21:10 |########            |  40% ( 60,232) 0.8 minPROGRESS> 17:21:16 |#########           |  45% ( 67,761) 0.9 minPROGRESS> 17:21:22 |##########          |  50% ( 75,290) 1.0 minPROGRESS> 17:21:28 |###########         |  55% ( 82,819) 1.1 minPROGRESS> 17:21:35 |############        |  60% ( 90,348) 1.2 minPROGRESS> 17:21:41 |#############       |  65% ( 97,877) 1.3 minPROGRESS> 17:21:47 |##############      |  70% (105,406) 1.4 minPROGRESS> 17:21:55 |###############     |  75% (112,935) 1.6 minPROGRESS> 17:22:09 |################    |  80% (120,464) 1.8 minPROGRESS> 17:22:23 |#################   |  85% (127,993) 2.0 minPROGRESS> 17:22:39 |##################  |  90% (135,522) 2.3 minPROGRESS> 17:22:54 |################### |  95% (143,051) 2.6 minPROGRESS> 17:23:10 |####################| 100% (150,574) 2.8 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 150574
+     PASS> 123684
+     FAIL> 26890
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:23:15 |                    |   0% (      0) 0.0 minPROGRESS> 17:23:26 |#                   |   5% (  9,737) 0.2 minPROGRESS> 17:23:38 |##                  |  10% ( 19,474) 0.4 minPROGRESS> 17:23:50 |###                 |  15% ( 29,211) 0.6 minPROGRESS> 17:24:02 |####                |  20% ( 38,948) 0.8 minPROGRESS> 17:24:14 |#####               |  25% ( 48,685) 1.0 minPROGRESS> 17:24:27 |######              |  30% ( 58,422) 1.2 minPROGRESS> 17:24:40 |#######             |  35% ( 68,159) 1.4 minPROGRESS> 17:24:54 |########            |  40% ( 77,896) 1.6 minPROGRESS> 17:25:07 |#########           |  45% ( 87,633) 1.9 minPROGRESS> 17:25:22 |##########          |  50% ( 97,370) 2.1 minPROGRESS> 17:25:37 |###########         |  55% (107,107) 2.4 minPROGRESS> 17:25:51 |############        |  60% (116,844) 2.6 minPROGRESS> 17:26:07 |#############       |  65% (126,581) 2.9 minPROGRESS> 17:26:26 |##############      |  70% (136,318) 3.2 minPROGRESS> 17:26:55 |###############     |  75% (146,055) 3.7 minPROGRESS> 17:27:25 |################    |  80% (155,792) 4.2 minPROGRESS> 17:27:55 |#################   |  85% (165,529) 4.7 minPROGRESS> 17:28:26 |##################  |  90% (175,266) 5.2 minPROGRESS> 17:28:57 |################### |  95% (185,003) 5.7 minPROGRESS> 17:29:28 |####################| 100% (194,739) 6.2 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 194739
+     PASS> 128742
+     FAIL> 65997
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:29:34 |                    |   0% (      0) 0.0 minPROGRESS> 17:29:48 |#                   |   5% ( 12,751) 0.2 minPROGRESS> 17:30:04 |##                  |  10% ( 25,502) 0.5 minPROGRESS> 17:30:19 |###                 |  15% ( 38,253) 0.8 minPROGRESS> 17:30:35 |####                |  20% ( 51,004) 1.0 minPROGRESS> 17:30:51 |#####               |  25% ( 63,755) 1.3 minPROGRESS> 17:31:09 |######              |  30% ( 76,506) 1.6 minPROGRESS> 17:31:27 |#######             |  35% ( 89,257) 1.9 minPROGRESS> 17:31:46 |########            |  40% (102,008) 2.2 minPROGRESS> 17:32:06 |#########           |  45% (114,759) 2.5 minPROGRESS> 17:32:27 |##########          |  50% (127,510) 2.9 minPROGRESS> 17:32:51 |###########         |  55% (140,261) 3.3 minPROGRESS> 17:33:14 |############        |  60% (153,012) 3.7 minPROGRESS> 17:33:38 |#############       |  65% (165,763) 4.1 minPROGRESS> 17:34:03 |##############      |  70% (178,514) 4.5 minPROGRESS> 17:34:37 |###############     |  75% (191,265) 5.0 minPROGRESS> 17:35:14 |################    |  80% (204,016) 5.7 minPROGRESS> 17:35:52 |#################   |  85% (216,767) 6.3 minPROGRESS> 17:36:31 |##################  |  90% (229,518) 6.9 minPROGRESS> 17:37:10 |################### |  95% (242,269) 7.6 minPROGRESS> 17:37:50 |####################| 100% (255,007) 8.3 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 255007
+     PASS> 159961
+     FAIL> 95046
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:37:56 |                    |   0% (      0) 0.0 minPROGRESS> 17:38:07 |#                   |   5% ( 10,643) 0.2 minPROGRESS> 17:38:21 |##                  |  10% ( 21,286) 0.4 minPROGRESS> 17:38:33 |###                 |  15% ( 31,929) 0.6 minPROGRESS> 17:38:45 |####                |  20% ( 42,572) 0.8 minPROGRESS> 17:38:58 |#####               |  25% ( 53,215) 1.0 minPROGRESS> 17:39:12 |######              |  30% ( 63,858) 1.3 minPROGRESS> 17:39:26 |#######             |  35% ( 74,501) 1.5 minPROGRESS> 17:39:41 |########            |  40% ( 85,144) 1.8 minPROGRESS> 17:39:56 |#########           |  45% ( 95,787) 2.0 minPROGRESS> 17:40:13 |##########          |  50% (106,430) 2.3 minPROGRESS> 17:40:31 |###########         |  55% (117,073) 2.6 minPROGRESS> 17:40:48 |############        |  60% (127,716) 2.9 minPROGRESS> 17:41:07 |#############       |  65% (138,359) 3.2 minPROGRESS> 17:41:25 |##############      |  70% (149,002) 3.5 minPROGRESS> 17:41:52 |###############     |  75% (159,645) 3.9 minPROGRESS> 17:42:22 |################    |  80% (170,288) 4.4 minPROGRESS> 17:42:53 |#################   |  85% (180,931) 4.9 minPROGRESS> 17:43:23 |##################  |  90% (191,574) 5.5 minPROGRESS> 17:43:54 |################### |  95% (202,217) 6.0 minPROGRESS> 17:44:26 |####################| 100% (212,858) 6.5 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 212858
+     PASS> 140091
+     FAIL> 72767
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:44:33 |                    |   0% (      0) 0.0 minPROGRESS> 17:44:49 |#                   |   5% ( 17,513) 0.3 minPROGRESS> 17:45:06 |##                  |  10% ( 35,026) 0.5 minPROGRESS> 17:45:22 |###                 |  15% ( 52,539) 0.8 minPROGRESS> 17:45:39 |####                |  20% ( 70,052) 1.1 minPROGRESS> 17:45:56 |#####               |  25% ( 87,565) 1.4 minPROGRESS> 17:46:15 |######              |  30% (105,078) 1.7 minPROGRESS> 17:46:33 |#######             |  35% (122,591) 2.0 minPROGRESS> 17:46:53 |########            |  40% (140,104) 2.3 minPROGRESS> 17:47:12 |#########           |  45% (157,617) 2.7 minPROGRESS> 17:47:33 |##########          |  50% (175,130) 3.0 minPROGRESS> 17:47:55 |###########         |  55% (192,643) 3.4 minPROGRESS> 17:48:20 |############        |  60% (210,156) 3.8 minPROGRESS> 17:48:44 |#############       |  65% (227,669) 4.2 minPROGRESS> 17:49:10 |##############      |  70% (245,182) 4.6 minPROGRESS> 17:49:37 |###############     |  75% (262,695) 5.1 minPROGRESS> 17:50:20 |################    |  80% (280,208) 5.8 minPROGRESS> 17:51:07 |#################   |  85% (297,721) 6.6 minPROGRESS> 17:51:56 |##################  |  90% (315,234) 7.4 minPROGRESS> 17:52:45 |################### |  95% (332,747) 8.2 minPROGRESS> 17:53:35 |####################| 100% (350,252) 9.0 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 350252
+     PASS> 260819
+     FAIL> 89433
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:53:41 |                    |   0% (      0) 0.0 minPROGRESS> 17:53:48 |#                   |   5% (  9,934) 0.1 minPROGRESS> 17:53:56 |##                  |  10% ( 19,868) 0.2 minPROGRESS> 17:54:03 |###                 |  15% ( 29,802) 0.4 minPROGRESS> 17:54:11 |####                |  20% ( 39,736) 0.5 minPROGRESS> 17:54:19 |#####               |  25% ( 49,670) 0.6 minPROGRESS> 17:54:26 |######              |  30% ( 59,604) 0.8 minPROGRESS> 17:54:35 |#######             |  35% ( 69,538) 0.9 minPROGRESS> 17:54:43 |########            |  40% ( 79,472) 1.0 minPROGRESS> 17:54:51 |#########           |  45% ( 89,406) 1.2 minPROGRESS> 17:55:00 |##########          |  50% ( 99,340) 1.3 minPROGRESS> 17:55:09 |###########         |  55% (109,274) 1.5 minPROGRESS> 17:55:19 |############        |  60% (119,208) 1.6 minPROGRESS> 17:55:28 |#############       |  65% (129,142) 1.8 minPROGRESS> 17:55:38 |##############      |  70% (139,076) 2.0 minPROGRESS> 17:55:48 |###############     |  75% (149,010) 2.1 minPROGRESS> 17:55:58 |################    |  80% (158,944) 2.3 minPROGRESS> 17:56:14 |#################   |  85% (168,878) 2.6 minPROGRESS> 17:56:38 |##################  |  90% (178,812) 3.0 minPROGRESS> 17:57:02 |################### |  95% (188,746) 3.4 minPROGRESS> 17:57:28 |####################| 100% (198,663) 3.8 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 198663
+     PASS> 162797
+     FAIL> 35866
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 17:57:34 |                    |   0% (      0) 0.0 minPROGRESS> 17:57:49 |#                   |   5% ( 10,418) 0.3 minPROGRESS> 17:58:05 |##                  |  10% ( 20,836) 0.5 minPROGRESS> 17:58:21 |###                 |  15% ( 31,254) 0.8 minPROGRESS> 17:58:38 |####                |  20% ( 41,672) 1.1 minPROGRESS> 17:58:56 |#####               |  25% ( 52,090) 1.4 minPROGRESS> 17:59:14 |######              |  30% ( 62,508) 1.7 minPROGRESS> 17:59:33 |#######             |  35% ( 72,926) 2.0 minPROGRESS> 17:59:52 |########            |  40% ( 83,344) 2.3 minPROGRESS> 18:00:12 |#########           |  45% ( 93,762) 2.6 minPROGRESS> 18:00:32 |##########          |  50% (104,180) 3.0 minPROGRESS> 18:00:53 |###########         |  55% (114,598) 3.3 minPROGRESS> 18:01:12 |############        |  60% (125,016) 3.6 minPROGRESS> 18:01:33 |#############       |  65% (135,434) 4.0 minPROGRESS> 18:02:09 |##############      |  70% (145,852) 4.6 minPROGRESS> 18:02:44 |###############     |  75% (156,270) 5.2 minPROGRESS> 18:03:20 |################    |  80% (166,688) 5.8 minPROGRESS> 18:03:55 |#################   |  85% (177,106) 6.4 minPROGRESS> 18:04:32 |##################  |  90% (187,524) 7.0 minPROGRESS> 18:05:07 |################### |  95% (197,942) 7.6 minPROGRESS> 18:05:41 |####################| 100% (208,348) 8.1 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 208348
+     PASS> 122294
+     FAIL> 86054
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:05:47 |                    |   0% (      0) 0.0 minPROGRESS> 18:06:05 |#                   |   5% ( 12,063) 0.3 minPROGRESS> 18:06:22 |##                  |  10% ( 24,126) 0.6 minPROGRESS> 18:06:40 |###                 |  15% ( 36,189) 0.9 minPROGRESS> 18:06:58 |####                |  20% ( 48,252) 1.2 minPROGRESS> 18:07:17 |#####               |  25% ( 60,315) 1.5 minPROGRESS> 18:07:36 |######              |  30% ( 72,378) 1.8 minPROGRESS> 18:07:56 |#######             |  35% ( 84,441) 2.1 minPROGRESS> 18:08:15 |########            |  40% ( 96,504) 2.5 minPROGRESS> 18:08:36 |#########           |  45% (108,567) 2.8 minPROGRESS> 18:08:57 |##########          |  50% (120,630) 3.2 minPROGRESS> 18:09:20 |###########         |  55% (132,693) 3.5 minPROGRESS> 18:09:42 |############        |  60% (144,756) 3.9 minPROGRESS> 18:10:04 |#############       |  65% (156,819) 4.3 minPROGRESS> 18:10:26 |##############      |  70% (168,882) 4.6 minPROGRESS> 18:11:06 |###############     |  75% (180,945) 5.3 minPROGRESS> 18:11:49 |################    |  80% (193,008) 6.0 minPROGRESS> 18:12:33 |#################   |  85% (205,071) 6.8 minPROGRESS> 18:13:17 |##################  |  90% (217,134) 7.5 minPROGRESS> 18:14:00 |################### |  95% (229,197) 8.2 minPROGRESS> 18:14:43 |####################| 100% (241,252) 8.9 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 241252
+     PASS> 148545
+     FAIL> 92707
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:14:49 |                    |   0% (      0) 0.0 minPROGRESS> 18:14:59 |#                   |   5% ( 11,430) 0.2 minPROGRESS> 18:15:08 |##                  |  10% ( 22,860) 0.3 minPROGRESS> 18:15:18 |###                 |  15% ( 34,290) 0.5 minPROGRESS> 18:15:27 |####                |  20% ( 45,720) 0.6 minPROGRESS> 18:15:37 |#####               |  25% ( 57,150) 0.8 minPROGRESS> 18:15:47 |######              |  30% ( 68,580) 1.0 minPROGRESS> 18:15:57 |#######             |  35% ( 80,010) 1.1 minPROGRESS> 18:16:07 |########            |  40% ( 91,440) 1.3 minPROGRESS> 18:16:17 |#########           |  45% (102,870) 1.5 minPROGRESS> 18:16:29 |##########          |  50% (114,300) 1.7 minPROGRESS> 18:16:39 |###########         |  55% (125,730) 1.8 minPROGRESS> 18:16:50 |############        |  60% (137,160) 2.0 minPROGRESS> 18:17:01 |#############       |  65% (148,590) 2.2 minPROGRESS> 18:17:12 |##############      |  70% (160,020) 2.4 minPROGRESS> 18:17:27 |###############     |  75% (171,450) 2.6 minPROGRESS> 18:17:53 |################    |  80% (182,880) 3.1 minPROGRESS> 18:18:20 |#################   |  85% (194,310) 3.5 minPROGRESS> 18:18:48 |##################  |  90% (205,740) 4.0 minPROGRESS> 18:19:17 |################### |  95% (217,170) 4.5 minPROGRESS> 18:19:46 |####################| 100% (228,589) 5.0 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 228589
+     PASS> 178705
+     FAIL> 49884
+      END> MaskPrimers
+
+ERROR> Sequence file ../../data/fastq_assembled/consensus/dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq does not exist.
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:19:56 |                    |   0% (      0) 0.0 minPROGRESS> 18:20:08 |#                   |   5% ( 13,388) 0.2 minPROGRESS> 18:20:21 |##                  |  10% ( 26,776) 0.4 minPROGRESS> 18:20:34 |###                 |  15% ( 40,164) 0.6 minPROGRESS> 18:20:47 |####                |  20% ( 53,552) 0.9 minPROGRESS> 18:21:00 |#####               |  25% ( 66,940) 1.1 minPROGRESS> 18:21:14 |######              |  30% ( 80,328) 1.3 minPROGRESS> 18:21:27 |#######             |  35% ( 93,716) 1.5 minPROGRESS> 18:21:40 |########            |  40% (107,104) 1.7 minPROGRESS> 18:21:54 |#########           |  45% (120,492) 2.0 minPROGRESS> 18:22:08 |##########          |  50% (133,880) 2.2 minPROGRESS> 18:22:23 |###########         |  55% (147,268) 2.5 minPROGRESS> 18:22:38 |############        |  60% (160,656) 2.7 minPROGRESS> 18:22:52 |#############       |  65% (174,044) 2.9 minPROGRESS> 18:23:07 |##############      |  70% (187,432) 3.2 minPROGRESS> 18:23:26 |###############     |  75% (200,820) 3.5 minPROGRESS> 18:24:02 |################    |  80% (214,208) 4.1 minPROGRESS> 18:24:41 |#################   |  85% (227,596) 4.7 minPROGRESS> 18:25:21 |##################  |  90% (240,984) 5.4 minPROGRESS> 18:26:02 |################### |  95% (254,372) 6.1 minPROGRESS> 18:26:44 |####################| 100% (267,752) 6.8 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 267752
+     PASS> 198683
+     FAIL> 69069
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:26:50 |                    |   0% (      0) 0.0 minPROGRESS> 18:27:13 |#                   |   5% ( 12,935) 0.4 minPROGRESS> 18:27:37 |##                  |  10% ( 25,870) 0.8 minPROGRESS> 18:28:03 |###                 |  15% ( 38,805) 1.2 minPROGRESS> 18:28:30 |####                |  20% ( 51,740) 1.7 minPROGRESS> 18:28:58 |#####               |  25% ( 64,675) 2.1 minPROGRESS> 18:29:27 |######              |  30% ( 77,610) 2.6 minPROGRESS> 18:29:57 |#######             |  35% ( 90,545) 3.1 minPROGRESS> 18:30:29 |########            |  40% (103,480) 3.7 minPROGRESS> 18:31:00 |#########           |  45% (116,415) 4.2 minPROGRESS> 18:31:32 |##########          |  50% (129,350) 4.7 minPROGRESS> 18:32:03 |###########         |  55% (142,285) 5.2 minPROGRESS> 18:32:34 |############        |  60% (155,220) 5.7 minPROGRESS> 18:33:15 |#############       |  65% (168,155) 6.4 minPROGRESS> 18:34:05 |##############      |  70% (181,090) 7.3 minPROGRESS> 18:34:55 |###############     |  75% (194,025) 8.1 minPROGRESS> 18:35:45 |################    |  80% (206,960) 8.9 minPROGRESS> 18:36:34 |#################   |  85% (219,895) 9.7 minPROGRESS> 18:37:24 |##################  |  90% (232,830) 10.6 minPROGRESS> 18:38:13 |################### |  95% (245,765) 11.4 minPROGRESS> 18:39:01 |####################| 100% (258,681) 12.2 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 258681
+     PASS> 132166
+     FAIL> 126515
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:39:07 |                    |   0% (      0) 0.0 minPROGRESS> 18:39:20 |#                   |   5% (  9,834) 0.2 minPROGRESS> 18:39:33 |##                  |  10% ( 19,668) 0.4 minPROGRESS> 18:39:47 |###                 |  15% ( 29,502) 0.7 minPROGRESS> 18:40:02 |####                |  20% ( 39,336) 0.9 minPROGRESS> 18:40:17 |#####               |  25% ( 49,170) 1.2 minPROGRESS> 18:40:32 |######              |  30% ( 59,004) 1.4 minPROGRESS> 18:40:49 |#######             |  35% ( 68,838) 1.7 minPROGRESS> 18:41:05 |########            |  40% ( 78,672) 2.0 minPROGRESS> 18:41:23 |#########           |  45% ( 88,506) 2.3 minPROGRESS> 18:41:40 |##########          |  50% ( 98,340) 2.6 minPROGRESS> 18:41:57 |###########         |  55% (108,174) 2.8 minPROGRESS> 18:42:15 |############        |  60% (118,008) 3.1 minPROGRESS> 18:42:37 |#############       |  65% (127,842) 3.5 minPROGRESS> 18:43:11 |##############      |  70% (137,676) 4.1 minPROGRESS> 18:43:46 |###############     |  75% (147,510) 4.7 minPROGRESS> 18:44:22 |################    |  80% (157,344) 5.3 minPROGRESS> 18:44:57 |#################   |  85% (167,178) 5.8 minPROGRESS> 18:45:34 |##################  |  90% (177,012) 6.5 minPROGRESS> 18:46:10 |################### |  95% (186,846) 7.0 minPROGRESS> 18:46:45 |####################| 100% (196,665) 7.6 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 196665
+     PASS> 116123
+     FAIL> 80542
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:46:52 |                    |   0% (      0) 0.0 minPROGRESS> 18:47:04 |#                   |   5% ( 13,776) 0.2 minPROGRESS> 18:47:16 |##                  |  10% ( 27,552) 0.4 minPROGRESS> 18:47:28 |###                 |  15% ( 41,328) 0.6 minPROGRESS> 18:47:40 |####                |  20% ( 55,104) 0.8 minPROGRESS> 18:47:52 |#####               |  25% ( 68,880) 1.0 minPROGRESS> 18:48:05 |######              |  30% ( 82,656) 1.2 minPROGRESS> 18:48:18 |#######             |  35% ( 96,432) 1.4 minPROGRESS> 18:48:31 |########            |  40% (110,208) 1.7 minPROGRESS> 18:48:45 |#########           |  45% (123,984) 1.9 minPROGRESS> 18:49:00 |##########          |  50% (137,760) 2.1 minPROGRESS> 18:49:14 |###########         |  55% (151,536) 2.4 minPROGRESS> 18:49:31 |############        |  60% (165,312) 2.7 minPROGRESS> 18:49:47 |#############       |  65% (179,088) 2.9 minPROGRESS> 18:50:04 |##############      |  70% (192,864) 3.2 minPROGRESS> 18:50:21 |###############     |  75% (206,640) 3.5 minPROGRESS> 18:50:44 |################    |  80% (220,416) 3.9 minPROGRESS> 18:51:22 |#################   |  85% (234,192) 4.5 minPROGRESS> 18:52:02 |##################  |  90% (247,968) 5.2 minPROGRESS> 18:52:45 |################### |  95% (261,744) 5.9 minPROGRESS> 18:53:26 |####################| 100% (275,512) 6.6 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 275512
+     PASS> 208660
+     FAIL> 66852
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 18:53:33 |                    |   0% (      0) 0.0 minPROGRESS> 18:53:48 |#                   |   5% ( 15,000) 0.3 minPROGRESS> 18:54:04 |##                  |  10% ( 30,000) 0.5 minPROGRESS> 18:54:19 |###                 |  15% ( 45,000) 0.8 minPROGRESS> 18:54:34 |####                |  20% ( 60,000) 1.0 minPROGRESS> 18:54:50 |#####               |  25% ( 75,000) 1.3 minPROGRESS> 18:55:07 |######              |  30% ( 90,000) 1.6 minPROGRESS> 18:55:22 |#######             |  35% (105,000) 1.8 minPROGRESS> 18:55:39 |########            |  40% (120,000) 2.1 minPROGRESS> 18:55:55 |#########           |  45% (135,000) 2.4 minPROGRESS> 18:56:13 |##########          |  50% (150,000) 2.7 minPROGRESS> 18:56:31 |###########         |  55% (165,000) 3.0 minPROGRESS> 18:56:48 |############        |  60% (180,000) 3.3 minPROGRESS> 18:57:06 |#############       |  65% (195,000) 3.5 minPROGRESS> 18:57:23 |##############      |  70% (210,000) 3.8 minPROGRESS> 18:57:40 |###############     |  75% (225,000) 4.1 minPROGRESS> 18:58:21 |################    |  80% (240,000) 4.8 minPROGRESS> 18:59:06 |#################   |  85% (255,000) 5.6 minPROGRESS> 18:59:52 |##################  |  90% (270,000) 6.3 minPROGRESS> 19:00:38 |################### |  95% (285,000) 7.1 minPROGRESS> 19:01:25 |####################| 100% (299,999) 7.9 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 299999
+     PASS> 223810
+     FAIL> 76189
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:01:31 |                    |   0% (      0) 0.0 minPROGRESS> 19:01:42 |#                   |   5% (  9,637) 0.2 minPROGRESS> 19:01:53 |##                  |  10% ( 19,274) 0.4 minPROGRESS> 19:02:04 |###                 |  15% ( 28,911) 0.5 minPROGRESS> 19:02:16 |####                |  20% ( 38,548) 0.8 minPROGRESS> 19:02:29 |#####               |  25% ( 48,185) 1.0 minPROGRESS> 19:02:42 |######              |  30% ( 57,822) 1.2 minPROGRESS> 19:02:56 |#######             |  35% ( 67,459) 1.4 minPROGRESS> 19:03:11 |########            |  40% ( 77,096) 1.7 minPROGRESS> 19:03:28 |#########           |  45% ( 86,733) 2.0 minPROGRESS> 19:03:45 |##########          |  50% ( 96,370) 2.2 minPROGRESS> 19:04:04 |###########         |  55% (106,007) 2.5 minPROGRESS> 19:04:22 |############        |  60% (115,644) 2.8 minPROGRESS> 19:04:41 |#############       |  65% (125,281) 3.2 minPROGRESS> 19:05:01 |##############      |  70% (134,918) 3.5 minPROGRESS> 19:05:29 |###############     |  75% (144,555) 4.0 minPROGRESS> 19:05:58 |################    |  80% (154,192) 4.4 minPROGRESS> 19:06:26 |#################   |  85% (163,829) 4.9 minPROGRESS> 19:06:56 |##################  |  90% (173,466) 5.4 minPROGRESS> 19:07:25 |################### |  95% (183,103) 5.9 minPROGRESS> 19:07:54 |####################| 100% (192,732) 6.4 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 192732
+     PASS> 114341
+     FAIL> 78391
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:07:59 |                    |   0% (      0) 0.0 minPROGRESS> 19:08:15 |#                   |   5% (  7,206) 0.3 minPROGRESS> 19:08:32 |##                  |  10% ( 14,412) 0.5 minPROGRESS> 19:08:51 |###                 |  15% ( 21,618) 0.9 minPROGRESS> 19:09:10 |####                |  20% ( 28,824) 1.2 minPROGRESS> 19:09:28 |#####               |  25% ( 36,030) 1.5 minPROGRESS> 19:09:47 |######              |  30% ( 43,236) 1.8 minPROGRESS> 19:10:05 |#######             |  35% ( 50,442) 2.1 minPROGRESS> 19:10:24 |########            |  40% ( 57,648) 2.4 minPROGRESS> 19:10:42 |#########           |  45% ( 64,854) 2.7 minPROGRESS> 19:11:00 |##########          |  50% ( 72,060) 3.0 minPROGRESS> 19:11:18 |###########         |  55% ( 79,266) 3.3 minPROGRESS> 19:11:43 |############        |  60% ( 86,472) 3.7 minPROGRESS> 19:12:12 |#############       |  65% ( 93,678) 4.2 minPROGRESS> 19:12:40 |##############      |  70% (100,884) 4.7 minPROGRESS> 19:13:09 |###############     |  75% (108,090) 5.2 minPROGRESS> 19:13:36 |################    |  80% (115,296) 5.6 minPROGRESS> 19:14:04 |#################   |  85% (122,502) 6.1 minPROGRESS> 19:14:32 |##################  |  90% (129,708) 6.6 minPROGRESS> 19:15:00 |################### |  95% (136,914) 7.0 minPROGRESS> 19:15:27 |####################| 100% (144,115) 7.5 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 144115
+     PASS> 69173
+     FAIL> 74942
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:15:33 |                    |   0% (      0) 0.0 minPROGRESS> 19:15:37 |#                   |   5% (  6,192) 0.1 minPROGRESS> 19:15:42 |##                  |  10% ( 12,384) 0.2 minPROGRESS> 19:15:47 |###                 |  15% ( 18,576) 0.2 minPROGRESS> 19:15:53 |####                |  20% ( 24,768) 0.3 minPROGRESS> 19:15:58 |#####               |  25% ( 30,960) 0.4 minPROGRESS> 19:16:03 |######              |  30% ( 37,152) 0.5 minPROGRESS> 19:16:08 |#######             |  35% ( 43,344) 0.6 minPROGRESS> 19:16:13 |########            |  40% ( 49,536) 0.7 minPROGRESS> 19:16:18 |#########           |  45% ( 55,728) 0.8 minPROGRESS> 19:16:23 |##########          |  50% ( 61,920) 0.8 minPROGRESS> 19:16:29 |###########         |  55% ( 68,112) 0.9 minPROGRESS> 19:16:34 |############        |  60% ( 74,304) 1.0 minPROGRESS> 19:16:39 |#############       |  65% ( 80,496) 1.1 minPROGRESS> 19:16:45 |##############      |  70% ( 86,688) 1.2 minPROGRESS> 19:16:56 |###############     |  75% ( 92,880) 1.4 minPROGRESS> 19:17:09 |################    |  80% ( 99,072) 1.6 minPROGRESS> 19:17:22 |#################   |  85% (105,264) 1.8 minPROGRESS> 19:17:36 |##################  |  90% (111,456) 2.1 minPROGRESS> 19:17:50 |################### |  95% (117,648) 2.3 minPROGRESS> 19:18:04 |####################| 100% (123,822) 2.5 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 123822
+     PASS> 98346
+     FAIL> 25476
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:18:10 |                    |   0% (      0) 0.0 minPROGRESS> 19:18:21 |#                   |   5% ( 11,009) 0.2 minPROGRESS> 19:18:33 |##                  |  10% ( 22,018) 0.4 minPROGRESS> 19:18:44 |###                 |  15% ( 33,027) 0.6 minPROGRESS> 19:18:55 |####                |  20% ( 44,036) 0.8 minPROGRESS> 19:19:07 |#####               |  25% ( 55,045) 0.9 minPROGRESS> 19:19:19 |######              |  30% ( 66,054) 1.1 minPROGRESS> 19:19:31 |#######             |  35% ( 77,063) 1.4 minPROGRESS> 19:19:43 |########            |  40% ( 88,072) 1.6 minPROGRESS> 19:19:55 |#########           |  45% ( 99,081) 1.7 minPROGRESS> 19:20:07 |##########          |  50% (110,090) 2.0 minPROGRESS> 19:20:20 |###########         |  55% (121,099) 2.2 minPROGRESS> 19:20:34 |############        |  60% (132,108) 2.4 minPROGRESS> 19:20:47 |#############       |  65% (143,117) 2.6 minPROGRESS> 19:21:00 |##############      |  70% (154,126) 2.8 minPROGRESS> 19:21:15 |###############     |  75% (165,135) 3.1 minPROGRESS> 19:21:46 |################    |  80% (176,144) 3.6 minPROGRESS> 19:22:19 |#################   |  85% (187,153) 4.1 minPROGRESS> 19:22:51 |##################  |  90% (198,162) 4.7 minPROGRESS> 19:23:25 |################### |  95% (209,171) 5.3 minPROGRESS> 19:24:00 |####################| 100% (220,170) 5.8 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 220170
+     PASS> 163413
+     FAIL> 56757
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:24:06 |                    |   0% (      0) 0.0 minPROGRESS> 19:24:24 |#                   |   5% ( 12,595) 0.3 minPROGRESS> 19:24:43 |##                  |  10% ( 25,190) 0.6 minPROGRESS> 19:25:03 |###                 |  15% ( 37,785) 1.0 minPROGRESS> 19:25:24 |####                |  20% ( 50,380) 1.3 minPROGRESS> 19:25:47 |#####               |  25% ( 62,975) 1.7 minPROGRESS> 19:26:11 |######              |  30% ( 75,570) 2.1 minPROGRESS> 19:26:36 |#######             |  35% ( 88,165) 2.5 minPROGRESS> 19:27:03 |########            |  40% (100,760) 2.9 minPROGRESS> 19:27:29 |#########           |  45% (113,355) 3.4 minPROGRESS> 19:27:57 |##########          |  50% (125,950) 3.8 minPROGRESS> 19:28:24 |###########         |  55% (138,545) 4.3 minPROGRESS> 19:28:52 |############        |  60% (151,140) 4.8 minPROGRESS> 19:29:23 |#############       |  65% (163,735) 5.3 minPROGRESS> 19:30:03 |##############      |  70% (176,330) 5.9 minPROGRESS> 19:30:43 |###############     |  75% (188,925) 6.6 minPROGRESS> 19:31:24 |################    |  80% (201,520) 7.3 minPROGRESS> 19:32:06 |#################   |  85% (214,115) 8.0 minPROGRESS> 19:32:47 |##################  |  90% (226,710) 8.7 minPROGRESS> 19:33:28 |################### |  95% (239,305) 9.4 minPROGRESS> 19:34:09 |####################| 100% (251,891) 10.0 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 251891
+     PASS> 130180
+     FAIL> 121711
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:34:15 |                    |   0% (      0) 0.0 minPROGRESS> 19:34:34 |#                   |   5% ( 11,275) 0.3 minPROGRESS> 19:34:54 |##                  |  10% ( 22,550) 0.7 minPROGRESS> 19:35:16 |###                 |  15% ( 33,825) 1.0 minPROGRESS> 19:35:39 |####                |  20% ( 45,100) 1.4 minPROGRESS> 19:36:03 |#####               |  25% ( 56,375) 1.8 minPROGRESS> 19:36:28 |######              |  30% ( 67,650) 2.2 minPROGRESS> 19:36:54 |#######             |  35% ( 78,925) 2.7 minPROGRESS> 19:37:19 |########            |  40% ( 90,200) 3.1 minPROGRESS> 19:37:46 |#########           |  45% (101,475) 3.5 minPROGRESS> 19:38:12 |##########          |  50% (112,750) 4.0 minPROGRESS> 19:38:39 |###########         |  55% (124,025) 4.4 minPROGRESS> 19:39:04 |############        |  60% (135,300) 4.8 minPROGRESS> 19:39:37 |#############       |  65% (146,575) 5.4 minPROGRESS> 19:40:12 |##############      |  70% (157,850) 6.0 minPROGRESS> 19:40:48 |###############     |  75% (169,125) 6.6 minPROGRESS> 19:41:24 |################    |  80% (180,400) 7.2 minPROGRESS> 19:42:01 |#################   |  85% (191,675) 7.8 minPROGRESS> 19:42:37 |##################  |  90% (202,950) 8.4 minPROGRESS> 19:43:14 |################### |  95% (214,225) 9.0 minPROGRESS> 19:43:50 |####################| 100% (225,484) 9.6 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 225484
+     PASS> 99588
+     FAIL> 125896
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:43:56 |                    |   0% (      0) 0.0 minPROGRESS> 19:44:09 |#                   |   5% ( 11,365) 0.2 minPROGRESS> 19:44:23 |##                  |  10% ( 22,730) 0.5 minPROGRESS> 19:44:36 |###                 |  15% ( 34,095) 0.7 minPROGRESS> 19:44:50 |####                |  20% ( 45,460) 0.9 minPROGRESS> 19:45:04 |#####               |  25% ( 56,825) 1.1 minPROGRESS> 19:45:18 |######              |  30% ( 68,190) 1.4 minPROGRESS> 19:45:32 |#######             |  35% ( 79,555) 1.6 minPROGRESS> 19:45:47 |########            |  40% ( 90,920) 1.9 minPROGRESS> 19:46:02 |#########           |  45% (102,285) 2.1 minPROGRESS> 19:46:18 |##########          |  50% (113,650) 2.4 minPROGRESS> 19:46:35 |###########         |  55% (125,015) 2.7 minPROGRESS> 19:46:51 |############        |  60% (136,380) 2.9 minPROGRESS> 19:47:08 |#############       |  65% (147,745) 3.2 minPROGRESS> 19:47:25 |##############      |  70% (159,110) 3.5 minPROGRESS> 19:48:00 |###############     |  75% (170,475) 4.1 minPROGRESS> 19:48:35 |################    |  80% (181,840) 4.7 minPROGRESS> 19:49:12 |#################   |  85% (193,205) 5.3 minPROGRESS> 19:49:49 |##################  |  90% (204,570) 5.9 minPROGRESS> 19:50:29 |################### |  95% (215,935) 6.6 minPROGRESS> 19:51:06 |####################| 100% (227,289) 7.2 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 227289
+     PASS> 154227
+     FAIL> 73062
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:51:12 |                    |   0% (      0) 0.0 minPROGRESS> 19:51:22 |#                   |   5% (  9,529) 0.2 minPROGRESS> 19:51:32 |##                  |  10% ( 19,058) 0.3 minPROGRESS> 19:51:43 |###                 |  15% ( 28,587) 0.5 minPROGRESS> 19:51:53 |####                |  20% ( 38,116) 0.7 minPROGRESS> 19:52:04 |#####               |  25% ( 47,645) 0.9 minPROGRESS> 19:52:16 |######              |  30% ( 57,174) 1.1 minPROGRESS> 19:52:28 |#######             |  35% ( 66,703) 1.3 minPROGRESS> 19:52:40 |########            |  40% ( 76,232) 1.5 minPROGRESS> 19:52:53 |#########           |  45% ( 85,761) 1.7 minPROGRESS> 19:53:06 |##########          |  50% ( 95,290) 1.9 minPROGRESS> 19:53:21 |###########         |  55% (104,819) 2.1 minPROGRESS> 19:53:36 |############        |  60% (114,348) 2.4 minPROGRESS> 19:53:51 |#############       |  65% (123,877) 2.7 minPROGRESS> 19:54:07 |##############      |  70% (133,406) 2.9 minPROGRESS> 19:54:30 |###############     |  75% (142,935) 3.3 minPROGRESS> 19:54:56 |################    |  80% (152,464) 3.7 minPROGRESS> 19:55:24 |#################   |  85% (161,993) 4.2 minPROGRESS> 19:55:53 |##################  |  90% (171,522) 4.7 minPROGRESS> 19:56:21 |################### |  95% (181,051) 5.1 minPROGRESS> 19:56:49 |####################| 100% (190,565) 5.6 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 190565
+     PASS> 128452
+     FAIL> 62113
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:56:54 |                    |   0% (      0) 0.0 minPROGRESS> 19:56:59 |#                   |   5% (  7,035) 0.1 minPROGRESS> 19:57:05 |##                  |  10% ( 14,070) 0.2 minPROGRESS> 19:57:10 |###                 |  15% ( 21,105) 0.3 minPROGRESS> 19:57:16 |####                |  20% ( 28,140) 0.4 minPROGRESS> 19:57:22 |#####               |  25% ( 35,175) 0.5 minPROGRESS> 19:57:27 |######              |  30% ( 42,210) 0.5 minPROGRESS> 19:57:32 |#######             |  35% ( 49,245) 0.6 minPROGRESS> 19:57:38 |########            |  40% ( 56,280) 0.7 minPROGRESS> 19:57:44 |#########           |  45% ( 63,315) 0.8 minPROGRESS> 19:57:49 |##########          |  50% ( 70,350) 0.9 minPROGRESS> 19:57:55 |###########         |  55% ( 77,385) 1.0 minPROGRESS> 19:58:00 |############        |  60% ( 84,420) 1.1 minPROGRESS> 19:58:09 |#############       |  65% ( 91,455) 1.2 minPROGRESS> 19:58:21 |##############      |  70% ( 98,490) 1.4 minPROGRESS> 19:58:33 |###############     |  75% (105,525) 1.7 minPROGRESS> 19:58:45 |################    |  80% (112,560) 1.9 minPROGRESS> 19:58:57 |#################   |  85% (119,595) 2.1 minPROGRESS> 19:59:10 |##################  |  90% (126,630) 2.3 minPROGRESS> 19:59:22 |################### |  95% (133,665) 2.5 minPROGRESS> 19:59:34 |####################| 100% (140,695) 2.7 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 140695
+     PASS> 114275
+     FAIL> 26420
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 19:59:43 |                    |   0% (      0) 0.0 minPROGRESS> 19:59:58 |#                   |   5% ( 12,211) 0.2 minPROGRESS> 20:00:13 |##                  |  10% ( 24,422) 0.5 minPROGRESS> 20:00:29 |###                 |  15% ( 36,633) 0.8 minPROGRESS> 20:00:46 |####                |  20% ( 48,844) 1.0 minPROGRESS> 20:01:03 |#####               |  25% ( 61,055) 1.3 minPROGRESS> 20:01:21 |######              |  30% ( 73,266) 1.6 minPROGRESS> 20:01:40 |#######             |  35% ( 85,477) 2.0 minPROGRESS> 20:02:00 |########            |  40% ( 97,688) 2.3 minPROGRESS> 20:02:21 |#########           |  45% (109,899) 2.6 minPROGRESS> 20:02:42 |##########          |  50% (122,110) 3.0 minPROGRESS> 20:03:04 |###########         |  55% (134,321) 3.3 minPROGRESS> 20:03:26 |############        |  60% (146,532) 3.7 minPROGRESS> 20:03:50 |#############       |  65% (158,743) 4.1 minPROGRESS> 20:04:17 |##############      |  70% (170,954) 4.6 minPROGRESS> 20:04:51 |###############     |  75% (183,165) 5.1 minPROGRESS> 20:05:25 |################    |  80% (195,376) 5.7 minPROGRESS> 20:05:59 |#################   |  85% (207,587) 6.3 minPROGRESS> 20:06:35 |##################  |  90% (219,798) 6.9 minPROGRESS> 20:07:10 |################### |  95% (232,009) 7.5 minPROGRESS> 20:07:46 |####################| 100% (244,217) 8.0 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 244217
+     PASS> 149727
+     FAIL> 94490
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:07:52 |                    |   0% (      0) 0.0 minPROGRESS> 20:08:07 |#                   |   5% ( 15,094) 0.3 minPROGRESS> 20:08:23 |##                  |  10% ( 30,188) 0.5 minPROGRESS> 20:08:39 |###                 |  15% ( 45,282) 0.8 minPROGRESS> 20:08:54 |####                |  20% ( 60,376) 1.0 minPROGRESS> 20:09:10 |#####               |  25% ( 75,470) 1.3 minPROGRESS> 20:09:26 |######              |  30% ( 90,564) 1.6 minPROGRESS> 20:09:43 |#######             |  35% (105,658) 1.9 minPROGRESS> 20:10:00 |########            |  40% (120,752) 2.1 minPROGRESS> 20:10:18 |#########           |  45% (135,846) 2.4 minPROGRESS> 20:10:36 |##########          |  50% (150,940) 2.7 minPROGRESS> 20:10:54 |###########         |  55% (166,034) 3.0 minPROGRESS> 20:11:15 |############        |  60% (181,128) 3.4 minPROGRESS> 20:11:35 |#############       |  65% (196,222) 3.7 minPROGRESS> 20:11:56 |##############      |  70% (211,316) 4.1 minPROGRESS> 20:12:16 |###############     |  75% (226,410) 4.4 minPROGRESS> 20:12:48 |################    |  80% (241,504) 4.9 minPROGRESS> 20:13:33 |#################   |  85% (256,598) 5.7 minPROGRESS> 20:14:20 |##################  |  90% (271,692) 6.5 minPROGRESS> 20:15:09 |################### |  95% (286,786) 7.3 minPROGRESS> 20:15:58 |####################| 100% (301,871) 8.1 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 301871
+     PASS> 216550
+     FAIL> 85321
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:16:03 |                    |   0% (      0) 0.0 minPROGRESS> 20:16:11 |#                   |   5% (  8,471) 0.1 minPROGRESS> 20:16:20 |##                  |  10% ( 16,942) 0.3 minPROGRESS> 20:16:29 |###                 |  15% ( 25,413) 0.4 minPROGRESS> 20:16:38 |####                |  20% ( 33,884) 0.6 minPROGRESS> 20:16:46 |#####               |  25% ( 42,355) 0.7 minPROGRESS> 20:16:56 |######              |  30% ( 50,826) 0.9 minPROGRESS> 20:17:05 |#######             |  35% ( 59,297) 1.0 minPROGRESS> 20:17:14 |########            |  40% ( 67,768) 1.2 minPROGRESS> 20:17:24 |#########           |  45% ( 76,239) 1.4 minPROGRESS> 20:17:34 |##########          |  50% ( 84,710) 1.5 minPROGRESS> 20:17:44 |###########         |  55% ( 93,181) 1.7 minPROGRESS> 20:17:53 |############        |  60% (101,652) 1.8 minPROGRESS> 20:18:03 |#############       |  65% (110,123) 2.0 minPROGRESS> 20:18:15 |##############      |  70% (118,594) 2.2 minPROGRESS> 20:18:36 |###############     |  75% (127,065) 2.6 minPROGRESS> 20:18:58 |################    |  80% (135,536) 2.9 minPROGRESS> 20:19:20 |#################   |  85% (144,007) 3.3 minPROGRESS> 20:19:42 |##################  |  90% (152,478) 3.7 minPROGRESS> 20:20:06 |################### |  95% (160,949) 4.0 minPROGRESS> 20:20:28 |####################| 100% (169,410) 4.4 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 169410
+     PASS> 121517
+     FAIL> 47893
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:20:34 |                    |   0% (      0) 0.0 minPROGRESS> 20:20:44 |#                   |   5% ( 12,210) 0.2 minPROGRESS> 20:20:55 |##                  |  10% ( 24,420) 0.3 minPROGRESS> 20:21:06 |###                 |  15% ( 36,630) 0.5 minPROGRESS> 20:21:17 |####                |  20% ( 48,840) 0.7 minPROGRESS> 20:21:27 |#####               |  25% ( 61,050) 0.9 minPROGRESS> 20:21:38 |######              |  30% ( 73,260) 1.1 minPROGRESS> 20:21:49 |#######             |  35% ( 85,470) 1.2 minPROGRESS> 20:22:00 |########            |  40% ( 97,680) 1.4 minPROGRESS> 20:22:11 |#########           |  45% (109,890) 1.6 minPROGRESS> 20:22:23 |##########          |  50% (122,100) 1.8 minPROGRESS> 20:22:34 |###########         |  55% (134,310) 2.0 minPROGRESS> 20:22:46 |############        |  60% (146,520) 2.2 minPROGRESS> 20:22:57 |#############       |  65% (158,730) 2.4 minPROGRESS> 20:23:09 |##############      |  70% (170,940) 2.6 minPROGRESS> 20:23:28 |###############     |  75% (183,150) 2.9 minPROGRESS> 20:23:51 |################    |  80% (195,360) 3.3 minPROGRESS> 20:24:14 |#################   |  85% (207,570) 3.7 minPROGRESS> 20:24:39 |##################  |  90% (219,780) 4.1 minPROGRESS> 20:25:04 |################### |  95% (231,990) 4.5 minPROGRESS> 20:25:29 |####################| 100% (244,188) 4.9 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 244188
+     PASS> 196520
+     FAIL> 47668
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:25:35 |                    |   0% (      0) 0.0 minPROGRESS> 20:25:48 |#                   |   5% ( 12,095) 0.2 minPROGRESS> 20:26:00 |##                  |  10% ( 24,190) 0.4 minPROGRESS> 20:26:13 |###                 |  15% ( 36,285) 0.6 minPROGRESS> 20:26:26 |####                |  20% ( 48,380) 0.9 minPROGRESS> 20:26:40 |#####               |  25% ( 60,475) 1.1 minPROGRESS> 20:26:54 |######              |  30% ( 72,570) 1.3 minPROGRESS> 20:27:08 |#######             |  35% ( 84,665) 1.5 minPROGRESS> 20:27:23 |########            |  40% ( 96,760) 1.8 minPROGRESS> 20:27:38 |#########           |  45% (108,855) 2.0 minPROGRESS> 20:27:54 |##########          |  50% (120,950) 2.3 minPROGRESS> 20:28:11 |###########         |  55% (133,045) 2.6 minPROGRESS> 20:28:29 |############        |  60% (145,140) 2.9 minPROGRESS> 20:28:49 |#############       |  65% (157,235) 3.2 minPROGRESS> 20:29:09 |##############      |  70% (169,330) 3.6 minPROGRESS> 20:29:29 |###############     |  75% (181,425) 3.9 minPROGRESS> 20:29:52 |################    |  80% (193,520) 4.3 minPROGRESS> 20:30:27 |#################   |  85% (205,615) 4.9 minPROGRESS> 20:31:02 |##################  |  90% (217,710) 5.4 minPROGRESS> 20:31:38 |################### |  95% (229,805) 6.0 minPROGRESS> 20:32:14 |####################| 100% (241,887) 6.6 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 241887
+     PASS> 171491
+     FAIL> 70396
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:32:19 |                    |   0% (      0) 0.0 minPROGRESS> 20:32:29 |#                   |   5% (  6,161) 0.2 minPROGRESS> 20:32:39 |##                  |  10% ( 12,322) 0.3 minPROGRESS> 20:32:49 |###                 |  15% ( 18,483) 0.5 minPROGRESS> 20:33:00 |####                |  20% ( 24,644) 0.7 minPROGRESS> 20:33:11 |#####               |  25% ( 30,805) 0.9 minPROGRESS> 20:33:22 |######              |  30% ( 36,966) 1.1 minPROGRESS> 20:33:33 |#######             |  35% ( 43,127) 1.2 minPROGRESS> 20:33:46 |########            |  40% ( 49,288) 1.4 minPROGRESS> 20:33:57 |#########           |  45% ( 55,449) 1.6 minPROGRESS> 20:34:09 |##########          |  50% ( 61,610) 1.8 minPROGRESS> 20:34:21 |###########         |  55% ( 67,771) 2.0 minPROGRESS> 20:34:36 |############        |  60% ( 73,932) 2.3 minPROGRESS> 20:34:56 |#############       |  65% ( 80,093) 2.6 minPROGRESS> 20:35:17 |##############      |  70% ( 86,254) 3.0 minPROGRESS> 20:35:38 |###############     |  75% ( 92,415) 3.3 minPROGRESS> 20:35:59 |################    |  80% ( 98,576) 3.7 minPROGRESS> 20:36:22 |#################   |  85% (104,737) 4.1 minPROGRESS> 20:36:43 |##################  |  90% (110,898) 4.4 minPROGRESS> 20:37:04 |################### |  95% (117,059) 4.8 minPROGRESS> 20:37:25 |####################| 100% (123,207) 5.1 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 123207
+     PASS> 65790
+     FAIL> 57417
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:37:31 |                    |   0% (      0) 0.0 minPROGRESS> 20:37:44 |#                   |   5% ( 12,131) 0.2 minPROGRESS> 20:37:58 |##                  |  10% ( 24,262) 0.4 minPROGRESS> 20:38:11 |###                 |  15% ( 36,393) 0.7 minPROGRESS> 20:38:23 |####                |  20% ( 48,524) 0.9 minPROGRESS> 20:38:35 |#####               |  25% ( 60,655) 1.1 minPROGRESS> 20:38:49 |######              |  30% ( 72,786) 1.3 minPROGRESS> 20:39:03 |#######             |  35% ( 84,917) 1.5 minPROGRESS> 20:39:18 |########            |  40% ( 97,048) 1.8 minPROGRESS> 20:39:34 |#########           |  45% (109,179) 2.0 minPROGRESS> 20:39:50 |##########          |  50% (121,310) 2.3 minPROGRESS> 20:40:09 |###########         |  55% (133,441) 2.6 minPROGRESS> 20:40:27 |############        |  60% (145,572) 2.9 minPROGRESS> 20:40:46 |#############       |  65% (157,703) 3.2 minPROGRESS> 20:41:06 |##############      |  70% (169,834) 3.6 minPROGRESS> 20:41:32 |###############     |  75% (181,965) 4.0 minPROGRESS> 20:42:06 |################    |  80% (194,096) 4.6 minPROGRESS> 20:42:40 |#################   |  85% (206,227) 5.1 minPROGRESS> 20:43:14 |##################  |  90% (218,358) 5.7 minPROGRESS> 20:43:50 |################### |  95% (230,489) 6.3 minPROGRESS> 20:44:25 |####################| 100% (242,618) 6.9 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 242618
+     PASS> 162396
+     FAIL> 80222
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:44:32 |                    |   0% (      0) 0.0 minPROGRESS> 20:44:51 |#                   |   5% ( 15,452) 0.3 minPROGRESS> 20:45:10 |##                  |  10% ( 30,904) 0.6 minPROGRESS> 20:45:29 |###                 |  15% ( 46,356) 1.0 minPROGRESS> 20:45:49 |####                |  20% ( 61,808) 1.3 minPROGRESS> 20:46:10 |#####               |  25% ( 77,260) 1.6 minPROGRESS> 20:46:31 |######              |  30% ( 92,712) 2.0 minPROGRESS> 20:46:53 |#######             |  35% (108,164) 2.3 minPROGRESS> 20:47:16 |########            |  40% (123,616) 2.7 minPROGRESS> 20:47:39 |#########           |  45% (139,068) 3.1 minPROGRESS> 20:48:04 |##########          |  50% (154,520) 3.5 minPROGRESS> 20:48:32 |###########         |  55% (169,972) 4.0 minPROGRESS> 20:48:59 |############        |  60% (185,424) 4.4 minPROGRESS> 20:49:29 |#############       |  65% (200,876) 4.9 minPROGRESS> 20:49:58 |##############      |  70% (216,328) 5.4 minPROGRESS> 20:50:43 |###############     |  75% (231,780) 6.2 minPROGRESS> 20:51:29 |################    |  80% (247,232) 6.9 minPROGRESS> 20:52:18 |#################   |  85% (262,684) 7.8 minPROGRESS> 20:53:06 |##################  |  90% (278,136) 8.6 minPROGRESS> 20:53:55 |################### |  95% (293,588) 9.4 minPROGRESS> 20:54:43 |####################| 100% (309,036) 10.2 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 309036
+     PASS> 194569
+     FAIL> 114467
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 20:54:48 |                    |   0% (      0) 0.0 minPROGRESS> 20:54:59 |#                   |   5% (  7,500) 0.2 minPROGRESS> 20:55:12 |##                  |  10% ( 15,000) 0.4 minPROGRESS> 20:55:25 |###                 |  15% ( 22,500) 0.6 minPROGRESS> 20:55:39 |####                |  20% ( 30,000) 0.9 minPROGRESS> 20:55:54 |#####               |  25% ( 37,500) 1.1 minPROGRESS> 20:56:08 |######              |  30% ( 45,000) 1.3 minPROGRESS> 20:56:22 |#######             |  35% ( 52,500) 1.6 minPROGRESS> 20:56:38 |########            |  40% ( 60,000) 1.8 minPROGRESS> 20:56:54 |#########           |  45% ( 67,500) 2.1 minPROGRESS> 20:57:08 |##########          |  50% ( 75,000) 2.3 minPROGRESS> 20:57:23 |###########         |  55% ( 82,500) 2.6 minPROGRESS> 20:57:46 |############        |  60% ( 90,000) 3.0 minPROGRESS> 20:58:13 |#############       |  65% ( 97,500) 3.4 minPROGRESS> 20:58:39 |##############      |  70% (105,000) 3.9 minPROGRESS> 20:59:06 |###############     |  75% (112,500) 4.3 minPROGRESS> 20:59:33 |################    |  80% (120,000) 4.8 minPROGRESS> 21:00:00 |#################   |  85% (127,500) 5.2 minPROGRESS> 21:00:28 |##################  |  90% (135,000) 5.7 minPROGRESS> 21:00:55 |################### |  95% (142,500) 6.1 minPROGRESS> 21:01:22 |####################| 100% (149,993) 6.6 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 149993
+     PASS> 76970
+     FAIL> 73023
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:01:27 |                    |   0% (      0) 0.0 minPROGRESS> 21:01:39 |#                   |   5% ( 10,195) 0.2 minPROGRESS> 21:01:50 |##                  |  10% ( 20,390) 0.4 minPROGRESS> 21:02:02 |###                 |  15% ( 30,585) 0.6 minPROGRESS> 21:02:15 |####                |  20% ( 40,780) 0.8 minPROGRESS> 21:02:27 |#####               |  25% ( 50,975) 1.0 minPROGRESS> 21:02:40 |######              |  30% ( 61,170) 1.2 minPROGRESS> 21:02:54 |#######             |  35% ( 71,365) 1.4 minPROGRESS> 21:03:08 |########            |  40% ( 81,560) 1.7 minPROGRESS> 21:03:23 |#########           |  45% ( 91,755) 1.9 minPROGRESS> 21:03:39 |##########          |  50% (101,950) 2.2 minPROGRESS> 21:03:57 |###########         |  55% (112,145) 2.5 minPROGRESS> 21:04:15 |############        |  60% (122,340) 2.8 minPROGRESS> 21:04:34 |#############       |  65% (132,535) 3.1 minPROGRESS> 21:04:53 |##############      |  70% (142,730) 3.4 minPROGRESS> 21:05:19 |###############     |  75% (152,925) 3.9 minPROGRESS> 21:05:51 |################    |  80% (163,120) 4.4 minPROGRESS> 21:06:23 |#################   |  85% (173,315) 4.9 minPROGRESS> 21:06:57 |##################  |  90% (183,510) 5.5 minPROGRESS> 21:07:30 |################### |  95% (193,705) 6.0 minPROGRESS> 21:08:03 |####################| 100% (203,887) 6.6 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 203887
+     PASS> 134495
+     FAIL> 69392
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:08:09 |                    |   0% (      0) 0.0 minPROGRESS> 21:08:28 |#                   |   5% ( 11,609) 0.3 minPROGRESS> 21:08:48 |##                  |  10% ( 23,218) 0.7 minPROGRESS> 21:09:11 |###                 |  15% ( 34,827) 1.0 minPROGRESS> 21:09:36 |####                |  20% ( 46,436) 1.5 minPROGRESS> 21:10:02 |#####               |  25% ( 58,045) 1.9 minPROGRESS> 21:10:29 |######              |  30% ( 69,654) 2.3 minPROGRESS> 21:10:57 |#######             |  35% ( 81,263) 2.8 minPROGRESS> 21:11:25 |########            |  40% ( 92,872) 3.3 minPROGRESS> 21:11:53 |#########           |  45% (104,481) 3.7 minPROGRESS> 21:12:21 |##########          |  50% (116,090) 4.2 minPROGRESS> 21:12:49 |###########         |  55% (127,699) 4.7 minPROGRESS> 21:13:20 |############        |  60% (139,308) 5.2 minPROGRESS> 21:14:00 |#############       |  65% (150,917) 5.8 minPROGRESS> 21:14:39 |##############      |  70% (162,526) 6.5 minPROGRESS> 21:15:18 |###############     |  75% (174,135) 7.2 minPROGRESS> 21:15:56 |################    |  80% (185,744) 7.8 minPROGRESS> 21:16:36 |#################   |  85% (197,353) 8.4 minPROGRESS> 21:17:14 |##################  |  90% (208,962) 9.1 minPROGRESS> 21:17:53 |################### |  95% (220,571) 9.7 minPROGRESS> 21:18:30 |####################| 100% (232,166) 10.4 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 232166
+     PASS> 101476
+     FAIL> 130690
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:18:36 |                    |   0% (      0) 0.0 minPROGRESS> 21:18:51 |#                   |   5% ( 11,396) 0.2 minPROGRESS> 21:19:05 |##                  |  10% ( 22,792) 0.5 minPROGRESS> 21:19:20 |###                 |  15% ( 34,188) 0.7 minPROGRESS> 21:19:35 |####                |  20% ( 45,584) 1.0 minPROGRESS> 21:19:50 |#####               |  25% ( 56,980) 1.2 minPROGRESS> 21:20:06 |######              |  30% ( 68,376) 1.5 minPROGRESS> 21:20:22 |#######             |  35% ( 79,772) 1.8 minPROGRESS> 21:20:39 |########            |  40% ( 91,168) 2.0 minPROGRESS> 21:20:56 |#########           |  45% (102,564) 2.3 minPROGRESS> 21:21:15 |##########          |  50% (113,960) 2.6 minPROGRESS> 21:21:32 |###########         |  55% (125,356) 2.9 minPROGRESS> 21:21:51 |############        |  60% (136,752) 3.2 minPROGRESS> 21:22:10 |#############       |  65% (148,148) 3.6 minPROGRESS> 21:22:34 |##############      |  70% (159,544) 4.0 minPROGRESS> 21:23:12 |###############     |  75% (170,940) 4.6 minPROGRESS> 21:23:51 |################    |  80% (182,336) 5.2 minPROGRESS> 21:24:31 |#################   |  85% (193,732) 5.9 minPROGRESS> 21:25:13 |##################  |  90% (205,128) 6.6 minPROGRESS> 21:25:54 |################### |  95% (216,524) 7.3 minPROGRESS> 21:26:35 |####################| 100% (227,911) 8.0 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 227911
+     PASS> 146901
+     FAIL> 81010
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:26:41 |                    |   0% (      0) 0.0 minPROGRESS> 21:26:53 |#                   |   5% ( 11,599) 0.2 minPROGRESS> 21:27:06 |##                  |  10% ( 23,198) 0.4 minPROGRESS> 21:27:20 |###                 |  15% ( 34,797) 0.6 minPROGRESS> 21:27:33 |####                |  20% ( 46,396) 0.9 minPROGRESS> 21:27:48 |#####               |  25% ( 57,995) 1.1 minPROGRESS> 21:28:03 |######              |  30% ( 69,594) 1.4 minPROGRESS> 21:28:18 |#######             |  35% ( 81,193) 1.6 minPROGRESS> 21:28:35 |########            |  40% ( 92,792) 1.9 minPROGRESS> 21:28:52 |#########           |  45% (104,391) 2.2 minPROGRESS> 21:29:11 |##########          |  50% (115,990) 2.5 minPROGRESS> 21:29:30 |###########         |  55% (127,589) 2.8 minPROGRESS> 21:29:50 |############        |  60% (139,188) 3.2 minPROGRESS> 21:30:10 |#############       |  65% (150,787) 3.5 minPROGRESS> 21:30:30 |##############      |  70% (162,386) 3.8 minPROGRESS> 21:30:58 |###############     |  75% (173,985) 4.3 minPROGRESS> 21:31:26 |################    |  80% (185,584) 4.8 minPROGRESS> 21:31:54 |#################   |  85% (197,183) 5.2 minPROGRESS> 21:32:24 |##################  |  90% (208,782) 5.7 minPROGRESS> 21:32:53 |################### |  95% (220,381) 6.2 minPROGRESS> 21:33:22 |####################| 100% (231,974) 6.7 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 231974
+     PASS> 155101
+     FAIL> 76873
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:33:29 |                    |   0% (      0) 0.0 minPROGRESS> 21:33:45 |#                   |   5% ( 15,295) 0.3 minPROGRESS> 21:34:00 |##                  |  10% ( 30,590) 0.5 minPROGRESS> 21:34:17 |###                 |  15% ( 45,885) 0.8 minPROGRESS> 21:34:33 |####                |  20% ( 61,180) 1.1 minPROGRESS> 21:34:51 |#####               |  25% ( 76,475) 1.4 minPROGRESS> 21:35:09 |######              |  30% ( 91,770) 1.7 minPROGRESS> 21:35:28 |#######             |  35% (107,065) 2.0 minPROGRESS> 21:35:48 |########            |  40% (122,360) 2.3 minPROGRESS> 21:36:09 |#########           |  45% (137,655) 2.7 minPROGRESS> 21:36:32 |##########          |  50% (152,950) 3.1 minPROGRESS> 21:36:57 |###########         |  55% (168,245) 3.5 minPROGRESS> 21:37:23 |############        |  60% (183,540) 3.9 minPROGRESS> 21:37:51 |#############       |  65% (198,835) 4.4 minPROGRESS> 21:38:19 |##############      |  70% (214,130) 4.8 minPROGRESS> 21:38:55 |###############     |  75% (229,425) 5.4 minPROGRESS> 21:39:36 |################    |  80% (244,720) 6.1 minPROGRESS> 21:40:18 |#################   |  85% (260,015) 6.8 minPROGRESS> 21:41:01 |##################  |  90% (275,310) 7.5 minPROGRESS> 21:41:45 |################### |  95% (290,605) 8.3 minPROGRESS> 21:42:29 |####################| 100% (305,899) 9.0 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 305899
+     PASS> 205524
+     FAIL> 100375
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:42:35 |                    |   0% (      0) 0.0 minPROGRESS> 21:42:52 |#                   |   5% ( 13,030) 0.3 minPROGRESS> 21:43:11 |##                  |  10% ( 26,060) 0.6 minPROGRESS> 21:43:30 |###                 |  15% ( 39,090) 0.9 minPROGRESS> 21:43:50 |####                |  20% ( 52,120) 1.3 minPROGRESS> 21:44:11 |#####               |  25% ( 65,150) 1.6 minPROGRESS> 21:44:35 |######              |  30% ( 78,180) 2.0 minPROGRESS> 21:44:59 |#######             |  35% ( 91,210) 2.4 minPROGRESS> 21:45:25 |########            |  40% (104,240) 2.8 minPROGRESS> 21:45:53 |#########           |  45% (117,270) 3.3 minPROGRESS> 21:46:21 |##########          |  50% (130,300) 3.8 minPROGRESS> 21:46:48 |###########         |  55% (143,330) 4.2 minPROGRESS> 21:47:17 |############        |  60% (156,360) 4.7 minPROGRESS> 21:47:45 |#############       |  65% (169,390) 5.2 minPROGRESS> 21:48:25 |##############      |  70% (182,420) 5.8 minPROGRESS> 21:49:07 |###############     |  75% (195,450) 6.5 minPROGRESS> 21:49:48 |################    |  80% (208,480) 7.2 minPROGRESS> 21:50:31 |#################   |  85% (221,510) 7.9 minPROGRESS> 21:51:14 |##################  |  90% (234,540) 8.7 minPROGRESS> 21:51:56 |################### |  95% (247,570) 9.3 minPROGRESS> 21:52:38 |####################| 100% (260,587) 10.1 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 260587
+     PASS> 143846
+     FAIL> 116741
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 21:52:44 |                    |   0% (      0) 0.0 minPROGRESS> 21:53:04 |#                   |   5% ( 13,236) 0.3 minPROGRESS> 21:53:23 |##                  |  10% ( 26,472) 0.7 minPROGRESS> 21:53:44 |###                 |  15% ( 39,708) 1.0 minPROGRESS> 21:54:04 |####                |  20% ( 52,944) 1.3 minPROGRESS> 21:54:24 |#####               |  25% ( 66,180) 1.7 minPROGRESS> 21:54:46 |######              |  30% ( 79,416) 2.0 minPROGRESS> 21:55:08 |#######             |  35% ( 92,652) 2.4 minPROGRESS> 21:55:30 |########            |  40% (105,888) 2.8 minPROGRESS> 21:55:51 |#########           |  45% (119,124) 3.1 minPROGRESS> 21:56:14 |##########          |  50% (132,360) 3.5 minPROGRESS> 21:56:38 |###########         |  55% (145,596) 3.9 minPROGRESS> 21:57:00 |############        |  60% (158,832) 4.3 minPROGRESS> 21:57:23 |#############       |  65% (172,068) 4.6 minPROGRESS> 21:57:45 |##############      |  70% (185,304) 5.0 minPROGRESS> 21:58:26 |###############     |  75% (198,540) 5.7 minPROGRESS> 21:59:14 |################    |  80% (211,776) 6.5 minPROGRESS> 22:00:03 |#################   |  85% (225,012) 7.3 minPROGRESS> 22:00:51 |##################  |  90% (238,248) 8.1 minPROGRESS> 22:01:39 |################### |  95% (251,484) 8.9 minPROGRESS> 22:02:30 |####################| 100% (264,707) 9.8 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 264707
+     PASS> 167617
+     FAIL> 97090
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:02:36 |                    |   0% (      0) 0.0 minPROGRESS> 22:02:56 |#                   |   5% ( 12,227) 0.3 minPROGRESS> 22:03:18 |##                  |  10% ( 24,454) 0.7 minPROGRESS> 22:03:41 |###                 |  15% ( 36,681) 1.1 minPROGRESS> 22:04:05 |####                |  20% ( 48,908) 1.5 minPROGRESS> 22:04:29 |#####               |  25% ( 61,135) 1.9 minPROGRESS> 22:04:55 |######              |  30% ( 73,362) 2.3 minPROGRESS> 22:05:19 |#######             |  35% ( 85,589) 2.7 minPROGRESS> 22:05:44 |########            |  40% ( 97,816) 3.1 minPROGRESS> 22:06:08 |#########           |  45% (110,043) 3.5 minPROGRESS> 22:06:32 |##########          |  50% (122,270) 3.9 minPROGRESS> 22:06:56 |###########         |  55% (134,497) 4.3 minPROGRESS> 22:07:34 |############        |  60% (146,724) 5.0 minPROGRESS> 22:08:18 |#############       |  65% (158,951) 5.7 minPROGRESS> 22:09:02 |##############      |  70% (171,178) 6.4 minPROGRESS> 22:09:46 |###############     |  75% (183,405) 7.2 minPROGRESS> 22:10:29 |################    |  80% (195,632) 7.9 minPROGRESS> 22:11:13 |#################   |  85% (207,859) 8.6 minPROGRESS> 22:11:56 |##################  |  90% (220,086) 9.3 minPROGRESS> 22:12:39 |################### |  95% (232,313) 10.1 minPROGRESS> 22:13:22 |####################| 100% (244,522) 10.8 min
+
+   OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 244522
+     PASS> 134030
+     FAIL> 110492
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:13:28 |                    |   0% (      0) 0.0 minPROGRESS> 22:13:39 |#                   |   5% ( 11,591) 0.2 minPROGRESS> 22:13:50 |##                  |  10% ( 23,182) 0.4 minPROGRESS> 22:14:02 |###                 |  15% ( 34,773) 0.6 minPROGRESS> 22:14:14 |####                |  20% ( 46,364) 0.8 minPROGRESS> 22:14:26 |#####               |  25% ( 57,955) 1.0 minPROGRESS> 22:14:39 |######              |  30% ( 69,546) 1.2 minPROGRESS> 22:14:53 |#######             |  35% ( 81,137) 1.4 minPROGRESS> 22:15:06 |########            |  40% ( 92,728) 1.6 minPROGRESS> 22:15:21 |#########           |  45% (104,319) 1.9 minPROGRESS> 22:15:36 |##########          |  50% (115,910) 2.1 minPROGRESS> 22:15:52 |###########         |  55% (127,501) 2.4 minPROGRESS> 22:16:08 |############        |  60% (139,092) 2.7 minPROGRESS> 22:16:25 |#############       |  65% (150,683) 3.0 minPROGRESS> 22:16:43 |##############      |  70% (162,274) 3.3 minPROGRESS> 22:17:02 |###############     |  75% (173,865) 3.6 minPROGRESS> 22:17:36 |################    |  80% (185,456) 4.1 minPROGRESS> 22:18:11 |#################   |  85% (197,047) 4.7 minPROGRESS> 22:18:47 |##################  |  90% (208,638) 5.3 minPROGRESS> 22:19:24 |################### |  95% (220,229) 5.9 minPROGRESS> 22:20:00 |####################| 100% (231,815) 6.5 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 231815
+     PASS> 160666
+     FAIL> 71149
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:20:06 |                    |   0% (      0) 0.0 minPROGRESS> 22:20:28 |#                   |   5% ( 11,933) 0.4 minPROGRESS> 22:20:50 |##                  |  10% ( 23,866) 0.7 minPROGRESS> 22:21:14 |###                 |  15% ( 35,799) 1.1 minPROGRESS> 22:21:39 |####                |  20% ( 47,732) 1.5 minPROGRESS> 22:22:13 |#####               |  25% ( 59,665) 2.1 minPROGRESS> 22:22:39 |######              |  30% ( 71,598) 2.6 minPROGRESS> 22:23:06 |#######             |  35% ( 83,531) 3.0 minPROGRESS> 22:23:31 |########            |  40% ( 95,464) 3.4 minPROGRESS> 22:23:58 |#########           |  45% (107,397) 3.9 minPROGRESS> 22:24:23 |##########          |  50% (119,330) 4.3 minPROGRESS> 22:24:50 |###########         |  55% (131,263) 4.7 minPROGRESS> 22:25:22 |############        |  60% (143,196) 5.3 minPROGRESS> 22:26:01 |#############       |  65% (155,129) 5.9 minPROGRESS> 22:26:38 |##############      |  70% (167,062) 6.5 minPROGRESS> 22:27:16 |###############     |  75% (178,995) 7.2 minPROGRESS> 22:27:54 |################    |  80% (190,928) 7.8 minPROGRESS> 22:28:34 |#################   |  85% (202,861) 8.5 minPROGRESS> 22:29:13 |##################  |  90% (214,794) 9.1 minPROGRESS> 22:29:50 |################### |  95% (226,727) 9.7 minPROGRESS> 22:30:27 |####################| 100% (238,656) 10.4 min
+
+   OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 238656
+     PASS> 108401
+     FAIL> 130255
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:30:34 |                    |   0% (      0) 0.0 minPROGRESS> 22:30:43 |#                   |   5% ( 10,609) 0.2 minPROGRESS> 22:30:54 |##                  |  10% ( 21,218) 0.3 minPROGRESS> 22:31:05 |###                 |  15% ( 31,827) 0.5 minPROGRESS> 22:31:15 |####                |  20% ( 42,436) 0.7 minPROGRESS> 22:31:26 |#####               |  25% ( 53,045) 0.9 minPROGRESS> 22:31:37 |######              |  30% ( 63,654) 1.1 minPROGRESS> 22:31:48 |#######             |  35% ( 74,263) 1.2 minPROGRESS> 22:32:00 |########            |  40% ( 84,872) 1.4 minPROGRESS> 22:32:12 |#########           |  45% ( 95,481) 1.6 minPROGRESS> 22:32:24 |##########          |  50% (106,090) 1.8 minPROGRESS> 22:32:38 |###########         |  55% (116,699) 2.1 minPROGRESS> 22:32:51 |############        |  60% (127,308) 2.3 minPROGRESS> 22:33:05 |#############       |  65% (137,917) 2.5 minPROGRESS> 22:33:20 |##############      |  70% (148,526) 2.8 minPROGRESS> 22:33:34 |###############     |  75% (159,135) 3.0 minPROGRESS> 22:33:59 |################    |  80% (169,744) 3.4 minPROGRESS> 22:34:25 |#################   |  85% (180,353) 3.9 minPROGRESS> 22:34:51 |##################  |  90% (190,962) 4.3 minPROGRESS> 22:35:19 |################### |  95% (201,571) 4.7 minPROGRESS> 22:35:46 |####################| 100% (212,180) 5.2 min
+
+   OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 212180
+     PASS> 155285
+     FAIL> 56895
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:35:52 |                    |   0% (      0) 0.0 minPROGRESS> 22:36:08 |#                   |   5% ( 11,687) 0.3 minPROGRESS> 22:36:24 |##                  |  10% ( 23,374) 0.5 minPROGRESS> 22:36:42 |###                 |  15% ( 35,061) 0.8 minPROGRESS> 22:37:00 |####                |  20% ( 46,748) 1.1 minPROGRESS> 22:37:19 |#####               |  25% ( 58,435) 1.5 minPROGRESS> 22:37:39 |######              |  30% ( 70,122) 1.8 minPROGRESS> 22:38:01 |#######             |  35% ( 81,809) 2.1 minPROGRESS> 22:38:22 |########            |  40% ( 93,496) 2.5 minPROGRESS> 22:38:43 |#########           |  45% (105,183) 2.9 minPROGRESS> 22:39:06 |##########          |  50% (116,870) 3.2 minPROGRESS> 22:39:29 |###########         |  55% (128,557) 3.6 minPROGRESS> 22:39:52 |############        |  60% (140,244) 4.0 minPROGRESS> 22:40:15 |#############       |  65% (151,931) 4.4 minPROGRESS> 22:40:52 |##############      |  70% (163,618) 5.0 minPROGRESS> 22:41:32 |###############     |  75% (175,305) 5.7 minPROGRESS> 22:42:14 |################    |  80% (186,992) 6.4 minPROGRESS> 22:42:55 |#################   |  85% (198,679) 7.0 minPROGRESS> 22:43:37 |##################  |  90% (210,366) 7.8 minPROGRESS> 22:44:19 |################### |  95% (222,053) 8.5 minPROGRESS> 22:45:01 |####################| 100% (233,740) 9.2 min
+
+   OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 233740
+     PASS> 136723
+     FAIL> 97017
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PRIMER_FILE> presto_PCR1_ISOTYPES.fasta
+        MODE> tag
+   MAX_ERROR> 0.3
+     MAX_LEN> 110
+  REV_PRIMER> True
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> ISOTYPE
+       NPROC> 60
+
+PROGRESS> 22:45:08 |                    |   0% (      0) 0.0 minPROGRESS> 22:45:25 |#                   |   5% ( 15,361) 0.3 minPROGRESS> 22:45:43 |##                  |  10% ( 30,722) 0.6 minPROGRESS> 22:46:01 |###                 |  15% ( 46,083) 0.9 minPROGRESS> 22:46:19 |####                |  20% ( 61,444) 1.2 minPROGRESS> 22:46:38 |#####               |  25% ( 76,805) 1.5 minPROGRESS> 22:46:57 |######              |  30% ( 92,166) 1.8 minPROGRESS> 22:47:18 |#######             |  35% (107,527) 2.2 minPROGRESS> 22:47:40 |########            |  40% (122,888) 2.5 minPROGRESS> 22:48:03 |#########           |  45% (138,249) 2.9 minPROGRESS> 22:48:27 |##########          |  50% (153,610) 3.3 minPROGRESS> 22:48:53 |###########         |  55% (168,971) 3.8 minPROGRESS> 22:49:19 |############        |  60% (184,332) 4.2 minPROGRESS> 22:49:48 |#############       |  65% (199,693) 4.7 minPROGRESS> 22:50:17 |##############      |  70% (215,054) 5.2 minPROGRESS> 22:50:57 |###############     |  75% (230,415) 5.8 minPROGRESS> 22:51:42 |################    |  80% (245,776) 6.6 minPROGRESS> 22:52:27 |#################   |  85% (261,137) 7.3 minPROGRESS> 22:53:13 |##################  |  90% (276,498) 8.1 minPROGRESS> 22:54:01 |################### |  95% (291,859) 8.9 minPROGRESS> 22:54:48 |####################| 100% (307,205) 9.7 min
+
+   OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+SEQUENCES> 307205
+     PASS> 199716
+     FAIL> 107489
+      END> MaskPrimers
+

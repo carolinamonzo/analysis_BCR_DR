@@ -1,0 +1,110 @@
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> mpg_L19244_S1_S1_R2_001_quality-pass.fastq
+ PRIMER_FILE> presto_PCR2_BC.fasta
+        MODE> cut
+   MAX_ERROR> 0.2
+     MAX_LEN> 50
+  REV_PRIMER> False
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> PRIMER
+       NPROC> 60
+
+PROGRESS> 12:33:26 |                    |   0% (          0) 0.0 minPROGRESS> 13:28:30 |#                   |   5% (  5,243,665) 55.1 minPROGRESS> 14:28:47 |##                  |  10% ( 10,487,330) 115.3 minPROGRESS> 15:22:01 |###                 |  15% ( 15,730,995) 168.6 minPROGRESS> 16:18:02 |####                |  20% ( 20,974,660) 224.6 minPROGRESS> 17:33:34 |#####               |  25% ( 26,218,325) 300.1 minPROGRESS> 18:27:43 |######              |  30% ( 31,461,990) 354.3 minPROGRESS> 19:20:20 |#######             |  35% ( 36,705,655) 406.9 minPROGRESS> 20:11:38 |########            |  40% ( 41,949,320) 458.2 minPROGRESS> 21:02:59 |#########           |  45% ( 47,192,985) 509.5 minPROGRESS> 21:59:17 |##########          |  50% ( 52,436,650) 565.8 minPROGRESS> 23:08:22 |###########         |  55% ( 57,680,315) 634.9 minPROGRESS> 00:18:20 |############        |  60% ( 62,923,980) 704.9 minPROGRESS> 01:10:22 |#############       |  65% ( 68,167,645) 756.9 minPROGRESS> 02:02:23 |##############      |  70% ( 73,411,310) 808.9 minPROGRESS> 03:07:02 |###############     |  75% ( 78,654,975) 873.6 minPROGRESS> 04:05:11 |################    |  80% ( 83,898,640) 931.7 minPROGRESS> 05:06:33 |#################   |  85% ( 89,142,305) 993.1 minPROGRESS> 06:02:43 |##################  |  90% ( 94,385,970) 1049.3 minPROGRESS> 07:09:42 |################### |  95% ( 99,629,635) 1116.3 minPROGRESS> 08:11:27 |####################| 100% (104,873,293) 1178.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R2_001_quality-pass_primers-pass.fastq
+SEQUENCES> 104873293
+     PASS> 103181770
+     FAIL> 1691523
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> mpg_L19245_S2_S2_R2_001_quality-pass.fastq
+ PRIMER_FILE> presto_PCR2_BC.fasta
+        MODE> cut
+   MAX_ERROR> 0.2
+     MAX_LEN> 50
+  REV_PRIMER> False
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> PRIMER
+       NPROC> 60
+
+PROGRESS> 08:21:54 |                    |   0% (         0) 0.0 minPROGRESS> 09:05:01 |#                   |   5% ( 4,479,601) 43.1 minPROGRESS> 09:50:47 |##                  |  10% ( 8,959,202) 88.9 minPROGRESS> 10:35:40 |###                 |  15% (13,438,803) 133.8 minPROGRESS> 11:20:45 |####                |  20% (17,918,404) 178.9 minPROGRESS> 12:23:08 |#####               |  25% (22,398,005) 241.2 minPROGRESS> 13:06:56 |######              |  30% (26,877,606) 285.0 minPROGRESS> 13:48:32 |#######             |  35% (31,357,207) 326.6 minPROGRESS> 14:29:57 |########            |  40% (35,836,808) 368.0 minPROGRESS> 15:11:30 |#########           |  45% (40,316,409) 409.6 minPROGRESS> 15:57:30 |##########          |  50% (44,796,010) 455.6 minPROGRESS> 16:53:01 |###########         |  55% (49,275,611) 511.1 minPROGRESS> 17:44:20 |############        |  60% (53,755,212) 562.4 minPROGRESS> 18:26:27 |#############       |  65% (58,234,813) 604.5 minPROGRESS> 19:08:58 |##############      |  70% (62,714,414) 647.1 minPROGRESS> 20:01:34 |###############     |  75% (67,194,015) 699.7 minPROGRESS> 20:45:17 |################    |  80% (71,673,616) 743.4 minPROGRESS> 21:29:58 |#################   |  85% (76,153,217) 788.1 minPROGRESS> 22:13:10 |##################  |  90% (80,632,818) 831.3 minPROGRESS> 23:05:56 |################### |  95% (85,112,419) 884.0 minPROGRESS> 23:53:18 |####################| 100% (89,592,001) 931.4 min
+
+   OUTPUT> mpg_L19245_S2_S2_R2_001_quality-pass_primers-pass.fastq
+SEQUENCES> 89592001
+     PASS> 88244625
+     FAIL> 1347376
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> mpg_L19246_S3_S3_R2_001_quality-pass.fastq
+ PRIMER_FILE> presto_PCR2_BC.fasta
+        MODE> cut
+   MAX_ERROR> 0.2
+     MAX_LEN> 50
+  REV_PRIMER> False
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> PRIMER
+       NPROC> 60
+
+PROGRESS> 00:06:10 |                    |   0% (          0) 0.0 minPROGRESS> 01:08:12 |#                   |   5% (  5,485,700) 62.0 minPROGRESS> 02:15:55 |##                  |  10% ( 10,971,400) 129.7 minPROGRESS> 03:13:48 |###                 |  15% ( 16,457,100) 187.6 minPROGRESS> 04:13:24 |####                |  20% ( 21,942,800) 247.2 minPROGRESS> 05:33:16 |#####               |  25% ( 27,428,500) 327.1 minPROGRESS> 06:31:13 |######              |  30% ( 32,914,200) 385.1 minPROGRESS> 07:27:54 |#######             |  35% ( 38,399,900) 441.7 minPROGRESS> 08:22:11 |########            |  40% ( 43,885,600) 496.0 minPROGRESS> 09:17:10 |#########           |  45% ( 49,371,300) 551.0 minPROGRESS> 10:16:51 |##########          |  50% ( 54,857,000) 610.7 minPROGRESS> 11:32:14 |###########         |  55% ( 60,342,700) 686.1 minPROGRESS> 12:50:44 |############        |  60% ( 65,828,400) 764.6 minPROGRESS> 13:46:44 |#############       |  65% ( 71,314,100) 820.6 minPROGRESS> 14:42:05 |##############      |  70% ( 76,799,800) 875.9 minPROGRESS> 15:51:24 |###############     |  75% ( 82,285,500) 945.2 minPROGRESS> 16:56:13 |################    |  80% ( 87,771,200) 1010.1 minPROGRESS> 18:04:27 |#################   |  85% ( 93,256,900) 1078.3 minPROGRESS> 19:04:40 |##################  |  90% ( 98,742,600) 1138.5 minPROGRESS> 20:15:37 |################### |  95% (104,228,300) 1209.4 minPROGRESS> 21:20:57 |####################| 100% (109,713,988) 1274.8 min
+
+   OUTPUT> mpg_L19246_S3_S3_R2_001_quality-pass_primers-pass.fastq
+SEQUENCES> 109713988
+     PASS> 107744441
+     FAIL> 1969547
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> mpg_L19247_S4_S4_R2_001_quality-pass.fastq
+ PRIMER_FILE> presto_PCR2_BC.fasta
+        MODE> cut
+   MAX_ERROR> 0.2
+     MAX_LEN> 50
+  REV_PRIMER> False
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> PRIMER
+       NPROC> 60
+
+PROGRESS> 21:35:49 |                    |   0% (          0) 0.0 minPROGRESS> 22:48:12 |#                   |   5% (  6,554,125) 72.4 minPROGRESS> 00:07:19 |##                  |  10% ( 13,108,250) 151.5 minPROGRESS> 01:13:36 |###                 |  15% ( 19,662,375) 217.8 minPROGRESS> 02:21:23 |####                |  20% ( 26,216,500) 285.6 minPROGRESS> 03:54:34 |#####               |  25% ( 32,770,625) 378.7 minPROGRESS> 05:00:40 |######              |  30% ( 39,324,750) 444.8 minPROGRESS> 06:06:04 |#######             |  35% ( 45,878,875) 510.2 minPROGRESS> 07:08:03 |########            |  40% ( 52,433,000) 572.2 minPROGRESS> 08:11:04 |#########           |  45% ( 58,987,125) 635.2 minPROGRESS> 09:21:32 |##########          |  50% ( 65,541,250) 705.7 minPROGRESS> 10:49:34 |###########         |  55% ( 72,095,375) 793.8 minPROGRESS> 12:23:32 |############        |  60% ( 78,649,500) 887.7 minPROGRESS> 13:28:45 |#############       |  65% ( 85,203,625) 952.9 minPROGRESS> 14:33:11 |##############      |  70% ( 91,757,750) 1017.4 minPROGRESS> 15:53:21 |###############     |  75% ( 98,311,875) 1097.5 minPROGRESS> 17:09:27 |################    |  80% (104,866,000) 1173.6 minPROGRESS> 18:28:53 |#################   |  85% (111,420,125) 1253.1 minPROGRESS> 19:38:08 |##################  |  90% (117,974,250) 1322.3 minPROGRESS> 21:00:22 |################### |  95% (124,528,375) 1404.5 minPROGRESS> 22:16:11 |####################| 100% (131,082,495) 1480.4 min
+
+   OUTPUT> mpg_L19247_S4_S4_R2_001_quality-pass_primers-pass.fastq
+SEQUENCES> 131082495
+     PASS> 128975046
+     FAIL> 2107449
+      END> MaskPrimers
+
+       START> MaskPrimers
+     COMMAND> align
+    SEQ_FILE> mpg_L19248_S5_S5_R2_001_quality-pass.fastq
+ PRIMER_FILE> presto_PCR2_BC.fasta
+        MODE> cut
+   MAX_ERROR> 0.2
+     MAX_LEN> 50
+  REV_PRIMER> False
+     SKIP_RC> False
+ GAP_PENALTY> 1, 1
+     BARCODE> False
+PRIMER_FIELD> PRIMER
+       NPROC> 60
+
+PROGRESS> 22:29:44 |                    |   0% (          0) 0.0 minPROGRESS> 23:24:04 |#                   |   5% (  5,000,229) 54.3 minPROGRESS> 00:22:30 |##                  |  10% ( 10,000,458) 112.8 minPROGRESS> 01:12:34 |###                 |  15% ( 15,000,687) 162.8 minPROGRESS> 02:04:49 |####                |  20% ( 20,000,916) 215.1 minPROGRESS> 03:15:44 |#####               |  25% ( 25,001,145) 286.0 minPROGRESS> 04:06:01 |######              |  30% ( 30,001,374) 336.3 minPROGRESS> 04:55:46 |#######             |  35% ( 35,001,603) 386.0 minPROGRESS> 05:43:39 |########            |  40% ( 40,001,832) 433.9 minPROGRESS> 06:32:03 |#########           |  45% ( 45,002,061) 482.3 minPROGRESS> 07:22:14 |##########          |  50% ( 50,002,290) 532.5 minPROGRESS> 08:28:29 |###########         |  55% ( 55,002,519) 598.8 minPROGRESS> 09:36:46 |############        |  60% ( 60,002,748) 667.0 minPROGRESS> 10:25:36 |#############       |  65% ( 65,002,977) 715.9 minPROGRESS> 11:14:03 |##############      |  70% ( 70,003,206) 764.3 minPROGRESS> 12:14:19 |###############     |  75% ( 75,003,435) 824.6 minPROGRESS> 13:10:58 |################    |  80% ( 80,003,664) 881.2 minPROGRESS> 14:09:42 |#################   |  85% ( 85,003,893) 940.0 minPROGRESS> 15:02:27 |##################  |  90% ( 90,004,122) 992.7 minPROGRESS> 16:04:19 |################### |  95% ( 95,004,351) 1054.6 minPROGRESS> 17:02:04 |####################| 100% (100,004,566) 1112.3 min
+
+   OUTPUT> mpg_L19248_S5_S5_R2_001_quality-pass_primers-pass.fastq
+SEQUENCES> 100004566
+     PASS> 98316916
+     FAIL> 1687650
+      END> MaskPrimers
+

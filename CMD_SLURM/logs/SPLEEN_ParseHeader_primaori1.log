@@ -1,0 +1,1200 @@
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:09:36 |                    |   0% (     0) 0.0 minPROGRESS> 18:09:37 |#                   |   5% (   664) 0.0 minPROGRESS> 18:09:39 |##                  |  10% ( 1,328) 0.0 minPROGRESS> 18:09:40 |###                 |  15% ( 1,992) 0.1 minPROGRESS> 18:09:41 |####                |  20% ( 2,656) 0.1 minPROGRESS> 18:09:43 |#####               |  25% ( 3,320) 0.1 minPROGRESS> 18:09:44 |######              |  30% ( 3,984) 0.1 minPROGRESS> 18:09:45 |#######             |  35% ( 4,648) 0.2 minPROGRESS> 18:09:47 |########            |  40% ( 5,312) 0.2 minPROGRESS> 18:09:48 |#########           |  45% ( 5,976) 0.2 minPROGRESS> 18:09:50 |##########          |  50% ( 6,640) 0.2 minPROGRESS> 18:09:51 |###########         |  55% ( 7,304) 0.2 minPROGRESS> 18:09:52 |############        |  60% ( 7,968) 0.3 minPROGRESS> 18:09:54 |#############       |  65% ( 8,632) 0.3 minPROGRESS> 18:09:55 |##############      |  70% ( 9,296) 0.3 minPROGRESS> 18:09:56 |###############     |  75% ( 9,960) 0.3 minPROGRESS> 18:09:57 |################    |  80% (10,624) 0.4 minPROGRESS> 18:09:59 |#################   |  85% (11,288) 0.4 minPROGRESS> 18:10:00 |##################  |  90% (11,952) 0.4 minPROGRESS> 18:10:02 |################### |  95% (12,616) 0.4 minPROGRESS> 18:10:03 |####################| 100% (13,279) 0.4 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S7_R1_reheader.fastq
+SEQUENCES> 13279
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:15:58 |                    |   0% (        0) 0.0 minPROGRESS> 18:22:16 |#                   |   5% (  190,057) 6.3 minPROGRESS> 18:28:31 |##                  |  10% (  380,114) 12.6 minPROGRESS> 18:34:46 |###                 |  15% (  570,171) 18.8 minPROGRESS> 18:41:00 |####                |  20% (  760,228) 25.0 minPROGRESS> 18:47:15 |#####               |  25% (  950,285) 31.3 minPROGRESS> 18:53:29 |######              |  30% (1,140,342) 37.5 minPROGRESS> 18:59:44 |#######             |  35% (1,330,399) 43.8 minPROGRESS> 19:05:59 |########            |  40% (1,520,456) 50.0 minPROGRESS> 19:12:14 |#########           |  45% (1,710,513) 56.3 minPROGRESS> 19:18:29 |##########          |  50% (1,900,570) 62.5 minPROGRESS> 19:24:45 |###########         |  55% (2,090,627) 68.8 minPROGRESS> 19:31:00 |############        |  60% (2,280,684) 75.0 minPROGRESS> 19:37:15 |#############       |  65% (2,470,741) 81.3 minPROGRESS> 19:43:31 |##############      |  70% (2,660,798) 87.5 minPROGRESS> 19:49:46 |###############     |  75% (2,850,855) 93.8 minPROGRESS> 19:56:01 |################    |  80% (3,040,912) 100.1 minPROGRESS> 20:02:16 |#################   |  85% (3,230,969) 106.3 minPROGRESS> 20:08:31 |##################  |  90% (3,421,026) 112.5 minPROGRESS> 20:14:45 |################### |  95% (3,611,083) 118.8 minPROGRESS> 20:21:01 |####################| 100% (3,801,121) 125.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S7_R1_reheader.fastq
+SEQUENCES> 3801121
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:16:29 |                    |   0% (        0) 0.0 minPROGRESS> 18:23:08 |#                   |   5% (  201,111) 6.7 minPROGRESS> 18:29:47 |##                  |  10% (  402,222) 13.3 minPROGRESS> 18:36:26 |###                 |  15% (  603,333) 20.0 minPROGRESS> 18:43:05 |####                |  20% (  804,444) 26.6 minPROGRESS> 18:49:43 |#####               |  25% (1,005,555) 33.2 minPROGRESS> 18:56:22 |######              |  30% (1,206,666) 39.9 minPROGRESS> 19:03:01 |#######             |  35% (1,407,777) 46.5 minPROGRESS> 19:09:40 |########            |  40% (1,608,888) 53.2 minPROGRESS> 19:16:19 |#########           |  45% (1,809,999) 59.8 minPROGRESS> 19:22:57 |##########          |  50% (2,011,110) 66.5 minPROGRESS> 19:29:36 |###########         |  55% (2,212,221) 73.1 minPROGRESS> 19:36:15 |############        |  60% (2,413,332) 79.8 minPROGRESS> 19:42:54 |#############       |  65% (2,614,443) 86.4 minPROGRESS> 19:49:33 |##############      |  70% (2,815,554) 93.1 minPROGRESS> 19:56:12 |###############     |  75% (3,016,665) 99.7 minPROGRESS> 20:02:51 |################    |  80% (3,217,776) 106.4 minPROGRESS> 20:09:30 |#################   |  85% (3,418,887) 113.0 minPROGRESS> 20:16:09 |##################  |  90% (3,619,998) 119.7 minPROGRESS> 20:22:48 |################### |  95% (3,821,109) 126.3 minPROGRESS> 20:29:27 |####################| 100% (4,022,218) 133.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S5_R1_reheader.fastq
+SEQUENCES> 4022218
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:16:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:23:41 |#                   |   5% (  212,048) 7.0 minPROGRESS> 18:30:39 |##                  |  10% (  424,096) 13.9 minPROGRESS> 18:37:36 |###                 |  15% (  636,144) 20.9 minPROGRESS> 18:44:33 |####                |  20% (  848,192) 27.8 minPROGRESS> 18:51:31 |#####               |  25% (1,060,240) 34.8 minPROGRESS> 18:58:29 |######              |  30% (1,272,288) 41.8 minPROGRESS> 19:05:27 |#######             |  35% (1,484,336) 48.7 minPROGRESS> 19:12:25 |########            |  40% (1,696,384) 55.7 minPROGRESS> 19:19:22 |#########           |  45% (1,908,432) 62.7 minPROGRESS> 19:26:20 |##########          |  50% (2,120,480) 69.6 minPROGRESS> 19:33:18 |###########         |  55% (2,332,528) 76.6 minPROGRESS> 19:40:16 |############        |  60% (2,544,576) 83.6 minPROGRESS> 19:47:13 |#############       |  65% (2,756,624) 90.5 minPROGRESS> 19:54:10 |##############      |  70% (2,968,672) 97.5 minPROGRESS> 20:01:08 |###############     |  75% (3,180,720) 104.4 minPROGRESS> 20:08:06 |################    |  80% (3,392,768) 111.4 minPROGRESS> 20:15:04 |#################   |  85% (3,604,816) 118.4 minPROGRESS> 20:22:02 |##################  |  90% (3,816,864) 125.3 minPROGRESS> 20:28:59 |################### |  95% (4,028,912) 132.3 minPROGRESS> 20:35:57 |####################| 100% (4,240,955) 139.2 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S8_R1_reheader.fastq
+SEQUENCES> 4240955
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:16:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:23:42 |#                   |   5% (  212,551) 7.0 minPROGRESS> 18:30:40 |##                  |  10% (  425,102) 14.0 minPROGRESS> 18:37:37 |###                 |  15% (  637,653) 20.9 minPROGRESS> 18:44:34 |####                |  20% (  850,204) 27.9 minPROGRESS> 18:51:31 |#####               |  25% (1,062,755) 34.8 minPROGRESS> 18:58:29 |######              |  30% (1,275,306) 41.8 minPROGRESS> 19:05:27 |#######             |  35% (1,487,857) 48.7 minPROGRESS> 19:12:24 |########            |  40% (1,700,408) 55.7 minPROGRESS> 19:19:22 |#########           |  45% (1,912,959) 62.7 minPROGRESS> 19:26:21 |##########          |  50% (2,125,510) 69.6 minPROGRESS> 19:33:19 |###########         |  55% (2,338,061) 76.6 minPROGRESS> 19:40:17 |############        |  60% (2,550,612) 83.6 minPROGRESS> 19:47:15 |#############       |  65% (2,763,163) 90.5 minPROGRESS> 19:54:13 |##############      |  70% (2,975,714) 97.5 minPROGRESS> 20:01:10 |###############     |  75% (3,188,265) 104.5 minPROGRESS> 20:08:09 |################    |  80% (3,400,816) 111.4 minPROGRESS> 20:15:07 |#################   |  85% (3,613,367) 118.4 minPROGRESS> 20:22:05 |##################  |  90% (3,825,918) 125.4 minPROGRESS> 20:29:03 |################### |  95% (4,038,469) 132.3 minPROGRESS> 20:36:01 |####################| 100% (4,251,016) 139.3 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S5_R1_reheader.fastq
+SEQUENCES> 4251016
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:16:49 |                    |   0% (        0) 0.0 minPROGRESS> 18:23:51 |#                   |   5% (  212,938) 7.0 minPROGRESS> 18:30:52 |##                  |  10% (  425,876) 14.0 minPROGRESS> 18:37:52 |###                 |  15% (  638,814) 21.1 minPROGRESS> 18:44:53 |####                |  20% (  851,752) 28.1 minPROGRESS> 18:51:53 |#####               |  25% (1,064,690) 35.1 minPROGRESS> 18:58:55 |######              |  30% (1,277,628) 42.1 minPROGRESS> 19:05:56 |#######             |  35% (1,490,566) 49.1 minPROGRESS> 19:12:56 |########            |  40% (1,703,504) 56.1 minPROGRESS> 19:19:56 |#########           |  45% (1,916,442) 63.1 minPROGRESS> 19:26:57 |##########          |  50% (2,129,380) 70.1 minPROGRESS> 19:33:58 |###########         |  55% (2,342,318) 77.1 minPROGRESS> 19:40:59 |############        |  60% (2,555,256) 84.2 minPROGRESS> 19:47:59 |#############       |  65% (2,768,194) 91.2 minPROGRESS> 19:55:00 |##############      |  70% (2,981,132) 98.2 minPROGRESS> 20:01:59 |###############     |  75% (3,194,070) 105.2 minPROGRESS> 20:09:00 |################    |  80% (3,407,008) 112.2 minPROGRESS> 20:16:00 |#################   |  85% (3,619,946) 119.2 minPROGRESS> 20:23:00 |##################  |  90% (3,832,884) 126.2 minPROGRESS> 20:30:01 |################### |  95% (4,045,822) 133.2 minPROGRESS> 20:37:01 |####################| 100% (4,258,741) 140.2 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S4_R1_reheader.fastq
+SEQUENCES> 4258741
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:17:02 |                    |   0% (        0) 0.0 minPROGRESS> 18:24:14 |#                   |   5% (  218,135) 7.2 minPROGRESS> 18:31:25 |##                  |  10% (  436,270) 14.4 minPROGRESS> 18:38:36 |###                 |  15% (  654,405) 21.6 minPROGRESS> 18:45:46 |####                |  20% (  872,540) 28.7 minPROGRESS> 18:52:57 |#####               |  25% (1,090,675) 35.9 minPROGRESS> 19:00:08 |######              |  30% (1,308,810) 43.1 minPROGRESS> 19:07:18 |#######             |  35% (1,526,945) 50.3 minPROGRESS> 19:14:28 |########            |  40% (1,745,080) 57.5 minPROGRESS> 19:21:38 |#########           |  45% (1,963,215) 64.6 minPROGRESS> 19:28:49 |##########          |  50% (2,181,350) 71.8 minPROGRESS> 19:36:00 |###########         |  55% (2,399,485) 79.0 minPROGRESS> 19:43:11 |############        |  60% (2,617,620) 86.2 minPROGRESS> 19:50:21 |#############       |  65% (2,835,755) 93.3 minPROGRESS> 19:57:32 |##############      |  70% (3,053,890) 100.5 minPROGRESS> 20:04:43 |###############     |  75% (3,272,025) 107.7 minPROGRESS> 20:11:54 |################    |  80% (3,490,160) 114.9 minPROGRESS> 20:19:05 |#################   |  85% (3,708,295) 122.1 minPROGRESS> 20:26:16 |##################  |  90% (3,926,430) 129.2 minPROGRESS> 20:33:26 |################### |  95% (4,144,565) 136.4 minPROGRESS> 20:40:38 |####################| 100% (4,362,698) 143.6 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S6_R1_reheader.fastq
+SEQUENCES> 4362698
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:17:26 |                    |   0% (        0) 0.0 minPROGRESS> 18:25:03 |#                   |   5% (  230,670) 7.6 minPROGRESS> 18:32:40 |##                  |  10% (  461,340) 15.2 minPROGRESS> 18:40:15 |###                 |  15% (  692,010) 22.8 minPROGRESS> 18:47:51 |####                |  20% (  922,680) 30.4 minPROGRESS> 18:55:26 |#####               |  25% (1,153,350) 38.0 minPROGRESS> 19:03:02 |######              |  30% (1,384,020) 45.6 minPROGRESS> 19:10:38 |#######             |  35% (1,614,690) 53.2 minPROGRESS> 19:18:13 |########            |  40% (1,845,360) 60.8 minPROGRESS> 19:25:48 |#########           |  45% (2,076,030) 68.4 minPROGRESS> 19:33:23 |##########          |  50% (2,306,700) 75.9 minPROGRESS> 19:40:59 |###########         |  55% (2,537,370) 83.5 minPROGRESS> 19:48:35 |############        |  60% (2,768,040) 91.1 minPROGRESS> 19:56:10 |#############       |  65% (2,998,710) 98.7 minPROGRESS> 20:03:46 |##############      |  70% (3,229,380) 106.3 minPROGRESS> 20:11:22 |###############     |  75% (3,460,050) 113.9 minPROGRESS> 20:18:58 |################    |  80% (3,690,720) 121.5 minPROGRESS> 20:26:34 |#################   |  85% (3,921,390) 129.1 minPROGRESS> 20:34:10 |##################  |  90% (4,152,060) 136.7 minPROGRESS> 20:41:46 |################### |  95% (4,382,730) 144.3 minPROGRESS> 20:49:23 |####################| 100% (4,613,397) 151.9 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S3_R1_reheader.fastq
+SEQUENCES> 4613397
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:17:07 |                    |   0% (        0) 0.0 minPROGRESS> 18:24:48 |#                   |   5% (  233,173) 7.7 minPROGRESS> 18:32:28 |##                  |  10% (  466,346) 15.3 minPROGRESS> 18:40:07 |###                 |  15% (  699,519) 23.0 minPROGRESS> 18:47:47 |####                |  20% (  932,692) 30.7 minPROGRESS> 18:55:26 |#####               |  25% (1,165,865) 38.3 minPROGRESS> 19:03:06 |######              |  30% (1,399,038) 46.0 minPROGRESS> 19:10:46 |#######             |  35% (1,632,211) 53.6 minPROGRESS> 19:18:25 |########            |  40% (1,865,384) 61.3 minPROGRESS> 19:26:05 |#########           |  45% (2,098,557) 69.0 minPROGRESS> 19:33:45 |##########          |  50% (2,331,730) 76.6 minPROGRESS> 19:41:24 |###########         |  55% (2,564,903) 84.3 minPROGRESS> 19:49:05 |############        |  60% (2,798,076) 92.0 minPROGRESS> 19:56:44 |#############       |  65% (3,031,249) 99.6 minPROGRESS> 20:04:24 |##############      |  70% (3,264,422) 107.3 minPROGRESS> 20:12:04 |###############     |  75% (3,497,595) 114.9 minPROGRESS> 20:19:44 |################    |  80% (3,730,768) 122.6 minPROGRESS> 20:27:24 |#################   |  85% (3,963,941) 130.3 minPROGRESS> 20:35:03 |##################  |  90% (4,197,114) 137.9 minPROGRESS> 20:42:43 |################### |  95% (4,430,287) 145.6 minPROGRESS> 20:50:22 |####################| 100% (4,663,452) 153.3 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S9_R1_reheader.fastq
+SEQUENCES> 4663452
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:17:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:25:41 |#                   |   5% (  240,490) 8.0 minPROGRESS> 18:33:39 |##                  |  10% (  480,980) 15.9 minPROGRESS> 18:41:35 |###                 |  15% (  721,470) 23.9 minPROGRESS> 18:49:31 |####                |  20% (  961,960) 31.8 minPROGRESS> 18:57:28 |#####               |  25% (1,202,450) 39.8 minPROGRESS> 19:05:24 |######              |  30% (1,442,940) 47.7 minPROGRESS> 19:13:21 |#######             |  35% (1,683,430) 55.6 minPROGRESS> 19:21:17 |########            |  40% (1,923,920) 63.6 minPROGRESS> 19:29:14 |#########           |  45% (2,164,410) 71.5 minPROGRESS> 19:37:10 |##########          |  50% (2,404,900) 79.5 minPROGRESS> 19:45:07 |###########         |  55% (2,645,390) 87.4 minPROGRESS> 19:53:05 |############        |  60% (2,885,880) 95.4 minPROGRESS> 20:01:01 |#############       |  65% (3,126,370) 103.3 minPROGRESS> 20:08:57 |##############      |  70% (3,366,860) 111.2 minPROGRESS> 20:16:54 |###############     |  75% (3,607,350) 119.2 minPROGRESS> 20:24:51 |################    |  80% (3,847,840) 127.1 minPROGRESS> 20:32:49 |#################   |  85% (4,088,330) 135.1 minPROGRESS> 20:40:46 |##################  |  90% (4,328,820) 143.1 minPROGRESS> 20:48:43 |################### |  95% (4,569,310) 151.0 minPROGRESS> 20:56:40 |####################| 100% (4,809,791) 159.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S3_R1_reheader.fastq
+SEQUENCES> 4809791
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:18:04 |                    |   0% (        0) 0.0 minPROGRESS> 18:26:21 |#                   |   5% (  251,451) 8.3 minPROGRESS> 18:34:36 |##                  |  10% (  502,902) 16.5 minPROGRESS> 18:42:51 |###                 |  15% (  754,353) 24.8 minPROGRESS> 18:51:05 |####                |  20% (1,005,804) 33.0 minPROGRESS> 18:59:20 |#####               |  25% (1,257,255) 41.3 minPROGRESS> 19:07:36 |######              |  30% (1,508,706) 49.5 minPROGRESS> 19:15:52 |#######             |  35% (1,760,157) 57.8 minPROGRESS> 19:24:06 |########            |  40% (2,011,608) 66.0 minPROGRESS> 19:32:21 |#########           |  45% (2,263,059) 74.3 minPROGRESS> 19:40:36 |##########          |  50% (2,514,510) 82.5 minPROGRESS> 19:48:52 |###########         |  55% (2,765,961) 90.8 minPROGRESS> 19:57:07 |############        |  60% (3,017,412) 99.0 minPROGRESS> 20:05:21 |#############       |  65% (3,268,863) 107.3 minPROGRESS> 20:13:36 |##############      |  70% (3,520,314) 115.5 minPROGRESS> 20:21:51 |###############     |  75% (3,771,765) 123.8 minPROGRESS> 20:30:08 |################    |  80% (4,023,216) 132.1 minPROGRESS> 20:38:23 |#################   |  85% (4,274,667) 140.3 minPROGRESS> 20:46:39 |##################  |  90% (4,526,118) 148.6 minPROGRESS> 20:54:54 |################### |  95% (4,777,569) 156.8 minPROGRESS> 21:03:10 |####################| 100% (5,029,004) 165.1 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S2_R1_reheader.fastq
+SEQUENCES> 5029004
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:18:05 |                    |   0% (        0) 0.0 minPROGRESS> 18:26:34 |#                   |   5% (  255,345) 8.5 minPROGRESS> 18:35:01 |##                  |  10% (  510,690) 16.9 minPROGRESS> 18:43:27 |###                 |  15% (  766,035) 25.4 minPROGRESS> 18:51:54 |####                |  20% (1,021,380) 33.8 minPROGRESS> 19:00:20 |#####               |  25% (1,276,725) 42.2 minPROGRESS> 19:08:46 |######              |  30% (1,532,070) 50.7 minPROGRESS> 19:17:13 |#######             |  35% (1,787,415) 59.1 minPROGRESS> 19:25:39 |########            |  40% (2,042,760) 67.6 minPROGRESS> 19:34:05 |#########           |  45% (2,298,105) 76.0 minPROGRESS> 19:42:31 |##########          |  50% (2,553,450) 84.4 minPROGRESS> 19:50:58 |###########         |  55% (2,808,795) 92.9 minPROGRESS> 19:59:26 |############        |  60% (3,064,140) 101.3 minPROGRESS> 20:07:52 |#############       |  65% (3,319,485) 109.8 minPROGRESS> 20:16:19 |##############      |  70% (3,574,830) 118.2 minPROGRESS> 20:24:46 |###############     |  75% (3,830,175) 126.7 minPROGRESS> 20:33:13 |################    |  80% (4,085,520) 135.1 minPROGRESS> 20:41:41 |#################   |  85% (4,340,865) 143.6 minPROGRESS> 20:50:08 |##################  |  90% (4,596,210) 152.0 minPROGRESS> 20:58:36 |################### |  95% (4,851,555) 160.5 minPROGRESS> 21:07:03 |####################| 100% (5,106,882) 169.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S6_R1_reheader.fastq
+SEQUENCES> 5106882
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:18:44 |                    |   0% (        0) 0.0 minPROGRESS> 18:27:58 |#                   |   5% (  278,105) 9.2 minPROGRESS> 18:37:12 |##                  |  10% (  556,210) 18.5 minPROGRESS> 18:46:24 |###                 |  15% (  834,315) 27.7 minPROGRESS> 18:55:36 |####                |  20% (1,112,420) 36.9 minPROGRESS> 19:04:49 |#####               |  25% (1,390,525) 46.1 minPROGRESS> 19:14:02 |######              |  30% (1,668,630) 55.3 minPROGRESS> 19:23:14 |#######             |  35% (1,946,735) 64.5 minPROGRESS> 19:32:27 |########            |  40% (2,224,840) 73.7 minPROGRESS> 19:41:40 |#########           |  45% (2,502,945) 82.9 minPROGRESS> 19:50:52 |##########          |  50% (2,781,050) 92.1 minPROGRESS> 20:00:05 |###########         |  55% (3,059,155) 101.3 minPROGRESS> 20:09:19 |############        |  60% (3,337,260) 110.6 minPROGRESS> 20:18:32 |#############       |  65% (3,615,365) 119.8 minPROGRESS> 20:27:45 |##############      |  70% (3,893,470) 129.0 minPROGRESS> 20:37:00 |###############     |  75% (4,171,575) 138.3 minPROGRESS> 20:46:14 |################    |  80% (4,449,680) 147.5 minPROGRESS> 20:55:29 |#################   |  85% (4,727,785) 156.7 minPROGRESS> 21:04:43 |##################  |  90% (5,005,890) 166.0 minPROGRESS> 21:13:58 |################### |  95% (5,283,995) 175.2 minPROGRESS> 21:23:12 |####################| 100% (5,562,099) 184.5 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S4_R1_reheader.fastq
+SEQUENCES> 5562099
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:19:07 |                    |   0% (        0) 0.0 minPROGRESS> 18:28:30 |#                   |   5% (  283,173) 9.4 minPROGRESS> 18:37:54 |##                  |  10% (  566,346) 18.8 minPROGRESS> 18:47:16 |###                 |  15% (  849,519) 28.2 minPROGRESS> 18:56:36 |####                |  20% (1,132,692) 37.5 minPROGRESS> 19:05:58 |#####               |  25% (1,415,865) 46.9 minPROGRESS> 19:15:20 |######              |  30% (1,699,038) 56.2 minPROGRESS> 19:24:43 |#######             |  35% (1,982,211) 65.6 minPROGRESS> 19:34:04 |########            |  40% (2,265,384) 74.9 minPROGRESS> 19:43:27 |#########           |  45% (2,548,557) 84.3 minPROGRESS> 19:52:49 |##########          |  50% (2,831,730) 93.7 minPROGRESS> 20:02:12 |###########         |  55% (3,114,903) 103.1 minPROGRESS> 20:11:35 |############        |  60% (3,398,076) 112.5 minPROGRESS> 20:20:58 |#############       |  65% (3,681,249) 121.8 minPROGRESS> 20:30:20 |##############      |  70% (3,964,422) 131.2 minPROGRESS> 20:39:43 |###############     |  75% (4,247,595) 140.6 minPROGRESS> 20:49:07 |################    |  80% (4,530,768) 150.0 minPROGRESS> 20:58:32 |#################   |  85% (4,813,941) 159.4 minPROGRESS> 21:07:56 |##################  |  90% (5,097,114) 168.8 minPROGRESS> 21:17:19 |################### |  95% (5,380,287) 178.2 minPROGRESS> 21:26:43 |####################| 100% (5,663,449) 187.6 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S9_R1_reheader.fastq
+SEQUENCES> 5663449
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:19:24 |                    |   0% (        0) 0.0 minPROGRESS> 18:28:59 |#                   |   5% (  291,446) 9.6 minPROGRESS> 18:38:33 |##                  |  10% (  582,892) 19.2 minPROGRESS> 18:48:05 |###                 |  15% (  874,338) 28.7 minPROGRESS> 18:57:38 |####                |  20% (1,165,784) 38.2 minPROGRESS> 19:07:11 |#####               |  25% (1,457,230) 47.8 minPROGRESS> 19:16:44 |######              |  30% (1,748,676) 57.3 minPROGRESS> 19:26:16 |#######             |  35% (2,040,122) 66.9 minPROGRESS> 19:35:49 |########            |  40% (2,331,568) 76.4 minPROGRESS> 19:45:22 |#########           |  45% (2,623,014) 86.0 minPROGRESS> 19:54:56 |##########          |  50% (2,914,460) 95.5 minPROGRESS> 20:04:29 |###########         |  55% (3,205,906) 105.1 minPROGRESS> 20:14:04 |############        |  60% (3,497,352) 114.7 minPROGRESS> 20:23:37 |#############       |  65% (3,788,798) 124.2 minPROGRESS> 20:33:10 |##############      |  70% (4,080,244) 133.8 minPROGRESS> 20:42:44 |###############     |  75% (4,371,690) 143.3 minPROGRESS> 20:52:18 |################    |  80% (4,663,136) 152.9 minPROGRESS> 21:01:52 |#################   |  85% (4,954,582) 162.5 minPROGRESS> 21:11:26 |##################  |  90% (5,246,028) 172.0 minPROGRESS> 21:20:58 |################### |  95% (5,537,474) 181.6 minPROGRESS> 21:30:32 |####################| 100% (5,828,903) 191.1 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S2_R1_reheader.fastq
+SEQUENCES> 5828903
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:19:34 |                    |   0% (        0) 0.0 minPROGRESS> 18:29:16 |#                   |   5% (  294,865) 9.7 minPROGRESS> 18:38:58 |##                  |  10% (  589,730) 19.4 minPROGRESS> 18:48:39 |###                 |  15% (  884,595) 29.1 minPROGRESS> 18:58:20 |####                |  20% (1,179,460) 38.8 minPROGRESS> 19:08:00 |#####               |  25% (1,474,325) 48.4 minPROGRESS> 19:17:41 |######              |  30% (1,769,190) 58.1 minPROGRESS> 19:27:22 |#######             |  35% (2,064,055) 67.8 minPROGRESS> 19:37:03 |########            |  40% (2,358,920) 77.5 minPROGRESS> 19:46:45 |#########           |  45% (2,653,785) 87.2 minPROGRESS> 19:56:26 |##########          |  50% (2,948,650) 96.9 minPROGRESS> 20:06:08 |###########         |  55% (3,243,515) 106.6 minPROGRESS> 20:15:51 |############        |  60% (3,538,380) 116.3 minPROGRESS> 20:25:33 |#############       |  65% (3,833,245) 126.0 minPROGRESS> 20:35:15 |##############      |  70% (4,128,110) 135.7 minPROGRESS> 20:44:57 |###############     |  75% (4,422,975) 145.4 minPROGRESS> 20:54:40 |################    |  80% (4,717,840) 155.1 minPROGRESS> 21:04:23 |#################   |  85% (5,012,705) 164.8 minPROGRESS> 21:14:04 |##################  |  90% (5,307,570) 174.5 minPROGRESS> 21:23:45 |################### |  95% (5,602,435) 184.2 minPROGRESS> 21:33:28 |####################| 100% (5,897,297) 193.9 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S1_R1_reheader.fastq
+SEQUENCES> 5897297
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:19:35 |                    |   0% (        0) 0.0 minPROGRESS> 18:29:20 |#                   |   5% (  295,538) 9.8 minPROGRESS> 18:39:05 |##                  |  10% (  591,076) 19.5 minPROGRESS> 18:48:48 |###                 |  15% (  886,614) 29.2 minPROGRESS> 18:58:30 |####                |  20% (1,182,152) 38.9 minPROGRESS> 19:08:13 |#####               |  25% (1,477,690) 48.6 minPROGRESS> 19:17:57 |######              |  30% (1,773,228) 58.4 minPROGRESS> 19:27:40 |#######             |  35% (2,068,766) 68.1 minPROGRESS> 19:37:23 |########            |  40% (2,364,304) 77.8 minPROGRESS> 19:47:07 |#########           |  45% (2,659,842) 87.5 minPROGRESS> 19:56:51 |##########          |  50% (2,955,380) 97.3 minPROGRESS> 20:06:35 |###########         |  55% (3,250,918) 107.0 minPROGRESS> 20:16:19 |############        |  60% (3,546,456) 116.7 minPROGRESS> 20:26:03 |#############       |  65% (3,841,994) 126.5 minPROGRESS> 20:35:47 |##############      |  70% (4,137,532) 136.2 minPROGRESS> 20:45:32 |###############     |  75% (4,433,070) 146.0 minPROGRESS> 20:55:17 |################    |  80% (4,728,608) 155.7 minPROGRESS> 21:05:02 |#################   |  85% (5,024,146) 165.5 minPROGRESS> 21:14:47 |##################  |  90% (5,319,684) 175.2 minPROGRESS> 21:24:32 |################### |  95% (5,615,222) 184.9 minPROGRESS> 21:34:16 |####################| 100% (5,910,742) 194.7 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S1_R1_reheader.fastq
+SEQUENCES> 5910742
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:19:24 |                    |   0% (        0) 0.0 minPROGRESS> 18:29:13 |#                   |   5% (  296,638) 9.8 minPROGRESS> 18:39:01 |##                  |  10% (  593,276) 19.6 minPROGRESS> 18:48:49 |###                 |  15% (  889,914) 29.4 minPROGRESS> 18:58:37 |####                |  20% (1,186,552) 39.2 minPROGRESS> 19:08:24 |#####               |  25% (1,483,190) 49.0 minPROGRESS> 19:18:11 |######              |  30% (1,779,828) 58.8 minPROGRESS> 19:28:00 |#######             |  35% (2,076,466) 68.6 minPROGRESS> 19:37:47 |########            |  40% (2,373,104) 78.4 minPROGRESS> 19:47:34 |#########           |  45% (2,669,742) 88.2 minPROGRESS> 19:57:22 |##########          |  50% (2,966,380) 98.0 minPROGRESS> 20:07:09 |###########         |  55% (3,263,018) 107.8 minPROGRESS> 20:16:58 |############        |  60% (3,559,656) 117.6 minPROGRESS> 20:26:46 |#############       |  65% (3,856,294) 127.4 minPROGRESS> 20:36:34 |##############      |  70% (4,152,932) 137.2 minPROGRESS> 20:46:24 |###############     |  75% (4,449,570) 147.0 minPROGRESS> 20:56:13 |################    |  80% (4,746,208) 156.8 minPROGRESS> 21:06:02 |#################   |  85% (5,042,846) 166.6 minPROGRESS> 21:15:51 |##################  |  90% (5,339,484) 176.4 minPROGRESS> 21:25:39 |################### |  95% (5,636,122) 186.2 minPROGRESS> 21:35:28 |####################| 100% (5,932,759) 196.1 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S8_R1_reheader.fastq
+SEQUENCES> 5932759
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:20:55 |                    |   0% (        0) 0.0 minPROGRESS> 18:31:22 |#                   |   5% (  319,805) 10.5 minPROGRESS> 18:41:49 |##                  |  10% (  639,610) 20.9 minPROGRESS> 18:52:15 |###                 |  15% (  959,415) 31.3 minPROGRESS> 19:02:43 |####                |  20% (1,279,220) 41.8 minPROGRESS> 19:13:10 |#####               |  25% (1,599,025) 52.3 minPROGRESS> 19:23:37 |######              |  30% (1,918,830) 62.7 minPROGRESS> 19:34:04 |#######             |  35% (2,238,635) 73.2 minPROGRESS> 19:44:30 |########            |  40% (2,558,440) 83.6 minPROGRESS> 19:54:56 |#########           |  45% (2,878,245) 94.0 minPROGRESS> 20:05:22 |##########          |  50% (3,198,050) 104.5 minPROGRESS> 20:15:49 |###########         |  55% (3,517,855) 114.9 minPROGRESS> 20:26:17 |############        |  60% (3,837,660) 125.4 minPROGRESS> 20:36:43 |#############       |  65% (4,157,465) 135.8 minPROGRESS> 20:47:10 |##############      |  70% (4,477,270) 146.3 minPROGRESS> 20:57:37 |###############     |  75% (4,797,075) 156.7 minPROGRESS> 21:08:04 |################    |  80% (5,116,880) 167.2 minPROGRESS> 21:18:31 |#################   |  85% (5,436,685) 177.6 minPROGRESS> 21:28:57 |##################  |  90% (5,756,490) 188.0 minPROGRESS> 21:39:24 |################### |  95% (6,076,295) 198.5 minPROGRESS> 21:49:50 |####################| 100% (6,396,095) 208.9 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S10_R1_reheader.fastq
+SEQUENCES> 6396095
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:21:43 |                    |   0% (        0) 0.0 minPROGRESS> 18:33:29 |#                   |   5% (  354,391) 11.8 minPROGRESS> 18:45:16 |##                  |  10% (  708,782) 23.5 minPROGRESS> 18:57:01 |###                 |  15% (1,063,173) 35.3 minPROGRESS> 19:08:46 |####                |  20% (1,417,564) 47.1 minPROGRESS> 19:20:32 |#####               |  25% (1,771,955) 58.8 minPROGRESS> 19:32:18 |######              |  30% (2,126,346) 70.6 minPROGRESS> 19:44:04 |#######             |  35% (2,480,737) 82.4 minPROGRESS> 19:55:50 |########            |  40% (2,835,128) 94.1 minPROGRESS> 20:07:36 |#########           |  45% (3,189,519) 105.9 minPROGRESS> 20:19:22 |##########          |  50% (3,543,910) 117.7 minPROGRESS> 20:31:09 |###########         |  55% (3,898,301) 129.4 minPROGRESS> 20:42:57 |############        |  60% (4,252,692) 141.2 minPROGRESS> 20:54:44 |#############       |  65% (4,607,083) 153.0 minPROGRESS> 21:06:31 |##############      |  70% (4,961,474) 164.8 minPROGRESS> 21:18:19 |###############     |  75% (5,315,865) 176.6 minPROGRESS> 21:30:06 |################    |  80% (5,670,256) 188.4 minPROGRESS> 21:41:54 |#################   |  85% (6,024,647) 200.2 minPROGRESS> 21:53:40 |##################  |  90% (6,379,038) 212.0 minPROGRESS> 22:05:28 |################### |  95% (6,733,429) 223.7 minPROGRESS> 22:17:16 |####################| 100% (7,087,810) 235.5 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S10_R1_reheader.fastq
+SEQUENCES> 7087810
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 18:23:09 |                    |   0% (        0) 0.0 minPROGRESS> 18:36:10 |#                   |   5% (  396,476) 13.0 minPROGRESS> 18:49:11 |##                  |  10% (  792,952) 26.1 minPROGRESS> 19:02:12 |###                 |  15% (1,189,428) 39.1 minPROGRESS> 19:15:12 |####                |  20% (1,585,904) 52.1 minPROGRESS> 19:28:13 |#####               |  25% (1,982,380) 65.1 minPROGRESS> 19:41:14 |######              |  30% (2,378,856) 78.1 minPROGRESS> 19:54:14 |#######             |  35% (2,775,332) 91.1 minPROGRESS> 20:07:14 |########            |  40% (3,171,808) 104.1 minPROGRESS> 20:20:15 |#########           |  45% (3,568,284) 117.1 minPROGRESS> 20:33:15 |##########          |  50% (3,964,760) 130.1 minPROGRESS> 20:46:16 |###########         |  55% (4,361,236) 143.1 minPROGRESS> 20:59:18 |############        |  60% (4,757,712) 156.2 minPROGRESS> 21:12:19 |#############       |  65% (5,154,188) 169.2 minPROGRESS> 21:25:20 |##############      |  70% (5,550,664) 182.2 minPROGRESS> 21:38:21 |###############     |  75% (5,947,140) 195.2 minPROGRESS> 21:51:24 |################    |  80% (6,343,616) 208.3 minPROGRESS> 22:04:28 |#################   |  85% (6,740,092) 221.3 minPROGRESS> 22:17:31 |##################  |  90% (7,136,568) 234.4 minPROGRESS> 22:30:31 |################### |  95% (7,533,044) 247.4 minPROGRESS> 22:43:33 |####################| 100% (7,929,502) 260.4 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S10_R1_reheader.fastq
+SEQUENCES> 7929502
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:43:41 |                    |   0% (        0) 0.0 minPROGRESS> 20:51:02 |#                   |   5% (  222,450) 7.4 minPROGRESS> 20:58:24 |##                  |  10% (  444,900) 14.7 minPROGRESS> 21:05:45 |###                 |  15% (  667,350) 22.1 minPROGRESS> 21:13:05 |####                |  20% (  889,800) 29.4 minPROGRESS> 21:20:25 |#####               |  25% (1,112,250) 36.7 minPROGRESS> 21:27:46 |######              |  30% (1,334,700) 44.1 minPROGRESS> 21:35:06 |#######             |  35% (1,557,150) 51.4 minPROGRESS> 21:42:27 |########            |  40% (1,779,600) 58.8 minPROGRESS> 21:49:46 |#########           |  45% (2,002,050) 66.1 minPROGRESS> 21:57:08 |##########          |  50% (2,224,500) 73.5 minPROGRESS> 22:04:29 |###########         |  55% (2,446,950) 80.8 minPROGRESS> 22:11:50 |############        |  60% (2,669,400) 88.2 minPROGRESS> 22:19:11 |#############       |  65% (2,891,850) 95.5 minPROGRESS> 22:26:32 |##############      |  70% (3,114,300) 102.9 minPROGRESS> 22:33:52 |###############     |  75% (3,336,750) 110.2 minPROGRESS> 22:41:13 |################    |  80% (3,559,200) 117.5 minPROGRESS> 22:48:34 |#################   |  85% (3,781,650) 124.9 minPROGRESS> 22:55:54 |##################  |  90% (4,004,100) 132.2 minPROGRESS> 23:03:14 |################### |  95% (4,226,550) 139.6 minPROGRESS> 23:10:34 |####################| 100% (4,448,989) 146.9 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S4_R1_reheader.fastq
+SEQUENCES> 4448989
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:45:24 |                    |   0% (        0) 0.0 minPROGRESS> 20:53:35 |#                   |   5% (  247,963) 8.2 minPROGRESS> 21:01:45 |##                  |  10% (  495,926) 16.4 minPROGRESS> 21:09:55 |###                 |  15% (  743,889) 24.5 minPROGRESS> 21:18:05 |####                |  20% (  991,852) 32.7 minPROGRESS> 21:26:14 |#####               |  25% (1,239,815) 40.8 minPROGRESS> 21:34:25 |######              |  30% (1,487,778) 49.0 minPROGRESS> 21:42:36 |#######             |  35% (1,735,741) 57.2 minPROGRESS> 21:50:46 |########            |  40% (1,983,704) 65.4 minPROGRESS> 21:58:55 |#########           |  45% (2,231,667) 73.5 minPROGRESS> 22:07:03 |##########          |  50% (2,479,630) 81.7 minPROGRESS> 22:15:13 |###########         |  55% (2,727,593) 89.8 minPROGRESS> 22:23:23 |############        |  60% (2,975,556) 98.0 minPROGRESS> 22:31:31 |#############       |  65% (3,223,519) 106.1 minPROGRESS> 22:39:41 |##############      |  70% (3,471,482) 114.3 minPROGRESS> 22:47:51 |###############     |  75% (3,719,445) 122.5 minPROGRESS> 22:56:03 |################    |  80% (3,967,408) 130.6 minPROGRESS> 23:04:14 |#################   |  85% (4,215,371) 138.8 minPROGRESS> 23:12:24 |##################  |  90% (4,463,334) 147.0 minPROGRESS> 23:20:34 |################### |  95% (4,711,297) 155.2 minPROGRESS> 23:28:45 |####################| 100% (4,959,257) 163.3 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S5_R1_reheader.fastq
+SEQUENCES> 4959257
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:39:03 |                    |   0% (        0) 0.0 minPROGRESS> 20:48:03 |#                   |   5% (  270,759) 9.0 minPROGRESS> 20:57:03 |##                  |  10% (  541,518) 18.0 minPROGRESS> 21:06:03 |###                 |  15% (  812,277) 27.0 minPROGRESS> 21:15:02 |####                |  20% (1,083,036) 36.0 minPROGRESS> 21:24:00 |#####               |  25% (1,353,795) 44.9 minPROGRESS> 21:33:01 |######              |  30% (1,624,554) 54.0 minPROGRESS> 21:42:01 |#######             |  35% (1,895,313) 63.0 minPROGRESS> 21:51:00 |########            |  40% (2,166,072) 72.0 minPROGRESS> 22:00:00 |#########           |  45% (2,436,831) 80.9 minPROGRESS> 22:08:59 |##########          |  50% (2,707,590) 89.9 minPROGRESS> 22:18:00 |###########         |  55% (2,978,349) 98.9 minPROGRESS> 22:26:59 |############        |  60% (3,249,108) 107.9 minPROGRESS> 22:35:59 |#############       |  65% (3,519,867) 116.9 minPROGRESS> 22:44:58 |##############      |  70% (3,790,626) 125.9 minPROGRESS> 22:53:58 |###############     |  75% (4,061,385) 134.9 minPROGRESS> 23:02:57 |################    |  80% (4,332,144) 143.9 minPROGRESS> 23:11:57 |#################   |  85% (4,602,903) 152.9 minPROGRESS> 23:20:55 |##################  |  90% (4,873,662) 161.9 minPROGRESS> 23:29:53 |################### |  95% (5,144,421) 170.8 minPROGRESS> 23:38:53 |####################| 100% (5,415,162) 179.8 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S2_R1_reheader.fastq
+SEQUENCES> 5415162
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:05:35 |                    |   0% (        0) 0.0 minPROGRESS> 21:14:09 |#                   |   5% (  260,022) 8.6 minPROGRESS> 21:22:43 |##                  |  10% (  520,044) 17.1 minPROGRESS> 21:31:17 |###                 |  15% (  780,066) 25.7 minPROGRESS> 21:39:51 |####                |  20% (1,040,088) 34.3 minPROGRESS> 21:48:25 |#####               |  25% (1,300,110) 42.8 minPROGRESS> 21:57:00 |######              |  30% (1,560,132) 51.4 minPROGRESS> 22:05:35 |#######             |  35% (1,820,154) 60.0 minPROGRESS> 22:14:09 |########            |  40% (2,080,176) 68.6 minPROGRESS> 22:22:43 |#########           |  45% (2,340,198) 77.1 minPROGRESS> 22:31:16 |##########          |  50% (2,600,220) 85.7 minPROGRESS> 22:39:50 |###########         |  55% (2,860,242) 94.3 minPROGRESS> 22:48:25 |############        |  60% (3,120,264) 102.8 minPROGRESS> 22:56:58 |#############       |  65% (3,380,286) 111.4 minPROGRESS> 23:05:31 |##############      |  70% (3,640,308) 119.9 minPROGRESS> 23:14:04 |###############     |  75% (3,900,330) 128.5 minPROGRESS> 23:22:39 |################    |  80% (4,160,352) 137.1 minPROGRESS> 23:31:14 |#################   |  85% (4,420,374) 145.6 minPROGRESS> 23:39:48 |##################  |  90% (4,680,396) 154.2 minPROGRESS> 23:48:21 |################### |  95% (4,940,418) 162.8 minPROGRESS> 23:56:58 |####################| 100% (5,200,421) 171.4 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S9_R1_reheader.fastq
+SEQUENCES> 5200421
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:50:33 |                    |   0% (        0) 0.0 minPROGRESS> 21:00:00 |#                   |   5% (  284,175) 9.4 minPROGRESS> 21:09:26 |##                  |  10% (  568,350) 18.9 minPROGRESS> 21:18:50 |###                 |  15% (  852,525) 28.3 minPROGRESS> 21:28:16 |####                |  20% (1,136,700) 37.7 minPROGRESS> 21:37:42 |#####               |  25% (1,420,875) 47.1 minPROGRESS> 21:47:07 |######              |  30% (1,705,050) 56.6 minPROGRESS> 21:56:34 |#######             |  35% (1,989,225) 66.0 minPROGRESS> 22:06:00 |########            |  40% (2,273,400) 75.5 minPROGRESS> 22:15:26 |#########           |  45% (2,557,575) 84.9 minPROGRESS> 22:24:51 |##########          |  50% (2,841,750) 94.3 minPROGRESS> 22:34:17 |###########         |  55% (3,125,925) 103.7 minPROGRESS> 22:43:43 |############        |  60% (3,410,100) 113.2 minPROGRESS> 22:53:08 |#############       |  65% (3,694,275) 122.6 minPROGRESS> 23:02:34 |##############      |  70% (3,978,450) 132.0 minPROGRESS> 23:11:59 |###############     |  75% (4,262,625) 141.4 minPROGRESS> 23:21:26 |################    |  80% (4,546,800) 150.9 minPROGRESS> 23:30:53 |#################   |  85% (4,830,975) 160.3 minPROGRESS> 23:40:18 |##################  |  90% (5,115,150) 169.8 minPROGRESS> 23:49:43 |################### |  95% (5,399,325) 179.2 minPROGRESS> 23:59:16 |####################| 100% (5,683,491) 188.7 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S6_R1_reheader.fastq
+SEQUENCES> 5683491
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:59:42 |                    |   0% (        0) 0.0 minPROGRESS> 21:08:47 |#                   |   5% (  272,080) 9.1 minPROGRESS> 21:17:53 |##                  |  10% (  544,160) 18.2 minPROGRESS> 21:26:58 |###                 |  15% (  816,240) 27.3 minPROGRESS> 21:36:03 |####                |  20% (1,088,320) 36.3 minPROGRESS> 21:45:07 |#####               |  25% (1,360,400) 45.4 minPROGRESS> 21:54:12 |######              |  30% (1,632,480) 54.5 minPROGRESS> 22:03:18 |#######             |  35% (1,904,560) 63.6 minPROGRESS> 22:12:23 |########            |  40% (2,176,640) 72.7 minPROGRESS> 22:21:28 |#########           |  45% (2,448,720) 81.8 minPROGRESS> 22:30:32 |##########          |  50% (2,720,800) 90.8 minPROGRESS> 22:39:38 |###########         |  55% (2,992,880) 99.9 minPROGRESS> 22:48:44 |############        |  60% (3,264,960) 109.0 minPROGRESS> 22:57:48 |#############       |  65% (3,537,040) 118.1 minPROGRESS> 23:06:53 |##############      |  70% (3,809,120) 127.2 minPROGRESS> 23:15:57 |###############     |  75% (4,081,200) 136.2 minPROGRESS> 23:25:02 |################    |  80% (4,353,280) 145.3 minPROGRESS> 23:34:07 |#################   |  85% (4,625,360) 154.4 minPROGRESS> 23:43:12 |##################  |  90% (4,897,440) 163.5 minPROGRESS> 23:52:16 |################### |  95% (5,169,520) 172.6 minPROGRESS> 00:01:27 |####################| 100% (5,441,581) 181.7 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S8_R1_reheader.fastq
+SEQUENCES> 5441581
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:45:59 |                    |   0% (        0) 0.0 minPROGRESS> 20:55:50 |#                   |   5% (  298,968) 9.8 minPROGRESS> 21:05:38 |##                  |  10% (  597,936) 19.7 minPROGRESS> 21:15:26 |###                 |  15% (  896,904) 29.5 minPROGRESS> 21:25:14 |####                |  20% (1,195,872) 39.2 minPROGRESS> 21:35:02 |#####               |  25% (1,494,840) 49.1 minPROGRESS> 21:44:49 |######              |  30% (1,793,808) 58.8 minPROGRESS> 21:54:37 |#######             |  35% (2,092,776) 68.6 minPROGRESS> 22:04:26 |########            |  40% (2,391,744) 78.4 minPROGRESS> 22:14:14 |#########           |  45% (2,690,712) 88.2 minPROGRESS> 22:24:01 |##########          |  50% (2,989,680) 98.0 minPROGRESS> 22:33:48 |###########         |  55% (3,288,648) 107.8 minPROGRESS> 22:43:36 |############        |  60% (3,587,616) 117.6 minPROGRESS> 22:53:24 |#############       |  65% (3,886,584) 127.4 minPROGRESS> 23:03:12 |##############      |  70% (4,185,552) 137.2 minPROGRESS> 23:12:59 |###############     |  75% (4,484,520) 147.0 minPROGRESS> 23:22:48 |################    |  80% (4,783,488) 156.8 minPROGRESS> 23:32:35 |#################   |  85% (5,082,456) 166.6 minPROGRESS> 23:42:22 |##################  |  90% (5,381,424) 176.4 minPROGRESS> 23:52:10 |################### |  95% (5,680,392) 186.2 minPROGRESS> 00:02:05 |####################| 100% (5,979,350) 196.1 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S3_R1_reheader.fastq
+SEQUENCES> 5979350
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:59:08 |                    |   0% (        0) 0.0 minPROGRESS> 21:08:27 |#                   |   5% (  283,616) 9.3 minPROGRESS> 21:17:44 |##                  |  10% (  567,232) 18.6 minPROGRESS> 21:27:01 |###                 |  15% (  850,848) 27.9 minPROGRESS> 21:36:19 |####                |  20% (1,134,464) 37.2 minPROGRESS> 21:45:36 |#####               |  25% (1,418,080) 46.5 minPROGRESS> 21:54:54 |######              |  30% (1,701,696) 55.8 minPROGRESS> 22:04:11 |#######             |  35% (1,985,312) 65.0 minPROGRESS> 22:13:28 |########            |  40% (2,268,928) 74.3 minPROGRESS> 22:22:45 |#########           |  45% (2,552,544) 83.6 minPROGRESS> 22:32:01 |##########          |  50% (2,836,160) 92.9 minPROGRESS> 22:41:19 |###########         |  55% (3,119,776) 102.2 minPROGRESS> 22:50:38 |############        |  60% (3,403,392) 111.5 minPROGRESS> 22:59:56 |#############       |  65% (3,687,008) 120.8 minPROGRESS> 23:09:13 |##############      |  70% (3,970,624) 130.1 minPROGRESS> 23:18:31 |###############     |  75% (4,254,240) 139.4 minPROGRESS> 23:27:49 |################    |  80% (4,537,856) 148.7 minPROGRESS> 23:37:08 |#################   |  85% (4,821,472) 158.0 minPROGRESS> 23:46:25 |##################  |  90% (5,105,088) 167.3 minPROGRESS> 23:55:43 |################### |  95% (5,388,704) 176.6 minPROGRESS> 00:05:06 |####################| 100% (5,672,308) 186.0 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S7_R1_reheader.fastq
+SEQUENCES> 5672308
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 20:32:54 |                    |   0% (        0) 0.0 minPROGRESS> 20:44:14 |#                   |   5% (  345,252) 11.3 minPROGRESS> 20:55:35 |##                  |  10% (  690,504) 22.7 minPROGRESS> 21:06:54 |###                 |  15% (1,035,756) 34.0 minPROGRESS> 21:18:14 |####                |  20% (1,381,008) 45.3 minPROGRESS> 21:29:33 |#####               |  25% (1,726,260) 56.7 minPROGRESS> 21:40:53 |######              |  30% (2,071,512) 68.0 minPROGRESS> 21:52:14 |#######             |  35% (2,416,764) 79.3 minPROGRESS> 22:03:34 |########            |  40% (2,762,016) 90.7 minPROGRESS> 22:14:54 |#########           |  45% (3,107,268) 102.0 minPROGRESS> 22:26:14 |##########          |  50% (3,452,520) 113.3 minPROGRESS> 22:37:34 |###########         |  55% (3,797,772) 124.7 minPROGRESS> 22:48:56 |############        |  60% (4,143,024) 136.0 minPROGRESS> 23:00:15 |#############       |  65% (4,488,276) 147.4 minPROGRESS> 23:11:35 |##############      |  70% (4,833,528) 158.7 minPROGRESS> 23:22:55 |###############     |  75% (5,178,780) 170.0 minPROGRESS> 23:34:15 |################    |  80% (5,524,032) 181.4 minPROGRESS> 23:45:36 |#################   |  85% (5,869,284) 192.7 minPROGRESS> 23:56:59 |##################  |  90% (6,214,536) 204.1 minPROGRESS> 00:08:23 |################### |  95% (6,559,788) 215.5 minPROGRESS> 00:19:46 |####################| 100% (6,905,035) 226.9 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S1_R1_reheader.fastq
+SEQUENCES> 6905035
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:32:29 |                    |   0% (        0) 0.0 minPROGRESS> 21:41:23 |#                   |   5% (  267,872) 8.9 minPROGRESS> 21:50:16 |##                  |  10% (  535,744) 17.8 minPROGRESS> 21:59:09 |###                 |  15% (  803,616) 26.7 minPROGRESS> 22:08:02 |####                |  20% (1,071,488) 35.5 minPROGRESS> 22:16:55 |#####               |  25% (1,339,360) 44.4 minPROGRESS> 22:25:47 |######              |  30% (1,607,232) 53.3 minPROGRESS> 22:34:40 |#######             |  35% (1,875,104) 62.2 minPROGRESS> 22:43:32 |########            |  40% (2,142,976) 71.0 minPROGRESS> 22:52:24 |#########           |  45% (2,410,848) 79.9 minPROGRESS> 23:01:16 |##########          |  50% (2,678,720) 88.8 minPROGRESS> 23:10:09 |###########         |  55% (2,946,592) 97.7 minPROGRESS> 23:19:03 |############        |  60% (3,214,464) 106.6 minPROGRESS> 23:27:56 |#############       |  65% (3,482,336) 115.4 minPROGRESS> 23:36:50 |##############      |  70% (3,750,208) 124.3 minPROGRESS> 23:45:43 |###############     |  75% (4,018,080) 133.2 minPROGRESS> 23:54:36 |################    |  80% (4,285,952) 142.1 minPROGRESS> 00:03:38 |#################   |  85% (4,553,824) 151.1 minPROGRESS> 00:12:33 |##################  |  90% (4,821,696) 160.1 minPROGRESS> 00:21:29 |################### |  95% (5,089,568) 169.0 minPROGRESS> 00:30:27 |####################| 100% (5,357,425) 178.0 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S2_R1_reheader.fastq
+SEQUENCES> 5357425
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:42:35 |                    |   0% (        0) 0.0 minPROGRESS> 21:51:27 |#                   |   5% (  267,427) 8.9 minPROGRESS> 22:00:20 |##                  |  10% (  534,854) 17.7 minPROGRESS> 22:09:12 |###                 |  15% (  802,281) 26.6 minPROGRESS> 22:18:05 |####                |  20% (1,069,708) 35.5 minPROGRESS> 22:26:57 |#####               |  25% (1,337,135) 44.4 minPROGRESS> 22:35:49 |######              |  30% (1,604,562) 53.2 minPROGRESS> 22:44:41 |#######             |  35% (1,871,989) 62.1 minPROGRESS> 22:53:33 |########            |  40% (2,139,416) 71.0 minPROGRESS> 23:02:25 |#########           |  45% (2,406,843) 79.8 minPROGRESS> 23:11:18 |##########          |  50% (2,674,270) 88.7 minPROGRESS> 23:20:11 |###########         |  55% (2,941,697) 97.6 minPROGRESS> 23:29:04 |############        |  60% (3,209,124) 106.5 minPROGRESS> 23:37:58 |#############       |  65% (3,476,551) 115.4 minPROGRESS> 23:46:51 |##############      |  70% (3,743,978) 124.3 minPROGRESS> 23:55:45 |###############     |  75% (4,011,405) 133.2 minPROGRESS> 00:04:44 |################    |  80% (4,278,832) 142.1 minPROGRESS> 00:13:38 |#################   |  85% (4,546,259) 151.0 minPROGRESS> 00:22:33 |##################  |  90% (4,813,686) 160.0 minPROGRESS> 00:31:29 |################### |  95% (5,081,113) 168.9 minPROGRESS> 00:40:27 |####################| 100% (5,348,523) 177.9 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S5_R1_reheader.fastq
+SEQUENCES> 5348523
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:40:21 |                    |   0% (        0) 0.0 minPROGRESS> 21:49:47 |#                   |   5% (  285,953) 9.4 minPROGRESS> 21:59:15 |##                  |  10% (  571,906) 18.9 minPROGRESS> 22:08:43 |###                 |  15% (  857,859) 28.4 minPROGRESS> 22:18:11 |####                |  20% (1,143,812) 37.8 minPROGRESS> 22:27:37 |#####               |  25% (1,429,765) 47.3 minPROGRESS> 22:37:04 |######              |  30% (1,715,718) 56.7 minPROGRESS> 22:46:31 |#######             |  35% (2,001,671) 66.2 minPROGRESS> 22:55:58 |########            |  40% (2,287,624) 75.6 minPROGRESS> 23:05:25 |#########           |  45% (2,573,577) 85.1 minPROGRESS> 23:14:52 |##########          |  50% (2,859,530) 94.5 minPROGRESS> 23:24:19 |###########         |  55% (3,145,483) 104.0 minPROGRESS> 23:33:48 |############        |  60% (3,431,436) 113.4 minPROGRESS> 23:43:15 |#############       |  65% (3,717,389) 122.9 minPROGRESS> 23:52:42 |##############      |  70% (4,003,342) 132.4 minPROGRESS> 00:02:17 |###############     |  75% (4,289,295) 141.9 minPROGRESS> 00:11:51 |################    |  80% (4,575,248) 151.5 minPROGRESS> 00:21:22 |#################   |  85% (4,861,201) 161.0 minPROGRESS> 00:30:55 |##################  |  90% (5,147,154) 170.6 minPROGRESS> 00:40:29 |################### |  95% (5,433,107) 180.1 minPROGRESS> 00:50:00 |####################| 100% (5,719,045) 189.7 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S4_R1_reheader.fastq
+SEQUENCES> 5719045
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:36:53 |                    |   0% (        0) 0.0 minPROGRESS> 21:46:43 |#                   |   5% (  299,227) 9.8 minPROGRESS> 21:56:34 |##                  |  10% (  598,454) 19.7 minPROGRESS> 22:06:24 |###                 |  15% (  897,681) 29.5 minPROGRESS> 22:16:14 |####                |  20% (1,196,908) 39.3 minPROGRESS> 22:26:03 |#####               |  25% (1,496,135) 49.2 minPROGRESS> 22:35:52 |######              |  30% (1,795,362) 59.0 minPROGRESS> 22:45:41 |#######             |  35% (2,094,589) 68.8 minPROGRESS> 22:55:30 |########            |  40% (2,393,816) 78.6 minPROGRESS> 23:05:19 |#########           |  45% (2,693,043) 88.4 minPROGRESS> 23:15:09 |##########          |  50% (2,992,270) 98.3 minPROGRESS> 23:24:59 |###########         |  55% (3,291,497) 108.1 minPROGRESS> 23:34:50 |############        |  60% (3,590,724) 117.9 minPROGRESS> 23:44:40 |#############       |  65% (3,889,951) 127.8 minPROGRESS> 23:54:29 |##############      |  70% (4,189,178) 137.6 minPROGRESS> 00:04:24 |###############     |  75% (4,488,405) 147.5 minPROGRESS> 00:14:16 |################    |  80% (4,787,632) 157.4 minPROGRESS> 00:24:08 |#################   |  85% (5,086,859) 167.3 minPROGRESS> 00:34:04 |##################  |  90% (5,386,086) 177.2 minPROGRESS> 00:43:59 |################### |  95% (5,685,313) 187.1 minPROGRESS> 00:53:54 |####################| 100% (5,984,538) 197.0 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S3_R1_reheader.fastq
+SEQUENCES> 5984538
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:15:49 |                    |   0% (        0) 0.0 minPROGRESS> 21:28:04 |#                   |   5% (  372,618) 12.2 minPROGRESS> 21:40:18 |##                  |  10% (  745,236) 24.5 minPROGRESS> 21:52:31 |###                 |  15% (1,117,854) 36.7 minPROGRESS> 22:04:47 |####                |  20% (1,490,472) 49.0 minPROGRESS> 22:17:01 |#####               |  25% (1,863,090) 61.2 minPROGRESS> 22:29:16 |######              |  30% (2,235,708) 73.4 minPROGRESS> 22:41:30 |#######             |  35% (2,608,326) 85.7 minPROGRESS> 22:53:42 |########            |  40% (2,980,944) 97.9 minPROGRESS> 23:05:55 |#########           |  45% (3,353,562) 110.1 minPROGRESS> 23:18:10 |##########          |  50% (3,726,180) 122.3 minPROGRESS> 23:30:25 |###########         |  55% (4,098,798) 134.6 minPROGRESS> 23:42:42 |############        |  60% (4,471,416) 146.9 minPROGRESS> 23:54:58 |#############       |  65% (4,844,034) 159.2 minPROGRESS> 00:07:18 |##############      |  70% (5,216,652) 171.5 minPROGRESS> 00:19:35 |###############     |  75% (5,589,270) 183.8 minPROGRESS> 00:31:55 |################    |  80% (5,961,888) 196.1 minPROGRESS> 00:44:15 |#################   |  85% (6,334,506) 208.4 minPROGRESS> 00:56:33 |##################  |  90% (6,707,124) 220.7 minPROGRESS> 01:08:44 |################### |  95% (7,079,742) 232.9 minPROGRESS> 01:20:56 |####################| 100% (7,452,342) 245.1 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S10_R1_reheader.fastq
+SEQUENCES> 7452342
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:46:08 |                    |   0% (        0) 0.0 minPROGRESS> 21:57:23 |#                   |   5% (  342,193) 11.2 minPROGRESS> 22:08:38 |##                  |  10% (  684,386) 22.5 minPROGRESS> 22:19:51 |###                 |  15% (1,026,579) 33.7 minPROGRESS> 22:31:04 |####                |  20% (1,368,772) 44.9 minPROGRESS> 22:42:16 |#####               |  25% (1,710,965) 56.1 minPROGRESS> 22:53:28 |######              |  30% (2,053,158) 67.3 minPROGRESS> 23:04:40 |#######             |  35% (2,395,351) 78.5 minPROGRESS> 23:15:53 |########            |  40% (2,737,544) 89.7 minPROGRESS> 23:27:06 |#########           |  45% (3,079,737) 101.0 minPROGRESS> 23:38:20 |##########          |  50% (3,421,930) 112.2 minPROGRESS> 23:49:34 |###########         |  55% (3,764,123) 123.4 minPROGRESS> 00:00:54 |############        |  60% (4,106,316) 134.8 minPROGRESS> 00:12:12 |#############       |  65% (4,448,509) 146.1 minPROGRESS> 00:23:28 |##############      |  70% (4,790,702) 157.3 minPROGRESS> 00:34:49 |###############     |  75% (5,132,895) 168.7 minPROGRESS> 00:46:10 |################    |  80% (5,475,088) 180.0 minPROGRESS> 00:57:31 |#################   |  85% (5,817,281) 191.4 minPROGRESS> 01:08:46 |##################  |  90% (6,159,474) 202.6 minPROGRESS> 01:19:59 |################### |  95% (6,501,667) 213.8 minPROGRESS> 01:31:11 |####################| 100% (6,843,860) 225.1 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S6_R1_reheader.fastq
+SEQUENCES> 6843860
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:47:26 |                    |   0% (        0) 0.0 minPROGRESS> 21:58:38 |#                   |   5% (  340,243) 11.2 minPROGRESS> 22:09:51 |##                  |  10% (  680,486) 22.4 minPROGRESS> 22:21:02 |###                 |  15% (1,020,729) 33.6 minPROGRESS> 22:32:13 |####                |  20% (1,360,972) 44.8 minPROGRESS> 22:43:23 |#####               |  25% (1,701,215) 56.0 minPROGRESS> 22:54:35 |######              |  30% (2,041,458) 67.2 minPROGRESS> 23:05:47 |#######             |  35% (2,381,701) 78.3 minPROGRESS> 23:16:58 |########            |  40% (2,721,944) 89.5 minPROGRESS> 23:28:10 |#########           |  45% (3,062,187) 100.7 minPROGRESS> 23:39:22 |##########          |  50% (3,402,430) 111.9 minPROGRESS> 23:50:36 |###########         |  55% (3,742,673) 123.2 minPROGRESS> 00:01:57 |############        |  60% (4,082,916) 134.5 minPROGRESS> 00:13:11 |#############       |  65% (4,423,159) 145.8 minPROGRESS> 00:24:26 |##############      |  70% (4,763,402) 157.0 minPROGRESS> 00:35:44 |###############     |  75% (5,103,645) 168.3 minPROGRESS> 00:47:01 |################    |  80% (5,443,888) 179.6 minPROGRESS> 00:58:20 |#################   |  85% (5,784,131) 190.9 minPROGRESS> 01:09:29 |##################  |  90% (6,124,374) 202.1 minPROGRESS> 01:20:38 |################### |  95% (6,464,617) 213.2 minPROGRESS> 01:31:47 |####################| 100% (6,804,857) 224.4 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S7_R1_reheader.fastq
+SEQUENCES> 6804857
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 22:51:53 |                    |   0% (        0) 0.0 minPROGRESS> 22:59:57 |#                   |   5% (  244,766) 8.1 minPROGRESS> 23:08:02 |##                  |  10% (  489,532) 16.2 minPROGRESS> 23:16:07 |###                 |  15% (  734,298) 24.2 minPROGRESS> 23:24:12 |####                |  20% (  979,064) 32.3 minPROGRESS> 23:32:17 |#####               |  25% (1,223,830) 40.4 minPROGRESS> 23:40:22 |######              |  30% (1,468,596) 48.5 minPROGRESS> 23:48:26 |#######             |  35% (1,713,362) 56.6 minPROGRESS> 23:56:33 |########            |  40% (1,958,128) 64.7 minPROGRESS> 00:04:47 |#########           |  45% (2,202,894) 72.9 minPROGRESS> 00:12:54 |##########          |  50% (2,447,660) 81.0 minPROGRESS> 00:21:08 |###########         |  55% (2,692,426) 89.3 minPROGRESS> 00:29:18 |############        |  60% (2,937,192) 97.4 minPROGRESS> 00:37:27 |#############       |  65% (3,181,958) 105.6 minPROGRESS> 00:45:34 |##############      |  70% (3,426,724) 113.7 minPROGRESS> 00:53:42 |###############     |  75% (3,671,490) 121.8 minPROGRESS> 01:01:50 |################    |  80% (3,916,256) 130.0 minPROGRESS> 01:09:54 |#################   |  85% (4,161,022) 138.0 minPROGRESS> 01:17:57 |##################  |  90% (4,405,788) 146.1 minPROGRESS> 01:26:00 |################### |  95% (4,650,554) 154.1 minPROGRESS> 01:34:04 |####################| 100% (4,895,305) 162.2 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S10_R1_reheader.fastq
+SEQUENCES> 4895305
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 21:20:27 |                    |   0% (        0) 0.0 minPROGRESS> 21:33:14 |#                   |   5% (  388,327) 12.8 minPROGRESS> 21:46:02 |##                  |  10% (  776,654) 25.6 minPROGRESS> 21:58:50 |###                 |  15% (1,164,981) 38.4 minPROGRESS> 22:11:36 |####                |  20% (1,553,308) 51.2 minPROGRESS> 22:24:22 |#####               |  25% (1,941,635) 63.9 minPROGRESS> 22:37:08 |######              |  30% (2,329,962) 76.7 minPROGRESS> 22:49:56 |#######             |  35% (2,718,289) 89.5 minPROGRESS> 23:02:43 |########            |  40% (3,106,616) 102.3 minPROGRESS> 23:15:32 |#########           |  45% (3,494,943) 115.1 minPROGRESS> 23:28:19 |##########          |  50% (3,883,270) 127.9 minPROGRESS> 23:41:08 |###########         |  55% (4,271,597) 140.7 minPROGRESS> 23:53:57 |############        |  60% (4,659,924) 153.5 minPROGRESS> 00:06:52 |#############       |  65% (5,048,251) 166.4 minPROGRESS> 00:19:43 |##############      |  70% (5,436,578) 179.3 minPROGRESS> 00:32:36 |###############     |  75% (5,824,905) 192.2 minPROGRESS> 00:45:30 |################    |  80% (6,213,232) 205.1 minPROGRESS> 00:58:27 |#################   |  85% (6,601,559) 218.0 minPROGRESS> 01:11:12 |##################  |  90% (6,989,886) 230.8 minPROGRESS> 01:23:57 |################### |  95% (7,378,213) 243.5 minPROGRESS> 01:36:43 |####################| 100% (7,766,525) 256.3 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S1_R1_reheader.fastq
+SEQUENCES> 7766525
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 23:35:48 |                    |   0% (        0) 0.0 minPROGRESS> 23:42:29 |#                   |   5% (  202,928) 6.7 minPROGRESS> 23:49:10 |##                  |  10% (  405,856) 13.4 minPROGRESS> 23:55:54 |###                 |  15% (  608,784) 20.1 minPROGRESS> 00:02:44 |####                |  20% (  811,712) 26.9 minPROGRESS> 00:09:28 |#####               |  25% (1,014,640) 33.7 minPROGRESS> 00:16:21 |######              |  30% (1,217,568) 40.6 minPROGRESS> 00:23:10 |#######             |  35% (1,420,496) 47.4 minPROGRESS> 00:29:59 |########            |  40% (1,623,424) 54.2 minPROGRESS> 00:36:47 |#########           |  45% (1,826,352) 61.0 minPROGRESS> 00:43:35 |##########          |  50% (2,029,280) 67.8 minPROGRESS> 00:50:23 |###########         |  55% (2,232,208) 74.6 minPROGRESS> 00:57:08 |############        |  60% (2,435,136) 81.3 minPROGRESS> 01:03:53 |#############       |  65% (2,638,064) 88.1 minPROGRESS> 01:10:33 |##############      |  70% (2,840,992) 94.8 minPROGRESS> 01:17:12 |###############     |  75% (3,043,920) 101.4 minPROGRESS> 01:23:51 |################    |  80% (3,246,848) 108.1 minPROGRESS> 01:30:29 |#################   |  85% (3,449,776) 114.7 minPROGRESS> 01:37:07 |##################  |  90% (3,652,704) 121.3 minPROGRESS> 01:43:47 |################### |  95% (3,855,632) 128.0 minPROGRESS> 01:50:27 |####################| 100% (4,058,558) 134.7 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S2_R1_reheader.fastq
+SEQUENCES> 4058558
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 22:02:52 |                    |   0% (        0) 0.0 minPROGRESS> 22:15:24 |#                   |   5% (  376,340) 12.5 minPROGRESS> 22:27:55 |##                  |  10% (  752,680) 25.0 minPROGRESS> 22:40:24 |###                 |  15% (1,129,020) 37.5 minPROGRESS> 22:52:53 |####                |  20% (1,505,360) 50.0 minPROGRESS> 23:05:22 |#####               |  25% (1,881,700) 62.5 minPROGRESS> 23:17:53 |######              |  30% (2,258,040) 75.0 minPROGRESS> 23:30:23 |#######             |  35% (2,634,380) 87.5 minPROGRESS> 23:42:53 |########            |  40% (3,010,720) 100.0 minPROGRESS> 23:55:24 |#########           |  45% (3,387,060) 112.5 minPROGRESS> 00:08:12 |##########          |  50% (3,763,400) 125.3 minPROGRESS> 00:20:47 |###########         |  55% (4,139,740) 137.9 minPROGRESS> 00:33:29 |############        |  60% (4,516,080) 150.6 minPROGRESS> 00:46:06 |#############       |  65% (4,892,420) 163.2 minPROGRESS> 00:58:43 |##############      |  70% (5,268,760) 175.8 minPROGRESS> 01:11:11 |###############     |  75% (5,645,100) 188.3 minPROGRESS> 01:23:40 |################    |  80% (6,021,440) 200.8 minPROGRESS> 01:36:09 |#################   |  85% (6,397,780) 213.3 minPROGRESS> 01:48:40 |##################  |  90% (6,774,120) 225.8 minPROGRESS> 02:01:11 |################### |  95% (7,150,460) 238.3 minPROGRESS> 02:13:41 |####################| 100% (7,526,797) 250.8 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S8_R1_reheader.fastq
+SEQUENCES> 7526797
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:09:19 |                    |   0% (        0) 0.0 minPROGRESS> 00:15:51 |#                   |   5% (  195,380) 6.5 minPROGRESS> 00:22:22 |##                  |  10% (  390,760) 13.0 minPROGRESS> 00:28:54 |###                 |  15% (  586,140) 19.6 minPROGRESS> 00:35:27 |####                |  20% (  781,520) 26.1 minPROGRESS> 00:41:57 |#####               |  25% (  976,900) 32.6 minPROGRESS> 00:48:28 |######              |  30% (1,172,280) 39.1 minPROGRESS> 00:54:58 |#######             |  35% (1,367,660) 45.6 minPROGRESS> 01:01:25 |########            |  40% (1,563,040) 52.1 minPROGRESS> 01:07:50 |#########           |  45% (1,758,420) 58.5 minPROGRESS> 01:14:16 |##########          |  50% (1,953,800) 64.9 minPROGRESS> 01:20:42 |###########         |  55% (2,149,180) 71.4 minPROGRESS> 01:27:08 |############        |  60% (2,344,560) 77.8 minPROGRESS> 01:33:35 |#############       |  65% (2,539,940) 84.3 minPROGRESS> 01:40:02 |##############      |  70% (2,735,320) 90.7 minPROGRESS> 01:46:29 |###############     |  75% (2,930,700) 97.2 minPROGRESS> 01:52:57 |################    |  80% (3,126,080) 103.6 minPROGRESS> 01:59:24 |#################   |  85% (3,321,460) 110.1 minPROGRESS> 02:05:51 |##################  |  90% (3,516,840) 116.5 minPROGRESS> 02:12:16 |################### |  95% (3,712,220) 122.9 minPROGRESS> 02:18:44 |####################| 100% (3,907,588) 129.4 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S7_R1_reheader.fastq
+SEQUENCES> 3907588
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:07:13 |                    |   0% (        0) 0.0 minPROGRESS> 00:14:07 |#                   |   5% (  207,956) 6.9 minPROGRESS> 00:21:02 |##                  |  10% (  415,912) 13.8 minPROGRESS> 00:27:56 |###                 |  15% (  623,868) 20.7 minPROGRESS> 00:34:51 |####                |  20% (  831,824) 27.6 minPROGRESS> 00:41:44 |#####               |  25% (1,039,780) 34.5 minPROGRESS> 00:48:38 |######              |  30% (1,247,736) 41.4 minPROGRESS> 00:55:33 |#######             |  35% (1,455,692) 48.3 minPROGRESS> 01:02:23 |########            |  40% (1,663,648) 55.2 minPROGRESS> 01:09:12 |#########           |  45% (1,871,604) 62.0 minPROGRESS> 01:16:02 |##########          |  50% (2,079,560) 68.8 minPROGRESS> 01:22:52 |###########         |  55% (2,287,516) 75.6 minPROGRESS> 01:29:43 |############        |  60% (2,495,472) 82.5 minPROGRESS> 01:36:33 |#############       |  65% (2,703,428) 89.3 minPROGRESS> 01:43:22 |##############      |  70% (2,911,384) 96.2 minPROGRESS> 01:50:12 |###############     |  75% (3,119,340) 103.0 minPROGRESS> 01:57:04 |################    |  80% (3,327,296) 109.8 minPROGRESS> 02:03:55 |#################   |  85% (3,535,252) 116.7 minPROGRESS> 02:10:47 |##################  |  90% (3,743,208) 123.6 minPROGRESS> 02:17:40 |################### |  95% (3,951,164) 130.4 minPROGRESS> 02:24:27 |####################| 100% (4,159,110) 137.2 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S5_R1_reheader.fastq
+SEQUENCES> 4159110
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 22:30:20 |                    |   0% (        0) 0.0 minPROGRESS> 22:42:50 |#                   |   5% (  379,053) 12.5 minPROGRESS> 22:55:21 |##                  |  10% (  758,106) 25.0 minPROGRESS> 23:07:51 |###                 |  15% (1,137,159) 37.5 minPROGRESS> 23:20:21 |####                |  20% (1,516,212) 50.0 minPROGRESS> 23:32:52 |#####               |  25% (1,895,265) 62.5 minPROGRESS> 23:45:24 |######              |  30% (2,274,318) 75.1 minPROGRESS> 23:57:58 |#######             |  35% (2,653,371) 87.6 minPROGRESS> 00:10:41 |########            |  40% (3,032,424) 100.4 minPROGRESS> 00:23:19 |#########           |  45% (3,411,477) 113.0 minPROGRESS> 00:36:02 |##########          |  50% (3,790,530) 125.7 minPROGRESS> 00:48:38 |###########         |  55% (4,169,583) 138.3 minPROGRESS> 01:01:14 |############        |  60% (4,548,636) 150.9 minPROGRESS> 01:13:43 |#############       |  65% (4,927,689) 163.4 minPROGRESS> 01:26:11 |##############      |  70% (5,306,742) 175.9 minPROGRESS> 01:38:42 |###############     |  75% (5,685,795) 188.4 minPROGRESS> 01:51:14 |################    |  80% (6,064,848) 200.9 minPROGRESS> 02:03:48 |#################   |  85% (6,443,901) 213.5 minPROGRESS> 02:16:18 |##################  |  90% (6,822,954) 226.0 minPROGRESS> 02:28:49 |################### |  95% (7,202,007) 238.5 minPROGRESS> 02:41:20 |####################| 100% (7,581,053) 251.0 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S9_R1_reheader.fastq
+SEQUENCES> 7581053
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:06:03 |                    |   0% (        0) 0.0 minPROGRESS> 00:14:06 |#                   |   5% (  241,616) 8.0 minPROGRESS> 00:22:08 |##                  |  10% (  483,232) 16.1 minPROGRESS> 00:30:11 |###                 |  15% (  724,848) 24.1 minPROGRESS> 00:38:13 |####                |  20% (  966,464) 32.2 minPROGRESS> 00:46:14 |#####               |  25% (1,208,080) 40.2 minPROGRESS> 00:54:17 |######              |  30% (1,449,696) 48.2 minPROGRESS> 01:02:16 |#######             |  35% (1,691,312) 56.2 minPROGRESS> 01:10:15 |########            |  40% (1,932,928) 64.2 minPROGRESS> 01:18:12 |#########           |  45% (2,174,544) 72.1 minPROGRESS> 01:26:09 |##########          |  50% (2,416,160) 80.1 minPROGRESS> 01:34:07 |###########         |  55% (2,657,776) 88.1 minPROGRESS> 01:42:06 |############        |  60% (2,899,392) 96.0 minPROGRESS> 01:50:04 |#############       |  65% (3,141,008) 104.0 minPROGRESS> 01:58:03 |##############      |  70% (3,382,624) 112.0 minPROGRESS> 02:06:02 |###############     |  75% (3,624,240) 120.0 minPROGRESS> 02:14:02 |################    |  80% (3,865,856) 128.0 minPROGRESS> 02:22:01 |#################   |  85% (4,107,472) 136.0 minPROGRESS> 02:29:57 |##################  |  90% (4,349,088) 143.9 minPROGRESS> 02:37:55 |################### |  95% (4,590,704) 151.9 minPROGRESS> 02:45:52 |####################| 100% (4,832,305) 159.8 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S4_R1_reheader.fastq
+SEQUENCES> 4832305
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:27:57 |                    |   0% (        0) 0.0 minPROGRESS> 00:35:12 |#                   |   5% (  216,993) 7.3 minPROGRESS> 00:42:25 |##                  |  10% (  433,986) 14.5 minPROGRESS> 00:49:38 |###                 |  15% (  650,979) 21.7 minPROGRESS> 00:56:52 |####                |  20% (  867,972) 28.9 minPROGRESS> 01:04:01 |#####               |  25% (1,084,965) 36.1 minPROGRESS> 01:11:10 |######              |  30% (1,301,958) 43.2 minPROGRESS> 01:18:19 |#######             |  35% (1,518,951) 50.4 minPROGRESS> 01:25:28 |########            |  40% (1,735,944) 57.5 minPROGRESS> 01:32:37 |#########           |  45% (1,952,937) 64.7 minPROGRESS> 01:39:47 |##########          |  50% (2,169,930) 71.8 minPROGRESS> 01:46:57 |###########         |  55% (2,386,923) 79.0 minPROGRESS> 01:54:08 |############        |  60% (2,603,916) 86.2 minPROGRESS> 02:01:19 |#############       |  65% (2,820,909) 93.4 minPROGRESS> 02:08:30 |##############      |  70% (3,037,902) 100.6 minPROGRESS> 02:15:40 |###############     |  75% (3,254,895) 107.7 minPROGRESS> 02:22:48 |################    |  80% (3,471,888) 114.9 minPROGRESS> 02:29:57 |#################   |  85% (3,688,881) 122.0 minPROGRESS> 02:37:05 |##################  |  90% (3,905,874) 129.1 minPROGRESS> 02:44:13 |################### |  95% (4,122,867) 136.3 minPROGRESS> 02:51:22 |####################| 100% (4,339,859) 143.4 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S9_R1_reheader.fastq
+SEQUENCES> 4339859
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 23:21:50 |                    |   0% (        0) 0.0 minPROGRESS> 23:32:46 |#                   |   5% (  330,306) 10.9 minPROGRESS> 23:43:40 |##                  |  10% (  660,612) 21.8 minPROGRESS> 23:54:33 |###                 |  15% (  990,918) 32.7 minPROGRESS> 00:05:42 |####                |  20% (1,321,224) 43.9 minPROGRESS> 00:17:02 |#####               |  25% (1,651,530) 55.2 minPROGRESS> 00:28:16 |######              |  30% (1,981,836) 66.4 minPROGRESS> 00:39:31 |#######             |  35% (2,312,142) 77.7 minPROGRESS> 00:50:37 |########            |  40% (2,642,448) 88.8 minPROGRESS> 01:01:41 |#########           |  45% (2,972,754) 99.9 minPROGRESS> 01:12:47 |##########          |  50% (3,303,060) 111.0 minPROGRESS> 01:23:45 |###########         |  55% (3,633,366) 121.9 minPROGRESS> 01:34:38 |############        |  60% (3,963,672) 132.8 minPROGRESS> 01:45:31 |#############       |  65% (4,293,978) 143.7 minPROGRESS> 01:56:25 |##############      |  70% (4,624,284) 154.6 minPROGRESS> 02:07:18 |###############     |  75% (4,954,590) 165.5 minPROGRESS> 02:18:13 |################    |  80% (5,284,896) 176.4 minPROGRESS> 02:29:06 |#################   |  85% (5,615,202) 187.3 minPROGRESS> 02:39:59 |##################  |  90% (5,945,508) 198.2 minPROGRESS> 02:50:52 |################### |  95% (6,275,814) 209.0 minPROGRESS> 03:01:45 |####################| 100% (6,606,119) 219.9 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S1_R1_reheader.fastq
+SEQUENCES> 6606119
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:14:45 |                    |   0% (        0) 0.0 minPROGRESS> 00:23:30 |#                   |   5% (  263,467) 8.8 minPROGRESS> 00:32:18 |##                  |  10% (  526,934) 17.6 minPROGRESS> 00:41:03 |###                 |  15% (  790,401) 26.3 minPROGRESS> 00:49:48 |####                |  20% (1,053,868) 35.1 minPROGRESS> 00:58:31 |#####               |  25% (1,317,335) 43.8 minPROGRESS> 01:07:07 |######              |  30% (1,580,802) 52.4 minPROGRESS> 01:15:45 |#######             |  35% (1,844,269) 61.0 minPROGRESS> 01:24:22 |########            |  40% (2,107,736) 69.6 minPROGRESS> 01:32:59 |#########           |  45% (2,371,203) 78.2 minPROGRESS> 01:41:37 |##########          |  50% (2,634,670) 86.9 minPROGRESS> 01:50:15 |###########         |  55% (2,898,137) 95.5 minPROGRESS> 01:58:55 |############        |  60% (3,161,604) 104.2 minPROGRESS> 02:07:32 |#############       |  65% (3,425,071) 112.8 minPROGRESS> 02:16:10 |##############      |  70% (3,688,538) 121.4 minPROGRESS> 02:24:46 |###############     |  75% (3,952,005) 130.0 minPROGRESS> 02:33:21 |################    |  80% (4,215,472) 138.6 minPROGRESS> 02:41:57 |#################   |  85% (4,478,939) 147.2 minPROGRESS> 02:50:33 |##################  |  90% (4,742,406) 155.8 minPROGRESS> 02:59:09 |################### |  95% (5,005,873) 164.4 minPROGRESS> 03:07:46 |####################| 100% (5,269,323) 173.0 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S8_R1_reheader.fastq
+SEQUENCES> 5269323
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:07:53 |                    |   0% (     0) 0.0 minPROGRESS> 03:07:54 |#                   |   5% (   547) 0.0 minPROGRESS> 03:07:55 |##                  |  10% ( 1,094) 0.0 minPROGRESS> 03:07:57 |###                 |  15% ( 1,641) 0.1 minPROGRESS> 03:07:58 |####                |  20% ( 2,188) 0.1 minPROGRESS> 03:07:59 |#####               |  25% ( 2,735) 0.1 minPROGRESS> 03:08:00 |######              |  30% ( 3,282) 0.1 minPROGRESS> 03:08:01 |#######             |  35% ( 3,829) 0.1 minPROGRESS> 03:08:02 |########            |  40% ( 4,376) 0.1 minPROGRESS> 03:08:03 |#########           |  45% ( 4,923) 0.2 minPROGRESS> 03:08:04 |##########          |  50% ( 5,470) 0.2 minPROGRESS> 03:08:05 |###########         |  55% ( 6,017) 0.2 minPROGRESS> 03:08:06 |############        |  60% ( 6,564) 0.2 minPROGRESS> 03:08:07 |#############       |  65% ( 7,111) 0.2 minPROGRESS> 03:08:08 |##############      |  70% ( 7,658) 0.3 minPROGRESS> 03:08:10 |###############     |  75% ( 8,205) 0.3 minPROGRESS> 03:08:11 |################    |  80% ( 8,752) 0.3 minPROGRESS> 03:08:12 |#################   |  85% ( 9,299) 0.3 minPROGRESS> 03:08:13 |##################  |  90% ( 9,846) 0.3 minPROGRESS> 03:08:14 |################### |  95% (10,393) 0.3 minPROGRESS> 03:08:15 |####################| 100% (10,940) 0.4 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S7_R2_reheader.fastq
+SEQUENCES> 10940
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 23:49:11 |                    |   0% (        0) 0.0 minPROGRESS> 23:59:13 |#                   |   5% (  302,230) 10.0 minPROGRESS> 00:09:28 |##                  |  10% (  604,460) 20.3 minPROGRESS> 00:19:38 |###                 |  15% (  906,690) 30.5 minPROGRESS> 00:29:48 |####                |  20% (1,208,920) 40.6 minPROGRESS> 00:40:08 |#####               |  25% (1,511,150) 51.0 minPROGRESS> 00:50:23 |######              |  30% (1,813,380) 61.2 minPROGRESS> 01:00:31 |#######             |  35% (2,115,610) 71.3 minPROGRESS> 01:10:32 |########            |  40% (2,417,840) 81.4 minPROGRESS> 01:20:36 |#########           |  45% (2,720,070) 91.4 minPROGRESS> 01:30:44 |##########          |  50% (3,022,300) 101.6 minPROGRESS> 01:40:44 |###########         |  55% (3,324,530) 111.6 minPROGRESS> 01:50:43 |############        |  60% (3,626,760) 121.5 minPROGRESS> 02:00:41 |#############       |  65% (3,928,990) 131.5 minPROGRESS> 02:10:42 |##############      |  70% (4,231,220) 141.5 minPROGRESS> 02:20:42 |###############     |  75% (4,533,450) 151.5 minPROGRESS> 02:30:43 |################    |  80% (4,835,680) 161.5 minPROGRESS> 02:40:42 |#################   |  85% (5,137,910) 171.5 minPROGRESS> 02:50:40 |##################  |  90% (5,440,140) 181.5 minPROGRESS> 03:00:38 |################### |  95% (5,742,370) 191.5 minPROGRESS> 03:10:38 |####################| 100% (6,044,582) 201.5 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S3_R1_reheader.fastq
+SEQUENCES> 6044582
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:39:55 |                    |   0% (        0) 0.0 minPROGRESS> 01:45:36 |#                   |   5% (  167,659) 5.7 minPROGRESS> 01:51:14 |##                  |  10% (  335,318) 11.3 minPROGRESS> 01:56:52 |###                 |  15% (  502,977) 16.9 minPROGRESS> 02:02:31 |####                |  20% (  670,636) 22.6 minPROGRESS> 02:08:08 |#####               |  25% (  838,295) 28.2 minPROGRESS> 02:13:48 |######              |  30% (1,005,954) 33.9 minPROGRESS> 02:19:26 |#######             |  35% (1,173,613) 39.5 minPROGRESS> 02:25:02 |########            |  40% (1,341,272) 45.1 minPROGRESS> 02:30:37 |#########           |  45% (1,508,931) 50.7 minPROGRESS> 02:36:12 |##########          |  50% (1,676,590) 56.3 minPROGRESS> 02:41:48 |###########         |  55% (1,844,249) 61.9 minPROGRESS> 02:47:26 |############        |  60% (2,011,908) 67.5 minPROGRESS> 02:53:02 |#############       |  65% (2,179,567) 73.1 minPROGRESS> 02:58:39 |##############      |  70% (2,347,226) 78.7 minPROGRESS> 03:04:15 |###############     |  75% (2,514,885) 84.3 minPROGRESS> 03:09:53 |################    |  80% (2,682,544) 90.0 minPROGRESS> 03:15:31 |#################   |  85% (2,850,203) 95.6 minPROGRESS> 03:21:07 |##################  |  90% (3,017,862) 101.2 minPROGRESS> 03:26:44 |################### |  95% (3,185,521) 106.8 minPROGRESS> 03:32:21 |####################| 100% (3,353,173) 112.4 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S7_R2_reheader.fastq
+SEQUENCES> 3353173
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:01:56 |                    |   0% (        0) 0.0 minPROGRESS> 01:09:27 |#                   |   5% (  227,155) 7.5 minPROGRESS> 01:17:00 |##                  |  10% (  454,310) 15.1 minPROGRESS> 01:24:33 |###                 |  15% (  681,465) 22.6 minPROGRESS> 01:32:06 |####                |  20% (  908,620) 30.2 minPROGRESS> 01:39:39 |#####               |  25% (1,135,775) 37.7 minPROGRESS> 01:47:10 |######              |  30% (1,362,930) 45.2 minPROGRESS> 01:54:43 |#######             |  35% (1,590,085) 52.8 minPROGRESS> 02:02:15 |########            |  40% (1,817,240) 60.3 minPROGRESS> 02:09:47 |#########           |  45% (2,044,395) 67.9 minPROGRESS> 02:17:21 |##########          |  50% (2,271,550) 75.4 minPROGRESS> 02:24:54 |###########         |  55% (2,498,705) 83.0 minPROGRESS> 02:32:25 |############        |  60% (2,725,860) 90.5 minPROGRESS> 02:39:56 |#############       |  65% (2,953,015) 98.0 minPROGRESS> 02:47:27 |##############      |  70% (3,180,170) 105.5 minPROGRESS> 02:54:58 |###############     |  75% (3,407,325) 113.0 minPROGRESS> 03:02:29 |################    |  80% (3,634,480) 120.6 minPROGRESS> 03:10:02 |#################   |  85% (3,861,635) 128.1 minPROGRESS> 03:17:34 |##################  |  90% (4,088,790) 135.6 minPROGRESS> 03:25:05 |################### |  95% (4,315,945) 143.2 minPROGRESS> 03:32:37 |####################| 100% (4,543,099) 150.7 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S3_R2_reheader.fastq
+SEQUENCES> 4543099
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:37:47 |                    |   0% (        0) 0.0 minPROGRESS> 01:43:59 |#                   |   5% (  186,280) 6.2 minPROGRESS> 01:50:11 |##                  |  10% (  372,560) 12.4 minPROGRESS> 01:56:23 |###                 |  15% (  558,840) 18.6 minPROGRESS> 02:02:34 |####                |  20% (  745,120) 24.8 minPROGRESS> 02:08:46 |#####               |  25% (  931,400) 31.0 minPROGRESS> 02:14:59 |######              |  30% (1,117,680) 37.2 minPROGRESS> 02:21:11 |#######             |  35% (1,303,960) 43.4 minPROGRESS> 02:27:21 |########            |  40% (1,490,240) 49.6 minPROGRESS> 02:33:31 |#########           |  45% (1,676,520) 55.7 minPROGRESS> 02:39:41 |##########          |  50% (1,862,800) 61.9 minPROGRESS> 02:45:52 |###########         |  55% (2,049,080) 68.1 minPROGRESS> 02:52:03 |############        |  60% (2,235,360) 74.3 minPROGRESS> 02:58:14 |#############       |  65% (2,421,640) 80.4 minPROGRESS> 03:04:23 |##############      |  70% (2,607,920) 86.6 minPROGRESS> 03:10:35 |###############     |  75% (2,794,200) 92.8 minPROGRESS> 03:16:46 |################    |  80% (2,980,480) 99.0 minPROGRESS> 03:22:57 |#################   |  85% (3,166,760) 105.2 minPROGRESS> 03:29:08 |##################  |  90% (3,353,040) 111.3 minPROGRESS> 03:35:19 |################### |  95% (3,539,320) 117.5 minPROGRESS> 03:41:29 |####################| 100% (3,725,585) 123.7 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S5_R2_reheader.fastq
+SEQUENCES> 3725585
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ FIELDS> 5PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:13:42 |                    |   0% (        0) 0.0 minPROGRESS> 00:24:20 |#                   |   5% (  316,236) 10.6 minPROGRESS> 00:34:54 |##                  |  10% (  632,472) 21.2 minPROGRESS> 00:45:23 |###                 |  15% (  948,708) 31.7 minPROGRESS> 00:55:58 |####                |  20% (1,264,944) 42.3 minPROGRESS> 01:06:21 |#####               |  25% (1,581,180) 52.6 minPROGRESS> 01:16:50 |######              |  30% (1,897,416) 63.1 minPROGRESS> 01:27:18 |#######             |  35% (2,213,652) 73.6 minPROGRESS> 01:37:41 |########            |  40% (2,529,888) 84.0 minPROGRESS> 01:48:03 |#########           |  45% (2,846,124) 94.3 minPROGRESS> 01:58:24 |##########          |  50% (3,162,360) 104.7 minPROGRESS> 02:08:48 |###########         |  55% (3,478,596) 115.1 minPROGRESS> 02:19:13 |############        |  60% (3,794,832) 125.5 minPROGRESS> 02:29:34 |#############       |  65% (4,111,068) 135.9 minPROGRESS> 02:39:56 |##############      |  70% (4,427,304) 146.2 minPROGRESS> 02:50:19 |###############     |  75% (4,743,540) 156.6 minPROGRESS> 03:00:42 |################    |  80% (5,059,776) 167.0 minPROGRESS> 03:11:06 |#################   |  85% (5,376,012) 177.4 minPROGRESS> 03:21:28 |##################  |  90% (5,692,248) 187.8 minPROGRESS> 03:31:52 |################### |  95% (6,008,484) 198.2 minPROGRESS> 03:42:16 |####################| 100% (6,324,717) 208.6 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S6_R1_reheader.fastq
+SEQUENCES> 6324717
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:51:16 |                    |   0% (        0) 0.0 minPROGRESS> 01:00:49 |#                   |   5% (  278,314) 9.6 minPROGRESS> 01:10:17 |##                  |  10% (  556,628) 19.0 minPROGRESS> 01:19:41 |###                 |  15% (  834,942) 28.4 minPROGRESS> 01:29:06 |####                |  20% (1,113,256) 37.8 minPROGRESS> 01:38:27 |#####               |  25% (1,391,570) 47.2 minPROGRESS> 01:47:46 |######              |  30% (1,669,884) 56.5 minPROGRESS> 01:57:03 |#######             |  35% (1,948,198) 65.8 minPROGRESS> 02:06:29 |########            |  40% (2,226,512) 75.2 minPROGRESS> 02:15:50 |#########           |  45% (2,504,826) 84.6 minPROGRESS> 02:25:01 |##########          |  50% (2,783,140) 93.7 minPROGRESS> 02:34:15 |###########         |  55% (3,061,454) 103.0 minPROGRESS> 02:43:26 |############        |  60% (3,339,768) 112.2 minPROGRESS> 02:52:36 |#############       |  65% (3,618,082) 121.3 minPROGRESS> 03:01:46 |##############      |  70% (3,896,396) 130.5 minPROGRESS> 03:10:57 |###############     |  75% (4,174,710) 139.7 minPROGRESS> 03:20:07 |################    |  80% (4,453,024) 148.8 minPROGRESS> 03:29:18 |#################   |  85% (4,731,338) 158.0 minPROGRESS> 03:38:28 |##################  |  90% (5,009,652) 167.2 minPROGRESS> 03:47:37 |################### |  95% (5,287,966) 176.4 minPROGRESS> 03:56:47 |####################| 100% (5,566,268) 185.5 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S1_R2_reheader.fastq
+SEQUENCES> 5566268
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:00:24 |                    |   0% (        0) 0.0 minPROGRESS> 01:09:59 |#                   |   5% (  290,567) 9.6 minPROGRESS> 01:19:35 |##                  |  10% (  581,134) 19.2 minPROGRESS> 01:29:10 |###                 |  15% (  871,701) 28.8 minPROGRESS> 01:38:47 |####                |  20% (1,162,268) 38.4 minPROGRESS> 01:48:23 |#####               |  25% (1,452,835) 48.0 minPROGRESS> 01:58:00 |######              |  30% (1,743,402) 57.6 minPROGRESS> 02:07:36 |#######             |  35% (2,033,969) 67.2 minPROGRESS> 02:17:12 |########            |  40% (2,324,536) 76.8 minPROGRESS> 02:26:46 |#########           |  45% (2,615,103) 86.4 minPROGRESS> 02:36:20 |##########          |  50% (2,905,670) 95.9 minPROGRESS> 02:45:55 |###########         |  55% (3,196,237) 105.5 minPROGRESS> 02:55:31 |############        |  60% (3,486,804) 115.1 minPROGRESS> 03:05:06 |#############       |  65% (3,777,371) 124.7 minPROGRESS> 03:14:43 |##############      |  70% (4,067,938) 134.3 minPROGRESS> 03:24:19 |###############     |  75% (4,358,505) 143.9 minPROGRESS> 03:33:56 |################    |  80% (4,649,072) 153.5 minPROGRESS> 03:43:33 |#################   |  85% (4,939,639) 163.2 minPROGRESS> 03:53:08 |##################  |  90% (5,230,206) 172.7 minPROGRESS> 04:02:43 |################### |  95% (5,520,773) 182.3 minPROGRESS> 04:12:18 |####################| 100% (5,811,328) 191.9 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S2_R2_reheader.fastq
+SEQUENCES> 5811328
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 00:42:18 |                    |   0% (        0) 0.0 minPROGRESS> 00:53:15 |#                   |   5% (  328,095) 10.9 minPROGRESS> 01:04:07 |##                  |  10% (  656,190) 21.8 minPROGRESS> 01:14:58 |###                 |  15% (  984,285) 32.7 minPROGRESS> 01:25:47 |####                |  20% (1,312,380) 43.5 minPROGRESS> 01:36:37 |#####               |  25% (1,640,475) 54.3 minPROGRESS> 01:47:28 |######              |  30% (1,968,570) 65.2 minPROGRESS> 01:58:20 |#######             |  35% (2,296,665) 76.0 minPROGRESS> 02:09:10 |########            |  40% (2,624,760) 86.9 minPROGRESS> 02:19:59 |#########           |  45% (2,952,855) 97.7 minPROGRESS> 02:30:46 |##########          |  50% (3,280,950) 108.5 minPROGRESS> 02:41:34 |###########         |  55% (3,609,045) 119.3 minPROGRESS> 02:52:24 |############        |  60% (3,937,140) 130.1 minPROGRESS> 03:03:12 |#############       |  65% (4,265,235) 140.9 minPROGRESS> 03:14:02 |##############      |  70% (4,593,330) 151.7 minPROGRESS> 03:24:50 |###############     |  75% (4,921,425) 162.5 minPROGRESS> 03:35:41 |################    |  80% (5,249,520) 173.4 minPROGRESS> 03:46:30 |#################   |  85% (5,577,615) 184.2 minPROGRESS> 03:57:18 |##################  |  90% (5,905,710) 195.0 minPROGRESS> 04:08:06 |################### |  95% (6,233,805) 205.8 minPROGRESS> 04:18:55 |####################| 100% (6,561,899) 216.6 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S10_R2_reheader.fastq
+SEQUENCES> 6561899
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:29:45 |                    |   0% (        0) 0.0 minPROGRESS> 01:38:16 |#                   |   5% (  256,662) 8.5 minPROGRESS> 01:46:47 |##                  |  10% (  513,324) 17.0 minPROGRESS> 01:55:17 |###                 |  15% (  769,986) 25.5 minPROGRESS> 02:03:47 |####                |  20% (1,026,648) 34.0 minPROGRESS> 02:12:16 |#####               |  25% (1,283,310) 42.5 minPROGRESS> 02:20:45 |######              |  30% (1,539,972) 51.0 minPROGRESS> 02:29:13 |#######             |  35% (1,796,634) 59.5 minPROGRESS> 02:37:41 |########            |  40% (2,053,296) 67.9 minPROGRESS> 02:46:09 |#########           |  45% (2,309,958) 76.4 minPROGRESS> 02:54:37 |##########          |  50% (2,566,620) 84.9 minPROGRESS> 03:03:05 |###########         |  55% (2,823,282) 93.3 minPROGRESS> 03:11:35 |############        |  60% (3,079,944) 101.8 minPROGRESS> 03:20:03 |#############       |  65% (3,336,606) 110.3 minPROGRESS> 03:28:33 |##############      |  70% (3,593,268) 118.8 minPROGRESS> 03:37:02 |###############     |  75% (3,849,930) 127.3 minPROGRESS> 03:45:32 |################    |  80% (4,106,592) 135.8 minPROGRESS> 03:54:01 |#################   |  85% (4,363,254) 144.3 minPROGRESS> 04:02:29 |##################  |  90% (4,619,916) 152.7 minPROGRESS> 04:10:58 |################### |  95% (4,876,578) 161.2 minPROGRESS> 04:19:27 |####################| 100% (5,133,221) 169.7 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S4_R2_reheader.fastq
+SEQUENCES> 5133221
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:40:24 |                    |   0% (        0) 0.0 minPROGRESS> 01:48:33 |#                   |   5% (  245,256) 8.1 minPROGRESS> 01:56:42 |##                  |  10% (  490,512) 16.3 minPROGRESS> 02:04:54 |###                 |  15% (  735,768) 24.5 minPROGRESS> 02:13:04 |####                |  20% (  981,024) 32.7 minPROGRESS> 02:21:13 |#####               |  25% (1,226,280) 40.8 minPROGRESS> 02:29:19 |######              |  30% (1,471,536) 48.9 minPROGRESS> 02:37:25 |#######             |  35% (1,716,792) 57.0 minPROGRESS> 02:45:30 |########            |  40% (1,962,048) 65.1 minPROGRESS> 02:53:35 |#########           |  45% (2,207,304) 73.2 minPROGRESS> 03:01:39 |##########          |  50% (2,452,560) 81.3 minPROGRESS> 03:09:46 |###########         |  55% (2,697,816) 89.4 minPROGRESS> 03:17:53 |############        |  60% (2,943,072) 97.5 minPROGRESS> 03:25:58 |#############       |  65% (3,188,328) 105.6 minPROGRESS> 03:34:04 |##############      |  70% (3,433,584) 113.7 minPROGRESS> 03:42:10 |###############     |  75% (3,678,840) 121.8 minPROGRESS> 03:50:15 |################    |  80% (3,924,096) 129.8 minPROGRESS> 03:58:20 |#################   |  85% (4,169,352) 137.9 minPROGRESS> 04:06:25 |##################  |  90% (4,414,608) 146.0 minPROGRESS> 04:14:30 |################### |  95% (4,659,864) 154.1 minPROGRESS> 04:22:36 |####################| 100% (4,905,108) 162.2 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S6_R2_reheader.fastq
+SEQUENCES> 4905108
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:46:38 |                    |   0% (        0) 0.0 minPROGRESS> 01:55:51 |#                   |   5% (  277,014) 9.2 minPROGRESS> 02:05:01 |##                  |  10% (  554,028) 18.4 minPROGRESS> 02:14:13 |###                 |  15% (  831,042) 27.6 minPROGRESS> 02:23:21 |####                |  20% (1,108,056) 36.7 minPROGRESS> 02:32:28 |#####               |  25% (1,385,070) 45.8 minPROGRESS> 02:41:35 |######              |  30% (1,662,084) 55.0 minPROGRESS> 02:50:42 |#######             |  35% (1,939,098) 64.1 minPROGRESS> 02:59:50 |########            |  40% (2,216,112) 73.2 minPROGRESS> 03:08:58 |#########           |  45% (2,493,126) 82.3 minPROGRESS> 03:18:08 |##########          |  50% (2,770,140) 91.5 minPROGRESS> 03:27:16 |###########         |  55% (3,047,154) 100.6 minPROGRESS> 03:36:26 |############        |  60% (3,324,168) 109.8 minPROGRESS> 03:45:34 |#############       |  65% (3,601,182) 118.9 minPROGRESS> 03:54:41 |##############      |  70% (3,878,196) 128.1 minPROGRESS> 04:03:49 |###############     |  75% (4,155,210) 137.2 minPROGRESS> 04:12:57 |################    |  80% (4,432,224) 146.3 minPROGRESS> 04:22:06 |#################   |  85% (4,709,238) 155.5 minPROGRESS> 04:31:13 |##################  |  90% (4,986,252) 164.6 minPROGRESS> 04:40:20 |################### |  95% (5,263,266) 173.7 minPROGRESS> 04:49:26 |####################| 100% (5,540,274) 182.8 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S8_R2_reheader.fastq
+SEQUENCES> 5540274
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 01:59:51 |                    |   0% (        0) 0.0 minPROGRESS> 02:08:25 |#                   |   5% (  260,419) 8.6 minPROGRESS> 02:16:58 |##                  |  10% (  520,838) 17.1 minPROGRESS> 02:25:29 |###                 |  15% (  781,257) 25.6 minPROGRESS> 02:34:01 |####                |  20% (1,041,676) 34.2 minPROGRESS> 02:42:34 |#####               |  25% (1,302,095) 42.7 minPROGRESS> 02:51:07 |######              |  30% (1,562,514) 51.3 minPROGRESS> 02:59:40 |#######             |  35% (1,822,933) 59.8 minPROGRESS> 03:08:13 |########            |  40% (2,083,352) 68.4 minPROGRESS> 03:16:46 |#########           |  45% (2,343,771) 76.9 minPROGRESS> 03:25:19 |##########          |  50% (2,604,190) 85.5 minPROGRESS> 03:33:52 |###########         |  55% (2,864,609) 94.0 minPROGRESS> 03:42:26 |############        |  60% (3,125,028) 102.6 minPROGRESS> 03:50:59 |#############       |  65% (3,385,447) 111.1 minPROGRESS> 03:59:32 |##############      |  70% (3,645,866) 119.7 minPROGRESS> 04:08:04 |###############     |  75% (3,906,285) 128.2 minPROGRESS> 04:16:38 |################    |  80% (4,166,704) 136.8 minPROGRESS> 04:25:11 |#################   |  85% (4,427,123) 145.3 minPROGRESS> 04:33:44 |##################  |  90% (4,687,542) 153.9 minPROGRESS> 04:42:16 |################### |  95% (4,947,961) 162.4 minPROGRESS> 04:50:49 |####################| 100% (5,208,370) 171.0 min
+
+   OUTPUT> mpg_L19244_S1_S1_R1_001_quality-pass_primers-pass_PRIMER-S9_R2_reheader.fastq
+SEQUENCES> 5208370
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:52:55 |                    |   0% (        0) 0.0 minPROGRESS> 02:59:38 |#                   |   5% (  201,374) 6.7 minPROGRESS> 03:06:21 |##                  |  10% (  402,748) 13.4 minPROGRESS> 03:13:05 |###                 |  15% (  604,122) 20.2 minPROGRESS> 03:19:48 |####                |  20% (  805,496) 26.9 minPROGRESS> 03:26:30 |#####               |  25% (1,006,870) 33.6 minPROGRESS> 03:33:13 |######              |  30% (1,208,244) 40.3 minPROGRESS> 03:39:56 |#######             |  35% (1,409,618) 47.0 minPROGRESS> 03:46:38 |########            |  40% (1,610,992) 53.7 minPROGRESS> 03:53:20 |#########           |  45% (1,812,366) 60.4 minPROGRESS> 04:00:03 |##########          |  50% (2,013,740) 67.1 minPROGRESS> 04:06:45 |###########         |  55% (2,215,114) 73.8 minPROGRESS> 04:13:27 |############        |  60% (2,416,488) 80.5 minPROGRESS> 04:20:10 |#############       |  65% (2,617,862) 87.2 minPROGRESS> 04:26:53 |##############      |  70% (2,819,236) 94.0 minPROGRESS> 04:33:36 |###############     |  75% (3,020,610) 100.7 minPROGRESS> 04:40:18 |################    |  80% (3,221,984) 107.4 minPROGRESS> 04:47:00 |#################   |  85% (3,423,358) 114.1 minPROGRESS> 04:53:42 |##################  |  90% (3,624,732) 120.8 minPROGRESS> 05:00:24 |################### |  95% (3,826,106) 127.5 minPROGRESS> 05:07:06 |####################| 100% (4,027,462) 134.2 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S4_R2_reheader.fastq
+SEQUENCES> 4027462
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:58:19 |                    |   0% (        0) 0.0 minPROGRESS> 03:05:01 |#                   |   5% (  200,985) 6.7 minPROGRESS> 03:11:44 |##                  |  10% (  401,970) 13.4 minPROGRESS> 03:18:26 |###                 |  15% (  602,955) 20.1 minPROGRESS> 03:25:07 |####                |  20% (  803,940) 26.8 minPROGRESS> 03:31:49 |#####               |  25% (1,004,925) 33.5 minPROGRESS> 03:38:32 |######              |  30% (1,205,910) 40.2 minPROGRESS> 03:45:15 |#######             |  35% (1,406,895) 46.9 minPROGRESS> 03:51:58 |########            |  40% (1,607,880) 53.7 minPROGRESS> 03:58:41 |#########           |  45% (1,808,865) 60.4 minPROGRESS> 04:05:22 |##########          |  50% (2,009,850) 67.1 minPROGRESS> 04:12:04 |###########         |  55% (2,210,835) 73.8 minPROGRESS> 04:18:46 |############        |  60% (2,411,820) 80.5 minPROGRESS> 04:25:29 |#############       |  65% (2,612,805) 87.2 minPROGRESS> 04:32:10 |##############      |  70% (2,813,790) 93.9 minPROGRESS> 04:38:52 |###############     |  75% (3,014,775) 100.6 minPROGRESS> 04:45:34 |################    |  80% (3,215,760) 107.3 minPROGRESS> 04:52:15 |#################   |  85% (3,416,745) 114.0 minPROGRESS> 04:58:57 |##################  |  90% (3,617,730) 120.6 minPROGRESS> 05:05:39 |################### |  95% (3,818,715) 127.3 minPROGRESS> 05:12:21 |####################| 100% (4,019,686) 134.0 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S5_R2_reheader.fastq
+SEQUENCES> 4019686
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:33:15 |                    |   0% (        0) 0.0 minPROGRESS> 02:41:28 |#                   |   5% (  249,771) 8.2 minPROGRESS> 02:49:41 |##                  |  10% (  499,542) 16.4 minPROGRESS> 02:57:55 |###                 |  15% (  749,313) 24.7 minPROGRESS> 03:06:08 |####                |  20% (  999,084) 32.9 minPROGRESS> 03:14:23 |#####               |  25% (1,248,855) 41.1 minPROGRESS> 03:22:36 |######              |  30% (1,498,626) 49.4 minPROGRESS> 03:30:50 |#######             |  35% (1,748,397) 57.6 minPROGRESS> 03:39:03 |########            |  40% (1,998,168) 65.8 minPROGRESS> 03:47:16 |#########           |  45% (2,247,939) 74.0 minPROGRESS> 03:55:29 |##########          |  50% (2,497,710) 82.2 minPROGRESS> 04:03:42 |###########         |  55% (2,747,481) 90.5 minPROGRESS> 04:11:56 |############        |  60% (2,997,252) 98.7 minPROGRESS> 04:20:10 |#############       |  65% (3,247,023) 106.9 minPROGRESS> 04:28:23 |##############      |  70% (3,496,794) 115.1 minPROGRESS> 04:36:36 |###############     |  75% (3,746,565) 123.4 minPROGRESS> 04:44:50 |################    |  80% (3,996,336) 131.6 minPROGRESS> 04:53:03 |#################   |  85% (4,246,107) 139.8 minPROGRESS> 05:01:16 |##################  |  90% (4,495,878) 148.0 minPROGRESS> 05:09:29 |################### |  95% (4,745,649) 156.2 minPROGRESS> 05:17:42 |####################| 100% (4,995,403) 164.5 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S2_R2_reheader.fastq
+SEQUENCES> 4995403
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:49:08 |                    |   0% (        0) 0.0 minPROGRESS> 02:56:38 |#                   |   5% (  225,461) 7.5 minPROGRESS> 03:04:08 |##                  |  10% (  450,922) 15.0 minPROGRESS> 03:11:40 |###                 |  15% (  676,383) 22.5 minPROGRESS> 03:19:09 |####                |  20% (  901,844) 30.0 minPROGRESS> 03:26:38 |#####               |  25% (1,127,305) 37.5 minPROGRESS> 03:34:09 |######              |  30% (1,352,766) 45.0 minPROGRESS> 03:41:40 |#######             |  35% (1,578,227) 52.5 minPROGRESS> 03:49:09 |########            |  40% (1,803,688) 60.0 minPROGRESS> 03:56:38 |#########           |  45% (2,029,149) 67.5 minPROGRESS> 04:04:08 |##########          |  50% (2,254,610) 75.0 minPROGRESS> 04:11:37 |###########         |  55% (2,480,071) 82.5 minPROGRESS> 04:19:08 |############        |  60% (2,705,532) 90.0 minPROGRESS> 04:26:38 |#############       |  65% (2,930,993) 97.5 minPROGRESS> 04:34:08 |##############      |  70% (3,156,454) 105.0 minPROGRESS> 04:41:38 |###############     |  75% (3,381,915) 112.5 minPROGRESS> 04:49:08 |################    |  80% (3,607,376) 120.0 minPROGRESS> 04:56:38 |#################   |  85% (3,832,837) 127.5 minPROGRESS> 05:04:09 |##################  |  90% (4,058,298) 135.0 minPROGRESS> 05:11:39 |################### |  95% (4,283,759) 142.5 minPROGRESS> 05:19:09 |####################| 100% (4,509,208) 150.0 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S3_R2_reheader.fastq
+SEQUENCES> 4509208
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:15:18 |                    |   0% (        0) 0.0 minPROGRESS> 03:21:57 |#                   |   5% (  202,026) 6.7 minPROGRESS> 03:28:38 |##                  |  10% (  404,052) 13.3 minPROGRESS> 03:35:17 |###                 |  15% (  606,078) 20.0 minPROGRESS> 03:41:57 |####                |  20% (  808,104) 26.7 minPROGRESS> 03:48:36 |#####               |  25% (1,010,130) 33.3 minPROGRESS> 03:55:16 |######              |  30% (1,212,156) 40.0 minPROGRESS> 04:01:56 |#######             |  35% (1,414,182) 46.6 minPROGRESS> 04:08:35 |########            |  40% (1,616,208) 53.3 minPROGRESS> 04:15:15 |#########           |  45% (1,818,234) 60.0 minPROGRESS> 04:21:55 |##########          |  50% (2,020,260) 66.6 minPROGRESS> 04:28:35 |###########         |  55% (2,222,286) 73.3 minPROGRESS> 04:35:14 |############        |  60% (2,424,312) 79.9 minPROGRESS> 04:41:54 |#############       |  65% (2,626,338) 86.6 minPROGRESS> 04:48:33 |##############      |  70% (2,828,364) 93.3 minPROGRESS> 04:55:12 |###############     |  75% (3,030,390) 99.9 minPROGRESS> 05:01:51 |################    |  80% (3,232,416) 106.6 minPROGRESS> 05:08:31 |#################   |  85% (3,434,442) 113.2 minPROGRESS> 05:15:10 |##################  |  90% (3,636,468) 119.9 minPROGRESS> 05:21:50 |################### |  95% (3,838,494) 126.5 minPROGRESS> 05:28:29 |####################| 100% (4,040,507) 133.2 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S8_R2_reheader.fastq
+SEQUENCES> 4040507
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:09:25 |                    |   0% (        0) 0.0 minPROGRESS> 03:16:27 |#                   |   5% (  213,294) 7.0 minPROGRESS> 03:23:29 |##                  |  10% (  426,588) 14.1 minPROGRESS> 03:30:31 |###                 |  15% (  639,882) 21.1 minPROGRESS> 03:37:33 |####                |  20% (  853,176) 28.1 minPROGRESS> 03:44:35 |#####               |  25% (1,066,470) 35.2 minPROGRESS> 03:51:36 |######              |  30% (1,279,764) 42.2 minPROGRESS> 03:58:38 |#######             |  35% (1,493,058) 49.2 minPROGRESS> 04:05:40 |########            |  40% (1,706,352) 56.3 minPROGRESS> 04:12:41 |#########           |  45% (1,919,646) 63.3 minPROGRESS> 04:19:43 |##########          |  50% (2,132,940) 70.3 minPROGRESS> 04:26:45 |###########         |  55% (2,346,234) 77.3 minPROGRESS> 04:33:47 |############        |  60% (2,559,528) 84.4 minPROGRESS> 04:40:49 |#############       |  65% (2,772,822) 91.4 minPROGRESS> 04:47:50 |##############      |  70% (2,986,116) 98.4 minPROGRESS> 04:54:52 |###############     |  75% (3,199,410) 105.4 minPROGRESS> 05:01:54 |################    |  80% (3,412,704) 112.5 minPROGRESS> 05:08:56 |#################   |  85% (3,625,998) 119.5 minPROGRESS> 05:15:58 |##################  |  90% (3,839,292) 126.6 minPROGRESS> 05:23:00 |################### |  95% (4,052,586) 133.6 minPROGRESS> 05:30:01 |####################| 100% (4,265,863) 140.6 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S6_R2_reheader.fastq
+SEQUENCES> 4265863
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:28:33 |                    |   0% (        0) 0.0 minPROGRESS> 02:37:53 |#                   |   5% (  281,556) 9.3 minPROGRESS> 02:47:12 |##                  |  10% (  563,112) 18.6 minPROGRESS> 02:56:30 |###                 |  15% (  844,668) 28.0 minPROGRESS> 03:05:49 |####                |  20% (1,126,224) 37.3 minPROGRESS> 03:15:09 |#####               |  25% (1,407,780) 46.6 minPROGRESS> 03:24:29 |######              |  30% (1,689,336) 55.9 minPROGRESS> 03:33:49 |#######             |  35% (1,970,892) 65.3 minPROGRESS> 03:43:09 |########            |  40% (2,252,448) 74.6 minPROGRESS> 03:52:27 |#########           |  45% (2,534,004) 83.9 minPROGRESS> 04:01:47 |##########          |  50% (2,815,560) 93.2 minPROGRESS> 04:11:06 |###########         |  55% (3,097,116) 102.6 minPROGRESS> 04:20:27 |############        |  60% (3,378,672) 111.9 minPROGRESS> 04:29:46 |#############       |  65% (3,660,228) 121.2 minPROGRESS> 04:39:06 |##############      |  70% (3,941,784) 130.5 minPROGRESS> 04:48:25 |###############     |  75% (4,223,340) 139.9 minPROGRESS> 04:57:44 |################    |  80% (4,504,896) 149.2 minPROGRESS> 05:07:03 |#################   |  85% (4,786,452) 158.5 minPROGRESS> 05:16:22 |##################  |  90% (5,068,008) 167.8 minPROGRESS> 05:25:42 |################### |  95% (5,349,564) 177.1 minPROGRESS> 05:35:01 |####################| 100% (5,631,114) 186.5 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S1_R2_reheader.fastq
+SEQUENCES> 5631114
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:18:23 |                    |   0% (        0) 0.0 minPROGRESS> 03:25:36 |#                   |   5% (  217,523) 7.2 minPROGRESS> 03:32:49 |##                  |  10% (  435,046) 14.4 minPROGRESS> 03:40:02 |###                 |  15% (  652,569) 21.7 minPROGRESS> 03:47:15 |####                |  20% (  870,092) 28.9 minPROGRESS> 03:54:27 |#####               |  25% (1,087,615) 36.1 minPROGRESS> 04:01:40 |######              |  30% (1,305,138) 43.3 minPROGRESS> 04:08:52 |#######             |  35% (1,522,661) 50.5 minPROGRESS> 04:16:05 |########            |  40% (1,740,184) 57.7 minPROGRESS> 04:23:17 |#########           |  45% (1,957,707) 64.9 minPROGRESS> 04:30:28 |##########          |  50% (2,175,230) 72.1 minPROGRESS> 04:37:38 |###########         |  55% (2,392,753) 79.3 minPROGRESS> 04:44:49 |############        |  60% (2,610,276) 86.4 minPROGRESS> 04:51:59 |#############       |  65% (2,827,799) 93.6 minPROGRESS> 04:59:09 |##############      |  70% (3,045,322) 100.8 minPROGRESS> 05:06:19 |###############     |  75% (3,262,845) 107.9 minPROGRESS> 05:13:30 |################    |  80% (3,480,368) 115.1 minPROGRESS> 05:20:41 |#################   |  85% (3,697,891) 122.3 minPROGRESS> 05:27:52 |##################  |  90% (3,915,414) 129.5 minPROGRESS> 05:35:02 |################### |  95% (4,132,937) 136.7 minPROGRESS> 05:42:12 |####################| 100% (4,350,448) 143.8 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S9_R2_reheader.fastq
+SEQUENCES> 4350448
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:04:05 |                    |   0% (        0) 0.0 minPROGRESS> 04:11:04 |#                   |   5% (  207,542) 7.0 minPROGRESS> 04:18:03 |##                  |  10% (  415,084) 14.0 minPROGRESS> 04:25:01 |###                 |  15% (  622,626) 20.9 minPROGRESS> 04:31:58 |####                |  20% (  830,168) 27.9 minPROGRESS> 04:38:55 |#####               |  25% (1,037,710) 34.8 minPROGRESS> 04:45:51 |######              |  30% (1,245,252) 41.8 minPROGRESS> 04:52:48 |#######             |  35% (1,452,794) 48.7 minPROGRESS> 04:59:44 |########            |  40% (1,660,336) 55.7 minPROGRESS> 05:06:40 |#########           |  45% (1,867,878) 62.6 minPROGRESS> 05:13:37 |##########          |  50% (2,075,420) 69.5 minPROGRESS> 05:20:34 |###########         |  55% (2,282,962) 76.5 minPROGRESS> 05:27:31 |############        |  60% (2,490,504) 83.4 minPROGRESS> 05:34:27 |#############       |  65% (2,698,046) 90.4 minPROGRESS> 05:41:24 |##############      |  70% (2,905,588) 97.3 minPROGRESS> 05:48:21 |###############     |  75% (3,113,130) 104.3 minPROGRESS> 05:55:18 |################    |  80% (3,320,672) 111.2 minPROGRESS> 06:02:15 |#################   |  85% (3,528,214) 118.2 minPROGRESS> 06:09:12 |##################  |  90% (3,735,756) 125.1 minPROGRESS> 06:16:08 |################### |  95% (3,943,298) 132.1 minPROGRESS> 06:23:05 |####################| 100% (4,150,823) 139.0 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S4_R2_reheader.fastq
+SEQUENCES> 4150823
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 02:27:16 |                    |   0% (        0) 0.0 minPROGRESS> 02:40:02 |#                   |   5% (  389,634) 12.8 minPROGRESS> 02:52:48 |##                  |  10% (  779,268) 25.5 minPROGRESS> 03:05:36 |###                 |  15% (1,168,902) 38.3 minPROGRESS> 03:18:25 |####                |  20% (1,558,536) 51.2 minPROGRESS> 03:31:12 |#####               |  25% (1,948,170) 63.9 minPROGRESS> 03:44:00 |######              |  30% (2,337,804) 76.7 minPROGRESS> 03:56:46 |#######             |  35% (2,727,438) 89.5 minPROGRESS> 04:09:33 |########            |  40% (3,117,072) 102.3 minPROGRESS> 04:22:19 |#########           |  45% (3,506,706) 115.1 minPROGRESS> 04:35:07 |##########          |  50% (3,896,340) 127.9 minPROGRESS> 04:47:55 |###########         |  55% (4,285,974) 140.7 minPROGRESS> 05:00:42 |############        |  60% (4,675,608) 153.4 minPROGRESS> 05:13:28 |#############       |  65% (5,065,242) 166.2 minPROGRESS> 05:26:15 |##############      |  70% (5,454,876) 179.0 minPROGRESS> 05:39:00 |###############     |  75% (5,844,510) 191.7 minPROGRESS> 05:51:47 |################    |  80% (6,234,144) 204.5 minPROGRESS> 06:04:32 |#################   |  85% (6,623,778) 217.3 minPROGRESS> 06:17:18 |##################  |  90% (7,013,412) 230.0 minPROGRESS> 06:30:04 |################### |  95% (7,403,046) 242.8 minPROGRESS> 06:42:50 |####################| 100% (7,792,667) 255.6 min
+
+   OUTPUT> mpg_L19245_S2_S2_R1_001_quality-pass_primers-pass_PRIMER-S10_R2_reheader.fastq
+SEQUENCES> 7792667
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:20:05 |                    |   0% (        0) 0.0 minPROGRESS> 04:27:41 |#                   |   5% (  226,123) 7.6 minPROGRESS> 04:35:15 |##                  |  10% (  452,246) 15.2 minPROGRESS> 04:42:48 |###                 |  15% (  678,369) 22.7 minPROGRESS> 04:50:22 |####                |  20% (  904,492) 30.3 minPROGRESS> 04:57:54 |#####               |  25% (1,130,615) 37.8 minPROGRESS> 05:05:28 |######              |  30% (1,356,738) 45.4 minPROGRESS> 05:13:02 |#######             |  35% (1,582,861) 52.9 minPROGRESS> 05:20:35 |########            |  40% (1,808,984) 60.5 minPROGRESS> 05:28:08 |#########           |  45% (2,035,107) 68.0 minPROGRESS> 05:35:40 |##########          |  50% (2,261,230) 75.6 minPROGRESS> 05:43:14 |###########         |  55% (2,487,353) 83.2 minPROGRESS> 05:50:48 |############        |  60% (2,713,476) 90.7 minPROGRESS> 05:58:22 |#############       |  65% (2,939,599) 98.3 minPROGRESS> 06:05:55 |##############      |  70% (3,165,722) 105.8 minPROGRESS> 06:13:28 |###############     |  75% (3,391,845) 113.4 minPROGRESS> 06:21:01 |################    |  80% (3,617,968) 120.9 minPROGRESS> 06:28:35 |#################   |  85% (3,844,091) 128.5 minPROGRESS> 06:36:08 |##################  |  90% (4,070,214) 136.1 minPROGRESS> 06:43:41 |################### |  95% (4,296,337) 143.6 minPROGRESS> 06:51:14 |####################| 100% (4,522,454) 151.2 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S5_R2_reheader.fastq
+SEQUENCES> 4522454
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:50:56 |                    |   0% (        0) 0.0 minPROGRESS> 04:00:05 |#                   |   5% (  276,580) 9.1 minPROGRESS> 04:09:13 |##                  |  10% (  553,160) 18.3 minPROGRESS> 04:18:21 |###                 |  15% (  829,740) 27.4 minPROGRESS> 04:27:30 |####                |  20% (1,106,320) 36.6 minPROGRESS> 04:36:38 |#####               |  25% (1,382,900) 45.7 minPROGRESS> 04:45:47 |######              |  30% (1,659,480) 54.9 minPROGRESS> 04:54:56 |#######             |  35% (1,936,060) 64.0 minPROGRESS> 05:04:04 |########            |  40% (2,212,640) 73.1 minPROGRESS> 05:13:13 |#########           |  45% (2,489,220) 82.3 minPROGRESS> 05:22:20 |##########          |  50% (2,765,800) 91.4 minPROGRESS> 05:31:29 |###########         |  55% (3,042,380) 100.6 minPROGRESS> 05:40:38 |############        |  60% (3,318,960) 109.7 minPROGRESS> 05:49:47 |#############       |  65% (3,595,540) 118.8 minPROGRESS> 05:58:55 |##############      |  70% (3,872,120) 128.0 minPROGRESS> 06:08:03 |###############     |  75% (4,148,700) 137.1 minPROGRESS> 06:17:11 |################    |  80% (4,425,280) 146.2 minPROGRESS> 06:26:19 |#################   |  85% (4,701,860) 155.4 minPROGRESS> 06:35:27 |##################  |  90% (4,978,440) 164.5 minPROGRESS> 06:44:35 |################### |  95% (5,255,020) 173.6 minPROGRESS> 06:53:43 |####################| 100% (5,531,590) 182.8 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S2_R2_reheader.fastq
+SEQUENCES> 5531590
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:42:29 |                    |   0% (        0) 0.0 minPROGRESS> 03:52:11 |#                   |   5% (  291,851) 9.7 minPROGRESS> 04:01:53 |##                  |  10% (  583,702) 19.4 minPROGRESS> 04:11:34 |###                 |  15% (  875,553) 29.1 minPROGRESS> 04:21:15 |####                |  20% (1,167,404) 38.8 minPROGRESS> 04:30:56 |#####               |  25% (1,459,255) 48.5 minPROGRESS> 04:40:35 |######              |  30% (1,751,106) 58.1 minPROGRESS> 04:50:14 |#######             |  35% (2,042,957) 67.8 minPROGRESS> 04:59:52 |########            |  40% (2,334,808) 77.4 minPROGRESS> 05:09:31 |#########           |  45% (2,626,659) 87.0 minPROGRESS> 05:19:10 |##########          |  50% (2,918,510) 96.7 minPROGRESS> 05:28:50 |###########         |  55% (3,210,361) 106.4 minPROGRESS> 05:38:29 |############        |  60% (3,502,212) 116.0 minPROGRESS> 05:48:08 |#############       |  65% (3,794,063) 125.7 minPROGRESS> 05:57:47 |##############      |  70% (4,085,914) 135.3 minPROGRESS> 06:07:26 |###############     |  75% (4,377,765) 145.0 minPROGRESS> 06:17:05 |################    |  80% (4,669,616) 154.6 minPROGRESS> 06:26:44 |#################   |  85% (4,961,467) 164.3 minPROGRESS> 06:36:22 |##################  |  90% (5,253,318) 173.9 minPROGRESS> 06:45:59 |################### |  95% (5,545,169) 183.5 minPROGRESS> 06:55:38 |####################| 100% (5,837,007) 193.2 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S10_R2_reheader.fastq
+SEQUENCES> 5837007
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:52:08 |                    |   0% (        0) 0.0 minPROGRESS> 04:01:25 |#                   |   5% (  280,473) 9.3 minPROGRESS> 04:10:41 |##                  |  10% (  560,946) 18.6 minPROGRESS> 04:19:58 |###                 |  15% (  841,419) 27.8 minPROGRESS> 04:29:13 |####                |  20% (1,121,892) 37.1 minPROGRESS> 04:38:26 |#####               |  25% (1,402,365) 46.3 minPROGRESS> 04:47:40 |######              |  30% (1,682,838) 55.5 minPROGRESS> 04:56:53 |#######             |  35% (1,963,311) 64.8 minPROGRESS> 05:06:06 |########            |  40% (2,243,784) 74.0 minPROGRESS> 05:15:19 |#########           |  45% (2,524,257) 83.2 minPROGRESS> 05:24:32 |##########          |  50% (2,804,730) 92.4 minPROGRESS> 05:33:46 |###########         |  55% (3,085,203) 101.6 minPROGRESS> 05:43:00 |############        |  60% (3,365,676) 110.9 minPROGRESS> 05:52:14 |#############       |  65% (3,646,149) 120.1 minPROGRESS> 06:01:28 |##############      |  70% (3,926,622) 129.3 minPROGRESS> 06:10:42 |###############     |  75% (4,207,095) 138.6 minPROGRESS> 06:19:56 |################    |  80% (4,487,568) 147.8 minPROGRESS> 06:29:10 |#################   |  85% (4,768,041) 157.0 minPROGRESS> 06:38:23 |##################  |  90% (5,048,514) 166.3 minPROGRESS> 06:47:36 |################### |  95% (5,328,987) 175.5 minPROGRESS> 06:56:49 |####################| 100% (5,609,444) 184.7 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S3_R2_reheader.fastq
+SEQUENCES> 5609444
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:28:15 |                    |   0% (        0) 0.0 minPROGRESS> 04:36:39 |#                   |   5% (  255,197) 8.4 minPROGRESS> 04:45:03 |##                  |  10% (  510,394) 16.8 minPROGRESS> 04:53:27 |###                 |  15% (  765,591) 25.2 minPROGRESS> 05:01:51 |####                |  20% (1,020,788) 33.6 minPROGRESS> 05:10:15 |#####               |  25% (1,275,985) 42.0 minPROGRESS> 05:18:39 |######              |  30% (1,531,182) 50.4 minPROGRESS> 05:27:04 |#######             |  35% (1,786,379) 58.8 minPROGRESS> 05:35:28 |########            |  40% (2,041,576) 67.2 minPROGRESS> 05:43:51 |#########           |  45% (2,296,773) 75.6 minPROGRESS> 05:52:14 |##########          |  50% (2,551,970) 84.0 minPROGRESS> 06:00:38 |###########         |  55% (2,807,167) 92.4 minPROGRESS> 06:09:02 |############        |  60% (3,062,364) 100.8 minPROGRESS> 06:17:25 |#############       |  65% (3,317,561) 109.2 minPROGRESS> 06:25:49 |##############      |  70% (3,572,758) 117.6 minPROGRESS> 06:34:12 |###############     |  75% (3,827,955) 126.0 minPROGRESS> 06:42:36 |################    |  80% (4,083,152) 134.4 minPROGRESS> 06:51:00 |#################   |  85% (4,338,349) 142.7 minPROGRESS> 06:59:23 |##################  |  90% (4,593,546) 151.1 minPROGRESS> 07:07:46 |################### |  95% (4,848,743) 159.5 minPROGRESS> 07:16:09 |####################| 100% (5,103,926) 167.9 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S7_R2_reheader.fastq
+SEQUENCES> 5103926
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:31:16 |                    |   0% (        0) 0.0 minPROGRESS> 04:39:41 |#                   |   5% (  256,385) 8.4 minPROGRESS> 04:48:06 |##                  |  10% (  512,770) 16.8 minPROGRESS> 04:56:30 |###                 |  15% (  769,155) 25.2 minPROGRESS> 05:04:54 |####                |  20% (1,025,540) 33.6 minPROGRESS> 05:13:18 |#####               |  25% (1,281,925) 42.0 minPROGRESS> 05:21:43 |######              |  30% (1,538,310) 50.4 minPROGRESS> 05:30:07 |#######             |  35% (1,794,695) 58.9 minPROGRESS> 05:38:30 |########            |  40% (2,051,080) 67.2 minPROGRESS> 05:46:54 |#########           |  45% (2,307,465) 75.6 minPROGRESS> 05:55:19 |##########          |  50% (2,563,850) 84.0 minPROGRESS> 06:03:43 |###########         |  55% (2,820,235) 92.5 minPROGRESS> 06:12:08 |############        |  60% (3,076,620) 100.9 minPROGRESS> 06:20:32 |#############       |  65% (3,333,005) 109.3 minPROGRESS> 06:28:56 |##############      |  70% (3,589,390) 117.7 minPROGRESS> 06:37:20 |###############     |  75% (3,845,775) 126.1 minPROGRESS> 06:45:44 |################    |  80% (4,102,160) 134.5 minPROGRESS> 06:54:07 |#################   |  85% (4,358,545) 142.9 minPROGRESS> 07:02:30 |##################  |  90% (4,614,930) 151.2 minPROGRESS> 07:10:53 |################### |  95% (4,871,315) 159.6 minPROGRESS> 07:19:16 |####################| 100% (5,127,696) 168.0 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S8_R2_reheader.fastq
+SEQUENCES> 5127696
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 03:43:56 |                    |   0% (        0) 0.0 minPROGRESS> 03:54:52 |#                   |   5% (  329,530) 10.9 minPROGRESS> 04:05:47 |##                  |  10% (  659,060) 21.8 minPROGRESS> 04:16:42 |###                 |  15% (  988,590) 32.8 minPROGRESS> 04:27:37 |####                |  20% (1,318,120) 43.7 minPROGRESS> 04:38:27 |#####               |  25% (1,647,650) 54.5 minPROGRESS> 04:49:18 |######              |  30% (1,977,180) 65.4 minPROGRESS> 05:00:10 |#######             |  35% (2,306,710) 76.2 minPROGRESS> 05:11:00 |########            |  40% (2,636,240) 87.1 minPROGRESS> 05:21:51 |#########           |  45% (2,965,770) 97.9 minPROGRESS> 05:32:42 |##########          |  50% (3,295,300) 108.8 minPROGRESS> 05:43:33 |###########         |  55% (3,624,830) 119.6 minPROGRESS> 05:54:24 |############        |  60% (3,954,360) 130.5 minPROGRESS> 06:05:15 |#############       |  65% (4,283,890) 141.3 minPROGRESS> 06:16:05 |##############      |  70% (4,613,420) 152.2 minPROGRESS> 06:26:56 |###############     |  75% (4,942,950) 163.0 minPROGRESS> 06:37:47 |################    |  80% (5,272,480) 173.8 minPROGRESS> 06:48:38 |#################   |  85% (5,602,010) 184.7 minPROGRESS> 06:59:29 |##################  |  90% (5,931,540) 195.5 minPROGRESS> 07:10:19 |################### |  95% (6,261,070) 206.4 minPROGRESS> 07:21:10 |####################| 100% (6,590,593) 217.2 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S1_R2_reheader.fastq
+SEQUENCES> 6590593
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:28:12 |                    |   0% (        0) 0.0 minPROGRESS> 04:37:10 |#                   |   5% (  271,259) 9.0 minPROGRESS> 04:46:09 |##                  |  10% (  542,518) 17.9 minPROGRESS> 04:55:06 |###                 |  15% (  813,777) 26.9 minPROGRESS> 05:04:03 |####                |  20% (1,085,036) 35.9 minPROGRESS> 05:13:02 |#####               |  25% (1,356,295) 44.8 minPROGRESS> 05:22:00 |######              |  30% (1,627,554) 53.8 minPROGRESS> 05:30:57 |#######             |  35% (1,898,813) 62.8 minPROGRESS> 05:39:55 |########            |  40% (2,170,072) 71.7 minPROGRESS> 05:48:53 |#########           |  45% (2,441,331) 80.7 minPROGRESS> 05:57:51 |##########          |  50% (2,712,590) 89.6 minPROGRESS> 06:06:49 |###########         |  55% (2,983,849) 98.6 minPROGRESS> 06:15:47 |############        |  60% (3,255,108) 107.6 minPROGRESS> 06:24:45 |#############       |  65% (3,526,367) 116.6 minPROGRESS> 06:33:44 |##############      |  70% (3,797,626) 125.5 minPROGRESS> 06:42:43 |###############     |  75% (4,068,885) 134.5 minPROGRESS> 06:51:40 |################    |  80% (4,340,144) 143.5 minPROGRESS> 07:00:37 |#################   |  85% (4,611,403) 152.4 minPROGRESS> 07:09:35 |##################  |  90% (4,882,662) 161.4 minPROGRESS> 07:18:32 |################### |  95% (5,153,921) 170.3 minPROGRESS> 07:27:29 |####################| 100% (5,425,170) 179.3 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S6_R2_reheader.fastq
+SEQUENCES> 5425170
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 04:57:41 |                    |   0% (        0) 0.0 minPROGRESS> 05:05:32 |#                   |   5% (  237,465) 7.9 minPROGRESS> 05:13:23 |##                  |  10% (  474,930) 15.7 minPROGRESS> 05:21:14 |###                 |  15% (  712,395) 23.6 minPROGRESS> 05:29:05 |####                |  20% (  949,860) 31.4 minPROGRESS> 05:36:56 |#####               |  25% (1,187,325) 39.3 minPROGRESS> 05:44:47 |######              |  30% (1,424,790) 47.1 minPROGRESS> 05:52:38 |#######             |  35% (1,662,255) 55.0 minPROGRESS> 06:00:30 |########            |  40% (1,899,720) 62.8 minPROGRESS> 06:08:21 |#########           |  45% (2,137,185) 70.7 minPROGRESS> 06:16:11 |##########          |  50% (2,374,650) 78.5 minPROGRESS> 06:24:02 |###########         |  55% (2,612,115) 86.4 minPROGRESS> 06:31:54 |############        |  60% (2,849,580) 94.2 minPROGRESS> 06:39:46 |#############       |  65% (3,087,045) 102.1 minPROGRESS> 06:47:37 |##############      |  70% (3,324,510) 109.9 minPROGRESS> 06:55:27 |###############     |  75% (3,561,975) 117.8 minPROGRESS> 07:03:18 |################    |  80% (3,799,440) 125.6 minPROGRESS> 07:11:09 |#################   |  85% (4,036,905) 133.5 minPROGRESS> 07:19:00 |##################  |  90% (4,274,370) 141.3 minPROGRESS> 07:26:51 |################### |  95% (4,511,835) 149.2 minPROGRESS> 07:34:42 |####################| 100% (4,749,292) 157.0 min
+
+   OUTPUT> mpg_L19246_S3_S3_R1_001_quality-pass_primers-pass_PRIMER-S9_R2_reheader.fastq
+SEQUENCES> 4749292
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:37:05 |                    |   0% (        0) 0.0 minPROGRESS> 05:45:17 |#                   |   5% (  248,994) 8.2 minPROGRESS> 05:53:29 |##                  |  10% (  497,988) 16.4 minPROGRESS> 06:01:40 |###                 |  15% (  746,982) 24.6 minPROGRESS> 06:09:52 |####                |  20% (  995,976) 32.8 minPROGRESS> 06:18:04 |#####               |  25% (1,244,970) 41.0 minPROGRESS> 06:26:15 |######              |  30% (1,493,964) 49.2 minPROGRESS> 06:34:27 |#######             |  35% (1,742,958) 57.4 minPROGRESS> 06:42:39 |########            |  40% (1,991,952) 65.6 minPROGRESS> 06:50:50 |#########           |  45% (2,240,946) 73.8 minPROGRESS> 06:59:03 |##########          |  50% (2,489,940) 82.0 minPROGRESS> 07:07:15 |###########         |  55% (2,738,934) 90.2 minPROGRESS> 07:15:27 |############        |  60% (2,987,928) 98.4 minPROGRESS> 07:23:38 |#############       |  65% (3,236,922) 106.5 minPROGRESS> 07:31:50 |##############      |  70% (3,485,916) 114.7 minPROGRESS> 07:40:02 |###############     |  75% (3,734,910) 122.9 minPROGRESS> 07:48:14 |################    |  80% (3,983,904) 131.1 minPROGRESS> 07:56:26 |#################   |  85% (4,232,898) 139.3 minPROGRESS> 08:04:37 |##################  |  90% (4,481,892) 147.5 minPROGRESS> 08:12:49 |################### |  95% (4,730,886) 155.7 minPROGRESS> 08:21:00 |####################| 100% (4,979,874) 163.9 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S5_R2_reheader.fastq
+SEQUENCES> 4979874
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:21:31 |                    |   0% (        0) 0.0 minPROGRESS> 05:30:33 |#                   |   5% (  274,407) 9.0 minPROGRESS> 05:39:33 |##                  |  10% (  548,814) 18.0 minPROGRESS> 05:48:33 |###                 |  15% (  823,221) 27.0 minPROGRESS> 05:57:32 |####                |  20% (1,097,628) 36.0 minPROGRESS> 06:06:31 |#####               |  25% (1,372,035) 45.0 minPROGRESS> 06:15:31 |######              |  30% (1,646,442) 54.0 minPROGRESS> 06:24:31 |#######             |  35% (1,920,849) 63.0 minPROGRESS> 06:33:30 |########            |  40% (2,195,256) 72.0 minPROGRESS> 06:42:29 |#########           |  45% (2,469,663) 81.0 minPROGRESS> 06:51:28 |##########          |  50% (2,744,070) 89.9 minPROGRESS> 07:00:28 |###########         |  55% (3,018,477) 98.9 minPROGRESS> 07:09:29 |############        |  60% (3,292,884) 108.0 minPROGRESS> 07:18:28 |#############       |  65% (3,567,291) 117.0 minPROGRESS> 07:27:28 |##############      |  70% (3,841,698) 125.9 minPROGRESS> 07:36:28 |###############     |  75% (4,116,105) 134.9 minPROGRESS> 07:45:28 |################    |  80% (4,390,512) 143.9 minPROGRESS> 07:54:29 |#################   |  85% (4,664,919) 153.0 minPROGRESS> 08:03:30 |##################  |  90% (4,939,326) 162.0 minPROGRESS> 08:12:30 |################### |  95% (5,213,733) 171.0 minPROGRESS> 08:21:28 |####################| 100% (5,488,134) 179.9 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S2_R2_reheader.fastq
+SEQUENCES> 5488134
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:28:32 |                    |   0% (        0) 0.0 minPROGRESS> 05:37:31 |#                   |   5% (  270,445) 9.0 minPROGRESS> 05:46:32 |##                  |  10% (  540,890) 18.0 minPROGRESS> 05:55:31 |###                 |  15% (  811,335) 27.0 minPROGRESS> 06:04:29 |####                |  20% (1,081,780) 36.0 minPROGRESS> 06:13:28 |#####               |  25% (1,352,225) 44.9 minPROGRESS> 06:22:28 |######              |  30% (1,622,670) 53.9 minPROGRESS> 06:31:27 |#######             |  35% (1,893,115) 62.9 minPROGRESS> 06:40:26 |########            |  40% (2,163,560) 71.9 minPROGRESS> 06:49:25 |#########           |  45% (2,434,005) 80.9 minPROGRESS> 06:58:23 |##########          |  50% (2,704,450) 89.9 minPROGRESS> 07:07:22 |###########         |  55% (2,974,895) 98.8 minPROGRESS> 07:16:22 |############        |  60% (3,245,340) 107.8 minPROGRESS> 07:25:20 |#############       |  65% (3,515,785) 116.8 minPROGRESS> 07:34:18 |##############      |  70% (3,786,230) 125.8 minPROGRESS> 07:43:17 |###############     |  75% (4,056,675) 134.8 minPROGRESS> 07:52:15 |################    |  80% (4,327,120) 143.7 minPROGRESS> 08:01:14 |#################   |  85% (4,597,565) 152.7 minPROGRESS> 08:10:12 |##################  |  90% (4,868,010) 161.7 minPROGRESS> 08:19:10 |################### |  95% (5,138,455) 170.6 minPROGRESS> 08:27:27 |####################| 100% (5,408,891) 178.9 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S4_R2_reheader.fastq
+SEQUENCES> 5408891
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:27:38 |                    |   0% (        0) 0.0 minPROGRESS> 05:37:17 |#                   |   5% (  290,524) 9.7 minPROGRESS> 05:46:56 |##                  |  10% (  581,048) 19.3 minPROGRESS> 05:56:34 |###                 |  15% (  871,572) 28.9 minPROGRESS> 06:06:12 |####                |  20% (1,162,096) 38.6 minPROGRESS> 06:15:49 |#####               |  25% (1,452,620) 48.2 minPROGRESS> 06:25:27 |######              |  30% (1,743,144) 57.8 minPROGRESS> 06:35:05 |#######             |  35% (2,033,668) 67.4 minPROGRESS> 06:44:42 |########            |  40% (2,324,192) 77.1 minPROGRESS> 06:54:20 |#########           |  45% (2,614,716) 86.7 minPROGRESS> 07:03:58 |##########          |  50% (2,905,240) 96.3 minPROGRESS> 07:13:37 |###########         |  55% (3,195,764) 106.0 minPROGRESS> 07:23:16 |############        |  60% (3,486,288) 115.6 minPROGRESS> 07:32:55 |#############       |  65% (3,776,812) 125.3 minPROGRESS> 07:42:34 |##############      |  70% (4,067,336) 134.9 minPROGRESS> 07:52:12 |###############     |  75% (4,357,860) 144.6 minPROGRESS> 08:01:51 |################    |  80% (4,648,384) 154.2 minPROGRESS> 08:11:29 |#################   |  85% (4,938,908) 163.8 minPROGRESS> 08:21:07 |##################  |  90% (5,229,432) 173.5 minPROGRESS> 08:29:41 |################### |  95% (5,519,956) 182.0 minPROGRESS> 08:37:52 |####################| 100% (5,810,476) 190.2 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S3_R2_reheader.fastq
+SEQUENCES> 5810476
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:03:00 |                    |   0% (        0) 0.0 minPROGRESS> 05:14:32 |#                   |   5% (  345,137) 11.5 minPROGRESS> 05:26:04 |##                  |  10% (  690,274) 23.1 minPROGRESS> 05:37:31 |###                 |  15% (1,035,411) 34.5 minPROGRESS> 05:48:58 |####                |  20% (1,380,548) 46.0 minPROGRESS> 06:00:25 |#####               |  25% (1,725,685) 57.4 minPROGRESS> 06:11:53 |######              |  30% (2,070,822) 68.9 minPROGRESS> 06:23:20 |#######             |  35% (2,415,959) 80.3 minPROGRESS> 06:34:47 |########            |  40% (2,761,096) 91.8 minPROGRESS> 06:46:14 |#########           |  45% (3,106,233) 103.2 minPROGRESS> 06:57:42 |##########          |  50% (3,451,370) 114.7 minPROGRESS> 07:09:10 |###########         |  55% (3,796,507) 126.2 minPROGRESS> 07:20:39 |############        |  60% (4,141,644) 137.6 minPROGRESS> 07:32:07 |#############       |  65% (4,486,781) 149.1 minPROGRESS> 07:43:35 |##############      |  70% (4,831,918) 160.6 minPROGRESS> 07:55:03 |###############     |  75% (5,177,055) 172.1 minPROGRESS> 08:06:33 |################    |  80% (5,522,192) 183.6 minPROGRESS> 08:18:02 |#################   |  85% (5,867,329) 195.0 minPROGRESS> 08:28:37 |##################  |  90% (6,212,466) 205.6 minPROGRESS> 08:38:20 |################### |  95% (6,557,603) 215.3 minPROGRESS> 08:47:31 |####################| 100% (6,902,730) 224.5 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S10_R2_reheader.fastq
+SEQUENCES> 6902730
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:45:57 |                    |   0% (        0) 0.0 minPROGRESS> 05:56:39 |#                   |   5% (  324,203) 10.7 minPROGRESS> 06:07:21 |##                  |  10% (  648,406) 21.4 minPROGRESS> 06:18:01 |###                 |  15% (  972,609) 32.1 minPROGRESS> 06:28:42 |####                |  20% (1,296,812) 42.8 minPROGRESS> 06:39:23 |#####               |  25% (1,621,015) 53.4 minPROGRESS> 06:50:04 |######              |  30% (1,945,218) 64.1 minPROGRESS> 07:00:45 |#######             |  35% (2,269,421) 74.8 minPROGRESS> 07:11:26 |########            |  40% (2,593,624) 85.5 minPROGRESS> 07:22:06 |#########           |  45% (2,917,827) 96.2 minPROGRESS> 07:32:46 |##########          |  50% (3,242,030) 106.8 minPROGRESS> 07:43:27 |###########         |  55% (3,566,233) 117.5 minPROGRESS> 07:54:08 |############        |  60% (3,890,436) 128.2 minPROGRESS> 08:04:48 |#############       |  65% (4,214,639) 138.8 minPROGRESS> 08:15:28 |##############      |  70% (4,538,842) 149.5 minPROGRESS> 08:25:39 |###############     |  75% (4,863,045) 159.7 minPROGRESS> 08:34:49 |################    |  80% (5,187,248) 168.9 minPROGRESS> 08:43:32 |#################   |  85% (5,511,451) 177.6 minPROGRESS> 08:51:46 |##################  |  90% (5,835,654) 185.8 minPROGRESS> 08:59:46 |################### |  95% (6,159,857) 193.8 minPROGRESS> 09:07:46 |####################| 100% (6,484,046) 201.8 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S7_R2_reheader.fastq
+SEQUENCES> 6484046
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 06:50:42 |                    |   0% (        0) 0.0 minPROGRESS> 06:58:15 |#                   |   5% (  226,947) 7.5 minPROGRESS> 07:05:47 |##                  |  10% (  453,894) 15.1 minPROGRESS> 07:13:19 |###                 |  15% (  680,841) 22.6 minPROGRESS> 07:20:51 |####                |  20% (  907,788) 30.2 minPROGRESS> 07:28:24 |#####               |  25% (1,134,735) 37.7 minPROGRESS> 07:35:57 |######              |  30% (1,361,682) 45.3 minPROGRESS> 07:43:31 |#######             |  35% (1,588,629) 52.8 minPROGRESS> 07:51:04 |########            |  40% (1,815,576) 60.4 minPROGRESS> 07:58:36 |#########           |  45% (2,042,523) 67.9 minPROGRESS> 08:06:09 |##########          |  50% (2,269,470) 75.4 minPROGRESS> 08:13:42 |###########         |  55% (2,496,417) 83.0 minPROGRESS> 08:21:15 |############        |  60% (2,723,364) 90.5 minPROGRESS> 08:28:01 |#############       |  65% (2,950,311) 97.3 minPROGRESS> 08:34:27 |##############      |  70% (3,177,258) 103.7 minPROGRESS> 08:40:41 |###############     |  75% (3,404,205) 110.0 minPROGRESS> 08:46:44 |################    |  80% (3,631,152) 116.0 minPROGRESS> 08:52:27 |#################   |  85% (3,858,099) 121.7 minPROGRESS> 08:58:07 |##################  |  90% (4,085,046) 127.4 minPROGRESS> 09:03:46 |################### |  95% (4,311,993) 133.1 minPROGRESS> 09:09:19 |####################| 100% (4,538,937) 138.6 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S10_R2_reheader.fastq
+SEQUENCES> 4538937
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:41:41 |                    |   0% (        0) 0.0 minPROGRESS> 05:52:56 |#                   |   5% (  338,321) 11.2 minPROGRESS> 06:04:11 |##                  |  10% (  676,642) 22.5 minPROGRESS> 06:15:26 |###                 |  15% (1,014,963) 33.7 minPROGRESS> 06:26:40 |####                |  20% (1,353,284) 45.0 minPROGRESS> 06:37:54 |#####               |  25% (1,691,605) 56.2 minPROGRESS> 06:49:08 |######              |  30% (2,029,926) 67.4 minPROGRESS> 07:00:22 |#######             |  35% (2,368,247) 78.7 minPROGRESS> 07:11:37 |########            |  40% (2,706,568) 89.9 minPROGRESS> 07:22:51 |#########           |  45% (3,044,889) 101.2 minPROGRESS> 07:34:04 |##########          |  50% (3,383,210) 112.4 minPROGRESS> 07:45:19 |###########         |  55% (3,721,531) 123.6 minPROGRESS> 07:56:35 |############        |  60% (4,059,852) 134.9 minPROGRESS> 08:07:50 |#############       |  65% (4,398,173) 146.1 minPROGRESS> 08:19:04 |##############      |  70% (4,736,494) 157.4 minPROGRESS> 08:29:18 |###############     |  75% (5,074,815) 167.6 minPROGRESS> 08:38:49 |################    |  80% (5,413,136) 177.1 minPROGRESS> 08:47:48 |#################   |  85% (5,751,457) 186.1 minPROGRESS> 08:56:14 |##################  |  90% (6,089,778) 194.5 minPROGRESS> 09:04:40 |################### |  95% (6,428,099) 203.0 minPROGRESS> 09:12:29 |####################| 100% (6,766,410) 210.8 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S6_R2_reheader.fastq
+SEQUENCES> 6766410
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:22:51 |                    |   0% (        0) 0.0 minPROGRESS> 07:29:02 |#                   |   5% (  188,321) 6.2 minPROGRESS> 07:35:13 |##                  |  10% (  376,642) 12.4 minPROGRESS> 07:41:25 |###                 |  15% (  564,963) 18.6 minPROGRESS> 07:47:36 |####                |  20% (  753,284) 24.8 minPROGRESS> 07:53:47 |#####               |  25% (  941,605) 30.9 minPROGRESS> 07:59:59 |######              |  30% (1,129,926) 37.1 minPROGRESS> 08:06:11 |#######             |  35% (1,318,247) 43.3 minPROGRESS> 08:12:22 |########            |  40% (1,506,568) 49.5 minPROGRESS> 08:18:34 |#########           |  45% (1,694,889) 55.7 minPROGRESS> 08:24:24 |##########          |  50% (1,883,210) 61.6 minPROGRESS> 08:29:50 |###########         |  55% (2,071,531) 67.0 minPROGRESS> 08:35:06 |############        |  60% (2,259,852) 72.3 minPROGRESS> 08:40:13 |#############       |  65% (2,448,173) 77.4 minPROGRESS> 08:45:10 |##############      |  70% (2,636,494) 82.3 minPROGRESS> 08:49:57 |###############     |  75% (2,824,815) 87.1 minPROGRESS> 08:54:36 |################    |  80% (3,013,136) 91.8 minPROGRESS> 08:59:14 |#################   |  85% (3,201,457) 96.4 minPROGRESS> 09:03:52 |##################  |  90% (3,389,778) 101.0 minPROGRESS> 09:08:27 |################### |  95% (3,578,099) 105.6 minPROGRESS> 09:12:32 |####################| 100% (3,766,413) 109.7 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S5_R2_reheader.fastq
+SEQUENCES> 3766413
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:20:15 |                    |   0% (        0) 0.0 minPROGRESS> 05:32:41 |#                   |   5% (  374,935) 12.4 minPROGRESS> 05:45:07 |##                  |  10% (  749,870) 24.9 minPROGRESS> 05:57:32 |###                 |  15% (1,124,805) 37.3 minPROGRESS> 06:09:57 |####                |  20% (1,499,740) 49.7 minPROGRESS> 06:22:22 |#####               |  25% (1,874,675) 62.1 minPROGRESS> 06:34:48 |######              |  30% (2,249,610) 74.5 minPROGRESS> 06:47:13 |#######             |  35% (2,624,545) 87.0 minPROGRESS> 06:59:38 |########            |  40% (2,999,480) 99.4 minPROGRESS> 07:12:03 |#########           |  45% (3,374,415) 111.8 minPROGRESS> 07:24:28 |##########          |  50% (3,749,350) 124.2 minPROGRESS> 07:36:54 |###########         |  55% (4,124,285) 136.6 minPROGRESS> 07:49:22 |############        |  60% (4,499,220) 149.1 minPROGRESS> 08:01:48 |#############       |  65% (4,874,155) 161.5 minPROGRESS> 08:14:13 |##############      |  70% (5,249,090) 174.0 minPROGRESS> 08:26:06 |###############     |  75% (5,624,025) 185.8 minPROGRESS> 08:36:44 |################    |  80% (5,998,960) 196.5 minPROGRESS> 08:46:45 |#################   |  85% (6,373,895) 206.5 minPROGRESS> 08:56:07 |##################  |  90% (6,748,830) 215.9 minPROGRESS> 09:05:26 |################### |  95% (7,123,765) 225.2 minPROGRESS> 09:13:43 |####################| 100% (7,498,689) 233.5 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S1_R2_reheader.fastq
+SEQUENCES> 7498689
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:27:41 |                    |   0% (        0) 0.0 minPROGRESS> 07:33:53 |#                   |   5% (  186,867) 6.2 minPROGRESS> 07:40:07 |##                  |  10% (  373,734) 12.4 minPROGRESS> 07:46:19 |###                 |  15% (  560,601) 18.6 minPROGRESS> 07:52:31 |####                |  20% (  747,468) 24.8 minPROGRESS> 07:58:44 |#####               |  25% (  934,335) 31.0 minPROGRESS> 08:04:56 |######              |  30% (1,121,202) 37.3 minPROGRESS> 08:11:09 |#######             |  35% (1,308,069) 43.5 minPROGRESS> 08:17:21 |########            |  40% (1,494,936) 49.7 minPROGRESS> 08:23:20 |#########           |  45% (1,681,803) 55.7 minPROGRESS> 08:28:50 |##########          |  50% (1,868,670) 61.2 minPROGRESS> 08:34:07 |###########         |  55% (2,055,537) 66.4 minPROGRESS> 08:39:19 |############        |  60% (2,242,404) 71.6 minPROGRESS> 08:44:17 |#############       |  65% (2,429,271) 76.6 minPROGRESS> 08:49:08 |##############      |  70% (2,616,138) 81.5 minPROGRESS> 08:53:48 |###############     |  75% (2,803,005) 86.1 minPROGRESS> 08:58:27 |################    |  80% (2,989,872) 90.8 minPROGRESS> 09:03:06 |#################   |  85% (3,176,739) 95.4 minPROGRESS> 09:07:46 |##################  |  90% (3,363,606) 100.1 minPROGRESS> 09:11:54 |################### |  95% (3,550,473) 104.2 minPROGRESS> 09:15:15 |####################| 100% (3,737,322) 107.6 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S7_R2_reheader.fastq
+SEQUENCES> 3737322
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:04:40 |                    |   0% (        0) 0.0 minPROGRESS> 07:12:07 |#                   |   5% (  226,578) 7.5 minPROGRESS> 07:19:35 |##                  |  10% (  453,156) 14.9 minPROGRESS> 07:27:01 |###                 |  15% (  679,734) 22.3 minPROGRESS> 07:34:28 |####                |  20% (  906,312) 29.8 minPROGRESS> 07:41:56 |#####               |  25% (1,132,890) 37.3 minPROGRESS> 07:49:24 |######              |  30% (1,359,468) 44.7 minPROGRESS> 07:56:51 |#######             |  35% (1,586,046) 52.2 minPROGRESS> 08:04:19 |########            |  40% (1,812,624) 59.6 minPROGRESS> 08:11:46 |#########           |  45% (2,039,202) 67.1 minPROGRESS> 08:19:13 |##########          |  50% (2,265,780) 74.6 minPROGRESS> 08:26:08 |###########         |  55% (2,492,358) 81.5 minPROGRESS> 08:32:33 |############        |  60% (2,718,936) 87.9 minPROGRESS> 08:38:50 |#############       |  65% (2,945,514) 94.2 minPROGRESS> 08:44:47 |##############      |  70% (3,172,092) 100.1 minPROGRESS> 08:50:32 |###############     |  75% (3,398,670) 105.9 minPROGRESS> 08:56:07 |################    |  80% (3,625,248) 111.5 minPROGRESS> 09:01:43 |#################   |  85% (3,851,826) 117.1 minPROGRESS> 09:07:18 |##################  |  90% (4,078,404) 122.6 minPROGRESS> 09:12:19 |################### |  95% (4,304,982) 127.7 minPROGRESS> 09:16:06 |####################| 100% (4,531,541) 131.4 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S4_R2_reheader.fastq
+SEQUENCES> 4531541
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:02:27 |                    |   0% (        0) 0.0 minPROGRESS> 07:10:47 |#                   |   5% (  253,367) 8.3 minPROGRESS> 07:19:07 |##                  |  10% (  506,734) 16.7 minPROGRESS> 07:27:26 |###                 |  15% (  760,101) 25.0 minPROGRESS> 07:35:46 |####                |  20% (1,013,468) 33.3 minPROGRESS> 07:44:07 |#####               |  25% (1,266,835) 41.7 minPROGRESS> 07:52:27 |######              |  30% (1,520,202) 50.0 minPROGRESS> 08:00:46 |#######             |  35% (1,773,569) 58.3 minPROGRESS> 08:09:06 |########            |  40% (2,026,936) 66.7 minPROGRESS> 08:17:26 |#########           |  45% (2,280,303) 75.0 minPROGRESS> 08:25:19 |##########          |  50% (2,533,670) 82.9 minPROGRESS> 08:32:31 |###########         |  55% (2,787,037) 90.1 minPROGRESS> 08:39:31 |############        |  60% (3,040,404) 97.1 minPROGRESS> 08:46:10 |#############       |  65% (3,293,771) 103.7 minPROGRESS> 08:52:31 |##############      |  70% (3,547,138) 110.1 minPROGRESS> 08:58:47 |###############     |  75% (3,800,505) 116.3 minPROGRESS> 09:05:02 |################    |  80% (4,053,872) 122.6 minPROGRESS> 09:10:56 |#################   |  85% (4,307,239) 128.5 minPROGRESS> 09:15:32 |##################  |  90% (4,560,606) 133.1 minPROGRESS> 09:18:55 |################### |  95% (4,813,973) 136.5 minPROGRESS> 09:22:16 |####################| 100% (5,067,335) 139.8 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S2_R2_reheader.fastq
+SEQUENCES> 5067335
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 05:54:38 |                    |   0% (        0) 0.0 minPROGRESS> 06:06:30 |#                   |   5% (  359,079) 11.9 minPROGRESS> 06:18:24 |##                  |  10% (  718,158) 23.8 minPROGRESS> 06:30:15 |###                 |  15% (1,077,237) 35.6 minPROGRESS> 06:42:05 |####                |  20% (1,436,316) 47.5 minPROGRESS> 06:53:56 |#####               |  25% (1,795,395) 59.3 minPROGRESS> 07:05:47 |######              |  30% (2,154,474) 71.2 minPROGRESS> 07:17:38 |#######             |  35% (2,513,553) 83.0 minPROGRESS> 07:29:29 |########            |  40% (2,872,632) 94.9 minPROGRESS> 07:41:21 |#########           |  45% (3,231,711) 106.7 minPROGRESS> 07:53:12 |##########          |  50% (3,590,790) 118.6 minPROGRESS> 08:05:03 |###########         |  55% (3,949,869) 130.4 minPROGRESS> 08:16:55 |############        |  60% (4,308,948) 142.3 minPROGRESS> 08:27:59 |#############       |  65% (4,668,027) 153.4 minPROGRESS> 08:38:04 |##############      |  70% (5,027,106) 163.4 minPROGRESS> 08:47:33 |###############     |  75% (5,386,185) 172.9 minPROGRESS> 08:56:27 |################    |  80% (5,745,264) 181.8 minPROGRESS> 09:05:20 |#################   |  85% (6,104,343) 190.7 minPROGRESS> 09:13:20 |##################  |  90% (6,463,422) 198.7 minPROGRESS> 09:18:34 |################### |  95% (6,822,501) 203.9 minPROGRESS> 09:23:11 |####################| 100% (7,181,565) 208.5 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S8_R2_reheader.fastq
+SEQUENCES> 7181565
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:41:37 |                    |   0% (        0) 0.0 minPROGRESS> 07:48:16 |#                   |   5% (  201,832) 6.6 minPROGRESS> 07:54:55 |##                  |  10% (  403,664) 13.3 minPROGRESS> 08:01:34 |###                 |  15% (  605,496) 20.0 minPROGRESS> 08:08:13 |####                |  20% (  807,328) 26.6 minPROGRESS> 08:14:52 |#####               |  25% (1,009,160) 33.2 minPROGRESS> 08:21:29 |######              |  30% (1,210,992) 39.9 minPROGRESS> 08:27:29 |#######             |  35% (1,412,824) 45.9 minPROGRESS> 08:33:08 |########            |  40% (1,614,656) 51.5 minPROGRESS> 08:38:44 |#########           |  45% (1,816,488) 57.1 minPROGRESS> 08:44:03 |##########          |  50% (2,018,320) 62.4 minPROGRESS> 08:49:15 |###########         |  55% (2,220,152) 67.6 minPROGRESS> 08:54:15 |############        |  60% (2,421,984) 72.6 minPROGRESS> 08:59:14 |#############       |  65% (2,623,816) 77.6 minPROGRESS> 09:04:13 |##############      |  70% (2,825,648) 82.6 minPROGRESS> 09:09:06 |###############     |  75% (3,027,480) 87.5 minPROGRESS> 09:13:18 |################    |  80% (3,229,312) 91.7 minPROGRESS> 09:16:28 |#################   |  85% (3,431,144) 94.9 minPROGRESS> 09:19:07 |##################  |  90% (3,632,976) 97.5 minPROGRESS> 09:21:47 |################### |  95% (3,834,808) 100.2 minPROGRESS> 09:24:01 |####################| 100% (4,036,621) 102.4 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S9_R2_reheader.fastq
+SEQUENCES> 4036621
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:05:59 |                    |   0% (        0) 0.0 minPROGRESS> 07:15:30 |#                   |   5% (  287,686) 9.5 minPROGRESS> 07:25:01 |##                  |  10% (  575,372) 19.0 minPROGRESS> 07:34:33 |###                 |  15% (  863,058) 28.6 minPROGRESS> 07:44:04 |####                |  20% (1,150,744) 38.1 minPROGRESS> 07:53:34 |#####               |  25% (1,438,430) 47.6 minPROGRESS> 08:03:05 |######              |  30% (1,726,116) 57.1 minPROGRESS> 08:12:36 |#######             |  35% (2,013,802) 66.6 minPROGRESS> 08:22:01 |########            |  40% (2,301,488) 76.0 minPROGRESS> 08:30:24 |#########           |  45% (2,589,174) 84.4 minPROGRESS> 08:38:26 |##########          |  50% (2,876,860) 92.4 minPROGRESS> 08:46:03 |###########         |  55% (3,164,546) 100.1 minPROGRESS> 08:53:17 |############        |  60% (3,452,232) 107.3 minPROGRESS> 09:00:25 |#############       |  65% (3,739,918) 114.4 minPROGRESS> 09:07:33 |##############      |  70% (4,027,604) 121.6 minPROGRESS> 09:13:40 |###############     |  75% (4,315,290) 127.7 minPROGRESS> 09:17:53 |################    |  80% (4,602,976) 131.9 minPROGRESS> 09:21:41 |#################   |  85% (4,890,662) 135.7 minPROGRESS> 09:24:43 |##################  |  90% (5,178,348) 138.7 minPROGRESS> 09:27:07 |################### |  95% (5,466,034) 141.1 minPROGRESS> 09:29:30 |####################| 100% (5,753,707) 143.5 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S3_R2_reheader.fastq
+SEQUENCES> 5753707
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:35:54 |                    |   0% (        0) 0.0 minPROGRESS> 07:44:07 |#                   |   5% (  247,055) 8.2 minPROGRESS> 07:52:19 |##                  |  10% (  494,110) 16.4 minPROGRESS> 08:00:32 |###                 |  15% (  741,165) 24.6 minPROGRESS> 08:08:44 |####                |  20% (  988,220) 32.8 minPROGRESS> 08:16:56 |#####               |  25% (1,235,275) 41.0 minPROGRESS> 08:24:45 |######              |  30% (1,482,330) 48.9 minPROGRESS> 08:31:53 |#######             |  35% (1,729,385) 56.0 minPROGRESS> 08:38:48 |########            |  40% (1,976,440) 62.9 minPROGRESS> 08:45:21 |#########           |  45% (2,223,495) 69.5 minPROGRESS> 08:51:38 |##########          |  50% (2,470,550) 75.7 minPROGRESS> 08:57:47 |###########         |  55% (2,717,605) 81.9 minPROGRESS> 09:03:55 |############        |  60% (2,964,660) 88.0 minPROGRESS> 09:09:53 |#############       |  65% (3,211,715) 94.0 minPROGRESS> 09:14:41 |##############      |  70% (3,458,770) 98.8 minPROGRESS> 09:18:10 |###############     |  75% (3,705,825) 102.3 minPROGRESS> 09:21:27 |################    |  80% (3,952,880) 105.6 minPROGRESS> 09:24:12 |#################   |  85% (4,199,935) 108.3 minPROGRESS> 09:26:15 |##################  |  90% (4,446,990) 110.4 minPROGRESS> 09:28:18 |################### |  95% (4,694,045) 112.4 minPROGRESS> 09:30:10 |####################| 100% (4,941,083) 114.3 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S8_R2_reheader.fastq
+SEQUENCES> 4941083
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:01:48 |                    |   0% (        0) 0.0 minPROGRESS> 07:12:14 |#                   |   5% (  315,261) 10.4 minPROGRESS> 07:22:42 |##                  |  10% (  630,522) 20.9 minPROGRESS> 07:33:09 |###                 |  15% (  945,783) 31.3 minPROGRESS> 07:43:36 |####                |  20% (1,261,044) 41.8 minPROGRESS> 07:54:04 |#####               |  25% (1,576,305) 52.3 minPROGRESS> 08:04:32 |######              |  30% (1,891,566) 62.7 minPROGRESS> 08:14:59 |#######             |  35% (2,206,827) 73.2 minPROGRESS> 08:25:02 |########            |  40% (2,522,088) 83.2 minPROGRESS> 08:34:02 |#########           |  45% (2,837,349) 92.2 minPROGRESS> 08:42:38 |##########          |  50% (3,152,610) 100.8 minPROGRESS> 08:50:47 |###########         |  55% (3,467,871) 109.0 minPROGRESS> 08:58:38 |############        |  60% (3,783,132) 116.8 minPROGRESS> 09:06:28 |#############       |  65% (4,098,393) 124.7 minPROGRESS> 09:13:23 |##############      |  70% (4,413,654) 131.6 minPROGRESS> 09:18:03 |###############     |  75% (4,728,915) 136.3 minPROGRESS> 09:22:14 |################    |  80% (5,044,176) 140.4 minPROGRESS> 09:25:14 |#################   |  85% (5,359,437) 143.4 minPROGRESS> 09:27:51 |##################  |  90% (5,674,698) 146.0 minPROGRESS> 09:30:14 |################### |  95% (5,989,959) 148.4 minPROGRESS> 09:31:45 |####################| 100% (6,305,219) 150.0 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S1_R2_reheader.fastq
+SEQUENCES> 6305219
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 06:35:28 |                    |   0% (        0) 0.0 minPROGRESS> 06:47:22 |#                   |   5% (  359,096) 11.9 minPROGRESS> 06:59:15 |##                  |  10% (  718,192) 23.8 minPROGRESS> 07:11:07 |###                 |  15% (1,077,288) 35.6 minPROGRESS> 07:22:59 |####                |  20% (1,436,384) 47.5 minPROGRESS> 07:34:52 |#####               |  25% (1,795,480) 59.4 minPROGRESS> 07:46:44 |######              |  30% (2,154,576) 71.3 minPROGRESS> 07:58:35 |#######             |  35% (2,513,672) 83.1 minPROGRESS> 08:10:27 |########            |  40% (2,872,768) 95.0 minPROGRESS> 08:22:12 |#########           |  45% (3,231,864) 106.7 minPROGRESS> 08:32:34 |##########          |  50% (3,590,960) 117.1 minPROGRESS> 08:42:22 |###########         |  55% (3,950,056) 126.9 minPROGRESS> 08:51:36 |############        |  60% (4,309,152) 136.1 minPROGRESS> 09:00:29 |#############       |  65% (4,668,248) 145.0 minPROGRESS> 09:09:17 |##############      |  70% (5,027,344) 153.8 minPROGRESS> 09:15:58 |###############     |  75% (5,386,440) 160.5 minPROGRESS> 09:20:44 |################    |  80% (5,745,536) 165.3 minPROGRESS> 09:24:40 |#################   |  85% (6,104,632) 169.2 minPROGRESS> 09:27:36 |##################  |  90% (6,463,728) 172.1 minPROGRESS> 09:30:18 |################### |  95% (6,822,824) 174.8 minPROGRESS> 09:31:58 |####################| 100% (7,181,915) 176.5 min
+
+   OUTPUT> mpg_L19247_S4_S4_R1_001_quality-pass_primers-pass_PRIMER-S9_R2_reheader.fastq
+SEQUENCES> 7181915
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> add
+   FILE> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ FIELDS> 3PRIMA
+ VALUES> ORIR1
+
+PROGRESS> 07:29:39 |                    |   0% (        0) 0.0 minPROGRESS> 07:39:39 |#                   |   5% (  302,753) 10.0 minPROGRESS> 07:49:39 |##                  |  10% (  605,506) 20.0 minPROGRESS> 07:59:39 |###                 |  15% (  908,259) 30.0 minPROGRESS> 08:09:38 |####                |  20% (1,211,012) 40.0 minPROGRESS> 08:19:37 |#####               |  25% (1,513,765) 50.0 minPROGRESS> 08:28:42 |######              |  30% (1,816,518) 59.1 minPROGRESS> 08:37:13 |#######             |  35% (2,119,271) 67.6 minPROGRESS> 08:45:15 |########            |  40% (2,422,024) 75.6 minPROGRESS> 08:52:53 |#########           |  45% (2,724,777) 83.2 minPROGRESS> 09:00:22 |##########          |  50% (3,027,530) 90.7 minPROGRESS> 09:07:51 |###########         |  55% (3,330,283) 98.2 minPROGRESS> 09:14:07 |############        |  60% (3,633,036) 104.5 minPROGRESS> 09:18:26 |#############       |  65% (3,935,789) 108.8 minPROGRESS> 09:22:24 |##############      |  70% (4,238,542) 112.8 minPROGRESS> 09:25:15 |###############     |  75% (4,541,295) 115.6 minPROGRESS> 09:27:44 |################    |  80% (4,844,048) 118.1 minPROGRESS> 09:30:05 |#################   |  85% (5,146,801) 120.4 minPROGRESS> 09:31:38 |##################  |  90% (5,449,554) 122.0 minPROGRESS> 09:32:21 |################### |  95% (5,752,307) 122.7 minPROGRESS> 09:32:54 |####################| 100% (6,055,044) 123.3 min
+
+   OUTPUT> mpg_L19248_S5_S5_R1_001_quality-pass_primers-pass_PRIMER-S6_R2_reheader.fastq
+SEQUENCES> 6055044
+      END> ParseHeaders
+

@@ -1,0 +1,619 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:51 |                    |   0% (      0) 0.0 minPROGRESS> 11:06:56 |#                   |   5% (  9,886) 0.1 minPROGRESS> 11:07:02 |##                  |  10% ( 19,772) 0.2 minPROGRESS> 11:07:08 |###                 |  15% ( 29,658) 0.3 minPROGRESS> 11:07:13 |####                |  20% ( 39,544) 0.4 minPROGRESS> 11:07:19 |#####               |  25% ( 49,430) 0.5 minPROGRESS> 11:07:25 |######              |  30% ( 59,316) 0.6 minPROGRESS> 11:07:30 |#######             |  35% ( 69,202) 0.7 minPROGRESS> 11:07:36 |########            |  40% ( 79,088) 0.8 minPROGRESS> 11:07:41 |#########           |  45% ( 88,974) 0.8 minPROGRESS> 11:07:46 |##########          |  50% ( 98,860) 0.9 minPROGRESS> 11:07:52 |###########         |  55% (108,746) 1.0 minPROGRESS> 11:07:57 |############        |  60% (118,632) 1.1 minPROGRESS> 11:08:02 |#############       |  65% (128,518) 1.2 minPROGRESS> 11:08:08 |##############      |  70% (138,404) 1.3 minPROGRESS> 11:08:13 |###############     |  75% (148,290) 1.4 minPROGRESS> 11:08:18 |################    |  80% (158,176) 1.5 minPROGRESS> 11:08:23 |#################   |  85% (168,062) 1.5 minPROGRESS> 11:08:27 |##################  |  90% (177,948) 1.6 minPROGRESS> 11:08:32 |################### |  95% (187,834) 1.7 minPROGRESS> 11:08:37 |####################| 100% (197,712) 1.8 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 197712
+     PASS> 197712
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:51 |                    |   0% (      0) 0.0 minPROGRESS> 11:06:58 |#                   |   5% ( 10,794) 0.1 minPROGRESS> 11:07:04 |##                  |  10% ( 21,588) 0.2 minPROGRESS> 11:07:10 |###                 |  15% ( 32,382) 0.3 minPROGRESS> 11:07:17 |####                |  20% ( 43,176) 0.4 minPROGRESS> 11:07:23 |#####               |  25% ( 53,970) 0.5 minPROGRESS> 11:07:29 |######              |  30% ( 64,764) 0.6 minPROGRESS> 11:07:35 |#######             |  35% ( 75,558) 0.7 minPROGRESS> 11:07:42 |########            |  40% ( 86,352) 0.8 minPROGRESS> 11:07:48 |#########           |  45% ( 97,146) 0.9 minPROGRESS> 11:07:54 |##########          |  50% (107,940) 1.0 minPROGRESS> 11:08:00 |###########         |  55% (118,734) 1.1 minPROGRESS> 11:08:07 |############        |  60% (129,528) 1.3 minPROGRESS> 11:08:12 |#############       |  65% (140,322) 1.3 minPROGRESS> 11:08:18 |##############      |  70% (151,116) 1.4 minPROGRESS> 11:08:24 |###############     |  75% (161,910) 1.5 minPROGRESS> 11:08:30 |################    |  80% (172,704) 1.6 minPROGRESS> 11:08:36 |#################   |  85% (183,498) 1.7 minPROGRESS> 11:08:41 |##################  |  90% (194,292) 1.8 minPROGRESS> 11:08:46 |################### |  95% (205,086) 1.9 minPROGRESS> 11:08:52 |####################| 100% (215,880) 2.0 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 215880
+     PASS> 215880
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:52 |                    |   0% (      0) 0.0 minPROGRESS> 11:06:59 |#                   |   5% ( 11,522) 0.1 minPROGRESS> 11:07:05 |##                  |  10% ( 23,044) 0.2 minPROGRESS> 11:07:12 |###                 |  15% ( 34,566) 0.3 minPROGRESS> 11:07:19 |####                |  20% ( 46,088) 0.4 minPROGRESS> 11:07:25 |#####               |  25% ( 57,610) 0.6 minPROGRESS> 11:07:32 |######              |  30% ( 69,132) 0.7 minPROGRESS> 11:07:38 |#######             |  35% ( 80,654) 0.8 minPROGRESS> 11:07:45 |########            |  40% ( 92,176) 0.9 minPROGRESS> 11:07:52 |#########           |  45% (103,698) 1.0 minPROGRESS> 11:07:58 |##########          |  50% (115,220) 1.1 minPROGRESS> 11:08:05 |###########         |  55% (126,742) 1.2 minPROGRESS> 11:08:11 |############        |  60% (138,264) 1.3 minPROGRESS> 11:08:18 |#############       |  65% (149,786) 1.4 minPROGRESS> 11:08:24 |##############      |  70% (161,308) 1.5 minPROGRESS> 11:08:30 |###############     |  75% (172,830) 1.6 minPROGRESS> 11:08:37 |################    |  80% (184,352) 1.7 minPROGRESS> 11:08:43 |#################   |  85% (195,874) 1.8 minPROGRESS> 11:08:49 |##################  |  90% (207,396) 1.9 minPROGRESS> 11:08:54 |################### |  95% (218,918) 2.0 minPROGRESS> 11:09:00 |####################| 100% (230,434) 2.1 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 230434
+     PASS> 230434
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:53 |                    |   0% (      0) 0.0 minPROGRESS> 11:06:59 |#                   |   5% ( 11,671) 0.1 minPROGRESS> 11:07:06 |##                  |  10% ( 23,342) 0.2 minPROGRESS> 11:07:13 |###                 |  15% ( 35,013) 0.3 minPROGRESS> 11:07:19 |####                |  20% ( 46,684) 0.4 minPROGRESS> 11:07:26 |#####               |  25% ( 58,355) 0.6 minPROGRESS> 11:07:33 |######              |  30% ( 70,026) 0.7 minPROGRESS> 11:07:39 |#######             |  35% ( 81,697) 0.8 minPROGRESS> 11:07:46 |########            |  40% ( 93,368) 0.9 minPROGRESS> 11:07:53 |#########           |  45% (105,039) 1.0 minPROGRESS> 11:07:59 |##########          |  50% (116,710) 1.1 minPROGRESS> 11:08:06 |###########         |  55% (128,381) 1.2 minPROGRESS> 11:08:13 |############        |  60% (140,052) 1.3 minPROGRESS> 11:08:19 |#############       |  65% (151,723) 1.4 minPROGRESS> 11:08:26 |##############      |  70% (163,394) 1.6 minPROGRESS> 11:08:32 |###############     |  75% (175,065) 1.7 minPROGRESS> 11:08:39 |################    |  80% (186,736) 1.8 minPROGRESS> 11:08:45 |#################   |  85% (198,407) 1.9 minPROGRESS> 11:08:52 |##################  |  90% (210,078) 2.0 minPROGRESS> 11:08:58 |################### |  95% (221,749) 2.1 minPROGRESS> 11:09:03 |####################| 100% (233,408) 2.2 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 233408
+     PASS> 233408
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:53 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:00 |#                   |   5% ( 12,030) 0.1 minPROGRESS> 11:07:06 |##                  |  10% ( 24,060) 0.2 minPROGRESS> 11:07:13 |###                 |  15% ( 36,090) 0.3 minPROGRESS> 11:07:20 |####                |  20% ( 48,120) 0.5 minPROGRESS> 11:07:27 |#####               |  25% ( 60,150) 0.6 minPROGRESS> 11:07:34 |######              |  30% ( 72,180) 0.7 minPROGRESS> 11:07:41 |#######             |  35% ( 84,210) 0.8 minPROGRESS> 11:07:47 |########            |  40% ( 96,240) 0.9 minPROGRESS> 11:07:54 |#########           |  45% (108,270) 1.0 minPROGRESS> 11:08:01 |##########          |  50% (120,300) 1.1 minPROGRESS> 11:08:08 |###########         |  55% (132,330) 1.3 minPROGRESS> 11:08:15 |############        |  60% (144,360) 1.4 minPROGRESS> 11:08:21 |#############       |  65% (156,390) 1.5 minPROGRESS> 11:08:28 |##############      |  70% (168,420) 1.6 minPROGRESS> 11:08:35 |###############     |  75% (180,450) 1.7 minPROGRESS> 11:08:41 |################    |  80% (192,480) 1.8 minPROGRESS> 11:08:48 |#################   |  85% (204,510) 1.9 minPROGRESS> 11:08:54 |##################  |  90% (216,540) 2.0 minPROGRESS> 11:09:00 |################### |  95% (228,570) 2.1 minPROGRESS> 11:09:06 |####################| 100% (240,590) 2.2 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 240590
+     PASS> 240590
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:54 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:01 |#                   |   5% ( 13,084) 0.1 minPROGRESS> 11:07:09 |##                  |  10% ( 26,168) 0.2 minPROGRESS> 11:07:16 |###                 |  15% ( 39,252) 0.4 minPROGRESS> 11:07:24 |####                |  20% ( 52,336) 0.5 minPROGRESS> 11:07:31 |#####               |  25% ( 65,420) 0.6 minPROGRESS> 11:07:39 |######              |  30% ( 78,504) 0.7 minPROGRESS> 11:07:46 |#######             |  35% ( 91,588) 0.9 minPROGRESS> 11:07:53 |########            |  40% (104,672) 1.0 minPROGRESS> 11:08:01 |#########           |  45% (117,756) 1.1 minPROGRESS> 11:08:08 |##########          |  50% (130,840) 1.2 minPROGRESS> 11:08:16 |###########         |  55% (143,924) 1.4 minPROGRESS> 11:08:23 |############        |  60% (157,008) 1.5 minPROGRESS> 11:08:31 |#############       |  65% (170,092) 1.6 minPROGRESS> 11:08:38 |##############      |  70% (183,176) 1.7 minPROGRESS> 11:08:45 |###############     |  75% (196,260) 1.9 minPROGRESS> 11:08:52 |################    |  80% (209,344) 2.0 minPROGRESS> 11:08:59 |#################   |  85% (222,428) 2.1 minPROGRESS> 11:09:06 |##################  |  90% (235,512) 2.2 minPROGRESS> 11:09:12 |################### |  95% (248,596) 2.3 minPROGRESS> 11:09:19 |####################| 100% (261,666) 2.4 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 261666
+     PASS> 261666
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:55 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:03 |#                   |   5% ( 13,699) 0.1 minPROGRESS> 11:07:10 |##                  |  10% ( 27,398) 0.3 minPROGRESS> 11:07:18 |###                 |  15% ( 41,097) 0.4 minPROGRESS> 11:07:26 |####                |  20% ( 54,796) 0.5 minPROGRESS> 11:07:34 |#####               |  25% ( 68,495) 0.6 minPROGRESS> 11:07:42 |######              |  30% ( 82,194) 0.8 minPROGRESS> 11:07:49 |#######             |  35% ( 95,893) 0.9 minPROGRESS> 11:07:57 |########            |  40% (109,592) 1.0 minPROGRESS> 11:08:05 |#########           |  45% (123,291) 1.2 minPROGRESS> 11:08:13 |##########          |  50% (136,990) 1.3 minPROGRESS> 11:08:20 |###########         |  55% (150,689) 1.4 minPROGRESS> 11:08:28 |############        |  60% (164,388) 1.6 minPROGRESS> 11:08:36 |#############       |  65% (178,087) 1.7 minPROGRESS> 11:08:43 |##############      |  70% (191,786) 1.8 minPROGRESS> 11:08:51 |###############     |  75% (205,485) 1.9 minPROGRESS> 11:08:58 |################    |  80% (219,184) 2.1 minPROGRESS> 11:09:06 |#################   |  85% (232,883) 2.2 minPROGRESS> 11:09:13 |##################  |  90% (246,582) 2.3 minPROGRESS> 11:09:19 |################### |  95% (260,281) 2.4 minPROGRESS> 11:09:26 |####################| 100% (273,964) 2.5 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 273964
+     PASS> 273964
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:57 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:06 |#                   |   5% ( 15,575) 0.1 minPROGRESS> 11:07:14 |##                  |  10% ( 31,150) 0.3 minPROGRESS> 11:07:23 |###                 |  15% ( 46,725) 0.4 minPROGRESS> 11:07:32 |####                |  20% ( 62,300) 0.6 minPROGRESS> 11:07:41 |#####               |  25% ( 77,875) 0.7 minPROGRESS> 11:07:50 |######              |  30% ( 93,450) 0.9 minPROGRESS> 11:07:59 |#######             |  35% (109,025) 1.0 minPROGRESS> 11:08:08 |########            |  40% (124,600) 1.2 minPROGRESS> 11:08:17 |#########           |  45% (140,175) 1.3 minPROGRESS> 11:08:26 |##########          |  50% (155,750) 1.5 minPROGRESS> 11:08:35 |###########         |  55% (171,325) 1.6 minPROGRESS> 11:08:44 |############        |  60% (186,900) 1.8 minPROGRESS> 11:08:53 |#############       |  65% (202,475) 1.9 minPROGRESS> 11:09:02 |##############      |  70% (218,050) 2.1 minPROGRESS> 11:09:11 |###############     |  75% (233,625) 2.2 minPROGRESS> 11:09:20 |################    |  80% (249,200) 2.4 minPROGRESS> 11:09:28 |#################   |  85% (264,775) 2.5 minPROGRESS> 11:09:37 |##################  |  90% (280,350) 2.7 minPROGRESS> 11:09:45 |################### |  95% (295,925) 2.8 minPROGRESS> 11:09:52 |####################| 100% (311,489) 2.9 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 311489
+     PASS> 311489
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:56 |                    |   0% (  0) 0.0 minPROGRESS> 11:09:56 |#                   |   6% (  7) 0.0 minPROGRESS> 11:09:56 |##                  |  11% ( 14) 0.0 minPROGRESS> 11:09:56 |###                 |  17% ( 21) 0.0 minPROGRESS> 11:09:56 |####                |  22% ( 28) 0.0 minPROGRESS> 11:09:56 |#####               |  28% ( 35) 0.0 minPROGRESS> 11:09:56 |######              |  33% ( 42) 0.0 minPROGRESS> 11:09:56 |#######             |  39% ( 49) 0.0 minPROGRESS> 11:09:56 |########            |  44% ( 56) 0.0 minPROGRESS> 11:09:56 |#########           |  50% ( 63) 0.0 minPROGRESS> 11:09:56 |###########         |  55% ( 70) 0.0 minPROGRESS> 11:09:56 |############        |  61% ( 77) 0.0 minPROGRESS> 11:09:56 |#############       |  66% ( 84) 0.0 minPROGRESS> 11:09:56 |##############      |  72% ( 91) 0.0 minPROGRESS> 11:09:56 |###############     |  77% ( 98) 0.0 minPROGRESS> 11:09:56 |################    |  83% (105) 0.0 minPROGRESS> 11:09:56 |#################   |  88% (112) 0.0 minPROGRESS> 11:09:56 |##################  |  94% (119) 0.0 minPROGRESS> 11:09:56 |################### |  99% (126) 0.0 minPROGRESS> 11:09:56 |####################| 100% (127) 0.0 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 127
+     PASS> 127
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:06:58 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:07 |#                   |   5% ( 16,738) 0.2 minPROGRESS> 11:07:17 |##                  |  10% ( 33,476) 0.3 minPROGRESS> 11:07:27 |###                 |  15% ( 50,214) 0.5 minPROGRESS> 11:07:37 |####                |  20% ( 66,952) 0.6 minPROGRESS> 11:07:47 |#####               |  25% ( 83,690) 0.8 minPROGRESS> 11:07:56 |######              |  30% (100,428) 1.0 minPROGRESS> 11:08:06 |#######             |  35% (117,166) 1.1 minPROGRESS> 11:08:16 |########            |  40% (133,904) 1.3 minPROGRESS> 11:08:26 |#########           |  45% (150,642) 1.5 minPROGRESS> 11:08:35 |##########          |  50% (167,380) 1.6 minPROGRESS> 11:08:45 |###########         |  55% (184,118) 1.8 minPROGRESS> 11:08:55 |############        |  60% (200,856) 2.0 minPROGRESS> 11:09:05 |#############       |  65% (217,594) 2.1 minPROGRESS> 11:09:15 |##############      |  70% (234,332) 2.3 minPROGRESS> 11:09:24 |###############     |  75% (251,070) 2.4 minPROGRESS> 11:09:34 |################    |  80% (267,808) 2.6 minPROGRESS> 11:09:44 |#################   |  85% (284,546) 2.8 minPROGRESS> 11:09:53 |##################  |  90% (301,284) 2.9 minPROGRESS> 11:10:02 |################### |  95% (318,022) 3.1 minPROGRESS> 11:10:10 |####################| 100% (334,741) 3.2 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 334741
+     PASS> 334741
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:07:00 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:11 |#                   |   5% ( 18,877) 0.2 minPROGRESS> 11:07:21 |##                  |  10% ( 37,754) 0.4 minPROGRESS> 11:07:32 |###                 |  15% ( 56,631) 0.5 minPROGRESS> 11:07:43 |####                |  20% ( 75,508) 0.7 minPROGRESS> 11:07:54 |#####               |  25% ( 94,385) 0.9 minPROGRESS> 11:08:04 |######              |  30% (113,262) 1.1 minPROGRESS> 11:08:15 |#######             |  35% (132,139) 1.3 minPROGRESS> 11:08:26 |########            |  40% (151,016) 1.4 minPROGRESS> 11:08:37 |#########           |  45% (169,893) 1.6 minPROGRESS> 11:08:47 |##########          |  50% (188,770) 1.8 minPROGRESS> 11:08:58 |###########         |  55% (207,647) 2.0 minPROGRESS> 11:09:09 |############        |  60% (226,524) 2.1 minPROGRESS> 11:09:20 |#############       |  65% (245,401) 2.3 minPROGRESS> 11:09:30 |##############      |  70% (264,278) 2.5 minPROGRESS> 11:09:41 |###############     |  75% (283,155) 2.7 minPROGRESS> 11:09:52 |################    |  80% (302,032) 2.9 minPROGRESS> 11:10:02 |#################   |  85% (320,909) 3.0 minPROGRESS> 11:10:12 |##################  |  90% (339,786) 3.2 minPROGRESS> 11:10:22 |################### |  95% (358,663) 3.4 minPROGRESS> 11:10:31 |####################| 100% (377,522) 3.5 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 377522
+     PASS> 377522
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:08:55 |                    |   0% (      0) 0.0 minPROGRESS> 11:09:03 |#                   |   5% ( 14,432) 0.1 minPROGRESS> 11:09:12 |##                  |  10% ( 28,864) 0.3 minPROGRESS> 11:09:20 |###                 |  15% ( 43,296) 0.4 minPROGRESS> 11:09:28 |####                |  20% ( 57,728) 0.5 minPROGRESS> 11:09:37 |#####               |  25% ( 72,160) 0.7 minPROGRESS> 11:09:45 |######              |  30% ( 86,592) 0.8 minPROGRESS> 11:09:53 |#######             |  35% (101,024) 1.0 minPROGRESS> 11:10:01 |########            |  40% (115,456) 1.1 minPROGRESS> 11:10:10 |#########           |  45% (129,888) 1.2 minPROGRESS> 11:10:18 |##########          |  50% (144,320) 1.4 minPROGRESS> 11:10:26 |###########         |  55% (158,752) 1.5 minPROGRESS> 11:10:33 |############        |  60% (173,184) 1.6 minPROGRESS> 11:10:41 |#############       |  65% (187,616) 1.8 minPROGRESS> 11:10:49 |##############      |  70% (202,048) 1.9 minPROGRESS> 11:10:57 |###############     |  75% (216,480) 2.0 minPROGRESS> 11:11:05 |################    |  80% (230,912) 2.2 minPROGRESS> 11:11:13 |#################   |  85% (245,344) 2.3 minPROGRESS> 11:11:20 |##################  |  90% (259,776) 2.4 minPROGRESS> 11:11:27 |################### |  95% (274,208) 2.5 minPROGRESS> 11:11:34 |####################| 100% (288,627) 2.6 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 288627
+     PASS> 288627
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:10:10 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:15 |#                   |   5% ( 10,093) 0.1 minPROGRESS> 11:10:21 |##                  |  10% ( 20,186) 0.2 minPROGRESS> 11:10:27 |###                 |  15% ( 30,279) 0.3 minPROGRESS> 11:10:33 |####                |  20% ( 40,372) 0.4 minPROGRESS> 11:10:39 |#####               |  25% ( 50,465) 0.5 minPROGRESS> 11:10:44 |######              |  30% ( 60,558) 0.6 minPROGRESS> 11:10:50 |#######             |  35% ( 70,651) 0.7 minPROGRESS> 11:10:56 |########            |  40% ( 80,744) 0.8 minPROGRESS> 11:11:02 |#########           |  45% ( 90,837) 0.9 minPROGRESS> 11:11:08 |##########          |  50% (100,930) 1.0 minPROGRESS> 11:11:13 |###########         |  55% (111,023) 1.1 minPROGRESS> 11:11:19 |############        |  60% (121,116) 1.2 minPROGRESS> 11:11:25 |#############       |  65% (131,209) 1.3 minPROGRESS> 11:11:31 |##############      |  70% (141,302) 1.4 minPROGRESS> 11:11:36 |###############     |  75% (151,395) 1.4 minPROGRESS> 11:11:42 |################    |  80% (161,488) 1.5 minPROGRESS> 11:11:47 |#################   |  85% (171,581) 1.6 minPROGRESS> 11:11:52 |##################  |  90% (181,674) 1.7 minPROGRESS> 11:11:57 |################### |  95% (191,767) 1.8 minPROGRESS> 11:12:02 |####################| 100% (201,843) 1.9 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 201843
+     PASS> 201843
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:13 |                    |   0% (      0) 0.0 minPROGRESS> 11:09:22 |#                   |   5% ( 15,975) 0.2 minPROGRESS> 11:09:31 |##                  |  10% ( 31,950) 0.3 minPROGRESS> 11:09:40 |###                 |  15% ( 47,925) 0.5 minPROGRESS> 11:09:49 |####                |  20% ( 63,900) 0.6 minPROGRESS> 11:09:58 |#####               |  25% ( 79,875) 0.8 minPROGRESS> 11:10:07 |######              |  30% ( 95,850) 0.9 minPROGRESS> 11:10:16 |#######             |  35% (111,825) 1.1 minPROGRESS> 11:10:25 |########            |  40% (127,800) 1.2 minPROGRESS> 11:10:34 |#########           |  45% (143,775) 1.4 minPROGRESS> 11:10:43 |##########          |  50% (159,750) 1.5 minPROGRESS> 11:10:52 |###########         |  55% (175,725) 1.6 minPROGRESS> 11:11:00 |############        |  60% (191,700) 1.8 minPROGRESS> 11:11:09 |#############       |  65% (207,675) 1.9 minPROGRESS> 11:11:18 |##############      |  70% (223,650) 2.1 minPROGRESS> 11:11:26 |###############     |  75% (239,625) 2.2 minPROGRESS> 11:11:35 |################    |  80% (255,600) 2.4 minPROGRESS> 11:11:43 |#################   |  85% (271,575) 2.5 minPROGRESS> 11:11:51 |##################  |  90% (287,550) 2.6 minPROGRESS> 11:11:59 |################### |  95% (303,525) 2.8 minPROGRESS> 11:12:06 |####################| 100% (319,493) 2.9 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 319493
+     PASS> 319493
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:26 |                    |   0% (      0) 0.0 minPROGRESS> 11:09:35 |#                   |   5% ( 15,477) 0.1 minPROGRESS> 11:09:44 |##                  |  10% ( 30,954) 0.3 minPROGRESS> 11:09:53 |###                 |  15% ( 46,431) 0.4 minPROGRESS> 11:10:02 |####                |  20% ( 61,908) 0.6 minPROGRESS> 11:10:11 |#####               |  25% ( 77,385) 0.7 minPROGRESS> 11:10:20 |######              |  30% ( 92,862) 0.9 minPROGRESS> 11:10:28 |#######             |  35% (108,339) 1.0 minPROGRESS> 11:10:37 |########            |  40% (123,816) 1.2 minPROGRESS> 11:10:46 |#########           |  45% (139,293) 1.3 minPROGRESS> 11:10:55 |##########          |  50% (154,770) 1.5 minPROGRESS> 11:11:04 |###########         |  55% (170,247) 1.6 minPROGRESS> 11:11:12 |############        |  60% (185,724) 1.8 minPROGRESS> 11:11:21 |#############       |  65% (201,201) 1.9 minPROGRESS> 11:11:30 |##############      |  70% (216,678) 2.1 minPROGRESS> 11:11:39 |###############     |  75% (232,155) 2.2 minPROGRESS> 11:11:48 |################    |  80% (247,632) 2.4 minPROGRESS> 11:11:56 |#################   |  85% (263,109) 2.5 minPROGRESS> 11:12:05 |##################  |  90% (278,586) 2.6 minPROGRESS> 11:12:13 |################### |  95% (294,063) 2.8 minPROGRESS> 11:12:20 |####################| 100% (309,531) 2.9 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 309531
+     PASS> 309531
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:25 |                    |   0% (      0) 0.0 minPROGRESS> 11:09:35 |#                   |   5% ( 17,455) 0.2 minPROGRESS> 11:09:44 |##                  |  10% ( 34,910) 0.3 minPROGRESS> 11:09:54 |###                 |  15% ( 52,365) 0.5 minPROGRESS> 11:10:04 |####                |  20% ( 69,820) 0.7 minPROGRESS> 11:10:14 |#####               |  25% ( 87,275) 0.8 minPROGRESS> 11:10:24 |######              |  30% (104,730) 1.0 minPROGRESS> 11:10:34 |#######             |  35% (122,185) 1.2 minPROGRESS> 11:10:44 |########            |  40% (139,640) 1.3 minPROGRESS> 11:10:54 |#########           |  45% (157,095) 1.5 minPROGRESS> 11:11:04 |##########          |  50% (174,550) 1.6 minPROGRESS> 11:11:13 |###########         |  55% (192,005) 1.8 minPROGRESS> 11:11:23 |############        |  60% (209,460) 2.0 minPROGRESS> 11:11:33 |#############       |  65% (226,915) 2.1 minPROGRESS> 11:11:43 |##############      |  70% (244,370) 2.3 minPROGRESS> 11:11:53 |###############     |  75% (261,825) 2.5 minPROGRESS> 11:12:02 |################    |  80% (279,280) 2.6 minPROGRESS> 11:12:12 |#################   |  85% (296,735) 2.8 minPROGRESS> 11:12:21 |##################  |  90% (314,190) 2.9 minPROGRESS> 11:12:30 |################### |  95% (331,645) 3.1 minPROGRESS> 11:12:39 |####################| 100% (349,094) 3.2 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 349094
+     PASS> 349094
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:11:49 |                    |   0% (      0) 0.0 minPROGRESS> 11:11:55 |#                   |   5% ( 11,088) 0.1 minPROGRESS> 11:12:01 |##                  |  10% ( 22,176) 0.2 minPROGRESS> 11:12:07 |###                 |  15% ( 33,264) 0.3 minPROGRESS> 11:12:14 |####                |  20% ( 44,352) 0.4 minPROGRESS> 11:12:20 |#####               |  25% ( 55,440) 0.5 minPROGRESS> 11:12:26 |######              |  30% ( 66,528) 0.6 minPROGRESS> 11:12:33 |#######             |  35% ( 77,616) 0.7 minPROGRESS> 11:12:39 |########            |  40% ( 88,704) 0.8 minPROGRESS> 11:12:45 |#########           |  45% ( 99,792) 0.9 minPROGRESS> 11:12:51 |##########          |  50% (110,880) 1.0 minPROGRESS> 11:12:57 |###########         |  55% (121,968) 1.1 minPROGRESS> 11:13:03 |############        |  60% (133,056) 1.2 minPROGRESS> 11:13:09 |#############       |  65% (144,144) 1.3 minPROGRESS> 11:13:15 |##############      |  70% (155,232) 1.4 minPROGRESS> 11:13:20 |###############     |  75% (166,320) 1.5 minPROGRESS> 11:13:26 |################    |  80% (177,408) 1.6 minPROGRESS> 11:13:32 |#################   |  85% (188,496) 1.7 minPROGRESS> 11:13:37 |##################  |  90% (199,584) 1.8 minPROGRESS> 11:13:42 |################### |  95% (210,672) 1.9 minPROGRESS> 11:13:48 |####################| 100% (221,745) 2.0 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 221745
+     PASS> 221745
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:54 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:07 |#                   |   5% ( 22,630) 0.2 minPROGRESS> 11:10:20 |##                  |  10% ( 45,260) 0.4 minPROGRESS> 11:10:33 |###                 |  15% ( 67,890) 0.6 minPROGRESS> 11:10:46 |####                |  20% ( 90,520) 0.9 minPROGRESS> 11:10:59 |#####               |  25% (113,150) 1.1 minPROGRESS> 11:11:11 |######              |  30% (135,780) 1.3 minPROGRESS> 11:11:24 |#######             |  35% (158,410) 1.5 minPROGRESS> 11:11:37 |########            |  40% (181,040) 1.7 minPROGRESS> 11:11:50 |#########           |  45% (203,670) 1.9 minPROGRESS> 11:12:03 |##########          |  50% (226,300) 2.2 minPROGRESS> 11:12:16 |###########         |  55% (248,930) 2.4 minPROGRESS> 11:12:29 |############        |  60% (271,560) 2.6 minPROGRESS> 11:12:42 |#############       |  65% (294,190) 2.8 minPROGRESS> 11:12:55 |##############      |  70% (316,820) 3.0 minPROGRESS> 11:13:08 |###############     |  75% (339,450) 3.2 minPROGRESS> 11:13:21 |################    |  80% (362,080) 3.5 minPROGRESS> 11:13:34 |#################   |  85% (384,710) 3.7 minPROGRESS> 11:13:47 |##################  |  90% (407,340) 3.9 minPROGRESS> 11:13:59 |################### |  95% (429,970) 4.1 minPROGRESS> 11:14:10 |####################| 100% (452,582) 4.3 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 452582
+     PASS> 452582
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:31 |                    |   0% (      0) 0.0 minPROGRESS> 11:09:46 |#                   |   5% ( 26,147) 0.2 minPROGRESS> 11:10:01 |##                  |  10% ( 52,294) 0.5 minPROGRESS> 11:10:16 |###                 |  15% ( 78,441) 0.7 minPROGRESS> 11:10:30 |####                |  20% (104,588) 1.0 minPROGRESS> 11:10:46 |#####               |  25% (130,735) 1.2 minPROGRESS> 11:11:00 |######              |  30% (156,882) 1.5 minPROGRESS> 11:11:15 |#######             |  35% (183,029) 1.7 minPROGRESS> 11:11:30 |########            |  40% (209,176) 2.0 minPROGRESS> 11:11:45 |#########           |  45% (235,323) 2.2 minPROGRESS> 11:12:00 |##########          |  50% (261,470) 2.5 minPROGRESS> 11:12:15 |###########         |  55% (287,617) 2.7 minPROGRESS> 11:12:30 |############        |  60% (313,764) 3.0 minPROGRESS> 11:12:45 |#############       |  65% (339,911) 3.2 minPROGRESS> 11:13:00 |##############      |  70% (366,058) 3.5 minPROGRESS> 11:13:14 |###############     |  75% (392,205) 3.7 minPROGRESS> 11:13:29 |################    |  80% (418,352) 4.0 minPROGRESS> 11:13:43 |#################   |  85% (444,499) 4.2 minPROGRESS> 11:13:58 |##################  |  90% (470,646) 4.4 minPROGRESS> 11:14:12 |################### |  95% (496,793) 4.7 minPROGRESS> 11:14:25 |####################| 100% (522,921) 4.9 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 522921
+     PASS> 522921
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:10:38 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:49 |#                   |   5% ( 20,748) 0.2 minPROGRESS> 11:11:01 |##                  |  10% ( 41,496) 0.4 minPROGRESS> 11:11:13 |###                 |  15% ( 62,244) 0.6 minPROGRESS> 11:11:24 |####                |  20% ( 82,992) 0.8 minPROGRESS> 11:11:36 |#####               |  25% (103,740) 1.0 minPROGRESS> 11:11:48 |######              |  30% (124,488) 1.2 minPROGRESS> 11:12:00 |#######             |  35% (145,236) 1.4 minPROGRESS> 11:12:11 |########            |  40% (165,984) 1.6 minPROGRESS> 11:12:23 |#########           |  45% (186,732) 1.8 minPROGRESS> 11:12:35 |##########          |  50% (207,480) 2.0 minPROGRESS> 11:12:47 |###########         |  55% (228,228) 2.2 minPROGRESS> 11:12:59 |############        |  60% (248,976) 2.3 minPROGRESS> 11:13:10 |#############       |  65% (269,724) 2.5 minPROGRESS> 11:13:22 |##############      |  70% (290,472) 2.7 minPROGRESS> 11:13:34 |###############     |  75% (311,220) 2.9 minPROGRESS> 11:13:46 |################    |  80% (331,968) 3.1 minPROGRESS> 11:13:57 |#################   |  85% (352,716) 3.3 minPROGRESS> 11:14:09 |##################  |  90% (373,464) 3.5 minPROGRESS> 11:14:20 |################### |  95% (394,212) 3.7 minPROGRESS> 11:14:30 |####################| 100% (414,951) 3.9 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 414951
+     PASS> 414951
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:09:49 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:03 |#                   |   5% ( 25,296) 0.2 minPROGRESS> 11:10:18 |##                  |  10% ( 50,592) 0.5 minPROGRESS> 11:10:32 |###                 |  15% ( 75,888) 0.7 minPROGRESS> 11:10:46 |####                |  20% (101,184) 1.0 minPROGRESS> 11:11:01 |#####               |  25% (126,480) 1.2 minPROGRESS> 11:11:15 |######              |  30% (151,776) 1.4 minPROGRESS> 11:11:30 |#######             |  35% (177,072) 1.7 minPROGRESS> 11:11:44 |########            |  40% (202,368) 1.9 minPROGRESS> 11:11:58 |#########           |  45% (227,664) 2.2 minPROGRESS> 11:12:13 |##########          |  50% (252,960) 2.4 minPROGRESS> 11:12:28 |###########         |  55% (278,256) 2.6 minPROGRESS> 11:12:42 |############        |  60% (303,552) 2.9 minPROGRESS> 11:12:57 |#############       |  65% (328,848) 3.1 minPROGRESS> 11:13:11 |##############      |  70% (354,144) 3.4 minPROGRESS> 11:13:25 |###############     |  75% (379,440) 3.6 minPROGRESS> 11:13:40 |################    |  80% (404,736) 3.8 minPROGRESS> 11:13:54 |#################   |  85% (430,032) 4.1 minPROGRESS> 11:14:08 |##################  |  90% (455,328) 4.3 minPROGRESS> 11:14:22 |################### |  95% (480,624) 4.6 minPROGRESS> 11:14:35 |####################| 100% (505,910) 4.8 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 505910
+     PASS> 505910
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:12:36 |                    |   0% (      0) 0.0 minPROGRESS> 11:12:43 |#                   |   5% ( 11,592) 0.1 minPROGRESS> 11:12:49 |##                  |  10% ( 23,184) 0.2 minPROGRESS> 11:12:56 |###                 |  15% ( 34,776) 0.3 minPROGRESS> 11:13:02 |####                |  20% ( 46,368) 0.4 minPROGRESS> 11:13:09 |#####               |  25% ( 57,960) 0.5 minPROGRESS> 11:13:15 |######              |  30% ( 69,552) 0.7 minPROGRESS> 11:13:22 |#######             |  35% ( 81,144) 0.8 minPROGRESS> 11:13:29 |########            |  40% ( 92,736) 0.9 minPROGRESS> 11:13:35 |#########           |  45% (104,328) 1.0 minPROGRESS> 11:13:42 |##########          |  50% (115,920) 1.1 minPROGRESS> 11:13:48 |###########         |  55% (127,512) 1.2 minPROGRESS> 11:13:55 |############        |  60% (139,104) 1.3 minPROGRESS> 11:14:01 |#############       |  65% (150,696) 1.4 minPROGRESS> 11:14:08 |##############      |  70% (162,288) 1.5 minPROGRESS> 11:14:14 |###############     |  75% (173,880) 1.6 minPROGRESS> 11:14:21 |################    |  80% (185,472) 1.7 minPROGRESS> 11:14:27 |#################   |  85% (197,064) 1.8 minPROGRESS> 11:14:33 |##################  |  90% (208,656) 2.0 minPROGRESS> 11:14:39 |################### |  95% (220,248) 2.0 minPROGRESS> 11:14:45 |####################| 100% (231,833) 2.1 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 231833
+     PASS> 231833
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:12:25 |                    |   0% (      0) 0.0 minPROGRESS> 11:12:33 |#                   |   5% ( 14,376) 0.1 minPROGRESS> 11:12:41 |##                  |  10% ( 28,752) 0.3 minPROGRESS> 11:12:49 |###                 |  15% ( 43,128) 0.4 minPROGRESS> 11:12:57 |####                |  20% ( 57,504) 0.5 minPROGRESS> 11:13:05 |#####               |  25% ( 71,880) 0.7 minPROGRESS> 11:13:14 |######              |  30% ( 86,256) 0.8 minPROGRESS> 11:13:22 |#######             |  35% (100,632) 1.0 minPROGRESS> 11:13:30 |########            |  40% (115,008) 1.1 minPROGRESS> 11:13:38 |#########           |  45% (129,384) 1.2 minPROGRESS> 11:13:46 |##########          |  50% (143,760) 1.4 minPROGRESS> 11:13:54 |###########         |  55% (158,136) 1.5 minPROGRESS> 11:14:03 |############        |  60% (172,512) 1.6 minPROGRESS> 11:14:11 |#############       |  65% (186,888) 1.8 minPROGRESS> 11:14:18 |##############      |  70% (201,264) 1.9 minPROGRESS> 11:14:26 |###############     |  75% (215,640) 2.0 minPROGRESS> 11:14:34 |################    |  80% (230,016) 2.2 minPROGRESS> 11:14:42 |#################   |  85% (244,392) 2.3 minPROGRESS> 11:14:50 |##################  |  90% (258,768) 2.4 minPROGRESS> 11:14:57 |################### |  95% (273,144) 2.5 minPROGRESS> 11:15:04 |####################| 100% (287,512) 2.7 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 287512
+     PASS> 287512
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:10:57 |                    |   0% (      0) 0.0 minPROGRESS> 11:11:10 |#                   |   5% ( 21,886) 0.2 minPROGRESS> 11:11:23 |##                  |  10% ( 43,772) 0.4 minPROGRESS> 11:11:35 |###                 |  15% ( 65,658) 0.6 minPROGRESS> 11:11:48 |####                |  20% ( 87,544) 0.8 minPROGRESS> 11:12:01 |#####               |  25% (109,430) 1.1 minPROGRESS> 11:12:13 |######              |  30% (131,316) 1.3 minPROGRESS> 11:12:26 |#######             |  35% (153,202) 1.5 minPROGRESS> 11:12:39 |########            |  40% (175,088) 1.7 minPROGRESS> 11:12:52 |#########           |  45% (196,974) 1.9 minPROGRESS> 11:13:04 |##########          |  50% (218,860) 2.1 minPROGRESS> 11:13:17 |###########         |  55% (240,746) 2.3 minPROGRESS> 11:13:30 |############        |  60% (262,632) 2.5 minPROGRESS> 11:13:42 |#############       |  65% (284,518) 2.8 minPROGRESS> 11:13:55 |##############      |  70% (306,404) 3.0 minPROGRESS> 11:14:08 |###############     |  75% (328,290) 3.2 minPROGRESS> 11:14:20 |################    |  80% (350,176) 3.4 minPROGRESS> 11:14:33 |#################   |  85% (372,062) 3.6 minPROGRESS> 11:14:45 |##################  |  90% (393,948) 3.8 minPROGRESS> 11:14:56 |################### |  95% (415,834) 4.0 minPROGRESS> 11:15:07 |####################| 100% (437,713) 4.2 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 437713
+     PASS> 437713
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:14:00 |                    |   0% (      0) 0.0 minPROGRESS> 11:14:05 |#                   |   5% (  8,631) 0.1 minPROGRESS> 11:14:10 |##                  |  10% ( 17,262) 0.2 minPROGRESS> 11:14:15 |###                 |  15% ( 25,893) 0.2 minPROGRESS> 11:14:20 |####                |  20% ( 34,524) 0.3 minPROGRESS> 11:14:25 |#####               |  25% ( 43,155) 0.4 minPROGRESS> 11:14:30 |######              |  30% ( 51,786) 0.5 minPROGRESS> 11:14:35 |#######             |  35% ( 60,417) 0.6 minPROGRESS> 11:14:40 |########            |  40% ( 69,048) 0.7 minPROGRESS> 11:14:45 |#########           |  45% ( 77,679) 0.7 minPROGRESS> 11:14:49 |##########          |  50% ( 86,310) 0.8 minPROGRESS> 11:14:54 |###########         |  55% ( 94,941) 0.9 minPROGRESS> 11:14:59 |############        |  60% (103,572) 1.0 minPROGRESS> 11:15:04 |#############       |  65% (112,203) 1.1 minPROGRESS> 11:15:08 |##############      |  70% (120,834) 1.1 minPROGRESS> 11:15:13 |###############     |  75% (129,465) 1.2 minPROGRESS> 11:15:18 |################    |  80% (138,096) 1.3 minPROGRESS> 11:15:22 |#################   |  85% (146,727) 1.4 minPROGRESS> 11:15:27 |##################  |  90% (155,358) 1.4 minPROGRESS> 11:15:31 |################### |  95% (163,989) 1.5 minPROGRESS> 11:15:35 |####################| 100% (172,613) 1.6 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 172613
+     PASS> 172613
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:14:41 |                    |   0% (      0) 0.0 minPROGRESS> 11:14:44 |#                   |   5% (  6,677) 0.1 minPROGRESS> 11:14:48 |##                  |  10% ( 13,354) 0.1 minPROGRESS> 11:14:52 |###                 |  15% ( 20,031) 0.2 minPROGRESS> 11:14:56 |####                |  20% ( 26,708) 0.3 minPROGRESS> 11:15:00 |#####               |  25% ( 33,385) 0.3 minPROGRESS> 11:15:04 |######              |  30% ( 40,062) 0.4 minPROGRESS> 11:15:08 |#######             |  35% ( 46,739) 0.5 minPROGRESS> 11:15:12 |########            |  40% ( 53,416) 0.5 minPROGRESS> 11:15:15 |#########           |  45% ( 60,093) 0.6 minPROGRESS> 11:15:19 |##########          |  50% ( 66,770) 0.6 minPROGRESS> 11:15:23 |###########         |  55% ( 73,447) 0.7 minPROGRESS> 11:15:26 |############        |  60% ( 80,124) 0.8 minPROGRESS> 11:15:30 |#############       |  65% ( 86,801) 0.8 minPROGRESS> 11:15:33 |##############      |  70% ( 93,478) 0.9 minPROGRESS> 11:15:37 |###############     |  75% (100,155) 0.9 minPROGRESS> 11:15:40 |################    |  80% (106,832) 1.0 minPROGRESS> 11:15:44 |#################   |  85% (113,509) 1.1 minPROGRESS> 11:15:47 |##################  |  90% (120,186) 1.1 minPROGRESS> 11:15:50 |################### |  95% (126,863) 1.2 minPROGRESS> 11:15:54 |####################| 100% (133,538) 1.2 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 133538
+     PASS> 133538
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:14:23 |                    |   0% (      0) 0.0 minPROGRESS> 11:14:28 |#                   |   5% (  9,316) 0.1 minPROGRESS> 11:14:34 |##                  |  10% ( 18,632) 0.2 minPROGRESS> 11:14:39 |###                 |  15% ( 27,948) 0.3 minPROGRESS> 11:14:44 |####                |  20% ( 37,264) 0.4 minPROGRESS> 11:14:50 |#####               |  25% ( 46,580) 0.4 minPROGRESS> 11:14:55 |######              |  30% ( 55,896) 0.5 minPROGRESS> 11:15:00 |#######             |  35% ( 65,212) 0.6 minPROGRESS> 11:15:05 |########            |  40% ( 74,528) 0.7 minPROGRESS> 11:15:11 |#########           |  45% ( 83,844) 0.8 minPROGRESS> 11:15:16 |##########          |  50% ( 93,160) 0.9 minPROGRESS> 11:15:21 |###########         |  55% (102,476) 1.0 minPROGRESS> 11:15:26 |############        |  60% (111,792) 1.1 minPROGRESS> 11:15:31 |#############       |  65% (121,108) 1.1 minPROGRESS> 11:15:36 |##############      |  70% (130,424) 1.2 minPROGRESS> 11:15:41 |###############     |  75% (139,740) 1.3 minPROGRESS> 11:15:46 |################    |  80% (149,056) 1.4 minPROGRESS> 11:15:51 |#################   |  85% (158,372) 1.5 minPROGRESS> 11:15:55 |##################  |  90% (167,688) 1.5 minPROGRESS> 11:16:00 |################### |  95% (177,004) 1.6 minPROGRESS> 11:16:04 |####################| 100% (186,317) 1.7 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 186317
+     PASS> 186317
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:12:59 |                    |   0% (      0) 0.0 minPROGRESS> 11:13:09 |#                   |   5% ( 16,421) 0.2 minPROGRESS> 11:13:19 |##                  |  10% ( 32,842) 0.3 minPROGRESS> 11:13:29 |###                 |  15% ( 49,263) 0.5 minPROGRESS> 11:13:38 |####                |  20% ( 65,684) 0.6 minPROGRESS> 11:13:48 |#####               |  25% ( 82,105) 0.8 minPROGRESS> 11:13:58 |######              |  30% ( 98,526) 1.0 minPROGRESS> 11:14:08 |#######             |  35% (114,947) 1.1 minPROGRESS> 11:14:18 |########            |  40% (131,368) 1.3 minPROGRESS> 11:14:27 |#########           |  45% (147,789) 1.5 minPROGRESS> 11:14:37 |##########          |  50% (164,210) 1.6 minPROGRESS> 11:14:47 |###########         |  55% (180,631) 1.8 minPROGRESS> 11:14:57 |############        |  60% (197,052) 2.0 minPROGRESS> 11:15:06 |#############       |  65% (213,473) 2.1 minPROGRESS> 11:15:16 |##############      |  70% (229,894) 2.3 minPROGRESS> 11:15:26 |###############     |  75% (246,315) 2.4 minPROGRESS> 11:15:35 |################    |  80% (262,736) 2.6 minPROGRESS> 11:15:44 |#################   |  85% (279,157) 2.8 minPROGRESS> 11:15:54 |##################  |  90% (295,578) 2.9 minPROGRESS> 11:16:02 |################### |  95% (311,999) 3.0 minPROGRESS> 11:16:10 |####################| 100% (328,409) 3.2 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 328409
+     PASS> 328409
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:14:38 |                    |   0% (      0) 0.0 minPROGRESS> 11:14:43 |#                   |   5% (  9,040) 0.1 minPROGRESS> 11:14:48 |##                  |  10% ( 18,080) 0.2 minPROGRESS> 11:14:53 |###                 |  15% ( 27,120) 0.3 minPROGRESS> 11:14:59 |####                |  20% ( 36,160) 0.4 minPROGRESS> 11:15:04 |#####               |  25% ( 45,200) 0.4 minPROGRESS> 11:15:09 |######              |  30% ( 54,240) 0.5 minPROGRESS> 11:15:15 |#######             |  35% ( 63,280) 0.6 minPROGRESS> 11:15:20 |########            |  40% ( 72,320) 0.7 minPROGRESS> 11:15:25 |#########           |  45% ( 81,360) 0.8 minPROGRESS> 11:15:30 |##########          |  50% ( 90,400) 0.9 minPROGRESS> 11:15:35 |###########         |  55% ( 99,440) 1.0 minPROGRESS> 11:15:40 |############        |  60% (108,480) 1.0 minPROGRESS> 11:15:45 |#############       |  65% (117,520) 1.1 minPROGRESS> 11:15:50 |##############      |  70% (126,560) 1.2 minPROGRESS> 11:15:54 |###############     |  75% (135,600) 1.3 minPROGRESS> 11:15:59 |################    |  80% (144,640) 1.4 minPROGRESS> 11:16:03 |#################   |  85% (153,680) 1.4 minPROGRESS> 11:16:08 |##################  |  90% (162,720) 1.5 minPROGRESS> 11:16:13 |################### |  95% (171,760) 1.6 minPROGRESS> 11:16:17 |####################| 100% (180,800) 1.7 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 180800
+     PASS> 180800
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:12:29 |                    |   0% (      0) 0.0 minPROGRESS> 11:12:41 |#                   |   5% ( 21,655) 0.2 minPROGRESS> 11:12:53 |##                  |  10% ( 43,310) 0.4 minPROGRESS> 11:13:06 |###                 |  15% ( 64,965) 0.6 minPROGRESS> 11:13:18 |####                |  20% ( 86,620) 0.8 minPROGRESS> 11:13:30 |#####               |  25% (108,275) 1.0 minPROGRESS> 11:13:42 |######              |  30% (129,930) 1.2 minPROGRESS> 11:13:55 |#######             |  35% (151,585) 1.4 minPROGRESS> 11:14:07 |########            |  40% (173,240) 1.6 minPROGRESS> 11:14:19 |#########           |  45% (194,895) 1.8 minPROGRESS> 11:14:32 |##########          |  50% (216,550) 2.1 minPROGRESS> 11:14:44 |###########         |  55% (238,205) 2.3 minPROGRESS> 11:14:57 |############        |  60% (259,860) 2.5 minPROGRESS> 11:15:09 |#############       |  65% (281,515) 2.7 minPROGRESS> 11:15:21 |##############      |  70% (303,170) 2.9 minPROGRESS> 11:15:34 |###############     |  75% (324,825) 3.1 minPROGRESS> 11:15:46 |################    |  80% (346,480) 3.3 minPROGRESS> 11:15:58 |#################   |  85% (368,135) 3.5 minPROGRESS> 11:16:10 |##################  |  90% (389,790) 3.7 minPROGRESS> 11:16:22 |################### |  95% (411,445) 3.9 minPROGRESS> 11:16:33 |####################| 100% (433,094) 4.1 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 433094
+     PASS> 433094
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:15:17 |                    |   0% (      0) 0.0 minPROGRESS> 11:15:22 |#                   |   5% (  9,586) 0.1 minPROGRESS> 11:15:27 |##                  |  10% ( 19,172) 0.2 minPROGRESS> 11:15:32 |###                 |  15% ( 28,758) 0.3 minPROGRESS> 11:15:37 |####                |  20% ( 38,344) 0.3 minPROGRESS> 11:15:42 |#####               |  25% ( 47,930) 0.4 minPROGRESS> 11:15:47 |######              |  30% ( 57,516) 0.5 minPROGRESS> 11:15:52 |#######             |  35% ( 67,102) 0.6 minPROGRESS> 11:15:57 |########            |  40% ( 76,688) 0.7 minPROGRESS> 11:16:02 |#########           |  45% ( 86,274) 0.8 minPROGRESS> 11:16:07 |##########          |  50% ( 95,860) 0.8 minPROGRESS> 11:16:12 |###########         |  55% (105,446) 0.9 minPROGRESS> 11:16:17 |############        |  60% (115,032) 1.0 minPROGRESS> 11:16:22 |#############       |  65% (124,618) 1.1 minPROGRESS> 11:16:27 |##############      |  70% (134,204) 1.2 minPROGRESS> 11:16:32 |###############     |  75% (143,790) 1.3 minPROGRESS> 11:16:37 |################    |  80% (153,376) 1.3 minPROGRESS> 11:16:41 |#################   |  85% (162,962) 1.4 minPROGRESS> 11:16:46 |##################  |  90% (172,548) 1.5 minPROGRESS> 11:16:51 |################### |  95% (182,134) 1.6 minPROGRESS> 11:16:55 |####################| 100% (191,707) 1.6 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 191707
+     PASS> 191707
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:15:22 |                    |   0% (      0) 0.0 minPROGRESS> 11:15:29 |#                   |   5% ( 11,589) 0.1 minPROGRESS> 11:15:36 |##                  |  10% ( 23,178) 0.2 minPROGRESS> 11:15:43 |###                 |  15% ( 34,767) 0.3 minPROGRESS> 11:15:49 |####                |  20% ( 46,356) 0.5 minPROGRESS> 11:15:56 |#####               |  25% ( 57,945) 0.6 minPROGRESS> 11:16:03 |######              |  30% ( 69,534) 0.7 minPROGRESS> 11:16:09 |#######             |  35% ( 81,123) 0.8 minPROGRESS> 11:16:16 |########            |  40% ( 92,712) 0.9 minPROGRESS> 11:16:23 |#########           |  45% (104,301) 1.0 minPROGRESS> 11:16:29 |##########          |  50% (115,890) 1.1 minPROGRESS> 11:16:36 |###########         |  55% (127,479) 1.2 minPROGRESS> 11:16:42 |############        |  60% (139,068) 1.3 minPROGRESS> 11:16:49 |#############       |  65% (150,657) 1.4 minPROGRESS> 11:16:55 |##############      |  70% (162,246) 1.5 minPROGRESS> 11:17:01 |###############     |  75% (173,835) 1.6 minPROGRESS> 11:17:07 |################    |  80% (185,424) 1.7 minPROGRESS> 11:17:13 |#################   |  85% (197,013) 1.8 minPROGRESS> 11:17:19 |##################  |  90% (208,602) 1.9 minPROGRESS> 11:17:24 |################### |  95% (220,191) 2.0 minPROGRESS> 11:17:30 |####################| 100% (231,775) 2.1 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 231775
+     PASS> 231775
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:14:56 |                    |   0% (      0) 0.0 minPROGRESS> 11:15:06 |#                   |   5% ( 16,906) 0.2 minPROGRESS> 11:15:15 |##                  |  10% ( 33,812) 0.3 minPROGRESS> 11:15:25 |###                 |  15% ( 50,718) 0.5 minPROGRESS> 11:15:34 |####                |  20% ( 67,624) 0.6 minPROGRESS> 11:15:44 |#####               |  25% ( 84,530) 0.8 minPROGRESS> 11:15:54 |######              |  30% (101,436) 1.0 minPROGRESS> 11:16:03 |#######             |  35% (118,342) 1.1 minPROGRESS> 11:16:13 |########            |  40% (135,248) 1.3 minPROGRESS> 11:16:22 |#########           |  45% (152,154) 1.4 minPROGRESS> 11:16:32 |##########          |  50% (169,060) 1.6 minPROGRESS> 11:16:42 |###########         |  55% (185,966) 1.8 minPROGRESS> 11:16:51 |############        |  60% (202,872) 1.9 minPROGRESS> 11:17:01 |#############       |  65% (219,778) 2.1 minPROGRESS> 11:17:10 |##############      |  70% (236,684) 2.2 minPROGRESS> 11:17:20 |###############     |  75% (253,590) 2.4 minPROGRESS> 11:17:29 |################    |  80% (270,496) 2.6 minPROGRESS> 11:17:38 |#################   |  85% (287,402) 2.7 minPROGRESS> 11:17:47 |##################  |  90% (304,308) 2.9 minPROGRESS> 11:17:56 |################### |  95% (321,214) 3.0 minPROGRESS> 11:18:04 |####################| 100% (338,120) 3.1 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 338120
+     PASS> 338120
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:15:05 |                    |   0% (      0) 0.0 minPROGRESS> 11:15:15 |#                   |   5% ( 16,846) 0.2 minPROGRESS> 11:15:24 |##                  |  10% ( 33,692) 0.3 minPROGRESS> 11:15:34 |###                 |  15% ( 50,538) 0.5 minPROGRESS> 11:15:43 |####                |  20% ( 67,384) 0.6 minPROGRESS> 11:15:53 |#####               |  25% ( 84,230) 0.8 minPROGRESS> 11:16:03 |######              |  30% (101,076) 1.0 minPROGRESS> 11:16:12 |#######             |  35% (117,922) 1.1 minPROGRESS> 11:16:22 |########            |  40% (134,768) 1.3 minPROGRESS> 11:16:32 |#########           |  45% (151,614) 1.4 minPROGRESS> 11:16:41 |##########          |  50% (168,460) 1.6 minPROGRESS> 11:16:51 |###########         |  55% (185,306) 1.8 minPROGRESS> 11:17:00 |############        |  60% (202,152) 1.9 minPROGRESS> 11:17:09 |#############       |  65% (218,998) 2.1 minPROGRESS> 11:17:19 |##############      |  70% (235,844) 2.2 minPROGRESS> 11:17:28 |###############     |  75% (252,690) 2.4 minPROGRESS> 11:17:37 |################    |  80% (269,536) 2.5 minPROGRESS> 11:17:46 |#################   |  85% (286,382) 2.7 minPROGRESS> 11:17:54 |##################  |  90% (303,228) 2.8 minPROGRESS> 11:18:02 |################### |  95% (320,074) 3.0 minPROGRESS> 11:18:11 |####################| 100% (336,920) 3.1 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 336920
+     PASS> 336920
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:17:06 |                    |   0% (      0) 0.0 minPROGRESS> 11:17:10 |#                   |   5% (  7,189) 0.1 minPROGRESS> 11:17:15 |##                  |  10% ( 14,378) 0.1 minPROGRESS> 11:17:19 |###                 |  15% ( 21,567) 0.2 minPROGRESS> 11:17:23 |####                |  20% ( 28,756) 0.3 minPROGRESS> 11:17:27 |#####               |  25% ( 35,945) 0.4 minPROGRESS> 11:17:31 |######              |  30% ( 43,134) 0.4 minPROGRESS> 11:17:36 |#######             |  35% ( 50,323) 0.5 minPROGRESS> 11:17:40 |########            |  40% ( 57,512) 0.6 minPROGRESS> 11:17:44 |#########           |  45% ( 64,701) 0.6 minPROGRESS> 11:17:48 |##########          |  50% ( 71,890) 0.7 minPROGRESS> 11:17:53 |###########         |  55% ( 79,079) 0.8 minPROGRESS> 11:17:57 |############        |  60% ( 86,268) 0.8 minPROGRESS> 11:18:01 |#############       |  65% ( 93,457) 0.9 minPROGRESS> 11:18:05 |##############      |  70% (100,646) 1.0 minPROGRESS> 11:18:08 |###############     |  75% (107,835) 1.0 minPROGRESS> 11:18:12 |################    |  80% (115,024) 1.1 minPROGRESS> 11:18:16 |#################   |  85% (122,213) 1.2 minPROGRESS> 11:18:20 |##################  |  90% (129,402) 1.2 minPROGRESS> 11:18:23 |################### |  95% (136,591) 1.3 minPROGRESS> 11:18:27 |####################| 100% (143,772) 1.3 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 143772
+     PASS> 143772
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:16:13 |                    |   0% (      0) 0.0 minPROGRESS> 11:16:21 |#                   |   5% ( 14,989) 0.1 minPROGRESS> 11:16:30 |##                  |  10% ( 29,978) 0.3 minPROGRESS> 11:16:38 |###                 |  15% ( 44,967) 0.4 minPROGRESS> 11:16:47 |####                |  20% ( 59,956) 0.6 minPROGRESS> 11:16:56 |#####               |  25% ( 74,945) 0.7 minPROGRESS> 11:17:04 |######              |  30% ( 89,934) 0.9 minPROGRESS> 11:17:13 |#######             |  35% (104,923) 1.0 minPROGRESS> 11:17:21 |########            |  40% (119,912) 1.1 minPROGRESS> 11:17:30 |#########           |  45% (134,901) 1.3 minPROGRESS> 11:17:38 |##########          |  50% (149,890) 1.4 minPROGRESS> 11:17:47 |###########         |  55% (164,879) 1.6 minPROGRESS> 11:17:55 |############        |  60% (179,868) 1.7 minPROGRESS> 11:18:04 |#############       |  65% (194,857) 1.8 minPROGRESS> 11:18:12 |##############      |  70% (209,846) 2.0 minPROGRESS> 11:18:20 |###############     |  75% (224,835) 2.1 minPROGRESS> 11:18:28 |################    |  80% (239,824) 2.3 minPROGRESS> 11:18:36 |#################   |  85% (254,813) 2.4 minPROGRESS> 11:18:44 |##################  |  90% (269,802) 2.5 minPROGRESS> 11:18:51 |################### |  95% (284,791) 2.6 minPROGRESS> 11:18:58 |####################| 100% (299,775) 2.8 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 299775
+     PASS> 299775
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:15:57 |                    |   0% (      0) 0.0 minPROGRESS> 11:16:07 |#                   |   5% ( 17,553) 0.2 minPROGRESS> 11:16:17 |##                  |  10% ( 35,106) 0.3 minPROGRESS> 11:16:27 |###                 |  15% ( 52,659) 0.5 minPROGRESS> 11:16:38 |####                |  20% ( 70,212) 0.7 minPROGRESS> 11:16:48 |#####               |  25% ( 87,765) 0.9 minPROGRESS> 11:16:58 |######              |  30% (105,318) 1.0 minPROGRESS> 11:17:08 |#######             |  35% (122,871) 1.2 minPROGRESS> 11:17:18 |########            |  40% (140,424) 1.4 minPROGRESS> 11:17:28 |#########           |  45% (157,977) 1.5 minPROGRESS> 11:17:38 |##########          |  50% (175,530) 1.7 minPROGRESS> 11:17:49 |###########         |  55% (193,083) 1.9 minPROGRESS> 11:17:59 |############        |  60% (210,636) 2.0 minPROGRESS> 11:18:09 |#############       |  65% (228,189) 2.2 minPROGRESS> 11:18:18 |##############      |  70% (245,742) 2.4 minPROGRESS> 11:18:28 |###############     |  75% (263,295) 2.5 minPROGRESS> 11:18:38 |################    |  80% (280,848) 2.7 minPROGRESS> 11:18:47 |#################   |  85% (298,401) 2.8 minPROGRESS> 11:18:56 |##################  |  90% (315,954) 3.0 minPROGRESS> 11:19:05 |################### |  95% (333,507) 3.1 minPROGRESS> 11:19:13 |####################| 100% (351,058) 3.3 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 351058
+     PASS> 351058
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:16:50 |                    |   0% (      0) 0.0 minPROGRESS> 11:16:57 |#                   |   5% ( 13,297) 0.1 minPROGRESS> 11:17:05 |##                  |  10% ( 26,594) 0.3 minPROGRESS> 11:17:13 |###                 |  15% ( 39,891) 0.4 minPROGRESS> 11:17:20 |####                |  20% ( 53,188) 0.5 minPROGRESS> 11:17:28 |#####               |  25% ( 66,485) 0.6 minPROGRESS> 11:17:36 |######              |  30% ( 79,782) 0.8 minPROGRESS> 11:17:43 |#######             |  35% ( 93,079) 0.9 minPROGRESS> 11:17:51 |########            |  40% (106,376) 1.0 minPROGRESS> 11:17:58 |#########           |  45% (119,673) 1.1 minPROGRESS> 11:18:06 |##########          |  50% (132,970) 1.3 minPROGRESS> 11:18:13 |###########         |  55% (146,267) 1.4 minPROGRESS> 11:18:20 |############        |  60% (159,564) 1.5 minPROGRESS> 11:18:28 |#############       |  65% (172,861) 1.6 minPROGRESS> 11:18:35 |##############      |  70% (186,158) 1.7 minPROGRESS> 11:18:42 |###############     |  75% (199,455) 1.9 minPROGRESS> 11:18:49 |################    |  80% (212,752) 2.0 minPROGRESS> 11:18:56 |#################   |  85% (226,049) 2.1 minPROGRESS> 11:19:03 |##################  |  90% (239,346) 2.2 minPROGRESS> 11:19:09 |################### |  95% (252,643) 2.3 minPROGRESS> 11:19:16 |####################| 100% (265,927) 2.4 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 265927
+     PASS> 265927
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:16:28 |                    |   0% (      0) 0.0 minPROGRESS> 11:16:39 |#                   |   5% ( 18,831) 0.2 minPROGRESS> 11:16:49 |##                  |  10% ( 37,662) 0.4 minPROGRESS> 11:17:00 |###                 |  15% ( 56,493) 0.5 minPROGRESS> 11:17:11 |####                |  20% ( 75,324) 0.7 minPROGRESS> 11:17:22 |#####               |  25% ( 94,155) 0.9 minPROGRESS> 11:17:33 |######              |  30% (112,986) 1.1 minPROGRESS> 11:17:43 |#######             |  35% (131,817) 1.3 minPROGRESS> 11:17:54 |########            |  40% (150,648) 1.4 minPROGRESS> 11:18:05 |#########           |  45% (169,479) 1.6 minPROGRESS> 11:18:16 |##########          |  50% (188,310) 1.8 minPROGRESS> 11:18:27 |###########         |  55% (207,141) 2.0 minPROGRESS> 11:18:38 |############        |  60% (225,972) 2.2 minPROGRESS> 11:18:48 |#############       |  65% (244,803) 2.3 minPROGRESS> 11:18:59 |##############      |  70% (263,634) 2.5 minPROGRESS> 11:19:10 |###############     |  75% (282,465) 2.7 minPROGRESS> 11:19:20 |################    |  80% (301,296) 2.9 minPROGRESS> 11:19:30 |#################   |  85% (320,127) 3.0 minPROGRESS> 11:19:40 |##################  |  90% (338,958) 3.2 minPROGRESS> 11:19:49 |################### |  95% (357,789) 3.4 minPROGRESS> 11:19:58 |####################| 100% (376,608) 3.5 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 376608
+     PASS> 376608
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:18:23 |                    |   0% (      0) 0.0 minPROGRESS> 11:18:28 |#                   |   5% (  9,274) 0.1 minPROGRESS> 11:18:34 |##                  |  10% ( 18,548) 0.2 minPROGRESS> 11:18:39 |###                 |  15% ( 27,822) 0.3 minPROGRESS> 11:18:44 |####                |  20% ( 37,096) 0.3 minPROGRESS> 11:18:49 |#####               |  25% ( 46,370) 0.4 minPROGRESS> 11:18:54 |######              |  30% ( 55,644) 0.5 minPROGRESS> 11:18:59 |#######             |  35% ( 64,918) 0.6 minPROGRESS> 11:19:04 |########            |  40% ( 74,192) 0.7 minPROGRESS> 11:19:09 |#########           |  45% ( 83,466) 0.8 minPROGRESS> 11:19:14 |##########          |  50% ( 92,740) 0.8 minPROGRESS> 11:19:19 |###########         |  55% (102,014) 0.9 minPROGRESS> 11:19:24 |############        |  60% (111,288) 1.0 minPROGRESS> 11:19:29 |#############       |  65% (120,562) 1.1 minPROGRESS> 11:19:33 |##############      |  70% (129,836) 1.2 minPROGRESS> 11:19:38 |###############     |  75% (139,110) 1.3 minPROGRESS> 11:19:43 |################    |  80% (148,384) 1.3 minPROGRESS> 11:19:47 |#################   |  85% (157,658) 1.4 minPROGRESS> 11:19:52 |##################  |  90% (166,932) 1.5 minPROGRESS> 11:19:56 |################### |  95% (176,206) 1.6 minPROGRESS> 11:20:01 |####################| 100% (185,469) 1.6 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 185469
+     PASS> 185469
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:17:48 |                    |   0% (      0) 0.0 minPROGRESS> 11:17:57 |#                   |   5% ( 14,429) 0.1 minPROGRESS> 11:18:05 |##                  |  10% ( 28,858) 0.3 minPROGRESS> 11:18:13 |###                 |  15% ( 43,287) 0.4 minPROGRESS> 11:18:21 |####                |  20% ( 57,716) 0.6 minPROGRESS> 11:18:30 |#####               |  25% ( 72,145) 0.7 minPROGRESS> 11:18:38 |######              |  30% ( 86,574) 0.8 minPROGRESS> 11:18:46 |#######             |  35% (101,003) 1.0 minPROGRESS> 11:18:54 |########            |  40% (115,432) 1.1 minPROGRESS> 11:19:03 |#########           |  45% (129,861) 1.2 minPROGRESS> 11:19:11 |##########          |  50% (144,290) 1.4 minPROGRESS> 11:19:19 |###########         |  55% (158,719) 1.5 minPROGRESS> 11:19:27 |############        |  60% (173,148) 1.6 minPROGRESS> 11:19:35 |#############       |  65% (187,577) 1.8 minPROGRESS> 11:19:43 |##############      |  70% (202,006) 1.9 minPROGRESS> 11:19:51 |###############     |  75% (216,435) 2.0 minPROGRESS> 11:19:58 |################    |  80% (230,864) 2.2 minPROGRESS> 11:20:06 |#################   |  85% (245,293) 2.3 minPROGRESS> 11:20:14 |##################  |  90% (259,722) 2.4 minPROGRESS> 11:20:21 |################### |  95% (274,151) 2.5 minPROGRESS> 11:20:28 |####################| 100% (288,579) 2.7 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 288579
+     PASS> 288579
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:18:20 |                    |   0% (      0) 0.0 minPROGRESS> 11:18:27 |#                   |   5% ( 12,058) 0.1 minPROGRESS> 11:18:34 |##                  |  10% ( 24,116) 0.2 minPROGRESS> 11:18:41 |###                 |  15% ( 36,174) 0.4 minPROGRESS> 11:18:48 |####                |  20% ( 48,232) 0.5 minPROGRESS> 11:18:55 |#####               |  25% ( 60,290) 0.6 minPROGRESS> 11:19:02 |######              |  30% ( 72,348) 0.7 minPROGRESS> 11:19:09 |#######             |  35% ( 84,406) 0.8 minPROGRESS> 11:19:17 |########            |  40% ( 96,464) 0.9 minPROGRESS> 11:19:24 |#########           |  45% (108,522) 1.1 minPROGRESS> 11:19:31 |##########          |  50% (120,580) 1.2 minPROGRESS> 11:19:38 |###########         |  55% (132,638) 1.3 minPROGRESS> 11:19:45 |############        |  60% (144,696) 1.4 minPROGRESS> 11:19:51 |#############       |  65% (156,754) 1.5 minPROGRESS> 11:19:58 |##############      |  70% (168,812) 1.6 minPROGRESS> 11:20:05 |###############     |  75% (180,870) 1.7 minPROGRESS> 11:20:11 |################    |  80% (192,928) 1.8 minPROGRESS> 11:20:18 |#################   |  85% (204,986) 2.0 minPROGRESS> 11:20:24 |##################  |  90% (217,044) 2.1 minPROGRESS> 11:20:29 |################### |  95% (229,102) 2.2 minPROGRESS> 11:20:35 |####################| 100% (241,159) 2.2 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 241159
+     PASS> 241159
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:16:36 |                    |   0% (      0) 0.0 minPROGRESS> 11:16:49 |#                   |   5% ( 21,643) 0.2 minPROGRESS> 11:17:01 |##                  |  10% ( 43,286) 0.4 minPROGRESS> 11:17:14 |###                 |  15% ( 64,929) 0.6 minPROGRESS> 11:17:27 |####                |  20% ( 86,572) 0.8 minPROGRESS> 11:17:39 |#####               |  25% (108,215) 1.0 minPROGRESS> 11:17:52 |######              |  30% (129,858) 1.3 minPROGRESS> 11:18:04 |#######             |  35% (151,501) 1.5 minPROGRESS> 11:18:17 |########            |  40% (173,144) 1.7 minPROGRESS> 11:18:29 |#########           |  45% (194,787) 1.9 minPROGRESS> 11:18:42 |##########          |  50% (216,430) 2.1 minPROGRESS> 11:18:54 |###########         |  55% (238,073) 2.3 minPROGRESS> 11:19:07 |############        |  60% (259,716) 2.5 minPROGRESS> 11:19:19 |#############       |  65% (281,359) 2.7 minPROGRESS> 11:19:31 |##############      |  70% (303,002) 2.9 minPROGRESS> 11:19:43 |###############     |  75% (324,645) 3.1 minPROGRESS> 11:19:55 |################    |  80% (346,288) 3.3 minPROGRESS> 11:20:06 |#################   |  85% (367,931) 3.5 minPROGRESS> 11:20:17 |##################  |  90% (389,574) 3.7 minPROGRESS> 11:20:28 |################### |  95% (411,217) 3.9 minPROGRESS> 11:20:37 |####################| 100% (432,846) 4.0 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 432846
+     PASS> 432846
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:20:13 |                    |   0% (      0) 0.0 minPROGRESS> 11:20:18 |#                   |   5% (  8,737) 0.1 minPROGRESS> 11:20:23 |##                  |  10% ( 17,474) 0.2 minPROGRESS> 11:20:28 |###                 |  15% ( 26,211) 0.2 minPROGRESS> 11:20:33 |####                |  20% ( 34,948) 0.3 minPROGRESS> 11:20:37 |#####               |  25% ( 43,685) 0.4 minPROGRESS> 11:20:40 |######              |  30% ( 52,422) 0.5 minPROGRESS> 11:20:44 |#######             |  35% ( 61,159) 0.5 minPROGRESS> 11:20:47 |########            |  40% ( 69,896) 0.6 minPROGRESS> 11:20:51 |#########           |  45% ( 78,633) 0.6 minPROGRESS> 11:20:54 |##########          |  50% ( 87,370) 0.7 minPROGRESS> 11:20:58 |###########         |  55% ( 96,107) 0.7 minPROGRESS> 11:21:01 |############        |  60% (104,844) 0.8 minPROGRESS> 11:21:05 |#############       |  65% (113,581) 0.9 minPROGRESS> 11:21:08 |##############      |  70% (122,318) 0.9 minPROGRESS> 11:21:11 |###############     |  75% (131,055) 1.0 minPROGRESS> 11:21:15 |################    |  80% (139,792) 1.0 minPROGRESS> 11:21:18 |#################   |  85% (148,529) 1.1 minPROGRESS> 11:21:21 |##################  |  90% (157,266) 1.1 minPROGRESS> 11:21:24 |################### |  95% (166,003) 1.2 minPROGRESS> 11:21:27 |####################| 100% (174,730) 1.2 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 174730
+     PASS> 174730
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:19:18 |                    |   0% (      0) 0.0 minPROGRESS> 11:19:27 |#                   |   5% ( 15,871) 0.1 minPROGRESS> 11:19:36 |##                  |  10% ( 31,742) 0.3 minPROGRESS> 11:19:45 |###                 |  15% ( 47,613) 0.4 minPROGRESS> 11:19:54 |####                |  20% ( 63,484) 0.6 minPROGRESS> 11:20:03 |#####               |  25% ( 79,355) 0.7 minPROGRESS> 11:20:12 |######              |  30% ( 95,226) 0.9 minPROGRESS> 11:20:21 |#######             |  35% (111,097) 1.0 minPROGRESS> 11:20:30 |########            |  40% (126,968) 1.2 minPROGRESS> 11:20:38 |#########           |  45% (142,839) 1.3 minPROGRESS> 11:20:44 |##########          |  50% (158,710) 1.4 minPROGRESS> 11:20:50 |###########         |  55% (174,581) 1.5 minPROGRESS> 11:20:57 |############        |  60% (190,452) 1.6 minPROGRESS> 11:21:03 |#############       |  65% (206,323) 1.7 minPROGRESS> 11:21:09 |##############      |  70% (222,194) 1.8 minPROGRESS> 11:21:15 |###############     |  75% (238,065) 1.9 minPROGRESS> 11:21:22 |################    |  80% (253,936) 2.1 minPROGRESS> 11:21:28 |#################   |  85% (269,807) 2.2 minPROGRESS> 11:21:33 |##################  |  90% (285,678) 2.2 minPROGRESS> 11:21:38 |################### |  95% (301,549) 2.3 minPROGRESS> 11:21:42 |####################| 100% (317,401) 2.4 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 317401
+     PASS> 317401
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:18:49 |                    |   0% (      0) 0.0 minPROGRESS> 11:19:00 |#                   |   5% ( 18,436) 0.2 minPROGRESS> 11:19:10 |##                  |  10% ( 36,872) 0.4 minPROGRESS> 11:19:21 |###                 |  15% ( 55,308) 0.5 minPROGRESS> 11:19:31 |####                |  20% ( 73,744) 0.7 minPROGRESS> 11:19:42 |#####               |  25% ( 92,180) 0.9 minPROGRESS> 11:19:52 |######              |  30% (110,616) 1.1 minPROGRESS> 11:20:03 |#######             |  35% (129,052) 1.2 minPROGRESS> 11:20:13 |########            |  40% (147,488) 1.4 minPROGRESS> 11:20:24 |#########           |  45% (165,924) 1.6 minPROGRESS> 11:20:34 |##########          |  50% (184,360) 1.7 minPROGRESS> 11:20:42 |###########         |  55% (202,796) 1.9 minPROGRESS> 11:20:49 |############        |  60% (221,232) 2.0 minPROGRESS> 11:20:57 |#############       |  65% (239,668) 2.1 minPROGRESS> 11:21:04 |##############      |  70% (258,104) 2.2 minPROGRESS> 11:21:11 |###############     |  75% (276,540) 2.4 minPROGRESS> 11:21:18 |################    |  80% (294,976) 2.5 minPROGRESS> 11:21:25 |#################   |  85% (313,412) 2.6 minPROGRESS> 11:21:32 |##################  |  90% (331,848) 2.7 minPROGRESS> 11:21:37 |################### |  95% (350,284) 2.8 minPROGRESS> 11:21:43 |####################| 100% (368,713) 2.9 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 368713
+     PASS> 368713
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:16:52 |                    |   0% (      0) 0.0 minPROGRESS> 11:17:10 |#                   |   5% ( 29,862) 0.3 minPROGRESS> 11:17:28 |##                  |  10% ( 59,724) 0.6 minPROGRESS> 11:17:45 |###                 |  15% ( 89,586) 0.9 minPROGRESS> 11:18:03 |####                |  20% (119,448) 1.2 minPROGRESS> 11:18:21 |#####               |  25% (149,310) 1.5 minPROGRESS> 11:18:39 |######              |  30% (179,172) 1.8 minPROGRESS> 11:18:56 |#######             |  35% (209,034) 2.1 minPROGRESS> 11:19:14 |########            |  40% (238,896) 2.4 minPROGRESS> 11:19:32 |#########           |  45% (268,758) 2.7 minPROGRESS> 11:19:50 |##########          |  50% (298,620) 3.0 minPROGRESS> 11:20:07 |###########         |  55% (328,482) 3.3 minPROGRESS> 11:20:25 |############        |  60% (358,344) 3.5 minPROGRESS> 11:20:40 |#############       |  65% (388,206) 3.8 minPROGRESS> 11:20:52 |##############      |  70% (418,068) 4.0 minPROGRESS> 11:21:05 |###############     |  75% (447,930) 4.2 minPROGRESS> 11:21:17 |################    |  80% (477,792) 4.4 minPROGRESS> 11:21:29 |#################   |  85% (507,654) 4.6 minPROGRESS> 11:21:39 |##################  |  90% (537,516) 4.8 minPROGRESS> 11:21:47 |################### |  95% (567,378) 4.9 minPROGRESS> 11:21:53 |####################| 100% (597,238) 5.0 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 597238
+     PASS> 597238
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:19:36 |                    |   0% (      0) 0.0 minPROGRESS> 11:19:45 |#                   |   5% ( 17,375) 0.2 minPROGRESS> 11:19:55 |##                  |  10% ( 34,750) 0.3 minPROGRESS> 11:20:05 |###                 |  15% ( 52,125) 0.5 minPROGRESS> 11:20:15 |####                |  20% ( 69,500) 0.7 minPROGRESS> 11:20:25 |#####               |  25% ( 86,875) 0.8 minPROGRESS> 11:20:34 |######              |  30% (104,250) 1.0 minPROGRESS> 11:20:42 |#######             |  35% (121,625) 1.1 minPROGRESS> 11:20:48 |########            |  40% (139,000) 1.2 minPROGRESS> 11:20:55 |#########           |  45% (156,375) 1.3 minPROGRESS> 11:21:02 |##########          |  50% (173,750) 1.4 minPROGRESS> 11:21:09 |###########         |  55% (191,125) 1.6 minPROGRESS> 11:21:16 |############        |  60% (208,500) 1.7 minPROGRESS> 11:21:23 |#############       |  65% (225,875) 1.8 minPROGRESS> 11:21:29 |##############      |  70% (243,250) 1.9 minPROGRESS> 11:21:35 |###############     |  75% (260,625) 2.0 minPROGRESS> 11:21:41 |################    |  80% (278,000) 2.1 minPROGRESS> 11:21:45 |#################   |  85% (295,375) 2.2 minPROGRESS> 11:21:49 |##################  |  90% (312,750) 2.2 minPROGRESS> 11:21:52 |################### |  95% (330,125) 2.3 minPROGRESS> 11:21:55 |####################| 100% (347,491) 2.3 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 347491
+     PASS> 347491
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:20:19 |                    |   0% (      0) 0.0 minPROGRESS> 11:20:28 |#                   |   5% ( 15,958) 0.2 minPROGRESS> 11:20:36 |##                  |  10% ( 31,916) 0.3 minPROGRESS> 11:20:42 |###                 |  15% ( 47,874) 0.4 minPROGRESS> 11:20:49 |####                |  20% ( 63,832) 0.5 minPROGRESS> 11:20:55 |#####               |  25% ( 79,790) 0.6 minPROGRESS> 11:21:02 |######              |  30% ( 95,748) 0.7 minPROGRESS> 11:21:08 |#######             |  35% (111,706) 0.8 minPROGRESS> 11:21:15 |########            |  40% (127,664) 0.9 minPROGRESS> 11:21:21 |#########           |  45% (143,622) 1.0 minPROGRESS> 11:21:27 |##########          |  50% (159,580) 1.1 minPROGRESS> 11:21:33 |###########         |  55% (175,538) 1.2 minPROGRESS> 11:21:38 |############        |  60% (191,496) 1.3 minPROGRESS> 11:21:43 |#############       |  65% (207,454) 1.4 minPROGRESS> 11:21:47 |##############      |  70% (223,412) 1.5 minPROGRESS> 11:21:51 |###############     |  75% (239,370) 1.5 minPROGRESS> 11:21:54 |################    |  80% (255,328) 1.6 minPROGRESS> 11:21:56 |#################   |  85% (271,286) 1.6 minPROGRESS> 11:21:58 |##################  |  90% (287,244) 1.6 minPROGRESS> 11:21:59 |################### |  95% (303,202) 1.7 minPROGRESS> 11:22:01 |####################| 100% (319,155) 1.7 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 319155
+     PASS> 319155
+     FAIL> 0
+      END> ParseHeaders
+
+  START> ParseHeaders
+COMMAND> table
+   FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass.fastq
+
+PROGRESS> 11:19:40 |                    |   0% (      0) 0.0 minPROGRESS> 11:19:51 |#                   |   5% ( 19,679) 0.2 minPROGRESS> 11:20:02 |##                  |  10% ( 39,358) 0.4 minPROGRESS> 11:20:13 |###                 |  15% ( 59,037) 0.6 minPROGRESS> 11:20:24 |####                |  20% ( 78,716) 0.7 minPROGRESS> 11:20:34 |#####               |  25% ( 98,395) 0.9 minPROGRESS> 11:20:43 |######              |  30% (118,074) 1.0 minPROGRESS> 11:20:50 |#######             |  35% (137,753) 1.2 minPROGRESS> 11:20:58 |########            |  40% (157,432) 1.3 minPROGRESS> 11:21:06 |#########           |  45% (177,111) 1.4 minPROGRESS> 11:21:14 |##########          |  50% (196,790) 1.6 minPROGRESS> 11:21:22 |###########         |  55% (216,469) 1.7 minPROGRESS> 11:21:29 |############        |  60% (236,148) 1.8 minPROGRESS> 11:21:36 |#############       |  65% (255,827) 1.9 minPROGRESS> 11:21:43 |##############      |  70% (275,506) 2.0 minPROGRESS> 11:21:47 |###############     |  75% (295,185) 2.1 minPROGRESS> 11:21:52 |################    |  80% (314,864) 2.2 minPROGRESS> 11:21:55 |#################   |  85% (334,543) 2.3 minPROGRESS> 11:21:57 |##################  |  90% (354,222) 2.3 minPROGRESS> 11:22:00 |################### |  95% (373,901) 2.3 minPROGRESS> 11:22:01 |####################| 100% (393,564) 2.4 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_pair-pass_consensus-pass_pair-pass_assemble-pass_primers-pass_headers.tab
+SEQUENCES> 393564
+     PASS> 393564
+     FAIL> 0
+      END> ParseHeaders
+

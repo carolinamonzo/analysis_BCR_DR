@@ -1,0 +1,1250 @@
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 10:21:14 |                    |   0% (      0) 29.7 minPROGRESS> 11:20:36 |#                   |   5% ( 33,793) 89.0 minPROGRESS> 12:01:47 |##                  |  10% ( 67,586) 130.2 minPROGRESS> 12:19:41 |###                 |  15% (101,379) 148.1 minPROGRESS> 12:25:59 |####                |  20% (135,172) 154.4 minPROGRESS> 12:29:25 |#####               |  25% (168,965) 157.8 minPROGRESS> 12:31:16 |######              |  30% (202,758) 159.7 minPROGRESS> 12:32:38 |#######             |  35% (236,551) 161.1 minPROGRESS> 12:33:44 |########            |  40% (270,344) 162.2 minPROGRESS> 12:34:27 |#########           |  45% (304,137) 162.9 minPROGRESS> 12:35:05 |##########          |  50% (337,930) 163.5 minPROGRESS> 12:35:36 |###########         |  55% (371,723) 164.0 minPROGRESS> 12:36:02 |############        |  60% (405,516) 164.5 minPROGRESS> 12:36:28 |#############       |  65% (439,309) 164.9 minPROGRESS> 12:36:53 |##############      |  70% (473,102) 165.3 minPROGRESS> 12:37:13 |###############     |  75% (506,895) 165.7 minPROGRESS> 12:37:31 |################    |  80% (540,688) 166.0 minPROGRESS> 12:37:46 |#################   |  85% (574,481) 166.2 minPROGRESS> 12:38:01 |##################  |  90% (608,274) 166.4 minPROGRESS> 12:38:15 |################### |  95% (642,067) 166.7 minPROGRESS> 12:38:30 |####################| 100% (675,859) 166.9 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 12895775
+     SETS> 675859
+     PASS> 652592
+     FAIL> 23267
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 13:14:16 |                    |   0% (      0) 24.3 minPROGRESS> 13:33:25 |#                   |   5% ( 46,358) 43.4 minPROGRESS> 13:51:22 |##                  |  10% ( 92,716) 61.4 minPROGRESS> 14:08:02 |###                 |  15% (139,074) 78.0 minPROGRESS> 14:23:14 |####                |  20% (185,432) 93.2 minPROGRESS> 14:36:35 |#####               |  25% (231,790) 106.6 minPROGRESS> 14:48:08 |######              |  30% (278,148) 118.1 minPROGRESS> 14:57:21 |#######             |  35% (324,506) 127.3 minPROGRESS> 15:03:54 |########            |  40% (370,864) 133.9 minPROGRESS> 15:07:34 |#########           |  45% (417,222) 137.6 minPROGRESS> 15:10:14 |##########          |  50% (463,580) 140.2 minPROGRESS> 15:11:45 |###########         |  55% (509,938) 141.7 minPROGRESS> 15:12:48 |############        |  60% (556,296) 142.8 minPROGRESS> 15:13:35 |#############       |  65% (602,654) 143.6 minPROGRESS> 15:14:12 |##############      |  70% (649,012) 144.2 minPROGRESS> 15:14:50 |###############     |  75% (695,370) 144.8 minPROGRESS> 15:15:20 |################    |  80% (741,728) 145.3 minPROGRESS> 15:15:45 |#################   |  85% (788,086) 145.7 minPROGRESS> 15:16:07 |##################  |  90% (834,444) 146.1 minPROGRESS> 15:16:26 |################### |  95% (880,802) 146.4 minPROGRESS> 15:16:48 |####################| 100% (927,153) 146.8 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10763347
+     SETS> 927153
+     PASS> 882892
+     FAIL> 44261
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 15:52:42 |                    |   0% (      0) 24.5 minPROGRESS> 16:17:54 |#                   |   5% ( 36,635) 49.7 minPROGRESS> 16:41:05 |##                  |  10% ( 73,270) 72.8 minPROGRESS> 17:01:52 |###                 |  15% (109,905) 93.6 minPROGRESS> 17:19:14 |####                |  20% (146,540) 111.0 minPROGRESS> 17:31:49 |#####               |  25% (183,175) 123.6 minPROGRESS> 17:40:14 |######              |  30% (219,810) 132.0 minPROGRESS> 17:44:24 |#######             |  35% (256,445) 136.1 minPROGRESS> 17:46:07 |########            |  40% (293,080) 137.9 minPROGRESS> 17:47:24 |#########           |  45% (329,715) 139.1 minPROGRESS> 17:48:10 |##########          |  50% (366,350) 139.9 minPROGRESS> 17:48:47 |###########         |  55% (402,985) 140.5 minPROGRESS> 17:49:17 |############        |  60% (439,620) 141.0 minPROGRESS> 17:49:42 |#############       |  65% (476,255) 141.5 minPROGRESS> 17:50:07 |##############      |  70% (512,890) 141.9 minPROGRESS> 17:50:30 |###############     |  75% (549,525) 142.3 minPROGRESS> 17:50:49 |################    |  80% (586,160) 142.6 minPROGRESS> 17:51:06 |#################   |  85% (622,795) 142.8 minPROGRESS> 17:51:22 |##################  |  90% (659,430) 143.1 minPROGRESS> 17:51:37 |################### |  95% (696,065) 143.4 minPROGRESS> 17:51:53 |####################| 100% (732,692) 143.6 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10895266
+     SETS> 732692
+     PASS> 708227
+     FAIL> 24465
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 18:21:03 |                    |   0% (      0) 19.9 minPROGRESS> 18:41:47 |#                   |   5% ( 30,044) 40.6 minPROGRESS> 19:00:48 |##                  |  10% ( 60,088) 59.6 minPROGRESS> 19:17:26 |###                 |  15% ( 90,132) 76.2 minPROGRESS> 19:30:53 |####                |  20% (120,176) 89.7 minPROGRESS> 19:39:47 |#####               |  25% (150,220) 98.6 minPROGRESS> 19:45:04 |######              |  30% (180,264) 103.9 minPROGRESS> 19:47:20 |#######             |  35% (210,308) 106.1 minPROGRESS> 19:48:37 |########            |  40% (240,352) 107.4 minPROGRESS> 19:49:30 |#########           |  45% (270,396) 108.3 minPROGRESS> 19:50:03 |##########          |  50% (300,440) 108.9 minPROGRESS> 19:50:33 |###########         |  55% (330,484) 109.3 minPROGRESS> 19:50:54 |############        |  60% (360,528) 109.7 minPROGRESS> 19:51:13 |#############       |  65% (390,572) 110.0 minPROGRESS> 19:51:35 |##############      |  70% (420,616) 110.4 minPROGRESS> 19:51:52 |###############     |  75% (450,660) 110.7 minPROGRESS> 19:52:07 |################    |  80% (480,704) 110.9 minPROGRESS> 19:52:21 |#################   |  85% (510,748) 111.1 minPROGRESS> 19:52:33 |##################  |  90% (540,792) 111.4 minPROGRESS> 19:52:46 |################### |  95% (570,836) 111.6 minPROGRESS> 19:52:59 |####################| 100% (600,876) 111.8 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8784459
+     SETS> 600876
+     PASS> 583821
+     FAIL> 17055
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 20:25:42 |                    |   0% (      0) 22.1 minPROGRESS> 20:46:44 |#                   |   5% ( 37,861) 43.1 minPROGRESS> 21:05:58 |##                  |  10% ( 75,722) 62.3 minPROGRESS> 21:22:45 |###                 |  15% (113,583) 79.1 minPROGRESS> 21:37:11 |####                |  20% (151,444) 93.5 minPROGRESS> 21:48:04 |#####               |  25% (189,305) 104.4 minPROGRESS> 21:56:05 |######              |  30% (227,166) 112.5 minPROGRESS> 22:00:43 |#######             |  35% (265,027) 117.1 minPROGRESS> 22:02:54 |########            |  40% (302,888) 119.3 minPROGRESS> 22:04:26 |#########           |  45% (340,749) 120.8 minPROGRESS> 22:05:19 |##########          |  50% (378,610) 121.7 minPROGRESS> 22:05:59 |###########         |  55% (416,471) 122.4 minPROGRESS> 22:06:30 |############        |  60% (454,332) 122.9 minPROGRESS> 22:06:55 |#############       |  65% (492,193) 123.3 minPROGRESS> 22:07:21 |##############      |  70% (530,054) 123.7 minPROGRESS> 22:07:42 |###############     |  75% (567,915) 124.1 minPROGRESS> 22:08:02 |################    |  80% (605,776) 124.4 minPROGRESS> 22:08:18 |#################   |  85% (643,637) 124.7 minPROGRESS> 22:08:36 |##################  |  90% (681,498) 125.0 minPROGRESS> 22:08:51 |################### |  95% (719,359) 125.2 minPROGRESS> 22:09:08 |####################| 100% (757,216) 125.5 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9939636
+     SETS> 757216
+     PASS> 730203
+     FAIL> 27013
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 22:33:50 |                    |   0% (      0) 16.8 minPROGRESS> 22:47:05 |#                   |   5% ( 30,232) 30.1 minPROGRESS> 22:59:34 |##                  |  10% ( 60,464) 42.6 minPROGRESS> 23:11:01 |###                 |  15% ( 90,696) 54.0 minPROGRESS> 23:21:25 |####                |  20% (120,928) 64.4 minPROGRESS> 23:30:18 |#####               |  25% (151,160) 73.3 minPROGRESS> 23:37:57 |######              |  30% (181,392) 80.9 minPROGRESS> 23:43:32 |#######             |  35% (211,624) 86.5 minPROGRESS> 23:46:41 |########            |  40% (241,856) 89.7 minPROGRESS> 23:48:37 |#########           |  45% (272,088) 91.6 minPROGRESS> 23:49:44 |##########          |  50% (302,320) 92.7 minPROGRESS> 23:50:21 |###########         |  55% (332,552) 93.3 minPROGRESS> 23:50:49 |############        |  60% (362,784) 93.8 minPROGRESS> 23:51:11 |#############       |  65% (393,016) 94.2 minPROGRESS> 23:51:31 |##############      |  70% (423,248) 94.5 minPROGRESS> 23:51:50 |###############     |  75% (453,480) 94.8 minPROGRESS> 23:52:05 |################    |  80% (483,712) 95.1 minPROGRESS> 23:52:19 |#################   |  85% (513,944) 95.3 minPROGRESS> 23:52:32 |##################  |  90% (544,176) 95.5 minPROGRESS> 23:52:44 |################### |  95% (574,408) 95.7 minPROGRESS> 23:52:58 |####################| 100% (604,623) 95.9 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7279395
+     SETS> 604623
+     PASS> 586138
+     FAIL> 18485
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 00:23:56 |                    |   0% (      0) 21.0 minPROGRESS> 00:46:30 |#                   |   5% ( 34,489) 43.5 minPROGRESS> 01:07:12 |##                  |  10% ( 68,978) 64.2 minPROGRESS> 01:25:11 |###                 |  15% (103,467) 82.2 minPROGRESS> 01:39:40 |####                |  20% (137,956) 96.7 minPROGRESS> 01:49:54 |#####               |  25% (172,445) 106.9 minPROGRESS> 01:56:19 |######              |  30% (206,934) 113.3 minPROGRESS> 01:59:17 |#######             |  35% (241,423) 116.3 minPROGRESS> 02:00:57 |########            |  40% (275,912) 118.0 minPROGRESS> 02:02:04 |#########           |  45% (310,401) 119.1 minPROGRESS> 02:02:42 |##########          |  50% (344,890) 119.7 minPROGRESS> 02:03:16 |###########         |  55% (379,379) 120.3 minPROGRESS> 02:03:41 |############        |  60% (413,868) 120.7 minPROGRESS> 02:04:03 |#############       |  65% (448,357) 121.1 minPROGRESS> 02:04:27 |##############      |  70% (482,846) 121.5 minPROGRESS> 02:04:46 |###############     |  75% (517,335) 121.8 minPROGRESS> 02:05:04 |################    |  80% (551,824) 122.1 minPROGRESS> 02:05:19 |#################   |  85% (586,313) 122.3 minPROGRESS> 02:05:34 |##################  |  90% (620,802) 122.6 minPROGRESS> 02:05:49 |################### |  95% (655,291) 122.8 minPROGRESS> 02:06:04 |####################| 100% (689,763) 123.1 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9348031
+     SETS> 689763
+     PASS> 669129
+     FAIL> 20634
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 02:28:29 |                    |   0% (      0) 15.0 minPROGRESS> 02:40:31 |#                   |   5% ( 47,576) 27.1 minPROGRESS> 02:50:12 |##                  |  10% ( 95,152) 36.7 minPROGRESS> 02:58:32 |###                 |  15% (142,728) 45.1 minPROGRESS> 03:05:43 |####                |  20% (190,304) 52.3 minPROGRESS> 03:13:32 |#####               |  25% (237,880) 60.1 minPROGRESS> 03:19:47 |######              |  30% (285,456) 66.3 minPROGRESS> 03:24:52 |#######             |  35% (333,032) 71.4 minPROGRESS> 03:28:00 |########            |  40% (380,608) 74.5 minPROGRESS> 03:30:23 |#########           |  45% (428,184) 76.9 minPROGRESS> 03:31:55 |##########          |  50% (475,760) 78.5 minPROGRESS> 03:32:35 |###########         |  55% (523,336) 79.1 minPROGRESS> 03:33:28 |############        |  60% (570,912) 80.0 minPROGRESS> 03:33:55 |#############       |  65% (618,488) 80.5 minPROGRESS> 03:34:15 |##############      |  70% (666,064) 80.8 minPROGRESS> 03:34:41 |###############     |  75% (713,640) 81.2 minPROGRESS> 03:35:11 |################    |  80% (761,216) 81.7 minPROGRESS> 03:35:43 |#################   |  85% (808,792) 82.3 minPROGRESS> 03:36:07 |##################  |  90% (856,368) 82.7 minPROGRESS> 03:36:27 |################### |  95% (903,944) 83.0 minPROGRESS> 03:36:48 |####################| 100% (951,519) 83.3 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 6721610
+     SETS> 951519
+     PASS> 919648
+     FAIL> 31871
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 04:13:03 |                    |   0% (      0) 24.9 minPROGRESS> 04:43:51 |#                   |   5% ( 35,636) 55.7 minPROGRESS> 05:11:34 |##                  |  10% ( 71,272) 83.4 minPROGRESS> 05:34:44 |###                 |  15% (106,908) 106.6 minPROGRESS> 05:51:57 |####                |  20% (142,544) 123.8 minPROGRESS> 06:02:12 |#####               |  25% (178,180) 134.1 minPROGRESS> 06:07:29 |######              |  30% (213,816) 139.3 minPROGRESS> 06:09:37 |#######             |  35% (249,452) 141.5 minPROGRESS> 06:11:07 |########            |  40% (285,088) 143.0 minPROGRESS> 06:12:05 |#########           |  45% (320,724) 144.0 minPROGRESS> 06:12:43 |##########          |  50% (356,360) 144.6 minPROGRESS> 06:13:17 |###########         |  55% (391,996) 145.1 minPROGRESS> 06:13:42 |############        |  60% (427,632) 145.6 minPROGRESS> 06:14:06 |#############       |  65% (463,268) 146.0 minPROGRESS> 06:14:30 |##############      |  70% (498,904) 146.4 minPROGRESS> 06:14:49 |###############     |  75% (534,540) 146.7 minPROGRESS> 06:15:06 |################    |  80% (570,176) 147.0 minPROGRESS> 06:15:21 |#################   |  85% (605,812) 147.2 minPROGRESS> 06:15:36 |##################  |  90% (641,448) 147.5 minPROGRESS> 06:15:50 |################### |  95% (677,084) 147.7 minPROGRESS> 06:16:06 |####################| 100% (712,712) 148.0 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10851536
+     SETS> 712712
+     PASS> 690145
+     FAIL> 22567
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 06:50:52 |                    |   0% (      0) 24.3 minPROGRESS> 07:08:28 |#                   |   5% ( 43,117) 41.9 minPROGRESS> 07:24:54 |##                  |  10% ( 86,234) 58.3 minPROGRESS> 07:40:02 |###                 |  15% (129,351) 73.5 minPROGRESS> 07:53:45 |####                |  20% (172,468) 87.2 minPROGRESS> 08:05:30 |#####               |  25% (215,585) 98.9 minPROGRESS> 08:15:32 |######              |  30% (258,702) 108.9 minPROGRESS> 08:22:55 |#######             |  35% (301,819) 116.3 minPROGRESS> 08:27:18 |########            |  40% (344,936) 120.7 minPROGRESS> 08:29:54 |#########           |  45% (388,053) 123.3 minPROGRESS> 08:31:25 |##########          |  50% (431,170) 124.8 minPROGRESS> 08:32:10 |###########         |  55% (474,287) 125.6 minPROGRESS> 08:32:51 |############        |  60% (517,404) 126.3 minPROGRESS> 08:33:20 |#############       |  65% (560,521) 126.7 minPROGRESS> 08:33:46 |##############      |  70% (603,638) 127.2 minPROGRESS> 08:34:13 |###############     |  75% (646,755) 127.6 minPROGRESS> 08:34:35 |################    |  80% (689,872) 128.0 minPROGRESS> 08:34:53 |#################   |  85% (732,989) 128.3 minPROGRESS> 08:35:11 |##################  |  90% (776,106) 128.6 minPROGRESS> 08:35:29 |################### |  95% (819,223) 128.9 minPROGRESS> 08:35:48 |####################| 100% (862,332) 129.2 min
+
+   OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10282706
+     SETS> 862332
+     PASS> 828670
+     FAIL> 33662
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 09:25:49 |                    |   0% (      0) 34.4 minPROGRESS> 10:10:54 |#                   |   5% ( 49,385) 79.5 minPROGRESS> 10:48:44 |##                  |  10% ( 98,770) 117.3 minPROGRESS> 11:18:09 |###                 |  15% (148,155) 146.7 minPROGRESS> 11:38:17 |####                |  20% (197,540) 166.8 minPROGRESS> 11:49:40 |#####               |  25% (246,925) 178.2 minPROGRESS> 11:55:42 |######              |  30% (296,310) 184.2 minPROGRESS> 11:58:44 |#######             |  35% (345,695) 187.3 minPROGRESS> 12:00:52 |########            |  40% (395,080) 189.4 minPROGRESS> 12:02:30 |#########           |  45% (444,465) 191.0 minPROGRESS> 12:03:37 |##########          |  50% (493,850) 192.2 minPROGRESS> 12:04:33 |###########         |  55% (543,235) 193.1 minPROGRESS> 12:05:19 |############        |  60% (592,620) 193.9 minPROGRESS> 12:05:58 |#############       |  65% (642,005) 194.5 minPROGRESS> 12:06:34 |##############      |  70% (691,390) 195.1 minPROGRESS> 12:07:08 |###############     |  75% (740,775) 195.7 minPROGRESS> 12:07:36 |################    |  80% (790,160) 196.1 minPROGRESS> 12:08:00 |#################   |  85% (839,545) 196.5 minPROGRESS> 12:08:22 |##################  |  90% (888,930) 196.9 minPROGRESS> 12:08:44 |################### |  95% (938,315) 197.3 minPROGRESS> 12:09:06 |####################| 100% (987,699) 197.6 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 14798835
+     SETS> 987699
+     PASS> 943397
+     FAIL> 44302
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 12:44:24 |                    |   0% (      0) 24.1 minPROGRESS> 13:09:25 |#                   |   5% ( 43,673) 49.1 minPROGRESS> 13:31:38 |##                  |  10% ( 87,346) 71.3 minPROGRESS> 13:50:09 |###                 |  15% (131,019) 89.8 minPROGRESS> 14:04:36 |####                |  20% (174,692) 104.3 minPROGRESS> 14:14:37 |#####               |  25% (218,365) 114.3 minPROGRESS> 14:21:08 |######              |  30% (262,038) 120.8 minPROGRESS> 14:24:56 |#######             |  35% (305,711) 124.6 minPROGRESS> 14:27:02 |########            |  40% (349,384) 126.7 minPROGRESS> 14:28:43 |#########           |  45% (393,057) 128.4 minPROGRESS> 14:29:49 |##########          |  50% (436,730) 129.5 minPROGRESS> 14:30:40 |###########         |  55% (480,403) 130.4 minPROGRESS> 14:31:20 |############        |  60% (524,076) 131.0 minPROGRESS> 14:31:54 |#############       |  65% (567,749) 131.6 minPROGRESS> 14:32:24 |##############      |  70% (611,422) 132.1 minPROGRESS> 14:32:53 |###############     |  75% (655,095) 132.6 minPROGRESS> 14:33:17 |################    |  80% (698,768) 133.0 minPROGRESS> 14:33:39 |#################   |  85% (742,441) 133.3 minPROGRESS> 14:33:57 |##################  |  90% (786,114) 133.7 minPROGRESS> 14:34:16 |################### |  95% (829,787) 134.0 minPROGRESS> 14:34:35 |####################| 100% (873,442) 134.3 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10638664
+     SETS> 873442
+     PASS> 834587
+     FAIL> 38855
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 15:06:44 |                    |   0% (        0) 22.5 minPROGRESS> 15:17:45 |#                   |   5% (   54,006) 33.5 minPROGRESS> 15:28:22 |##                  |  10% (  108,012) 44.2 minPROGRESS> 15:38:31 |###                 |  15% (  162,018) 54.3 minPROGRESS> 15:48:03 |####                |  20% (  216,024) 63.8 minPROGRESS> 15:56:59 |#####               |  25% (  270,030) 72.8 minPROGRESS> 16:05:26 |######              |  30% (  324,036) 81.2 minPROGRESS> 16:13:12 |#######             |  35% (  378,042) 89.0 minPROGRESS> 16:20:18 |########            |  40% (  432,048) 96.1 minPROGRESS> 16:26:40 |#########           |  45% (  486,054) 102.5 minPROGRESS> 16:31:35 |##########          |  50% (  540,060) 107.4 minPROGRESS> 16:36:08 |###########         |  55% (  594,066) 111.9 minPROGRESS> 16:39:34 |############        |  60% (  648,072) 115.4 minPROGRESS> 16:41:31 |#############       |  65% (  702,078) 117.3 minPROGRESS> 16:43:04 |##############      |  70% (  756,084) 118.8 minPROGRESS> 16:44:00 |###############     |  75% (  810,090) 119.8 minPROGRESS> 16:44:45 |################    |  80% (  864,096) 120.5 minPROGRESS> 16:45:19 |#################   |  85% (  918,102) 121.1 minPROGRESS> 16:45:44 |##################  |  90% (  972,108) 121.5 minPROGRESS> 16:46:07 |################### |  95% (1,026,114) 121.9 minPROGRESS> 16:46:32 |####################| 100% (1,080,110) 122.3 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9379254
+     SETS> 1080110
+     PASS> 1003374
+     FAIL> 76736
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 17:14:43 |                    |   0% (      0) 19.6 minPROGRESS> 17:27:23 |#                   |   5% ( 40,408) 32.2 minPROGRESS> 17:39:23 |##                  |  10% ( 80,816) 44.2 minPROGRESS> 17:50:34 |###                 |  15% (121,224) 55.4 minPROGRESS> 18:00:58 |####                |  20% (161,632) 65.8 minPROGRESS> 18:10:17 |#####               |  25% (202,040) 75.1 minPROGRESS> 18:18:34 |######              |  30% (242,448) 83.4 minPROGRESS> 18:25:30 |#######             |  35% (282,856) 90.3 minPROGRESS> 18:30:53 |########            |  40% (323,264) 95.7 minPROGRESS> 18:34:13 |#########           |  45% (363,672) 99.1 minPROGRESS> 18:36:38 |##########          |  50% (404,080) 101.5 minPROGRESS> 18:37:58 |###########         |  55% (444,488) 102.8 minPROGRESS> 18:38:46 |############        |  60% (484,896) 103.6 minPROGRESS> 18:39:23 |#############       |  65% (525,304) 104.2 minPROGRESS> 18:39:50 |##############      |  70% (565,712) 104.7 minPROGRESS> 18:40:16 |###############     |  75% (606,120) 105.1 minPROGRESS> 18:40:38 |################    |  80% (646,528) 105.5 minPROGRESS> 18:40:56 |#################   |  85% (686,936) 105.8 minPROGRESS> 18:41:13 |##################  |  90% (727,344) 106.1 minPROGRESS> 18:41:30 |################### |  95% (767,752) 106.3 minPROGRESS> 18:41:47 |####################| 100% (808,153) 106.6 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8594135
+     SETS> 808153
+     PASS> 773262
+     FAIL> 34891
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 19:08:17 |                    |   0% (      0) 18.4 minPROGRESS> 19:19:15 |#                   |   5% ( 37,481) 29.3 minPROGRESS> 19:29:37 |##                  |  10% ( 74,962) 39.7 minPROGRESS> 19:39:27 |###                 |  15% (112,443) 49.5 minPROGRESS> 19:48:34 |####                |  20% (149,924) 58.6 minPROGRESS> 19:56:50 |#####               |  25% (187,405) 66.9 minPROGRESS> 20:04:22 |######              |  30% (224,886) 74.4 minPROGRESS> 20:10:48 |#######             |  35% (262,367) 80.9 minPROGRESS> 20:15:57 |########            |  40% (299,848) 86.0 minPROGRESS> 20:19:10 |#########           |  45% (337,329) 89.3 minPROGRESS> 20:21:29 |##########          |  50% (374,810) 91.6 minPROGRESS> 20:22:42 |###########         |  55% (412,291) 92.8 minPROGRESS> 20:23:24 |############        |  60% (449,772) 93.5 minPROGRESS> 20:23:55 |#############       |  65% (487,253) 94.0 minPROGRESS> 20:24:18 |##############      |  70% (524,734) 94.4 minPROGRESS> 20:24:40 |###############     |  75% (562,215) 94.8 minPROGRESS> 20:25:00 |################    |  80% (599,696) 95.1 minPROGRESS> 20:25:16 |#################   |  85% (637,177) 95.4 minPROGRESS> 20:25:31 |##################  |  90% (674,658) 95.6 minPROGRESS> 20:25:48 |################### |  95% (712,139) 95.9 minPROGRESS> 20:26:05 |####################| 100% (749,615) 96.2 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7659647
+     SETS> 749615
+     PASS> 719191
+     FAIL> 30424
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 20:52:16 |                    |   0% (        0) 18.0 minPROGRESS> 21:00:53 |#                   |   5% (   53,540) 26.6 minPROGRESS> 21:09:09 |##                  |  10% (  107,080) 34.9 minPROGRESS> 21:17:04 |###                 |  15% (  160,620) 42.8 minPROGRESS> 21:24:35 |####                |  20% (  214,160) 50.3 minPROGRESS> 21:31:42 |#####               |  25% (  267,700) 57.5 minPROGRESS> 21:38:27 |######              |  30% (  321,240) 64.2 minPROGRESS> 21:44:44 |#######             |  35% (  374,780) 70.5 minPROGRESS> 21:50:30 |########            |  40% (  428,320) 76.3 minPROGRESS> 21:55:22 |#########           |  45% (  481,860) 81.1 minPROGRESS> 22:00:03 |##########          |  50% (  535,400) 85.8 minPROGRESS> 22:04:01 |###########         |  55% (  588,940) 89.8 minPROGRESS> 22:07:06 |############        |  60% (  642,480) 92.9 minPROGRESS> 22:09:15 |#############       |  65% (  696,020) 95.0 minPROGRESS> 22:10:51 |##############      |  70% (  749,560) 96.6 minPROGRESS> 22:11:59 |###############     |  75% (  803,100) 97.7 minPROGRESS> 22:12:45 |################    |  80% (  856,640) 98.5 minPROGRESS> 22:13:20 |#################   |  85% (  910,180) 99.1 minPROGRESS> 22:13:46 |##################  |  90% (  963,720) 99.5 minPROGRESS> 22:14:08 |################### |  95% (1,017,260) 99.9 minPROGRESS> 22:14:32 |####################| 100% (1,070,789) 100.3 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7778580
+     SETS> 1070789
+     PASS> 992479
+     FAIL> 78310
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 22:42:04 |                    |   0% (      0) 19.1 minPROGRESS> 22:51:54 |#                   |   5% ( 49,783) 28.9 minPROGRESS> 23:01:11 |##                  |  10% ( 99,566) 38.2 minPROGRESS> 23:09:57 |###                 |  15% (149,349) 47.0 minPROGRESS> 23:18:12 |####                |  20% (199,132) 55.3 minPROGRESS> 23:25:49 |#####               |  25% (248,915) 62.9 minPROGRESS> 23:32:56 |######              |  30% (298,698) 70.0 minPROGRESS> 23:39:22 |#######             |  35% (348,481) 76.4 minPROGRESS> 23:45:06 |########            |  40% (398,264) 82.1 minPROGRESS> 23:49:33 |#########           |  45% (448,047) 86.6 minPROGRESS> 23:53:39 |##########          |  50% (497,830) 90.7 minPROGRESS> 23:56:49 |###########         |  55% (547,613) 93.9 minPROGRESS> 23:58:51 |############        |  60% (597,396) 95.9 minPROGRESS> 00:00:17 |#############       |  65% (647,179) 97.3 minPROGRESS> 00:01:12 |##############      |  70% (696,962) 98.3 minPROGRESS> 00:01:54 |###############     |  75% (746,745) 99.0 minPROGRESS> 00:02:29 |################    |  80% (796,528) 99.5 minPROGRESS> 00:02:56 |#################   |  85% (846,311) 100.0 minPROGRESS> 00:03:17 |##################  |  90% (896,094) 100.3 minPROGRESS> 00:03:37 |################### |  95% (945,877) 100.7 minPROGRESS> 00:03:59 |####################| 100% (995,644) 101.0 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8056613
+     SETS> 995644
+     PASS> 932552
+     FAIL> 63092
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S7_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 00:04:04 |                    |   0% (    0) 0.0 minPROGRESS> 00:04:04 |#                   |   5% (  235) 0.0 minPROGRESS> 00:04:05 |##                  |  10% (  470) 0.0 minPROGRESS> 00:04:05 |###                 |  15% (  705) 0.0 minPROGRESS> 00:04:05 |####                |  20% (  940) 0.0 minPROGRESS> 00:04:05 |#####               |  25% (1,175) 0.0 minPROGRESS> 00:04:05 |######              |  30% (1,410) 0.0 minPROGRESS> 00:04:05 |#######             |  35% (1,645) 0.0 minPROGRESS> 00:04:05 |########            |  40% (1,880) 0.0 minPROGRESS> 00:04:05 |#########           |  45% (2,115) 0.0 minPROGRESS> 00:04:05 |##########          |  50% (2,350) 0.0 minPROGRESS> 00:04:05 |###########         |  55% (2,585) 0.0 minPROGRESS> 00:04:05 |############        |  60% (2,820) 0.0 minPROGRESS> 00:04:05 |#############       |  65% (3,055) 0.0 minPROGRESS> 00:04:05 |##############      |  70% (3,290) 0.0 minPROGRESS> 00:04:06 |###############     |  75% (3,525) 0.0 minPROGRESS> 00:04:06 |################    |  80% (3,760) 0.0 minPROGRESS> 00:04:06 |#################   |  85% (3,995) 0.0 minPROGRESS> 00:04:06 |##################  |  90% (4,230) 0.0 minPROGRESS> 00:04:06 |################### |  95% (4,465) 0.0 minPROGRESS> 00:04:06 |####################| 100% (4,685) 0.0 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S7_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 4689
+     SETS> 4685
+     PASS> 4685
+     FAIL> 0
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 00:30:48 |                    |   0% (      0) 18.5 minPROGRESS> 00:47:06 |#                   |   5% ( 28,522) 34.8 minPROGRESS> 01:02:13 |##                  |  10% ( 57,044) 50.0 minPROGRESS> 01:15:57 |###                 |  15% ( 85,566) 63.7 minPROGRESS> 01:27:45 |####                |  20% (114,088) 75.5 minPROGRESS> 01:36:39 |#####               |  25% (142,610) 84.4 minPROGRESS> 01:43:01 |######              |  30% (171,132) 90.8 minPROGRESS> 01:46:16 |#######             |  35% (199,654) 94.0 minPROGRESS> 01:47:39 |########            |  40% (228,176) 95.4 minPROGRESS> 01:48:34 |#########           |  45% (256,698) 96.3 minPROGRESS> 01:49:05 |##########          |  50% (285,220) 96.8 minPROGRESS> 01:49:29 |###########         |  55% (313,742) 97.2 minPROGRESS> 01:49:48 |############        |  60% (342,264) 97.5 minPROGRESS> 01:50:05 |#############       |  65% (370,786) 97.8 minPROGRESS> 01:50:21 |##############      |  70% (399,308) 98.1 minPROGRESS> 01:50:37 |###############     |  75% (427,830) 98.4 minPROGRESS> 01:50:50 |################    |  80% (456,352) 98.6 minPROGRESS> 01:51:02 |#################   |  85% (484,874) 98.8 minPROGRESS> 01:51:14 |##################  |  90% (513,396) 99.0 minPROGRESS> 01:51:25 |################### |  95% (541,918) 99.2 minPROGRESS> 01:51:39 |####################| 100% (570,422) 99.4 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7820930
+     SETS> 570422
+     PASS> 554965
+     FAIL> 15457
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 02:20:40 |                    |   0% (      0) 20.2 minPROGRESS> 02:30:47 |#                   |   5% ( 43,058) 30.3 minPROGRESS> 02:40:31 |##                  |  10% ( 86,116) 40.1 minPROGRESS> 02:49:45 |###                 |  15% (129,174) 49.3 minPROGRESS> 02:58:36 |####                |  20% (172,232) 58.1 minPROGRESS> 03:06:52 |#####               |  25% (215,290) 66.4 minPROGRESS> 03:14:38 |######              |  30% (258,348) 74.2 minPROGRESS> 03:21:46 |#######             |  35% (301,406) 81.3 minPROGRESS> 03:28:07 |########            |  40% (344,464) 87.7 minPROGRESS> 03:33:35 |#########           |  45% (387,522) 93.1 minPROGRESS> 03:37:35 |##########          |  50% (430,580) 97.1 minPROGRESS> 03:40:56 |###########         |  55% (473,638) 100.5 minPROGRESS> 03:42:59 |############        |  60% (516,696) 102.5 minPROGRESS> 03:44:10 |#############       |  65% (559,754) 103.7 minPROGRESS> 03:44:55 |##############      |  70% (602,812) 104.4 minPROGRESS> 03:45:26 |###############     |  75% (645,870) 105.0 minPROGRESS> 03:45:52 |################    |  80% (688,928) 105.4 minPROGRESS> 03:46:14 |#################   |  85% (731,986) 105.8 minPROGRESS> 03:46:33 |##################  |  90% (775,044) 106.1 minPROGRESS> 03:46:50 |################### |  95% (818,102) 106.4 minPROGRESS> 03:47:09 |####################| 100% (861,146) 106.7 min
+
+   OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8559543
+     SETS> 861146
+     PASS> 818006
+     FAIL> 43140
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 04:25:08 |                    |   0% (        0) 26.0 minPROGRESS> 04:40:11 |#                   |   5% (   51,135) 41.0 minPROGRESS> 04:54:26 |##                  |  10% (  102,270) 55.3 minPROGRESS> 05:07:52 |###                 |  15% (  153,405) 68.7 minPROGRESS> 05:20:28 |####                |  20% (  204,540) 81.3 minPROGRESS> 05:32:07 |#####               |  25% (  255,675) 93.0 minPROGRESS> 05:42:49 |######              |  30% (  306,810) 103.7 minPROGRESS> 05:52:34 |#######             |  35% (  357,945) 113.4 minPROGRESS> 06:00:59 |########            |  40% (  409,080) 121.8 minPROGRESS> 06:07:53 |#########           |  45% (  460,215) 128.7 minPROGRESS> 06:12:44 |##########          |  50% (  511,350) 133.6 minPROGRESS> 06:16:32 |###########         |  55% (  562,485) 137.4 minPROGRESS> 06:18:45 |############        |  60% (  613,620) 139.6 minPROGRESS> 06:20:09 |#############       |  65% (  664,755) 141.0 minPROGRESS> 06:21:02 |##############      |  70% (  715,890) 141.9 minPROGRESS> 06:21:47 |###############     |  75% (  767,025) 142.6 minPROGRESS> 06:22:27 |################    |  80% (  818,160) 143.3 minPROGRESS> 06:22:55 |#################   |  85% (  869,295) 143.8 minPROGRESS> 06:23:18 |##################  |  90% (  920,430) 144.2 minPROGRESS> 06:23:41 |################### |  95% (  971,565) 144.5 minPROGRESS> 06:24:03 |####################| 100% (1,022,688) 144.9 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 11175392
+     SETS> 1022688
+     PASS> 956441
+     FAIL> 66247
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 07:06:12 |                    |   0% (      0) 29.0 minPROGRESS> 07:42:49 |#                   |   5% ( 33,446) 65.6 minPROGRESS> 08:15:20 |##                  |  10% ( 66,892) 98.1 minPROGRESS> 08:42:46 |###                 |  15% (100,338) 125.6 minPROGRESS> 09:02:41 |####                |  20% (133,784) 145.5 minPROGRESS> 09:12:56 |#####               |  25% (167,230) 155.7 minPROGRESS> 09:16:30 |######              |  30% (200,676) 159.3 minPROGRESS> 09:17:42 |#######             |  35% (234,122) 160.5 minPROGRESS> 09:18:38 |########            |  40% (267,568) 161.4 minPROGRESS> 09:19:14 |#########           |  45% (301,014) 162.0 minPROGRESS> 09:19:42 |##########          |  50% (334,460) 162.5 minPROGRESS> 09:20:05 |###########         |  55% (367,906) 162.9 minPROGRESS> 09:20:25 |############        |  60% (401,352) 163.2 minPROGRESS> 09:20:45 |#############       |  65% (434,798) 163.5 minPROGRESS> 09:21:07 |##############      |  70% (468,244) 163.9 minPROGRESS> 09:21:24 |###############     |  75% (501,690) 164.2 minPROGRESS> 09:21:40 |################    |  80% (535,136) 164.5 minPROGRESS> 09:21:55 |#################   |  85% (568,582) 164.7 minPROGRESS> 09:22:08 |##################  |  90% (602,028) 164.9 minPROGRESS> 09:22:22 |################### |  95% (635,474) 165.2 minPROGRESS> 09:22:39 |####################| 100% (668,911) 165.4 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 12570506
+     SETS> 668911
+     PASS> 650964
+     FAIL> 17947
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 09:57:03 |                    |   0% (      0) 23.9 minPROGRESS> 10:10:37 |#                   |   5% ( 47,714) 37.5 minPROGRESS> 10:23:27 |##                  |  10% ( 95,428) 50.3 minPROGRESS> 10:35:34 |###                 |  15% (143,142) 62.4 minPROGRESS> 10:46:53 |####                |  20% (190,856) 73.8 minPROGRESS> 10:57:14 |#####               |  25% (238,570) 84.1 minPROGRESS> 11:06:41 |######              |  30% (286,284) 93.6 minPROGRESS> 11:15:04 |#######             |  35% (333,998) 102.0 minPROGRESS> 11:22:13 |########            |  40% (381,712) 109.1 minPROGRESS> 11:27:52 |#########           |  45% (429,426) 114.7 minPROGRESS> 11:31:38 |##########          |  50% (477,140) 118.5 minPROGRESS> 11:34:36 |###########         |  55% (524,854) 121.5 minPROGRESS> 11:36:17 |############        |  60% (572,568) 123.2 minPROGRESS> 11:37:24 |#############       |  65% (620,282) 124.3 minPROGRESS> 11:38:10 |##############      |  70% (667,996) 125.0 minPROGRESS> 11:38:45 |###############     |  75% (715,710) 125.6 minPROGRESS> 11:39:18 |################    |  80% (763,424) 126.2 minPROGRESS> 11:39:44 |#################   |  85% (811,138) 126.6 minPROGRESS> 11:40:05 |##################  |  90% (858,852) 127.0 minPROGRESS> 11:40:24 |################### |  95% (906,566) 127.3 minPROGRESS> 11:40:46 |####################| 100% (954,267) 127.6 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10223538
+     SETS> 954267
+     PASS> 902644
+     FAIL> 51623
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 12:17:17 |                    |   0% (      0) 25.3 minPROGRESS> 12:40:12 |#                   |   5% ( 39,561) 48.2 minPROGRESS> 13:01:12 |##                  |  10% ( 79,122) 69.2 minPROGRESS> 13:19:53 |###                 |  15% (118,683) 87.9 minPROGRESS> 13:35:37 |####                |  20% (158,244) 103.6 minPROGRESS> 13:47:20 |#####               |  25% (197,805) 115.3 minPROGRESS> 13:55:31 |######              |  30% (237,366) 123.5 minPROGRESS> 14:00:01 |#######             |  35% (276,927) 128.0 minPROGRESS> 14:02:07 |########            |  40% (316,488) 130.1 minPROGRESS> 14:03:40 |#########           |  45% (356,049) 131.7 minPROGRESS> 14:04:37 |##########          |  50% (395,610) 132.6 minPROGRESS> 14:05:20 |###########         |  55% (435,171) 133.3 minPROGRESS> 14:05:54 |############        |  60% (474,732) 133.9 minPROGRESS> 14:06:22 |#############       |  65% (514,293) 134.3 minPROGRESS> 14:06:48 |##############      |  70% (553,854) 134.8 minPROGRESS> 14:07:13 |###############     |  75% (593,415) 135.2 minPROGRESS> 14:07:33 |################    |  80% (632,976) 135.5 minPROGRESS> 14:07:51 |#################   |  85% (672,537) 135.8 minPROGRESS> 14:08:08 |##################  |  90% (712,098) 136.1 minPROGRESS> 14:08:24 |################### |  95% (751,659) 136.4 minPROGRESS> 14:08:43 |####################| 100% (791,205) 136.7 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10836722
+     SETS> 791205
+     PASS> 762452
+     FAIL> 28753
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 14:35:37 |                    |   0% (      0) 18.5 minPROGRESS> 14:52:32 |#                   |   5% ( 30,926) 35.5 minPROGRESS> 15:08:19 |##                  |  10% ( 61,852) 51.2 minPROGRESS> 15:22:29 |###                 |  15% ( 92,778) 65.4 minPROGRESS> 15:34:46 |####                |  20% (123,704) 77.7 minPROGRESS> 15:44:36 |#####               |  25% (154,630) 87.5 minPROGRESS> 15:52:02 |######              |  30% (185,556) 95.0 minPROGRESS> 15:56:25 |#######             |  35% (216,482) 99.3 minPROGRESS> 15:58:32 |########            |  40% (247,408) 101.4 minPROGRESS> 15:59:57 |#########           |  45% (278,334) 102.9 minPROGRESS> 16:00:45 |##########          |  50% (309,260) 103.7 minPROGRESS> 16:01:19 |###########         |  55% (340,186) 104.2 minPROGRESS> 16:01:45 |############        |  60% (371,112) 104.7 minPROGRESS> 16:02:07 |#############       |  65% (402,038) 105.0 minPROGRESS> 16:02:28 |##############      |  70% (432,964) 105.4 minPROGRESS> 16:02:47 |###############     |  75% (463,890) 105.7 minPROGRESS> 16:03:02 |################    |  80% (494,816) 106.0 minPROGRESS> 16:03:15 |#################   |  85% (525,742) 106.2 minPROGRESS> 16:03:29 |##################  |  90% (556,668) 106.4 minPROGRESS> 16:03:42 |################### |  95% (587,594) 106.6 minPROGRESS> 16:03:55 |####################| 100% (618,509) 106.8 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7930349
+     SETS> 618509
+     PASS> 600001
+     FAIL> 18508
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 16:34:01 |                    |   0% (      0) 20.7 minPROGRESS> 16:48:59 |#                   |   5% ( 42,176) 35.7 minPROGRESS> 17:02:56 |##                  |  10% ( 84,352) 49.6 minPROGRESS> 17:15:42 |###                 |  15% (126,528) 62.4 minPROGRESS> 17:27:11 |####                |  20% (168,704) 73.9 minPROGRESS> 17:37:03 |#####               |  25% (210,880) 83.8 minPROGRESS> 17:45:19 |######              |  30% (253,056) 92.0 minPROGRESS> 17:51:19 |#######             |  35% (295,232) 98.0 minPROGRESS> 17:54:50 |########            |  40% (337,408) 101.5 minPROGRESS> 17:57:19 |#########           |  45% (379,584) 104.0 minPROGRESS> 17:58:47 |##########          |  50% (421,760) 105.5 minPROGRESS> 17:59:39 |###########         |  55% (463,936) 106.4 minPROGRESS> 18:00:24 |############        |  60% (506,112) 107.1 minPROGRESS> 18:00:56 |#############       |  65% (548,288) 107.6 minPROGRESS> 18:01:27 |##############      |  70% (590,464) 108.2 minPROGRESS> 18:01:54 |###############     |  75% (632,640) 108.6 minPROGRESS> 18:02:17 |################    |  80% (674,816) 109.0 minPROGRESS> 18:02:36 |#################   |  85% (716,992) 109.3 minPROGRESS> 18:02:54 |##################  |  90% (759,168) 109.6 minPROGRESS> 18:03:12 |################### |  95% (801,344) 109.9 minPROGRESS> 18:03:30 |####################| 100% (843,516) 110.2 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8886772
+     SETS> 843516
+     PASS> 809392
+     FAIL> 34124
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 18:38:28 |                    |   0% (      0) 24.2 minPROGRESS> 19:17:04 |#                   |   5% ( 31,230) 62.8 minPROGRESS> 19:48:11 |##                  |  10% ( 62,460) 93.9 minPROGRESS> 20:07:33 |###                 |  15% ( 93,690) 113.3 minPROGRESS> 20:15:49 |####                |  20% (124,920) 121.5 minPROGRESS> 20:19:32 |#####               |  25% (156,150) 125.2 minPROGRESS> 20:20:57 |######              |  30% (187,380) 126.7 minPROGRESS> 20:21:58 |#######             |  35% (218,610) 127.7 minPROGRESS> 20:22:43 |########            |  40% (249,840) 128.4 minPROGRESS> 20:23:11 |#########           |  45% (281,070) 128.9 minPROGRESS> 20:23:39 |##########          |  50% (312,300) 129.4 minPROGRESS> 20:23:59 |###########         |  55% (343,530) 129.7 minPROGRESS> 20:24:18 |############        |  60% (374,760) 130.0 minPROGRESS> 20:24:38 |#############       |  65% (405,990) 130.4 minPROGRESS> 20:24:56 |##############      |  70% (437,220) 130.6 minPROGRESS> 20:25:11 |###############     |  75% (468,450) 130.9 minPROGRESS> 20:25:26 |################    |  80% (499,680) 131.1 minPROGRESS> 20:25:38 |#################   |  85% (530,910) 131.4 minPROGRESS> 20:25:51 |##################  |  90% (562,140) 131.6 minPROGRESS> 20:26:03 |################### |  95% (593,370) 131.8 minPROGRESS> 20:26:18 |####################| 100% (624,590) 132.0 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10358789
+     SETS> 624590
+     PASS> 607932
+     FAIL> 16658
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 21:00:06 |                    |   0% (      0) 23.2 minPROGRESS> 21:43:18 |#                   |   5% ( 41,865) 66.4 minPROGRESS> 22:10:22 |##                  |  10% ( 83,730) 93.5 minPROGRESS> 22:22:44 |###                 |  15% (125,595) 105.9 minPROGRESS> 22:28:52 |####                |  20% (167,460) 112.0 minPROGRESS> 22:33:29 |#####               |  25% (209,325) 116.6 minPROGRESS> 22:35:26 |######              |  30% (251,190) 118.6 minPROGRESS> 22:36:32 |#######             |  35% (293,055) 119.7 minPROGRESS> 22:37:25 |########            |  40% (334,920) 120.5 minPROGRESS> 22:38:04 |#########           |  45% (376,785) 121.2 minPROGRESS> 22:38:30 |##########          |  50% (418,650) 121.6 minPROGRESS> 22:39:02 |###########         |  55% (460,515) 122.2 minPROGRESS> 22:39:26 |############        |  60% (502,380) 122.6 minPROGRESS> 22:39:44 |#############       |  65% (544,245) 122.9 minPROGRESS> 22:40:04 |##############      |  70% (586,110) 123.2 minPROGRESS> 22:40:30 |###############     |  75% (627,975) 123.6 minPROGRESS> 22:40:57 |################    |  80% (669,840) 124.1 minPROGRESS> 22:41:18 |#################   |  85% (711,705) 124.4 minPROGRESS> 22:41:36 |##################  |  90% (753,570) 124.7 minPROGRESS> 22:41:53 |################### |  95% (795,435) 125.0 minPROGRESS> 22:42:12 |####################| 100% (837,284) 125.3 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9991057
+     SETS> 837284
+     PASS> 818386
+     FAIL> 18898
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 23:15:49 |                    |   0% (      0) 23.1 minPROGRESS> 23:50:05 |#                   |   5% ( 28,412) 57.4 minPROGRESS> 00:19:47 |##                  |  10% ( 56,824) 87.1 minPROGRESS> 00:41:49 |###                 |  15% ( 85,236) 109.1 minPROGRESS> 00:53:31 |####                |  20% (113,648) 120.8 minPROGRESS> 00:58:17 |#####               |  25% (142,060) 125.6 minPROGRESS> 01:00:01 |######              |  30% (170,472) 127.3 minPROGRESS> 01:00:54 |#######             |  35% (198,884) 128.2 minPROGRESS> 01:01:36 |########            |  40% (227,296) 128.9 minPROGRESS> 01:02:02 |#########           |  45% (255,708) 129.3 minPROGRESS> 01:02:26 |##########          |  50% (284,120) 129.7 minPROGRESS> 01:02:45 |###########         |  55% (312,532) 130.0 minPROGRESS> 01:03:02 |############        |  60% (340,944) 130.3 minPROGRESS> 01:03:21 |#############       |  65% (369,356) 130.6 minPROGRESS> 01:03:37 |##############      |  70% (397,768) 130.9 minPROGRESS> 01:03:51 |###############     |  75% (426,180) 131.1 minPROGRESS> 01:04:04 |################    |  80% (454,592) 131.4 minPROGRESS> 01:04:16 |#################   |  85% (483,004) 131.6 minPROGRESS> 01:04:29 |##################  |  90% (511,416) 131.8 minPROGRESS> 01:04:41 |################### |  95% (539,828) 132.0 minPROGRESS> 01:04:53 |####################| 100% (568,229) 132.2 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9984947
+     SETS> 568229
+     PASS> 554121
+     FAIL> 14108
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 01:36:26 |                    |   0% (      0) 21.7 minPROGRESS> 02:22:38 |#                   |   5% ( 25,566) 67.9 minPROGRESS> 02:54:41 |##                  |  10% ( 51,132) 99.9 minPROGRESS> 03:05:23 |###                 |  15% ( 76,698) 110.6 minPROGRESS> 03:08:39 |####                |  20% (102,264) 113.9 minPROGRESS> 03:09:56 |#####               |  25% (127,830) 115.2 minPROGRESS> 03:10:36 |######              |  30% (153,396) 115.8 minPROGRESS> 03:11:12 |#######             |  35% (178,962) 116.4 minPROGRESS> 03:11:36 |########            |  40% (204,528) 116.8 minPROGRESS> 03:11:58 |#########           |  45% (230,094) 117.2 minPROGRESS> 03:12:15 |##########          |  50% (255,660) 117.5 minPROGRESS> 03:12:31 |###########         |  55% (281,226) 117.8 minPROGRESS> 03:12:46 |############        |  60% (306,792) 118.0 minPROGRESS> 03:13:04 |#############       |  65% (332,358) 118.3 minPROGRESS> 03:13:17 |##############      |  70% (357,924) 118.5 minPROGRESS> 03:13:30 |###############     |  75% (383,490) 118.7 minPROGRESS> 03:13:41 |################    |  80% (409,056) 118.9 minPROGRESS> 03:13:52 |#################   |  85% (434,622) 119.1 minPROGRESS> 03:14:02 |##################  |  90% (460,188) 119.3 minPROGRESS> 03:14:12 |################### |  95% (485,754) 119.4 minPROGRESS> 03:14:24 |####################| 100% (511,312) 119.6 min
+
+   OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9358121
+     SETS> 511312
+     PASS> 499437
+     FAIL> 11875
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 03:59:55 |                    |   0% (      0) 31.2 minPROGRESS> 04:24:57 |#                   |   5% ( 45,182) 56.3 minPROGRESS> 04:48:34 |##                  |  10% ( 90,364) 79.9 minPROGRESS> 05:10:23 |###                 |  15% (135,546) 101.7 minPROGRESS> 05:30:01 |####                |  20% (180,728) 121.4 minPROGRESS> 05:46:35 |#####               |  25% (225,910) 137.9 minPROGRESS> 05:59:30 |######              |  30% (271,092) 150.8 minPROGRESS> 06:08:17 |#######             |  35% (316,274) 159.6 minPROGRESS> 06:12:33 |########            |  40% (361,456) 163.9 minPROGRESS> 06:14:48 |#########           |  45% (406,638) 166.1 minPROGRESS> 06:16:10 |##########          |  50% (451,820) 167.5 minPROGRESS> 06:16:56 |###########         |  55% (497,002) 168.3 minPROGRESS> 06:17:39 |############        |  60% (542,184) 169.0 minPROGRESS> 06:18:11 |#############       |  65% (587,366) 169.5 minPROGRESS> 06:18:40 |##############      |  70% (632,548) 170.0 minPROGRESS> 06:19:08 |###############     |  75% (677,730) 170.5 minPROGRESS> 06:19:32 |################    |  80% (722,912) 170.9 minPROGRESS> 06:19:52 |#################   |  85% (768,094) 171.2 minPROGRESS> 06:20:11 |##################  |  90% (813,276) 171.5 minPROGRESS> 06:20:29 |################### |  95% (858,458) 171.8 minPROGRESS> 06:20:49 |####################| 100% (903,628) 172.2 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 13546796
+     SETS> 903628
+     PASS> 865141
+     FAIL> 38487
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 07:08:35 |                    |   0% (      0) 32.9 minPROGRESS> 07:46:15 |#                   |   5% ( 49,534) 70.5 minPROGRESS> 08:20:25 |##                  |  10% ( 99,068) 104.7 minPROGRESS> 08:49:39 |###                 |  15% (148,602) 133.9 minPROGRESS> 09:12:41 |####                |  20% (198,136) 157.0 minPROGRESS> 09:28:01 |#####               |  25% (247,670) 172.3 minPROGRESS> 09:36:53 |######              |  30% (297,204) 181.2 minPROGRESS> 09:41:03 |#######             |  35% (346,738) 185.3 minPROGRESS> 09:43:04 |########            |  40% (396,272) 187.3 minPROGRESS> 09:44:42 |#########           |  45% (445,806) 189.0 minPROGRESS> 09:45:44 |##########          |  50% (495,340) 190.0 minPROGRESS> 09:46:36 |###########         |  55% (544,874) 190.9 minPROGRESS> 09:47:18 |############        |  60% (594,408) 191.6 minPROGRESS> 09:47:55 |#############       |  65% (643,942) 192.2 minPROGRESS> 09:48:29 |##############      |  70% (693,476) 192.8 minPROGRESS> 09:49:01 |###############     |  75% (743,010) 193.3 minPROGRESS> 09:49:28 |################    |  80% (792,544) 193.7 minPROGRESS> 09:49:51 |#################   |  85% (842,078) 194.1 minPROGRESS> 09:50:12 |##################  |  90% (891,612) 194.5 minPROGRESS> 09:50:32 |################### |  95% (941,146) 194.8 minPROGRESS> 09:50:56 |####################| 100% (990,668) 195.2 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 14275726
+     SETS> 990668
+     PASS> 948050
+     FAIL> 42618
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 10:24:49 |                    |   0% (      0) 23.4 minPROGRESS> 11:45:12 |#                   |   5% ( 30,680) 103.8 minPROGRESS> 11:55:36 |##                  |  10% ( 61,360) 114.2 minPROGRESS> 11:58:56 |###                 |  15% ( 92,040) 117.6 minPROGRESS> 12:01:00 |####                |  20% (122,720) 119.6 minPROGRESS> 12:02:18 |#####               |  25% (153,400) 120.9 minPROGRESS> 12:03:17 |######              |  30% (184,080) 121.9 minPROGRESS> 12:04:10 |#######             |  35% (214,760) 122.8 minPROGRESS> 12:04:51 |########            |  40% (245,440) 123.5 minPROGRESS> 12:05:25 |#########           |  45% (276,120) 124.0 minPROGRESS> 12:05:59 |##########          |  50% (306,800) 124.6 minPROGRESS> 12:06:25 |###########         |  55% (337,480) 125.0 minPROGRESS> 12:06:49 |############        |  60% (368,160) 125.4 minPROGRESS> 12:07:13 |#############       |  65% (398,840) 125.8 minPROGRESS> 12:07:34 |##############      |  70% (429,520) 126.2 minPROGRESS> 12:07:53 |###############     |  75% (460,200) 126.5 minPROGRESS> 12:08:09 |################    |  80% (490,880) 126.8 minPROGRESS> 12:08:23 |#################   |  85% (521,560) 127.0 minPROGRESS> 12:08:36 |##################  |  90% (552,240) 127.2 minPROGRESS> 12:08:49 |################### |  95% (582,920) 127.4 minPROGRESS> 12:09:04 |####################| 100% (613,600) 127.7 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10143581
+     SETS> 613600
+     PASS> 590673
+     FAIL> 22927
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 12:46:28 |                    |   0% (      0) 25.7 minPROGRESS> 13:23:52 |#                   |   5% ( 35,594) 63.2 minPROGRESS> 13:54:59 |##                  |  10% ( 71,188) 94.3 minPROGRESS> 14:17:29 |###                 |  15% (106,782) 116.8 minPROGRESS> 14:30:27 |####                |  20% (142,376) 129.7 minPROGRESS> 14:36:53 |#####               |  25% (177,970) 136.2 minPROGRESS> 14:39:52 |######              |  30% (213,564) 139.2 minPROGRESS> 14:41:14 |#######             |  35% (249,158) 140.5 minPROGRESS> 14:42:21 |########            |  40% (284,752) 141.6 minPROGRESS> 14:43:03 |#########           |  45% (320,346) 142.3 minPROGRESS> 14:43:34 |##########          |  50% (355,940) 142.9 minPROGRESS> 14:44:02 |###########         |  55% (391,534) 143.3 minPROGRESS> 14:44:26 |############        |  60% (427,128) 143.7 minPROGRESS> 14:44:48 |#############       |  65% (462,722) 144.1 minPROGRESS> 14:45:12 |##############      |  70% (498,316) 144.5 minPROGRESS> 14:45:31 |###############     |  75% (533,910) 144.8 minPROGRESS> 14:45:50 |################    |  80% (569,504) 145.1 minPROGRESS> 14:46:05 |#################   |  85% (605,098) 145.4 minPROGRESS> 14:46:20 |##################  |  90% (640,692) 145.6 minPROGRESS> 14:46:35 |################### |  95% (676,286) 145.9 minPROGRESS> 14:46:50 |####################| 100% (711,866) 146.1 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 11099671
+     SETS> 711866
+     PASS> 689542
+     FAIL> 22324
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 15:21:36 |                    |   0% (      0) 23.9 minPROGRESS> 15:42:25 |#                   |   5% ( 46,489) 44.7 minPROGRESS> 16:02:01 |##                  |  10% ( 92,978) 64.3 minPROGRESS> 16:19:45 |###                 |  15% (139,467) 82.1 minPROGRESS> 16:35:15 |####                |  20% (185,956) 97.6 minPROGRESS> 16:47:33 |#####               |  25% (232,445) 109.9 minPROGRESS> 16:56:44 |######              |  30% (278,934) 119.0 minPROGRESS> 17:02:19 |#######             |  35% (325,423) 124.6 minPROGRESS> 17:05:04 |########            |  40% (371,912) 127.4 minPROGRESS> 17:06:57 |#########           |  45% (418,401) 129.3 minPROGRESS> 17:08:06 |##########          |  50% (464,890) 130.4 minPROGRESS> 17:08:55 |###########         |  55% (511,379) 131.2 minPROGRESS> 17:09:36 |############        |  60% (557,868) 131.9 minPROGRESS> 17:10:11 |#############       |  65% (604,357) 132.5 minPROGRESS> 17:10:43 |##############      |  70% (650,846) 133.0 minPROGRESS> 17:11:12 |###############     |  75% (697,335) 133.5 minPROGRESS> 17:11:37 |################    |  80% (743,824) 133.9 minPROGRESS> 17:11:57 |#################   |  85% (790,313) 134.3 minPROGRESS> 17:12:17 |##################  |  90% (836,802) 134.6 minPROGRESS> 17:12:36 |################### |  95% (883,291) 134.9 minPROGRESS> 17:12:57 |####################| 100% (929,773) 135.3 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 10337942
+     SETS> 929773
+     PASS> 890977
+     FAIL> 38796
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 17:45:30 |                    |   0% (      0) 22.3 minPROGRESS> 18:05:33 |#                   |   5% ( 40,961) 42.3 minPROGRESS> 18:24:14 |##                  |  10% ( 81,922) 61.0 minPROGRESS> 18:41:23 |###                 |  15% (122,883) 78.2 minPROGRESS> 18:56:27 |####                |  20% (163,844) 93.2 minPROGRESS> 19:08:48 |#####               |  25% (204,805) 105.6 minPROGRESS> 19:18:35 |######              |  30% (245,766) 115.4 minPROGRESS> 19:24:45 |#######             |  35% (286,727) 121.5 minPROGRESS> 19:27:41 |########            |  40% (327,688) 124.5 minPROGRESS> 19:29:29 |#########           |  45% (368,649) 126.3 minPROGRESS> 19:30:25 |##########          |  50% (409,610) 127.2 minPROGRESS> 19:31:08 |###########         |  55% (450,571) 127.9 minPROGRESS> 19:31:39 |############        |  60% (491,532) 128.4 minPROGRESS> 19:32:05 |#############       |  65% (532,493) 128.9 minPROGRESS> 19:32:31 |##############      |  70% (573,454) 129.3 minPROGRESS> 19:32:54 |###############     |  75% (614,415) 129.7 minPROGRESS> 19:33:14 |################    |  80% (655,376) 130.0 minPROGRESS> 19:33:32 |#################   |  85% (696,337) 130.3 minPROGRESS> 19:33:49 |##################  |  90% (737,298) 130.6 minPROGRESS> 19:34:05 |################### |  95% (778,259) 130.9 minPROGRESS> 19:34:23 |####################| 100% (819,207) 131.2 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9696696
+     SETS> 819207
+     PASS> 790350
+     FAIL> 28857
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 20:16:52 |                    |   0% (        0) 29.4 minPROGRESS> 20:41:22 |#                   |   5% (   51,668) 53.9 minPROGRESS> 21:03:56 |##                  |  10% (  103,336) 76.4 minPROGRESS> 21:24:12 |###                 |  15% (  155,004) 96.7 minPROGRESS> 21:41:53 |####                |  20% (  206,672) 114.4 minPROGRESS> 21:56:11 |#####               |  25% (  258,340) 128.7 minPROGRESS> 22:07:46 |######              |  30% (  310,008) 140.3 minPROGRESS> 22:15:25 |#######             |  35% (  361,676) 147.9 minPROGRESS> 22:19:24 |########            |  40% (  413,344) 151.9 minPROGRESS> 22:22:03 |#########           |  45% (  465,012) 154.5 minPROGRESS> 22:23:26 |##########          |  50% (  516,680) 155.9 minPROGRESS> 22:24:15 |###########         |  55% (  568,348) 156.7 minPROGRESS> 22:24:57 |############        |  60% (  620,016) 157.4 minPROGRESS> 22:25:29 |#############       |  65% (  671,684) 158.0 minPROGRESS> 22:25:59 |##############      |  70% (  723,352) 158.5 minPROGRESS> 22:26:28 |###############     |  75% (  775,020) 158.9 minPROGRESS> 22:26:53 |################    |  80% (  826,688) 159.4 minPROGRESS> 22:27:15 |#################   |  85% (  878,356) 159.7 minPROGRESS> 22:27:37 |##################  |  90% (  930,024) 160.1 minPROGRESS> 22:28:00 |################### |  95% (  981,692) 160.5 minPROGRESS> 22:28:23 |####################| 100% (1,033,343) 160.9 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 12747806
+     SETS> 1033343
+     PASS> 990073
+     FAIL> 43270
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 23:10:50 |                    |   0% (        0) 29.0 minPROGRESS> 23:37:08 |#                   |   5% (   72,168) 55.3 minPROGRESS> 23:59:38 |##                  |  10% (  144,336) 77.8 minPROGRESS> 00:17:39 |###                 |  15% (  216,504) 95.8 minPROGRESS> 00:31:18 |####                |  20% (  288,672) 109.5 minPROGRESS> 00:46:10 |#####               |  25% (  360,840) 124.3 minPROGRESS> 00:58:49 |######              |  30% (  433,008) 137.0 minPROGRESS> 01:07:46 |#######             |  35% (  505,176) 145.9 minPROGRESS> 01:12:07 |########            |  40% (  577,344) 150.3 minPROGRESS> 01:14:42 |#########           |  45% (  649,512) 152.9 minPROGRESS> 01:16:06 |##########          |  50% (  721,680) 154.3 minPROGRESS> 01:16:47 |###########         |  55% (  793,848) 154.9 minPROGRESS> 01:17:45 |############        |  60% (  866,016) 155.9 minPROGRESS> 01:18:22 |#############       |  65% (  938,184) 156.5 minPROGRESS> 01:18:52 |##############      |  70% (1,010,352) 157.0 minPROGRESS> 01:19:26 |###############     |  75% (1,082,520) 157.6 minPROGRESS> 01:20:08 |################    |  80% (1,154,688) 158.3 minPROGRESS> 01:20:50 |#################   |  85% (1,226,856) 159.0 minPROGRESS> 01:21:23 |##################  |  90% (1,299,024) 159.5 minPROGRESS> 01:21:53 |################### |  95% (1,371,192) 160.0 minPROGRESS> 01:22:26 |####################| 100% (1,443,345) 160.6 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 12409492
+     SETS> 1443345
+     PASS> 1389465
+     FAIL> 53880
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 02:09:40 |                    |   0% (        0) 33.0 minPROGRESS> 02:29:17 |#                   |   5% (   69,479) 52.6 minPROGRESS> 02:47:55 |##                  |  10% (  138,958) 71.3 minPROGRESS> 03:05:25 |###                 |  15% (  208,437) 88.8 minPROGRESS> 03:21:44 |####                |  20% (  277,916) 105.1 minPROGRESS> 03:36:49 |#####               |  25% (  347,395) 120.2 minPROGRESS> 03:50:42 |######              |  30% (  416,874) 134.1 minPROGRESS> 04:03:19 |#######             |  35% (  486,353) 146.7 minPROGRESS> 04:14:16 |########            |  40% (  555,832) 157.6 minPROGRESS> 04:23:26 |#########           |  45% (  625,311) 166.8 minPROGRESS> 04:30:00 |##########          |  50% (  694,790) 173.3 minPROGRESS> 04:35:32 |###########         |  55% (  764,269) 178.9 minPROGRESS> 04:38:53 |############        |  60% (  833,748) 182.2 minPROGRESS> 04:40:54 |#############       |  65% (  903,227) 184.2 minPROGRESS> 04:42:16 |##############      |  70% (  972,706) 185.6 minPROGRESS> 04:43:14 |###############     |  75% (1,042,185) 186.6 minPROGRESS> 04:44:04 |################    |  80% (1,111,664) 187.4 minPROGRESS> 04:44:42 |#################   |  85% (1,181,143) 188.0 minPROGRESS> 04:45:13 |##################  |  90% (1,250,622) 188.6 minPROGRESS> 04:45:42 |################### |  95% (1,320,101) 189.0 minPROGRESS> 04:46:12 |####################| 100% (1,389,563) 189.5 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 13907914
+     SETS> 1389563
+     PASS> 1281102
+     FAIL> 108461
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 05:32:54 |                    |   0% (      0) 32.3 minPROGRESS> 06:19:35 |#                   |   5% ( 47,035) 78.9 minPROGRESS> 06:58:38 |##                  |  10% ( 94,070) 118.0 minPROGRESS> 07:26:03 |###                 |  15% (141,105) 145.4 minPROGRESS> 07:39:59 |####                |  20% (188,140) 159.3 minPROGRESS> 07:46:21 |#####               |  25% (235,175) 165.7 minPROGRESS> 07:49:08 |######              |  30% (282,210) 168.5 minPROGRESS> 07:50:37 |#######             |  35% (329,245) 170.0 minPROGRESS> 07:51:51 |########            |  40% (376,280) 171.2 minPROGRESS> 07:52:39 |#########           |  45% (423,315) 172.0 minPROGRESS> 07:53:18 |##########          |  50% (470,350) 172.7 minPROGRESS> 07:53:52 |###########         |  55% (517,385) 173.2 minPROGRESS> 07:54:22 |############        |  60% (564,420) 173.7 minPROGRESS> 07:54:49 |#############       |  65% (611,455) 174.2 minPROGRESS> 07:55:18 |##############      |  70% (658,490) 174.6 minPROGRESS> 07:55:42 |###############     |  75% (705,525) 175.0 minPROGRESS> 07:56:04 |################    |  80% (752,560) 175.4 minPROGRESS> 07:56:24 |#################   |  85% (799,595) 175.7 minPROGRESS> 07:56:43 |##################  |  90% (846,630) 176.1 minPROGRESS> 07:57:03 |################### |  95% (893,665) 176.4 minPROGRESS> 07:57:24 |####################| 100% (940,689) 176.8 min
+
+   OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 13924018
+     SETS> 940689
+     PASS> 906288
+     FAIL> 34401
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 08:27:33 |                    |   0% (      0) 20.9 minPROGRESS> 08:56:06 |#                   |   5% ( 23,453) 49.4 minPROGRESS> 09:20:32 |##                  |  10% ( 46,906) 73.9 minPROGRESS> 09:38:54 |###                 |  15% ( 70,359) 92.2 minPROGRESS> 09:48:46 |####                |  20% ( 93,812) 102.1 minPROGRESS> 09:53:33 |#####               |  25% (117,265) 106.9 minPROGRESS> 09:55:44 |######              |  30% (140,718) 109.1 minPROGRESS> 09:56:45 |#######             |  35% (164,171) 110.1 minPROGRESS> 09:57:35 |########            |  40% (187,624) 110.9 minPROGRESS> 09:58:08 |#########           |  45% (211,077) 111.5 minPROGRESS> 09:58:32 |##########          |  50% (234,530) 111.9 minPROGRESS> 09:58:53 |###########         |  55% (257,983) 112.2 minPROGRESS> 09:59:11 |############        |  60% (281,436) 112.5 minPROGRESS> 09:59:26 |#############       |  65% (304,889) 112.8 minPROGRESS> 09:59:43 |##############      |  70% (328,342) 113.0 minPROGRESS> 09:59:56 |###############     |  75% (351,795) 113.3 minPROGRESS> 10:00:07 |################    |  80% (375,248) 113.5 minPROGRESS> 10:00:17 |#################   |  85% (398,701) 113.6 minPROGRESS> 10:00:28 |##################  |  90% (422,154) 113.8 minPROGRESS> 10:00:37 |################### |  95% (445,607) 113.9 minPROGRESS> 10:00:48 |####################| 100% (469,047) 114.1 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8920805
+     SETS> 469047
+     PASS> 455747
+     FAIL> 13300
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 10:40:28 |                    |   0% (      0) 27.1 minPROGRESS> 11:06:53 |#                   |   5% ( 40,559) 53.5 minPROGRESS> 11:31:06 |##                  |  10% ( 81,118) 77.8 minPROGRESS> 11:52:25 |###                 |  15% (121,677) 99.1 minPROGRESS> 12:10:14 |####                |  20% (162,236) 116.9 minPROGRESS> 12:23:05 |#####               |  25% (202,795) 129.7 minPROGRESS> 12:31:54 |######              |  30% (243,354) 138.6 minPROGRESS> 12:36:37 |#######             |  35% (283,913) 143.3 minPROGRESS> 12:38:43 |########            |  40% (324,472) 145.4 minPROGRESS> 12:40:18 |#########           |  45% (365,031) 147.0 minPROGRESS> 12:41:17 |##########          |  50% (405,590) 147.9 minPROGRESS> 12:42:02 |###########         |  55% (446,149) 148.7 minPROGRESS> 12:42:38 |############        |  60% (486,708) 149.3 minPROGRESS> 12:43:07 |#############       |  65% (527,267) 149.8 minPROGRESS> 12:43:35 |##############      |  70% (567,826) 150.2 minPROGRESS> 12:44:01 |###############     |  75% (608,385) 150.7 minPROGRESS> 12:44:22 |################    |  80% (648,944) 151.0 minPROGRESS> 12:44:41 |#################   |  85% (689,503) 151.3 minPROGRESS> 12:44:58 |##################  |  90% (730,062) 151.6 minPROGRESS> 12:45:16 |################### |  95% (770,621) 151.9 minPROGRESS> 12:45:34 |####################| 100% (811,169) 152.2 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 12072962
+     SETS> 811169
+     PASS> 778680
+     FAIL> 32489
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 13:13:00 |                    |   0% (      0) 19.2 minPROGRESS> 13:30:09 |#                   |   5% ( 31,559) 36.4 minPROGRESS> 13:45:49 |##                  |  10% ( 63,118) 52.1 minPROGRESS> 14:00:00 |###                 |  15% ( 94,677) 66.2 minPROGRESS> 14:12:05 |####                |  20% (126,236) 78.3 minPROGRESS> 14:21:29 |#####               |  25% (157,795) 87.7 minPROGRESS> 14:28:09 |######              |  30% (189,354) 94.4 minPROGRESS> 14:32:15 |#######             |  35% (220,913) 98.5 minPROGRESS> 14:34:15 |########            |  40% (252,472) 100.5 minPROGRESS> 14:35:30 |#########           |  45% (284,031) 101.8 minPROGRESS> 14:36:25 |##########          |  50% (315,590) 102.7 minPROGRESS> 14:37:01 |###########         |  55% (347,149) 103.3 minPROGRESS> 14:37:31 |############        |  60% (378,708) 103.8 minPROGRESS> 14:37:55 |#############       |  65% (410,267) 104.2 minPROGRESS> 14:38:14 |##############      |  70% (441,826) 104.5 minPROGRESS> 14:38:34 |###############     |  75% (473,385) 104.8 minPROGRESS> 14:38:51 |################    |  80% (504,944) 105.1 minPROGRESS> 14:39:06 |#################   |  85% (536,503) 105.3 minPROGRESS> 14:39:19 |##################  |  90% (568,062) 105.6 minPROGRESS> 14:39:32 |################### |  95% (599,621) 105.8 minPROGRESS> 14:39:47 |####################| 100% (631,179) 106.0 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8514034
+     SETS> 631179
+     PASS> 610556
+     FAIL> 20623
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 15:16:33 |                    |   0% (      0) 25.4 minPROGRESS> 16:27:34 |#                   |   5% ( 33,148) 96.5 minPROGRESS> 16:54:52 |##                  |  10% ( 66,296) 123.8 minPROGRESS> 17:00:57 |###                 |  15% ( 99,444) 129.9 minPROGRESS> 17:04:25 |####                |  20% (132,592) 133.3 minPROGRESS> 17:06:17 |#####               |  25% (165,740) 135.2 minPROGRESS> 17:07:25 |######              |  30% (198,888) 136.3 minPROGRESS> 17:08:26 |#######             |  35% (232,036) 137.3 minPROGRESS> 17:09:11 |########            |  40% (265,184) 138.1 minPROGRESS> 17:09:46 |#########           |  45% (298,332) 138.7 minPROGRESS> 17:10:20 |##########          |  50% (331,480) 139.2 minPROGRESS> 17:10:45 |###########         |  55% (364,628) 139.7 minPROGRESS> 17:11:08 |############        |  60% (397,776) 140.0 minPROGRESS> 17:11:34 |#############       |  65% (430,924) 140.5 minPROGRESS> 17:11:57 |##############      |  70% (464,072) 140.9 minPROGRESS> 17:12:15 |###############     |  75% (497,220) 141.2 minPROGRESS> 17:12:31 |################    |  80% (530,368) 141.4 minPROGRESS> 17:12:46 |#################   |  85% (563,516) 141.7 minPROGRESS> 17:13:00 |##################  |  90% (596,664) 141.9 minPROGRESS> 17:13:14 |################### |  95% (629,812) 142.1 minPROGRESS> 17:13:29 |####################| 100% (662,957) 142.4 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 11110132
+     SETS> 662957
+     PASS> 639925
+     FAIL> 23032
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 17:41:53 |                    |   0% (      0) 19.5 minPROGRESS> 17:53:22 |#                   |   5% ( 41,362) 31.0 minPROGRESS> 18:04:24 |##                  |  10% ( 82,724) 42.0 minPROGRESS> 18:14:47 |###                 |  15% (124,086) 52.4 minPROGRESS> 18:24:34 |####                |  20% (165,448) 62.2 minPROGRESS> 18:33:39 |#####               |  25% (206,810) 71.2 minPROGRESS> 18:42:02 |######              |  30% (248,172) 79.6 minPROGRESS> 18:49:33 |#######             |  35% (289,534) 87.1 minPROGRESS> 18:55:54 |########            |  40% (330,896) 93.5 minPROGRESS> 19:00:38 |#########           |  45% (372,258) 98.2 minPROGRESS> 19:04:13 |##########          |  50% (413,620) 101.8 minPROGRESS> 19:06:39 |###########         |  55% (454,982) 104.2 minPROGRESS> 19:07:52 |############        |  60% (496,344) 105.5 minPROGRESS> 19:08:44 |#############       |  65% (537,706) 106.3 minPROGRESS> 19:09:17 |##############      |  70% (579,068) 106.9 minPROGRESS> 19:09:47 |###############     |  75% (620,430) 107.4 minPROGRESS> 19:10:12 |################    |  80% (661,792) 107.8 minPROGRESS> 19:10:33 |#################   |  85% (703,154) 108.1 minPROGRESS> 19:10:52 |##################  |  90% (744,516) 108.5 minPROGRESS> 19:11:09 |################### |  95% (785,878) 108.7 minPROGRESS> 19:11:27 |####################| 100% (827,233) 109.1 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 8739494
+     SETS> 827233
+     PASS> 787745
+     FAIL> 39488
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 19:36:26 |                    |   0% (      0) 16.9 minPROGRESS> 19:46:17 |#                   |   5% ( 36,045) 26.8 minPROGRESS> 19:55:40 |##                  |  10% ( 72,090) 36.2 minPROGRESS> 20:04:35 |###                 |  15% (108,135) 45.1 minPROGRESS> 20:12:56 |####                |  20% (144,180) 53.4 minPROGRESS> 20:20:38 |#####               |  25% (180,225) 61.1 minPROGRESS> 20:27:38 |######              |  30% (216,270) 68.1 minPROGRESS> 20:33:49 |#######             |  35% (252,315) 74.3 minPROGRESS> 20:39:04 |########            |  40% (288,360) 79.5 minPROGRESS> 20:42:54 |#########           |  45% (324,405) 83.4 minPROGRESS> 20:45:55 |##########          |  50% (360,450) 86.4 minPROGRESS> 20:47:53 |###########         |  55% (396,495) 88.4 minPROGRESS> 20:48:51 |############        |  60% (432,540) 89.3 minPROGRESS> 20:49:35 |#############       |  65% (468,585) 90.1 minPROGRESS> 20:50:04 |##############      |  70% (504,630) 90.6 minPROGRESS> 20:50:30 |###############     |  75% (540,675) 91.0 minPROGRESS> 20:50:50 |################    |  80% (576,720) 91.3 minPROGRESS> 20:51:08 |#################   |  85% (612,765) 91.6 minPROGRESS> 20:51:22 |##################  |  90% (648,810) 91.9 minPROGRESS> 20:51:38 |################### |  95% (684,855) 92.1 minPROGRESS> 20:51:54 |####################| 100% (720,898) 92.4 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7471018
+     SETS> 720898
+     PASS> 689472
+     FAIL> 31426
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 21:31:05 |                    |   0% (      0) 27.2 minPROGRESS> 21:56:22 |#                   |   5% ( 44,556) 52.5 minPROGRESS> 22:18:49 |##                  |  10% ( 89,112) 74.9 minPROGRESS> 22:38:27 |###                 |  15% (133,668) 94.5 minPROGRESS> 22:54:22 |####                |  20% (178,224) 110.5 minPROGRESS> 23:06:29 |#####               |  25% (222,780) 122.6 minPROGRESS> 23:15:47 |######              |  30% (267,336) 131.9 minPROGRESS> 23:22:16 |#######             |  35% (311,892) 138.4 minPROGRESS> 23:26:10 |########            |  40% (356,448) 142.3 minPROGRESS> 23:28:57 |#########           |  45% (401,004) 145.1 minPROGRESS> 23:30:55 |##########          |  50% (445,560) 147.0 minPROGRESS> 23:31:58 |###########         |  55% (490,116) 148.1 minPROGRESS> 23:32:55 |############        |  60% (534,672) 149.0 minPROGRESS> 23:33:31 |#############       |  65% (579,228) 149.6 minPROGRESS> 23:34:04 |##############      |  70% (623,784) 150.2 minPROGRESS> 23:34:33 |###############     |  75% (668,340) 150.7 minPROGRESS> 23:34:58 |################    |  80% (712,896) 151.1 minPROGRESS> 23:35:18 |#################   |  85% (757,452) 151.4 minPROGRESS> 23:35:36 |##################  |  90% (802,008) 151.7 minPROGRESS> 23:35:54 |################### |  95% (846,564) 152.0 minPROGRESS> 23:36:13 |####################| 100% (891,120) 152.3 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 11578033
+     SETS> 891120
+     PASS> 852057
+     FAIL> 39063
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 00:00:20 |                    |   0% (        0) 16.6 minPROGRESS> 00:12:42 |#                   |   5% (   54,212) 28.9 minPROGRESS> 00:22:23 |##                  |  10% (  108,424) 38.6 minPROGRESS> 00:30:25 |###                 |  15% (  162,636) 46.7 minPROGRESS> 00:37:32 |####                |  20% (  216,848) 53.8 minPROGRESS> 00:45:11 |#####               |  25% (  271,060) 61.4 minPROGRESS> 00:51:34 |######              |  30% (  325,272) 67.8 minPROGRESS> 00:57:07 |#######             |  35% (  379,484) 73.4 minPROGRESS> 01:00:50 |########            |  40% (  433,696) 77.1 minPROGRESS> 01:04:01 |#########           |  45% (  487,908) 80.3 minPROGRESS> 01:06:36 |##########          |  50% (  542,120) 82.8 minPROGRESS> 01:08:05 |###########         |  55% (  596,332) 84.3 minPROGRESS> 01:09:00 |############        |  60% (  650,544) 85.2 minPROGRESS> 01:10:04 |#############       |  65% (  704,756) 86.3 minPROGRESS> 01:10:34 |##############      |  70% (  758,968) 86.8 minPROGRESS> 01:11:05 |###############     |  75% (  813,180) 87.3 minPROGRESS> 01:11:36 |################    |  80% (  867,392) 87.9 minPROGRESS> 01:12:25 |#################   |  85% (  921,604) 88.7 minPROGRESS> 01:13:00 |##################  |  90% (  975,816) 89.3 minPROGRESS> 01:13:26 |################### |  95% (1,030,028) 89.7 minPROGRESS> 01:13:49 |####################| 100% (1,084,230) 90.1 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7042756
+     SETS> 1084230
+     PASS> 1044608
+     FAIL> 39622
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 01:45:14 |                    |   0% (      0) 21.7 minPROGRESS> 01:59:54 |#                   |   5% ( 37,925) 36.4 minPROGRESS> 02:13:42 |##                  |  10% ( 75,850) 50.2 minPROGRESS> 02:26:39 |###                 |  15% (113,775) 63.1 minPROGRESS> 02:38:30 |####                |  20% (151,700) 75.0 minPROGRESS> 02:49:06 |#####               |  25% (189,625) 85.6 minPROGRESS> 02:58:19 |######              |  30% (227,550) 94.8 minPROGRESS> 03:06:03 |#######             |  35% (265,475) 102.5 minPROGRESS> 03:11:49 |########            |  40% (303,400) 108.3 minPROGRESS> 03:15:11 |#########           |  45% (341,325) 111.7 minPROGRESS> 03:17:39 |##########          |  50% (379,250) 114.1 minPROGRESS> 03:18:55 |###########         |  55% (417,175) 115.4 minPROGRESS> 03:19:42 |############        |  60% (455,100) 116.2 minPROGRESS> 03:20:16 |#############       |  65% (493,025) 116.8 minPROGRESS> 03:20:42 |##############      |  70% (530,950) 117.2 minPROGRESS> 03:21:09 |###############     |  75% (568,875) 117.6 minPROGRESS> 03:21:29 |################    |  80% (606,800) 118.0 minPROGRESS> 03:21:47 |#################   |  85% (644,725) 118.3 minPROGRESS> 03:22:02 |##################  |  90% (682,650) 118.5 minPROGRESS> 03:22:18 |################### |  95% (720,575) 118.8 minPROGRESS> 03:22:35 |####################| 100% (758,495) 119.1 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 9501829
+     SETS> 758495
+     PASS> 727421
+     FAIL> 31074
+      END> BuildConsensus
+
+           START> BuildConsensus
+            FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_pair-pass.fastq
+   BARCODE_FIELD> BARCODE
+       MIN_COUNT> 1
+   MIN_FREQUENCY> 0.6
+     MIN_QUALITY> 0
+         MAX_GAP> None
+    PRIMER_FIELD> None
+PRIMER_FREQUENCY> None
+       MAX_ERROR> 0.1
+   MAX_DIVERSITY> None
+       DEPENDENT> False
+     COPY_FIELDS> PRIMER
+    COPY_ACTIONS> set
+           NPROC> 60
+
+PROGRESS> 03:48:49 |                    |   0% (      0) 17.9 minPROGRESS> 04:09:33 |#                   |   5% ( 26,625) 38.6 minPROGRESS> 04:28:15 |##                  |  10% ( 53,250) 57.3 minPROGRESS> 04:43:57 |###                 |  15% ( 79,875) 73.1 minPROGRESS> 04:55:51 |####                |  20% (106,500) 84.9 minPROGRESS> 05:03:09 |#####               |  25% (133,125) 92.2 minPROGRESS> 05:06:59 |######              |  30% (159,750) 96.1 minPROGRESS> 05:08:39 |#######             |  35% (186,375) 97.8 minPROGRESS> 05:09:44 |########            |  40% (213,000) 98.8 minPROGRESS> 05:10:28 |#########           |  45% (239,625) 99.6 minPROGRESS> 05:10:55 |##########          |  50% (266,250) 100.0 minPROGRESS> 05:11:20 |###########         |  55% (292,875) 100.4 minPROGRESS> 05:11:38 |############        |  60% (319,500) 100.7 minPROGRESS> 05:11:54 |#############       |  65% (346,125) 101.0 minPROGRESS> 05:12:12 |##############      |  70% (372,750) 101.3 minPROGRESS> 05:12:27 |###############     |  75% (399,375) 101.5 minPROGRESS> 05:12:40 |################    |  80% (426,000) 101.8 minPROGRESS> 05:12:51 |#################   |  85% (452,625) 102.0 minPROGRESS> 05:13:02 |##################  |  90% (479,250) 102.1 minPROGRESS> 05:13:13 |################### |  95% (505,875) 102.3 minPROGRESS> 05:13:24 |####################| 100% (532,492) 102.5 min
+
+   OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_pair-pass_consensus-pass.fastq
+SEQUENCES> 7923348
+     SETS> 532492
+     PASS> 518335
+     FAIL> 14157
+      END> BuildConsensus
+

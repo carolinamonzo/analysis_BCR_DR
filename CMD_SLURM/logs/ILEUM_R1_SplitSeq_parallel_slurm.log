@@ -1,0 +1,160 @@
+    START> SplitSeq
+  COMMAND> group
+     FILE> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass.fastq
+    FIELD> PRIMER
+THRESHOLD> None
+
+PROGRESS> 19:34:55 |                    |   0% (         0) 62.0 minPROGRESS> 19:41:58 |#                   |   5% (   689,212) 69.1 minPROGRESS> 19:49:06 |##                  |  10% ( 1,378,424) 76.2 minPROGRESS> 19:56:14 |###                 |  15% ( 2,067,636) 83.3 minPROGRESS> 20:03:26 |####                |  20% ( 2,756,848) 90.5 minPROGRESS> 20:10:39 |#####               |  25% ( 3,446,060) 97.8 minPROGRESS> 20:17:53 |######              |  30% ( 4,135,272) 105.0 minPROGRESS> 20:25:03 |#######             |  35% ( 4,824,484) 112.1 minPROGRESS> 20:32:05 |########            |  40% ( 5,513,696) 119.2 minPROGRESS> 20:39:07 |#########           |  45% ( 6,202,908) 126.2 minPROGRESS> 20:46:08 |##########          |  50% ( 6,892,120) 133.2 minPROGRESS> 20:53:11 |###########         |  55% ( 7,581,332) 140.3 minPROGRESS> 21:00:15 |############        |  60% ( 8,270,544) 147.4 minPROGRESS> 21:07:17 |#############       |  65% ( 8,959,756) 154.4 minPROGRESS> 21:14:20 |##############      |  70% ( 9,648,968) 161.4 minPROGRESS> 21:21:22 |###############     |  75% (10,338,180) 168.5 minPROGRESS> 21:28:22 |################    |  80% (11,027,392) 175.5 minPROGRESS> 21:35:23 |#################   |  85% (11,716,604) 182.5 minPROGRESS> 21:42:25 |##################  |  90% (12,405,816) 189.5 minPROGRESS> 21:49:27 |################### |  95% (13,095,028) 196.6 minPROGRESS> 21:56:27 |####################| 100% (13,784,229) 203.6 min
+
+  OUTPUT1> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+  OUTPUT2> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+  OUTPUT3> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+  OUTPUT4> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+  OUTPUT5> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+  OUTPUT6> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+  OUTPUT7> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+  OUTPUT8> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+  OUTPUT9> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ OUTPUT10> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+ OUTPUT11> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ OUTPUT12> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ OUTPUT13> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ OUTPUT14> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ OUTPUT15> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ OUTPUT16> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ OUTPUT17> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+ OUTPUT18> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ OUTPUT19> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ OUTPUT20> mpg_L19252_I9_S9_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+SEQUENCES> 13784229
+    PARTS> 20
+      END> SplitSeq
+
+    START> SplitSeq
+  COMMAND> group
+     FILE> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass.fastq
+    FIELD> PRIMER
+THRESHOLD> None
+
+PROGRESS> 19:40:47 |                    |   0% (         0) 66.9 minPROGRESS> 19:48:27 |#                   |   5% (   742,996) 74.5 minPROGRESS> 19:56:09 |##                  |  10% ( 1,485,992) 82.2 minPROGRESS> 20:03:51 |###                 |  15% ( 2,228,988) 89.9 minPROGRESS> 20:11:33 |####                |  20% ( 2,971,984) 97.6 minPROGRESS> 20:19:16 |#####               |  25% ( 3,714,980) 105.3 minPROGRESS> 20:26:53 |######              |  30% ( 4,457,976) 112.9 minPROGRESS> 20:34:27 |#######             |  35% ( 5,200,972) 120.5 minPROGRESS> 20:41:59 |########            |  40% ( 5,943,968) 128.0 minPROGRESS> 20:49:31 |#########           |  45% ( 6,686,964) 135.6 minPROGRESS> 20:57:03 |##########          |  50% ( 7,429,960) 143.1 minPROGRESS> 21:04:35 |###########         |  55% ( 8,172,956) 150.7 minPROGRESS> 21:12:07 |############        |  60% ( 8,915,952) 158.2 minPROGRESS> 21:19:38 |#############       |  65% ( 9,658,948) 165.7 minPROGRESS> 21:27:10 |##############      |  70% (10,401,944) 173.2 minPROGRESS> 21:34:41 |###############     |  75% (11,144,940) 180.7 minPROGRESS> 21:42:11 |################    |  80% (11,887,936) 188.2 minPROGRESS> 21:49:42 |#################   |  85% (12,630,932) 195.8 minPROGRESS> 21:57:05 |##################  |  90% (13,373,928) 203.1 minPROGRESS> 22:03:05 |################### |  95% (14,116,924) 209.2 minPROGRESS> 22:09:06 |####################| 100% (14,859,910) 215.2 min
+
+  OUTPUT1> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+  OUTPUT2> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+  OUTPUT3> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+  OUTPUT4> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+  OUTPUT5> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+  OUTPUT6> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+  OUTPUT7> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+  OUTPUT8> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+  OUTPUT9> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ OUTPUT10> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ OUTPUT11> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ OUTPUT12> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ OUTPUT13> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ OUTPUT14> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ OUTPUT15> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ OUTPUT16> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ OUTPUT17> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ OUTPUT18> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ OUTPUT19> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ OUTPUT20> mpg_L19253_I10_S10_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+SEQUENCES> 14859910
+    PARTS> 20
+      END> SplitSeq
+
+    START> SplitSeq
+  COMMAND> group
+     FILE> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass.fastq
+    FIELD> PRIMER
+THRESHOLD> None
+
+PROGRESS> 19:43:15 |                    |   0% (         0) 68.9 minPROGRESS> 19:51:07 |#                   |   5% (   760,721) 76.8 minPROGRESS> 19:59:02 |##                  |  10% ( 1,521,442) 84.7 minPROGRESS> 20:06:58 |###                 |  15% ( 2,282,163) 92.6 minPROGRESS> 20:14:55 |####                |  20% ( 3,042,884) 100.6 minPROGRESS> 20:22:51 |#####               |  25% ( 3,803,605) 108.5 minPROGRESS> 20:30:36 |######              |  30% ( 4,564,326) 116.3 minPROGRESS> 20:38:21 |#######             |  35% ( 5,325,047) 124.0 minPROGRESS> 20:46:04 |########            |  40% ( 6,085,768) 131.7 minPROGRESS> 20:53:48 |#########           |  45% ( 6,846,489) 139.5 minPROGRESS> 21:01:32 |##########          |  50% ( 7,607,210) 147.2 minPROGRESS> 21:09:14 |###########         |  55% ( 8,367,931) 154.9 minPROGRESS> 21:16:58 |############        |  60% ( 9,128,652) 162.6 minPROGRESS> 21:24:41 |#############       |  65% ( 9,889,373) 170.4 minPROGRESS> 21:32:26 |##############      |  70% (10,650,094) 178.1 minPROGRESS> 21:40:10 |###############     |  75% (11,410,815) 185.8 minPROGRESS> 21:47:55 |################    |  80% (12,171,536) 193.6 minPROGRESS> 21:55:39 |#################   |  85% (12,932,257) 201.3 minPROGRESS> 22:01:59 |##################  |  90% (13,692,978) 207.7 minPROGRESS> 22:08:09 |################### |  95% (14,453,699) 213.8 minPROGRESS> 22:12:58 |####################| 100% (15,214,418) 218.6 min
+
+  OUTPUT1> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+  OUTPUT2> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+  OUTPUT3> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+  OUTPUT4> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+  OUTPUT5> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+  OUTPUT6> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+  OUTPUT7> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+  OUTPUT8> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+  OUTPUT9> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ OUTPUT10> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ OUTPUT11> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ OUTPUT12> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+ OUTPUT13> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ OUTPUT14> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+ OUTPUT15> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ OUTPUT16> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ OUTPUT17> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ OUTPUT18> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ OUTPUT19> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+ OUTPUT20> mpg_L19250_I7_S7_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+SEQUENCES> 15214418
+    PARTS> 20
+      END> SplitSeq
+
+    START> SplitSeq
+  COMMAND> group
+     FILE> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass.fastq
+    FIELD> PRIMER
+THRESHOLD> None
+
+PROGRESS> 19:43:14 |                    |   0% (         0) 69.3 minPROGRESS> 19:51:13 |#                   |   5% (   767,217) 77.3 minPROGRESS> 19:59:14 |##                  |  10% ( 1,534,434) 85.3 minPROGRESS> 20:07:17 |###                 |  15% ( 2,301,651) 93.3 minPROGRESS> 20:15:21 |####                |  20% ( 3,068,868) 101.4 minPROGRESS> 20:23:21 |#####               |  25% ( 3,836,085) 109.4 minPROGRESS> 20:31:15 |######              |  30% ( 4,603,302) 117.3 minPROGRESS> 20:39:06 |#######             |  35% ( 5,370,519) 125.2 minPROGRESS> 20:46:58 |########            |  40% ( 6,137,736) 133.0 minPROGRESS> 20:54:45 |#########           |  45% ( 6,904,953) 140.8 minPROGRESS> 21:02:32 |##########          |  50% ( 7,672,170) 148.6 minPROGRESS> 21:10:21 |###########         |  55% ( 8,439,387) 156.4 minPROGRESS> 21:18:11 |############        |  60% ( 9,206,604) 164.2 minPROGRESS> 21:26:00 |#############       |  65% ( 9,973,821) 172.1 minPROGRESS> 21:33:49 |##############      |  70% (10,741,038) 179.9 minPROGRESS> 21:41:36 |###############     |  75% (11,508,255) 187.7 minPROGRESS> 21:49:25 |################    |  80% (12,275,472) 195.5 minPROGRESS> 21:57:04 |#################   |  85% (13,042,689) 203.1 minPROGRESS> 22:03:19 |##################  |  90% (13,809,906) 209.4 minPROGRESS> 22:09:25 |################### |  95% (14,577,123) 215.5 minPROGRESS> 22:13:44 |####################| 100% (15,344,324) 219.8 min
+
+  OUTPUT1> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+  OUTPUT2> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+  OUTPUT3> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+  OUTPUT4> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+  OUTPUT5> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+  OUTPUT6> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+  OUTPUT7> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+  OUTPUT8> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+  OUTPUT9> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ OUTPUT10> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ OUTPUT11> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ OUTPUT12> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ OUTPUT13> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ OUTPUT14> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+ OUTPUT15> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ OUTPUT16> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+ OUTPUT17> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+ OUTPUT18> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+ OUTPUT19> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ OUTPUT20> mpg_L19251_I8_S8_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+SEQUENCES> 15344324
+    PARTS> 20
+      END> SplitSeq
+
+    START> SplitSeq
+  COMMAND> group
+     FILE> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass.fastq
+    FIELD> PRIMER
+THRESHOLD> None
+
+PROGRESS> 19:49:59 |                    |   0% (         0) 75.6 minPROGRESS> 19:58:39 |#                   |   5% (   836,263) 84.2 minPROGRESS> 20:07:23 |##                  |  10% ( 1,672,526) 93.0 minPROGRESS> 20:16:07 |###                 |  15% ( 2,508,789) 101.7 minPROGRESS> 20:24:43 |####                |  20% ( 3,345,052) 110.3 minPROGRESS> 20:33:15 |#####               |  25% ( 4,181,315) 118.8 minPROGRESS> 20:41:44 |######              |  30% ( 5,017,578) 127.3 minPROGRESS> 20:50:15 |#######             |  35% ( 5,853,841) 135.9 minPROGRESS> 20:58:43 |########            |  40% ( 6,690,104) 144.3 minPROGRESS> 21:07:13 |#########           |  45% ( 7,526,367) 152.8 minPROGRESS> 21:15:42 |##########          |  50% ( 8,362,630) 161.3 minPROGRESS> 21:24:13 |###########         |  55% ( 9,198,893) 169.8 minPROGRESS> 21:32:44 |############        |  60% (10,035,156) 178.3 minPROGRESS> 21:41:13 |#############       |  65% (10,871,419) 186.8 minPROGRESS> 21:49:42 |##############      |  70% (11,707,682) 195.3 minPROGRESS> 21:57:51 |###############     |  75% (12,543,945) 203.4 minPROGRESS> 22:04:37 |################    |  80% (13,380,208) 210.2 minPROGRESS> 22:10:50 |#################   |  85% (14,216,471) 216.4 minPROGRESS> 22:14:23 |##################  |  90% (15,052,734) 220.0 minPROGRESS> 22:16:14 |################### |  95% (15,888,997) 221.8 minPROGRESS> 22:18:04 |####################| 100% (16,725,256) 223.7 min
+
+  OUTPUT1> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S3_R1.fastq
+  OUTPUT2> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S5_R2.fastq
+  OUTPUT3> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S4_R2.fastq
+  OUTPUT4> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S7_R2.fastq
+  OUTPUT5> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S9_R1.fastq
+  OUTPUT6> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S2_R2.fastq
+  OUTPUT7> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S5_R1.fastq
+  OUTPUT8> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S10_R1.fastq
+  OUTPUT9> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S10_R2.fastq
+ OUTPUT10> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S6_R1.fastq
+ OUTPUT11> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S4_R1.fastq
+ OUTPUT12> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S8_R1.fastq
+ OUTPUT13> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S1_R1.fastq
+ OUTPUT14> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S3_R2.fastq
+ OUTPUT15> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S7_R1.fastq
+ OUTPUT16> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S2_R1.fastq
+ OUTPUT17> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S9_R2.fastq
+ OUTPUT18> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S8_R2.fastq
+ OUTPUT19> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S1_R2.fastq
+ OUTPUT20> mpg_L19249_I6_S6_R1_001_quality-pass_primers-pass_PRIMER-S6_R2.fastq
+SEQUENCES> 16725256
+    PARTS> 20
+      END> SplitSeq
+

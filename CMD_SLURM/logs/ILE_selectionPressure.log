@@ -1,0 +1,23 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+Warning: 3844 parsing failures.
+  row       col           expected actual                                                                     file
+39528 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39536 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39566 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39595 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+39715 seqorient 1/0/T/F/TRUE/FALSE     RC '../../analysis/created_germlines/reannotated_db/merged_changeo_ILE.tsv'
+..... ......... .................. ...... ........................................................................
+See problems(...) for more details.
+
+Warning message:
+In validate_airr(data, schema = schema) :
+  Warning: sequence_id(s) are not unique: TTTTCTCGTTTTGCTT, TGTGCTTGGTTGTCTT, TTCGTTATTGTCGTTT, TTTGTTGGGCTGTCTT, TCTTGTGGTTTTCTTT, TTACTTGGCTTCTTTT, TTTTTTTTATTGGGCT, TGGTTTGTTTTCTGTT, TCTCTTAATTTCTTTT, TGGCTTTTGGTGTTCT, TGTTGTTCTTTTTGGT, TGCCTTTGACTTTGTT, TGTGTTAAGCTGTCGT, TGGCTTCTCTTCGTAT, TTAGGTGGGCTTATTT, TGATTTATTTTGACTT, TGTCCTTTGCTTGCTT, TCCGCTTGGTTTTGTT, TTCTATTCGGTGTCTT, TGTTTTTCTTTGTCTT, TCTTTTCTTTTGGGAT, TTTCCTCTCTTCTGCT, TGTTCTTTCCTGTTCT, TTTTGTTACCTGTTGT, TTATTTTGTCTCGTTT, TGGCGTGTGTTTTTTT, TAGTTTATGGTCTTTT, TGGGATGCCTTGGGTT, TTGTTTTGTTTTTATT, TTGGGTTCGGCGGGCT, TTACTTTGTTTTGCTT, TTTGATGTTATATTTT, TACCTTGTGGTTTTTT, TCCGTTGTTCTGGGGT, TTTTTTGGATTTGGCT, TGCCTTTTCGTTTTAT, TTTCTTGTTTTATGTT, TGTTTTAGTTTGCGGT, TGCTTTTAATTCTTGT, TCATTTGTGATTTTGT, TGTTATTCGTTGCGGT, TTGTCTTCTTTTTCTT, TGGGTTGTAGTTTTCT, TTTGTTGTTTTCTTTT, TCCTCTGTTTTTGTTT, TTATTTTGTTTGTGCT, TTGTATAGTATCTCTT, TGTGTTCTTTTGATTT, TGCCTTCGTCTCGTTT, TAGTTTTCATTTATGT, TTTTTTCTTGTTCGTT, TTGTTTGTTTTCTCTT, TTTGATTCATTTTGGT, TTTTAT [... truncated]
+[1] "--- Collapsing AL ---"
+[1] "--- Collapsing DR ---"
+[1] "--- Collapsing AL_DR16M ---"
+[1] "--- Collapsing AL_DR20M ---"
+Error: unexpected string constant in:
+"plotBaselineSummary(subject_grouped, "biogroup", "isotype")
+'"
+Execution halted

@@ -1,0 +1,900 @@
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:00 |Done                     | 0.5 min
+
+PROGRESS> 18:00:00 |                    |   0% (      0) 0.0 minPROGRESS> 18:00:13 |#                   |   5% ( 37,922) 0.2 minPROGRESS> 18:00:27 |##                  |  10% ( 75,844) 0.5 minPROGRESS> 18:00:39 |###                 |  15% (113,766) 0.7 minPROGRESS> 18:00:54 |####                |  20% (151,688) 0.9 minPROGRESS> 18:01:08 |#####               |  25% (189,610) 1.1 minPROGRESS> 18:01:22 |######              |  30% (227,532) 1.4 minPROGRESS> 18:01:37 |#######             |  35% (265,454) 1.6 minPROGRESS> 18:01:51 |########            |  40% (303,376) 1.9 minPROGRESS> 18:02:04 |#########           |  45% (341,298) 2.1 minPROGRESS> 18:02:18 |##########          |  50% (379,220) 2.3 minPROGRESS> 18:02:31 |###########         |  55% (417,142) 2.5 minPROGRESS> 18:02:45 |############        |  60% (455,064) 2.8 minPROGRESS> 18:02:59 |#############       |  65% (492,986) 3.0 minPROGRESS> 18:03:12 |##############      |  70% (530,908) 3.2 minPROGRESS> 18:03:26 |###############     |  75% (568,830) 3.4 minPROGRESS> 18:03:39 |################    |  80% (606,752) 3.7 minPROGRESS> 18:03:52 |#################   |  85% (644,674) 3.9 minPROGRESS> 18:04:06 |##################  |  90% (682,596) 4.1 minPROGRESS> 18:04:20 |################### |  95% (720,518) 4.3 minPROGRESS> 18:04:34 |####################| 100% (758,435) 4.6 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R2_pair-pass.fastq
+SEQUENCES1> 672611
+SEQUENCES2> 758435
+      PASS> 483492
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:02 |Done                     | 0.5 min
+
+PROGRESS> 18:00:02 |                    |   0% (      0) 0.0 minPROGRESS> 18:00:19 |#                   |   5% ( 40,941) 0.3 minPROGRESS> 18:00:35 |##                  |  10% ( 81,882) 0.5 minPROGRESS> 18:00:52 |###                 |  15% (122,823) 0.8 minPROGRESS> 18:01:09 |####                |  20% (163,764) 1.1 minPROGRESS> 18:01:27 |#####               |  25% (204,705) 1.4 minPROGRESS> 18:01:44 |######              |  30% (245,646) 1.7 minPROGRESS> 18:02:03 |#######             |  35% (286,587) 2.0 minPROGRESS> 18:02:21 |########            |  40% (327,528) 2.3 minPROGRESS> 18:02:40 |#########           |  45% (368,469) 2.6 minPROGRESS> 18:02:57 |##########          |  50% (409,410) 2.9 minPROGRESS> 18:03:15 |###########         |  55% (450,351) 3.2 minPROGRESS> 18:03:33 |############        |  60% (491,292) 3.5 minPROGRESS> 18:03:52 |#############       |  65% (532,233) 3.8 minPROGRESS> 18:04:10 |##############      |  70% (573,174) 4.1 minPROGRESS> 18:04:28 |###############     |  75% (614,115) 4.4 minPROGRESS> 18:04:47 |################    |  80% (655,056) 4.7 minPROGRESS> 18:05:06 |#################   |  85% (695,997) 5.1 minPROGRESS> 18:05:25 |##################  |  90% (736,938) 5.4 minPROGRESS> 18:05:44 |################### |  95% (777,879) 5.7 minPROGRESS> 18:06:03 |####################| 100% (818,802) 6.0 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R2_pair-pass.fastq
+SEQUENCES1> 777166
+SEQUENCES2> 818802
+      PASS> 658554
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:05 |Done                     | 0.6 min
+
+PROGRESS> 18:00:05 |                    |   0% (      0) 0.0 minPROGRESS> 18:00:22 |#                   |   5% ( 46,538) 0.3 minPROGRESS> 18:00:41 |##                  |  10% ( 93,076) 0.6 minPROGRESS> 18:00:59 |###                 |  15% (139,614) 0.9 minPROGRESS> 18:01:18 |####                |  20% (186,152) 1.2 minPROGRESS> 18:01:37 |#####               |  25% (232,690) 1.5 minPROGRESS> 18:01:56 |######              |  30% (279,228) 1.8 minPROGRESS> 18:02:15 |#######             |  35% (325,766) 2.2 minPROGRESS> 18:02:33 |########            |  40% (372,304) 2.5 minPROGRESS> 18:02:52 |#########           |  45% (418,842) 2.8 minPROGRESS> 18:03:11 |##########          |  50% (465,380) 3.1 minPROGRESS> 18:03:29 |###########         |  55% (511,918) 3.4 minPROGRESS> 18:03:47 |############        |  60% (558,456) 3.7 minPROGRESS> 18:04:05 |#############       |  65% (604,994) 4.0 minPROGRESS> 18:04:23 |##############      |  70% (651,532) 4.3 minPROGRESS> 18:04:41 |###############     |  75% (698,070) 4.6 minPROGRESS> 18:04:58 |################    |  80% (744,608) 4.9 minPROGRESS> 18:05:14 |#################   |  85% (791,146) 5.1 minPROGRESS> 18:05:32 |##################  |  90% (837,684) 5.4 minPROGRESS> 18:05:48 |################### |  95% (884,222) 5.7 minPROGRESS> 18:06:05 |####################| 100% (930,759) 6.0 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R2_pair-pass.fastq
+SEQUENCES1> 797505
+SEQUENCES2> 930759
+      PASS> 615645
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:04 |Done                     | 0.5 min
+
+PROGRESS> 18:00:04 |                    |   0% (      0) 0.0 minPROGRESS> 18:00:24 |#                   |   5% ( 41,178) 0.3 minPROGRESS> 18:00:42 |##                  |  10% ( 82,356) 0.6 minPROGRESS> 18:01:02 |###                 |  15% (123,534) 1.0 minPROGRESS> 18:01:22 |####                |  20% (164,712) 1.3 minPROGRESS> 18:01:42 |#####               |  25% (205,890) 1.6 minPROGRESS> 18:02:03 |######              |  30% (247,068) 2.0 minPROGRESS> 18:02:22 |#######             |  35% (288,246) 2.3 minPROGRESS> 18:02:43 |########            |  40% (329,424) 2.6 minPROGRESS> 18:03:02 |#########           |  45% (370,602) 3.0 minPROGRESS> 18:03:23 |##########          |  50% (411,780) 3.3 minPROGRESS> 18:03:43 |###########         |  55% (452,958) 3.7 minPROGRESS> 18:04:03 |############        |  60% (494,136) 4.0 minPROGRESS> 18:04:23 |#############       |  65% (535,314) 4.3 minPROGRESS> 18:04:43 |##############      |  70% (576,492) 4.7 minPROGRESS> 18:05:05 |###############     |  75% (617,670) 5.0 minPROGRESS> 18:05:27 |################    |  80% (658,848) 5.4 minPROGRESS> 18:05:48 |#################   |  85% (700,026) 5.7 minPROGRESS> 18:06:10 |##################  |  90% (741,204) 6.1 minPROGRESS> 18:06:31 |################### |  95% (782,382) 6.4 minPROGRESS> 18:06:51 |####################| 100% (823,546) 6.8 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R2_pair-pass.fastq
+SEQUENCES1> 899689
+SEQUENCES2> 823546
+      PASS> 765036
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:33 |Indexing files           | 0.0 minPROGRESS> 18:00:16 |Done                     | 0.7 min
+
+PROGRESS> 18:00:16 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:41 |#                   |   5% (   56,286) 0.4 minPROGRESS> 18:01:07 |##                  |  10% (  112,572) 0.8 minPROGRESS> 18:01:32 |###                 |  15% (  168,858) 1.3 minPROGRESS> 18:01:58 |####                |  20% (  225,144) 1.7 minPROGRESS> 18:02:24 |#####               |  25% (  281,430) 2.1 minPROGRESS> 18:02:50 |######              |  30% (  337,716) 2.6 minPROGRESS> 18:03:16 |#######             |  35% (  394,002) 3.0 minPROGRESS> 18:03:42 |########            |  40% (  450,288) 3.4 minPROGRESS> 18:04:08 |#########           |  45% (  506,574) 3.9 minPROGRESS> 18:04:35 |##########          |  50% (  562,860) 4.3 minPROGRESS> 18:04:59 |###########         |  55% (  619,146) 4.7 minPROGRESS> 18:05:24 |############        |  60% (  675,432) 5.1 minPROGRESS> 18:05:49 |#############       |  65% (  731,718) 5.5 minPROGRESS> 18:06:15 |##############      |  70% (  788,004) 6.0 minPROGRESS> 18:06:41 |###############     |  75% (  844,290) 6.4 minPROGRESS> 18:07:07 |################    |  80% (  900,576) 6.8 minPROGRESS> 18:07:31 |#################   |  85% (  956,862) 7.3 minPROGRESS> 18:07:56 |##################  |  90% (1,013,148) 7.7 minPROGRESS> 18:08:20 |################### |  95% (1,069,434) 8.1 minPROGRESS> 18:08:45 |####################| 100% (1,125,701) 8.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R2_pair-pass.fastq
+SEQUENCES1> 1098223
+SEQUENCES2> 1125701
+      PASS> 908712
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:17 |Done                     | 0.7 min
+
+PROGRESS> 18:00:17 |                    |   0% (      0) 0.0 minPROGRESS> 18:00:41 |#                   |   5% ( 36,194) 0.4 minPROGRESS> 18:01:04 |##                  |  10% ( 72,388) 0.8 minPROGRESS> 18:01:31 |###                 |  15% (108,582) 1.2 minPROGRESS> 18:01:59 |####                |  20% (144,776) 1.7 minPROGRESS> 18:02:26 |#####               |  25% (180,970) 2.2 minPROGRESS> 18:02:52 |######              |  30% (217,164) 2.6 minPROGRESS> 18:03:19 |#######             |  35% (253,358) 3.0 minPROGRESS> 18:03:46 |########            |  40% (289,552) 3.5 minPROGRESS> 18:04:12 |#########           |  45% (325,746) 3.9 minPROGRESS> 18:04:37 |##########          |  50% (361,940) 4.3 minPROGRESS> 18:05:00 |###########         |  55% (398,134) 4.7 minPROGRESS> 18:05:29 |############        |  60% (434,328) 5.2 minPROGRESS> 18:05:55 |#############       |  65% (470,522) 5.6 minPROGRESS> 18:06:20 |##############      |  70% (506,716) 6.1 minPROGRESS> 18:06:47 |###############     |  75% (542,910) 6.5 minPROGRESS> 18:07:10 |################    |  80% (579,104) 6.9 minPROGRESS> 18:07:37 |#################   |  85% (615,298) 7.3 minPROGRESS> 18:08:04 |##################  |  90% (651,492) 7.8 minPROGRESS> 18:08:32 |################### |  95% (687,686) 8.3 minPROGRESS> 18:08:57 |####################| 100% (723,872) 8.7 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R2_pair-pass.fastq
+SEQUENCES1> 813451
+SEQUENCES2> 723872
+      PASS> 659329
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:18 |Done                     | 0.8 min
+
+PROGRESS> 18:00:18 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:46 |#                   |   5% (   59,829) 0.5 minPROGRESS> 18:01:15 |##                  |  10% (  119,658) 0.9 minPROGRESS> 18:01:43 |###                 |  15% (  179,487) 1.4 minPROGRESS> 18:02:10 |####                |  20% (  239,316) 1.9 minPROGRESS> 18:02:39 |#####               |  25% (  299,145) 2.3 minPROGRESS> 18:03:07 |######              |  30% (  358,974) 2.8 minPROGRESS> 18:03:36 |#######             |  35% (  418,803) 3.3 minPROGRESS> 18:04:05 |########            |  40% (  478,632) 3.8 minPROGRESS> 18:04:35 |#########           |  45% (  538,461) 4.3 minPROGRESS> 18:05:06 |##########          |  50% (  598,290) 4.8 minPROGRESS> 18:05:37 |###########         |  55% (  658,119) 5.3 minPROGRESS> 18:06:08 |############        |  60% (  717,948) 5.8 minPROGRESS> 18:06:37 |#############       |  65% (  777,777) 6.3 minPROGRESS> 18:07:07 |##############      |  70% (  837,606) 6.8 minPROGRESS> 18:07:38 |###############     |  75% (  897,435) 7.3 minPROGRESS> 18:08:09 |################    |  80% (  957,264) 7.8 minPROGRESS> 18:08:38 |#################   |  85% (1,017,093) 8.3 minPROGRESS> 18:09:10 |##################  |  90% (1,076,922) 8.9 minPROGRESS> 18:09:41 |################### |  95% (1,136,751) 9.4 minPROGRESS> 18:10:11 |####################| 100% (1,196,575) 9.9 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R2_pair-pass.fastq
+SEQUENCES1> 1171671
+SEQUENCES2> 1196575
+      PASS> 1103417
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:22 |Done                     | 0.8 min
+
+PROGRESS> 18:00:22 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:50 |#                   |   5% (   59,380) 0.5 minPROGRESS> 18:01:21 |##                  |  10% (  118,760) 1.0 minPROGRESS> 18:01:50 |###                 |  15% (  178,140) 1.5 minPROGRESS> 18:02:20 |####                |  20% (  237,520) 2.0 minPROGRESS> 18:02:50 |#####               |  25% (  296,900) 2.5 minPROGRESS> 18:03:20 |######              |  30% (  356,280) 3.0 minPROGRESS> 18:03:49 |#######             |  35% (  415,660) 3.5 minPROGRESS> 18:04:19 |########            |  40% (  475,040) 4.0 minPROGRESS> 18:04:48 |#########           |  45% (  534,420) 4.4 minPROGRESS> 18:05:16 |##########          |  50% (  593,800) 4.9 minPROGRESS> 18:05:44 |###########         |  55% (  653,180) 5.4 minPROGRESS> 18:06:13 |############        |  60% (  712,560) 5.9 minPROGRESS> 18:06:44 |#############       |  65% (  771,940) 6.4 minPROGRESS> 18:07:14 |##############      |  70% (  831,320) 6.9 minPROGRESS> 18:07:43 |###############     |  75% (  890,700) 7.4 minPROGRESS> 18:08:12 |################    |  80% (  950,080) 7.8 minPROGRESS> 18:08:41 |#################   |  85% (1,009,460) 8.3 minPROGRESS> 18:09:11 |##################  |  90% (1,068,840) 8.8 minPROGRESS> 18:09:42 |################### |  95% (1,128,220) 9.3 minPROGRESS> 18:10:13 |####################| 100% (1,187,585) 9.9 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R2_pair-pass.fastq
+SEQUENCES1> 1306079
+SEQUENCES2> 1187585
+      PASS> 1074349
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:18 |Done                     | 0.8 min
+
+PROGRESS> 18:00:18 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:48 |#                   |   5% (   56,613) 0.5 minPROGRESS> 18:01:19 |##                  |  10% (  113,226) 1.0 minPROGRESS> 18:01:49 |###                 |  15% (  169,839) 1.5 minPROGRESS> 18:02:20 |####                |  20% (  226,452) 2.0 minPROGRESS> 18:02:50 |#####               |  25% (  283,065) 2.5 minPROGRESS> 18:03:21 |######              |  30% (  339,678) 3.0 minPROGRESS> 18:03:52 |#######             |  35% (  396,291) 3.6 minPROGRESS> 18:04:22 |########            |  40% (  452,904) 4.1 minPROGRESS> 18:04:51 |#########           |  45% (  509,517) 4.6 minPROGRESS> 18:05:21 |##########          |  50% (  566,130) 5.0 minPROGRESS> 18:05:51 |###########         |  55% (  622,743) 5.5 minPROGRESS> 18:06:22 |############        |  60% (  679,356) 6.1 minPROGRESS> 18:06:52 |#############       |  65% (  735,969) 6.6 minPROGRESS> 18:07:22 |##############      |  70% (  792,582) 7.1 minPROGRESS> 18:07:51 |###############     |  75% (  849,195) 7.5 minPROGRESS> 18:08:19 |################    |  80% (  905,808) 8.0 minPROGRESS> 18:08:49 |#################   |  85% (  962,421) 8.5 minPROGRESS> 18:09:20 |##################  |  90% (1,019,034) 9.0 minPROGRESS> 18:09:50 |################### |  95% (1,075,647) 9.5 minPROGRESS> 18:10:21 |####################| 100% (1,132,248) 10.1 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R2_pair-pass.fastq
+SEQUENCES1> 1138541
+SEQUENCES2> 1132248
+      PASS> 1092222
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:25 |Done                     | 0.9 min
+
+PROGRESS> 18:00:25 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:57 |#                   |   5% (   64,113) 0.5 minPROGRESS> 18:01:29 |##                  |  10% (  128,226) 1.1 minPROGRESS> 18:02:00 |###                 |  15% (  192,339) 1.6 minPROGRESS> 18:02:31 |####                |  20% (  256,452) 2.1 minPROGRESS> 18:03:02 |#####               |  25% (  320,565) 2.6 minPROGRESS> 18:03:35 |######              |  30% (  384,678) 3.2 minPROGRESS> 18:04:07 |#######             |  35% (  448,791) 3.7 minPROGRESS> 18:04:39 |########            |  40% (  512,904) 4.2 minPROGRESS> 18:05:12 |#########           |  45% (  577,017) 4.8 minPROGRESS> 18:05:45 |##########          |  50% (  641,130) 5.3 minPROGRESS> 18:06:19 |###########         |  55% (  705,243) 5.9 minPROGRESS> 18:06:51 |############        |  60% (  769,356) 6.4 minPROGRESS> 18:07:26 |#############       |  65% (  833,469) 7.0 minPROGRESS> 18:07:59 |##############      |  70% (  897,582) 7.6 minPROGRESS> 18:08:32 |###############     |  75% (  961,695) 8.1 minPROGRESS> 18:09:07 |################    |  80% (1,025,808) 8.7 minPROGRESS> 18:09:40 |#################   |  85% (1,089,921) 9.3 minPROGRESS> 18:10:14 |##################  |  90% (1,154,034) 9.8 minPROGRESS> 18:10:48 |################### |  95% (1,218,147) 10.4 minPROGRESS> 18:11:21 |####################| 100% (1,282,257) 10.9 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R2_pair-pass.fastq
+SEQUENCES1> 1338723
+SEQUENCES2> 1282257
+      PASS> 1210471
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:22 |Done                     | 0.8 min
+
+PROGRESS> 18:00:22 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:52 |#                   |   5% (   64,883) 0.5 minPROGRESS> 18:01:26 |##                  |  10% (  129,766) 1.1 minPROGRESS> 18:01:59 |###                 |  15% (  194,649) 1.6 minPROGRESS> 18:02:32 |####                |  20% (  259,532) 2.2 minPROGRESS> 18:03:05 |#####               |  25% (  324,415) 2.7 minPROGRESS> 18:03:35 |######              |  30% (  389,298) 3.2 minPROGRESS> 18:04:07 |#######             |  35% (  454,181) 3.7 minPROGRESS> 18:04:39 |########            |  40% (  519,064) 4.3 minPROGRESS> 18:05:13 |#########           |  45% (  583,947) 4.8 minPROGRESS> 18:05:48 |##########          |  50% (  648,830) 5.4 minPROGRESS> 18:06:29 |###########         |  55% (  713,713) 6.1 minPROGRESS> 18:07:05 |############        |  60% (  778,596) 6.7 minPROGRESS> 18:07:40 |#############       |  65% (  843,479) 7.3 minPROGRESS> 18:08:15 |##############      |  70% (  908,362) 7.9 minPROGRESS> 18:08:50 |###############     |  75% (  973,245) 8.5 minPROGRESS> 18:09:26 |################    |  80% (1,038,128) 9.1 minPROGRESS> 18:10:01 |#################   |  85% (1,103,011) 9.6 minPROGRESS> 18:10:38 |##################  |  90% (1,167,894) 10.3 minPROGRESS> 18:11:15 |################### |  95% (1,232,777) 10.9 minPROGRESS> 18:11:51 |####################| 100% (1,297,657) 11.5 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R2_pair-pass.fastq
+SEQUENCES1> 1370692
+SEQUENCES2> 1297657
+      PASS> 1228157
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:25 |Done                     | 0.9 min
+
+PROGRESS> 18:00:25 |                    |   0% (        0) 0.0 minPROGRESS> 18:00:56 |#                   |   5% (   67,496) 0.5 minPROGRESS> 18:01:28 |##                  |  10% (  134,992) 1.1 minPROGRESS> 18:02:01 |###                 |  15% (  202,488) 1.6 minPROGRESS> 18:02:35 |####                |  20% (  269,984) 2.2 minPROGRESS> 18:03:08 |#####               |  25% (  337,480) 2.7 minPROGRESS> 18:03:40 |######              |  30% (  404,976) 3.2 minPROGRESS> 18:04:14 |#######             |  35% (  472,472) 3.8 minPROGRESS> 18:04:47 |########            |  40% (  539,968) 4.4 minPROGRESS> 18:05:22 |#########           |  45% (  607,464) 5.0 minPROGRESS> 18:05:57 |##########          |  50% (  674,960) 5.5 minPROGRESS> 18:06:32 |###########         |  55% (  742,456) 6.1 minPROGRESS> 18:07:07 |############        |  60% (  809,952) 6.7 minPROGRESS> 18:07:43 |#############       |  65% (  877,448) 7.3 minPROGRESS> 18:08:19 |##############      |  70% (  944,944) 7.9 minPROGRESS> 18:08:55 |###############     |  75% (1,012,440) 8.5 minPROGRESS> 18:09:30 |################    |  80% (1,079,936) 9.1 minPROGRESS> 18:10:05 |#################   |  85% (1,147,432) 9.7 minPROGRESS> 18:10:40 |##################  |  90% (1,214,928) 10.3 minPROGRESS> 18:11:16 |################### |  95% (1,282,424) 10.9 minPROGRESS> 18:11:52 |####################| 100% (1,349,918) 11.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R2_pair-pass.fastq
+SEQUENCES1> 1392688
+SEQUENCES2> 1349918
+      PASS> 1256441
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:41 |Done                     | 1.1 min
+
+PROGRESS> 18:00:41 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:13 |#                   |   5% (   67,244) 0.5 minPROGRESS> 18:01:47 |##                  |  10% (  134,488) 1.1 minPROGRESS> 18:02:20 |###                 |  15% (  201,732) 1.7 minPROGRESS> 18:02:53 |####                |  20% (  268,976) 2.2 minPROGRESS> 18:03:27 |#####               |  25% (  336,220) 2.8 minPROGRESS> 18:03:59 |######              |  30% (  403,464) 3.3 minPROGRESS> 18:04:32 |#######             |  35% (  470,708) 3.8 minPROGRESS> 18:05:05 |########            |  40% (  537,952) 4.4 minPROGRESS> 18:05:39 |#########           |  45% (  605,196) 5.0 minPROGRESS> 18:06:15 |##########          |  50% (  672,440) 5.6 minPROGRESS> 18:06:50 |###########         |  55% (  739,684) 6.1 minPROGRESS> 18:07:25 |############        |  60% (  806,928) 6.7 minPROGRESS> 18:08:01 |#############       |  65% (  874,172) 7.3 minPROGRESS> 18:08:37 |##############      |  70% (  941,416) 7.9 minPROGRESS> 18:09:14 |###############     |  75% (1,008,660) 8.5 minPROGRESS> 18:09:50 |################    |  80% (1,075,904) 9.1 minPROGRESS> 18:10:25 |#################   |  85% (1,143,148) 9.7 minPROGRESS> 18:11:01 |##################  |  90% (1,210,392) 10.3 minPROGRESS> 18:11:37 |################### |  95% (1,277,636) 10.9 minPROGRESS> 18:12:09 |####################| 100% (1,344,879) 11.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R2_pair-pass.fastq
+SEQUENCES1> 2103458
+SEQUENCES2> 1344879
+      PASS> 1258762
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:25 |Done                     | 0.9 min
+
+PROGRESS> 18:00:25 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:02 |#                   |   5% (   67,919) 0.6 minPROGRESS> 18:01:37 |##                  |  10% (  135,838) 1.2 minPROGRESS> 18:02:13 |###                 |  15% (  203,757) 1.8 minPROGRESS> 18:02:49 |####                |  20% (  271,676) 2.4 minPROGRESS> 18:03:24 |#####               |  25% (  339,595) 3.0 minPROGRESS> 18:04:00 |######              |  30% (  407,514) 3.6 minPROGRESS> 18:04:35 |#######             |  35% (  475,433) 4.2 minPROGRESS> 18:05:10 |########            |  40% (  543,352) 4.7 minPROGRESS> 18:05:44 |#########           |  45% (  611,271) 5.3 minPROGRESS> 18:06:19 |##########          |  50% (  679,190) 5.9 minPROGRESS> 18:06:55 |###########         |  55% (  747,109) 6.5 minPROGRESS> 18:07:29 |############        |  60% (  815,028) 7.1 minPROGRESS> 18:08:04 |#############       |  65% (  882,947) 7.6 minPROGRESS> 18:08:39 |##############      |  70% (  950,866) 8.2 minPROGRESS> 18:09:14 |###############     |  75% (1,018,785) 8.8 minPROGRESS> 18:09:50 |################    |  80% (1,086,704) 9.4 minPROGRESS> 18:10:27 |#################   |  85% (1,154,623) 10.0 minPROGRESS> 18:11:01 |##################  |  90% (1,222,542) 10.6 minPROGRESS> 18:11:38 |################### |  95% (1,290,461) 11.2 minPROGRESS> 18:12:14 |####################| 100% (1,358,374) 11.8 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R2_pair-pass.fastq
+SEQUENCES1> 1346558
+SEQUENCES2> 1358374
+      PASS> 1295242
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:33 |Done                     | 1.0 min
+
+PROGRESS> 18:00:33 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:11 |#                   |   5% (   72,995) 0.6 minPROGRESS> 18:01:49 |##                  |  10% (  145,990) 1.3 minPROGRESS> 18:02:26 |###                 |  15% (  218,985) 1.9 minPROGRESS> 18:03:04 |####                |  20% (  291,980) 2.5 minPROGRESS> 18:03:43 |#####               |  25% (  364,975) 3.2 minPROGRESS> 18:04:22 |######              |  30% (  437,970) 3.8 minPROGRESS> 18:04:59 |#######             |  35% (  510,965) 4.4 minPROGRESS> 18:05:35 |########            |  40% (  583,960) 5.0 minPROGRESS> 18:06:12 |#########           |  45% (  656,955) 5.6 minPROGRESS> 18:06:51 |##########          |  50% (  729,950) 6.3 minPROGRESS> 18:07:28 |###########         |  55% (  802,945) 6.9 minPROGRESS> 18:08:05 |############        |  60% (  875,940) 7.5 minPROGRESS> 18:08:42 |#############       |  65% (  948,935) 8.1 minPROGRESS> 18:09:21 |##############      |  70% (1,021,930) 8.8 minPROGRESS> 18:10:00 |###############     |  75% (1,094,925) 9.4 minPROGRESS> 18:10:39 |################    |  80% (1,167,920) 10.1 minPROGRESS> 18:11:16 |#################   |  85% (1,240,915) 10.7 minPROGRESS> 18:11:55 |##################  |  90% (1,313,910) 11.4 minPROGRESS> 18:12:33 |################### |  95% (1,386,905) 12.0 minPROGRESS> 18:13:11 |####################| 100% (1,459,889) 12.6 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R2_pair-pass.fastq
+SEQUENCES1> 1593278
+SEQUENCES2> 1459889
+      PASS> 1390630
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:36 |Done                     | 1.1 min
+
+PROGRESS> 18:00:36 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:15 |#                   |   5% (   77,127) 0.6 minPROGRESS> 18:01:53 |##                  |  10% (  154,254) 1.3 minPROGRESS> 18:02:32 |###                 |  15% (  231,381) 1.9 minPROGRESS> 18:03:11 |####                |  20% (  308,508) 2.6 minPROGRESS> 18:03:49 |#####               |  25% (  385,635) 3.2 minPROGRESS> 18:04:28 |######              |  30% (  462,762) 3.9 minPROGRESS> 18:05:05 |#######             |  35% (  539,889) 4.5 minPROGRESS> 18:05:41 |########            |  40% (  617,016) 5.1 minPROGRESS> 18:06:17 |#########           |  45% (  694,143) 5.7 minPROGRESS> 18:06:56 |##########          |  50% (  771,270) 6.3 minPROGRESS> 18:07:33 |###########         |  55% (  848,397) 7.0 minPROGRESS> 18:08:09 |############        |  60% (  925,524) 7.5 minPROGRESS> 18:08:47 |#############       |  65% (1,002,651) 8.2 minPROGRESS> 18:09:26 |##############      |  70% (1,079,778) 8.8 minPROGRESS> 18:10:04 |###############     |  75% (1,156,905) 9.5 minPROGRESS> 18:10:42 |################    |  80% (1,234,032) 10.1 minPROGRESS> 18:11:19 |#################   |  85% (1,311,159) 10.7 minPROGRESS> 18:11:57 |##################  |  90% (1,388,286) 11.4 minPROGRESS> 18:12:36 |################### |  95% (1,465,413) 12.0 minPROGRESS> 18:13:13 |####################| 100% (1,542,535) 12.6 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R2_pair-pass.fastq
+SEQUENCES1> 1652064
+SEQUENCES2> 1542535
+      PASS> 1382962
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:48 |Done                     | 1.3 min
+
+PROGRESS> 18:00:48 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:38 |#                   |   5% (   66,116) 0.8 minPROGRESS> 18:02:26 |##                  |  10% (  132,232) 1.6 minPROGRESS> 18:03:16 |###                 |  15% (  198,348) 2.5 minPROGRESS> 18:04:06 |####                |  20% (  264,464) 3.3 minPROGRESS> 18:04:52 |#####               |  25% (  330,580) 4.1 minPROGRESS> 18:05:41 |######              |  30% (  396,696) 4.9 minPROGRESS> 18:06:29 |#######             |  35% (  462,812) 5.7 minPROGRESS> 18:07:11 |########            |  40% (  528,928) 6.4 minPROGRESS> 18:07:44 |#########           |  45% (  595,044) 6.9 minPROGRESS> 18:08:18 |##########          |  50% (  661,160) 7.5 minPROGRESS> 18:08:53 |###########         |  55% (  727,276) 8.1 minPROGRESS> 18:09:28 |############        |  60% (  793,392) 8.7 minPROGRESS> 18:10:02 |#############       |  65% (  859,508) 9.2 minPROGRESS> 18:10:37 |##############      |  70% (  925,624) 9.8 minPROGRESS> 18:11:11 |###############     |  75% (  991,740) 10.4 minPROGRESS> 18:11:46 |################    |  80% (1,057,856) 11.0 minPROGRESS> 18:12:15 |#################   |  85% (1,123,972) 11.4 minPROGRESS> 18:12:40 |##################  |  90% (1,190,088) 11.9 minPROGRESS> 18:13:07 |################### |  95% (1,256,204) 12.3 minPROGRESS> 18:13:34 |####################| 100% (1,322,320) 12.8 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R2_pair-pass.fastq
+SEQUENCES1> 1397177
+SEQUENCES2> 1322320
+      PASS> 1225576
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:41 |Done                     | 1.1 min
+
+PROGRESS> 18:00:41 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:20 |#                   |   5% (   61,914) 0.7 minPROGRESS> 18:02:06 |##                  |  10% (  123,828) 1.4 minPROGRESS> 18:02:52 |###                 |  15% (  185,742) 2.2 minPROGRESS> 18:03:39 |####                |  20% (  247,656) 3.0 minPROGRESS> 18:04:27 |#####               |  25% (  309,570) 3.8 minPROGRESS> 18:05:11 |######              |  30% (  371,484) 4.5 minPROGRESS> 18:05:55 |#######             |  35% (  433,398) 5.2 minPROGRESS> 18:06:36 |########            |  40% (  495,312) 5.9 minPROGRESS> 18:07:21 |#########           |  45% (  557,226) 6.7 minPROGRESS> 18:08:09 |##########          |  50% (  619,140) 7.5 minPROGRESS> 18:08:56 |###########         |  55% (  681,054) 8.3 minPROGRESS> 18:09:39 |############        |  60% (  742,968) 9.0 minPROGRESS> 18:10:24 |#############       |  65% (  804,882) 9.7 minPROGRESS> 18:10:57 |##############      |  70% (  866,796) 10.3 minPROGRESS> 18:11:30 |###############     |  75% (  928,710) 10.8 minPROGRESS> 18:12:02 |################    |  80% (  990,624) 11.4 minPROGRESS> 18:12:30 |#################   |  85% (1,052,538) 11.8 minPROGRESS> 18:12:55 |##################  |  90% (1,114,452) 12.2 minPROGRESS> 18:13:21 |################### |  95% (1,176,366) 12.7 minPROGRESS> 18:13:45 |####################| 100% (1,238,280) 13.1 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R2_pair-pass.fastq
+SEQUENCES1> 1284199
+SEQUENCES2> 1238280
+      PASS> 1175688
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:33 |Done                     | 1.0 min
+
+PROGRESS> 18:00:33 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:14 |#                   |   5% (   78,461) 0.7 minPROGRESS> 18:01:54 |##                  |  10% (  156,922) 1.4 minPROGRESS> 18:02:35 |###                 |  15% (  235,383) 2.0 minPROGRESS> 18:03:16 |####                |  20% (  313,844) 2.7 minPROGRESS> 18:03:57 |#####               |  25% (  392,305) 3.4 minPROGRESS> 18:04:39 |######              |  30% (  470,766) 4.1 minPROGRESS> 18:05:17 |#######             |  35% (  549,227) 4.7 minPROGRESS> 18:05:55 |########            |  40% (  627,688) 5.4 minPROGRESS> 18:06:35 |#########           |  45% (  706,149) 6.0 minPROGRESS> 18:07:16 |##########          |  50% (  784,610) 6.7 minPROGRESS> 18:07:57 |###########         |  55% (  863,071) 7.4 minPROGRESS> 18:08:37 |############        |  60% (  941,532) 8.1 minPROGRESS> 18:09:18 |#############       |  65% (1,019,993) 8.8 minPROGRESS> 18:10:00 |##############      |  70% (1,098,454) 9.4 minPROGRESS> 18:10:41 |###############     |  75% (1,176,915) 10.1 minPROGRESS> 18:11:20 |################    |  80% (1,255,376) 10.8 minPROGRESS> 18:12:03 |#################   |  85% (1,333,837) 11.5 minPROGRESS> 18:12:44 |##################  |  90% (1,412,298) 12.2 minPROGRESS> 18:13:23 |################### |  95% (1,490,759) 12.8 minPROGRESS> 18:13:58 |####################| 100% (1,569,210) 13.4 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R2_pair-pass.fastq
+SEQUENCES1> 1546890
+SEQUENCES2> 1569210
+      PASS> 1492051
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:53 |Done                     | 1.3 min
+
+PROGRESS> 18:00:53 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:43 |#                   |   5% (   71,146) 0.8 minPROGRESS> 18:02:36 |##                  |  10% (  142,292) 1.7 minPROGRESS> 18:03:28 |###                 |  15% (  213,438) 2.6 minPROGRESS> 18:04:21 |####                |  20% (  284,584) 3.5 minPROGRESS> 18:05:13 |#####               |  25% (  355,730) 4.3 minPROGRESS> 18:06:04 |######              |  30% (  426,876) 5.2 minPROGRESS> 18:06:39 |#######             |  35% (  498,022) 5.8 minPROGRESS> 18:07:15 |########            |  40% (  569,168) 6.4 minPROGRESS> 18:07:52 |#########           |  45% (  640,314) 7.0 minPROGRESS> 18:08:28 |##########          |  50% (  711,460) 7.6 minPROGRESS> 18:09:07 |###########         |  55% (  782,606) 8.2 minPROGRESS> 18:09:44 |############        |  60% (  853,752) 8.9 minPROGRESS> 18:10:20 |#############       |  65% (  924,898) 9.5 minPROGRESS> 18:10:58 |##############      |  70% (  996,044) 10.1 minPROGRESS> 18:11:36 |###############     |  75% (1,067,190) 10.7 minPROGRESS> 18:12:10 |################    |  80% (1,138,336) 11.3 minPROGRESS> 18:12:40 |#################   |  85% (1,209,482) 11.8 minPROGRESS> 18:13:10 |##################  |  90% (1,280,628) 12.3 minPROGRESS> 18:13:38 |################### |  95% (1,351,774) 12.8 minPROGRESS> 18:14:03 |####################| 100% (1,422,917) 13.2 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R2_pair-pass.fastq
+SEQUENCES1> 1440352
+SEQUENCES2> 1422917
+      PASS> 1329735
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:30 |Done                     | 1.0 min
+
+PROGRESS> 18:00:30 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:09 |#                   |   5% (   80,856) 0.6 minPROGRESS> 18:01:49 |##                  |  10% (  161,712) 1.3 minPROGRESS> 18:02:30 |###                 |  15% (  242,568) 2.0 minPROGRESS> 18:03:11 |####                |  20% (  323,424) 2.7 minPROGRESS> 18:03:51 |#####               |  25% (  404,280) 3.3 minPROGRESS> 18:04:30 |######              |  30% (  485,136) 4.0 minPROGRESS> 18:05:13 |#######             |  35% (  565,992) 4.7 minPROGRESS> 18:05:56 |########            |  40% (  646,848) 5.4 minPROGRESS> 18:06:38 |#########           |  45% (  727,704) 6.1 minPROGRESS> 18:07:20 |##########          |  50% (  808,560) 6.8 minPROGRESS> 18:08:03 |###########         |  55% (  889,416) 7.6 minPROGRESS> 18:08:47 |############        |  60% (  970,272) 8.3 minPROGRESS> 18:09:31 |#############       |  65% (1,051,128) 9.0 minPROGRESS> 18:10:14 |##############      |  70% (1,131,984) 9.7 minPROGRESS> 18:10:56 |###############     |  75% (1,212,840) 10.4 minPROGRESS> 18:11:38 |################    |  80% (1,293,696) 11.1 minPROGRESS> 18:12:21 |#################   |  85% (1,374,552) 11.9 minPROGRESS> 18:13:03 |##################  |  90% (1,455,408) 12.5 minPROGRESS> 18:13:41 |################### |  95% (1,536,264) 13.2 minPROGRESS> 18:14:18 |####################| 100% (1,617,105) 13.8 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R2_pair-pass.fastq
+SEQUENCES1> 1631089
+SEQUENCES2> 1617105
+      PASS> 1546908
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:37 |Done                     | 1.1 min
+
+PROGRESS> 18:00:37 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:17 |#                   |   5% (   82,806) 0.7 minPROGRESS> 18:01:58 |##                  |  10% (  165,612) 1.4 minPROGRESS> 18:02:39 |###                 |  15% (  248,418) 2.0 minPROGRESS> 18:03:19 |####                |  20% (  331,224) 2.7 minPROGRESS> 18:04:00 |#####               |  25% (  414,030) 3.4 minPROGRESS> 18:04:42 |######              |  30% (  496,836) 4.1 minPROGRESS> 18:05:25 |#######             |  35% (  579,642) 4.8 minPROGRESS> 18:06:09 |########            |  40% (  662,448) 5.5 minPROGRESS> 18:06:50 |#########           |  45% (  745,254) 6.2 minPROGRESS> 18:07:33 |##########          |  50% (  828,060) 6.9 minPROGRESS> 18:08:18 |###########         |  55% (  910,866) 7.7 minPROGRESS> 18:09:03 |############        |  60% (  993,672) 8.4 minPROGRESS> 18:09:47 |#############       |  65% (1,076,478) 9.2 minPROGRESS> 18:10:37 |##############      |  70% (1,159,284) 10.0 minPROGRESS> 18:11:21 |###############     |  75% (1,242,090) 10.7 minPROGRESS> 18:12:03 |################    |  80% (1,324,896) 11.4 minPROGRESS> 18:12:39 |#################   |  85% (1,407,702) 12.0 minPROGRESS> 18:13:15 |##################  |  90% (1,490,508) 12.6 minPROGRESS> 18:13:48 |################### |  95% (1,573,314) 13.2 minPROGRESS> 18:14:19 |####################| 100% (1,656,118) 13.7 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R2_pair-pass.fastq
+SEQUENCES1> 1630074
+SEQUENCES2> 1656118
+      PASS> 1571905
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:38 |Done                     | 1.1 min
+
+PROGRESS> 18:00:38 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:19 |#                   |   5% (   85,221) 0.7 minPROGRESS> 18:02:01 |##                  |  10% (  170,442) 1.4 minPROGRESS> 18:02:42 |###                 |  15% (  255,663) 2.1 minPROGRESS> 18:03:23 |####                |  20% (  340,884) 2.8 minPROGRESS> 18:04:05 |#####               |  25% (  426,105) 3.5 minPROGRESS> 18:04:47 |######              |  30% (  511,326) 4.2 minPROGRESS> 18:05:30 |#######             |  35% (  596,547) 4.9 minPROGRESS> 18:06:14 |########            |  40% (  681,768) 5.6 minPROGRESS> 18:06:56 |#########           |  45% (  766,989) 6.3 minPROGRESS> 18:07:40 |##########          |  50% (  852,210) 7.0 minPROGRESS> 18:08:24 |###########         |  55% (  937,431) 7.8 minPROGRESS> 18:09:10 |############        |  60% (1,022,652) 8.5 minPROGRESS> 18:09:54 |#############       |  65% (1,107,873) 9.3 minPROGRESS> 18:10:40 |##############      |  70% (1,193,094) 10.0 minPROGRESS> 18:11:24 |###############     |  75% (1,278,315) 10.8 minPROGRESS> 18:12:07 |################    |  80% (1,363,536) 11.5 minPROGRESS> 18:12:42 |#################   |  85% (1,448,757) 12.1 minPROGRESS> 18:13:16 |##################  |  90% (1,533,978) 12.6 minPROGRESS> 18:13:48 |################### |  95% (1,619,199) 13.2 minPROGRESS> 18:14:19 |####################| 100% (1,704,417) 13.7 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R2_pair-pass.fastq
+SEQUENCES1> 1746524
+SEQUENCES2> 1704417
+      PASS> 1574112
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:42 |Done                     | 1.2 min
+
+PROGRESS> 18:00:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:25 |#                   |   5% (   84,621) 0.7 minPROGRESS> 18:02:09 |##                  |  10% (  169,242) 1.5 minPROGRESS> 18:02:52 |###                 |  15% (  253,863) 2.2 minPROGRESS> 18:03:38 |####                |  20% (  338,484) 2.9 minPROGRESS> 18:04:21 |#####               |  25% (  423,105) 3.7 minPROGRESS> 18:05:06 |######              |  30% (  507,726) 4.4 minPROGRESS> 18:05:51 |#######             |  35% (  592,347) 5.1 minPROGRESS> 18:06:35 |########            |  40% (  676,968) 5.9 minPROGRESS> 18:07:28 |#########           |  45% (  761,589) 6.8 minPROGRESS> 18:08:30 |##########          |  50% (  846,210) 7.8 minPROGRESS> 18:09:20 |###########         |  55% (  930,831) 8.6 minPROGRESS> 18:10:04 |############        |  60% (1,015,452) 9.4 minPROGRESS> 18:10:48 |#############       |  65% (1,100,073) 10.1 minPROGRESS> 18:11:33 |##############      |  70% (1,184,694) 10.9 minPROGRESS> 18:12:12 |###############     |  75% (1,269,315) 11.5 minPROGRESS> 18:12:45 |################    |  80% (1,353,936) 12.1 minPROGRESS> 18:13:21 |#################   |  85% (1,438,557) 12.7 minPROGRESS> 18:13:53 |##################  |  90% (1,523,178) 13.2 minPROGRESS> 18:14:22 |################### |  95% (1,607,799) 13.7 minPROGRESS> 18:14:48 |####################| 100% (1,692,402) 14.1 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R2_pair-pass.fastq
+SEQUENCES1> 1732708
+SEQUENCES2> 1692402
+      PASS> 1578390
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:39 |Done                     | 1.1 min
+
+PROGRESS> 18:00:39 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:24 |#                   |   5% (   83,743) 0.7 minPROGRESS> 18:02:09 |##                  |  10% (  167,486) 1.5 minPROGRESS> 18:02:54 |###                 |  15% (  251,229) 2.2 minPROGRESS> 18:03:37 |####                |  20% (  334,972) 3.0 minPROGRESS> 18:04:22 |#####               |  25% (  418,715) 3.7 minPROGRESS> 18:05:07 |######              |  30% (  502,458) 4.5 minPROGRESS> 18:05:49 |#######             |  35% (  586,201) 5.2 minPROGRESS> 18:06:33 |########            |  40% (  669,944) 5.9 minPROGRESS> 18:07:16 |#########           |  45% (  753,687) 6.6 minPROGRESS> 18:07:57 |##########          |  50% (  837,430) 7.3 minPROGRESS> 18:08:41 |###########         |  55% (  921,173) 8.0 minPROGRESS> 18:09:27 |############        |  60% (1,004,916) 8.8 minPROGRESS> 18:10:12 |#############       |  65% (1,088,659) 9.5 minPROGRESS> 18:10:56 |##############      |  70% (1,172,402) 10.3 minPROGRESS> 18:11:39 |###############     |  75% (1,256,145) 11.0 minPROGRESS> 18:12:23 |################    |  80% (1,339,888) 11.7 minPROGRESS> 18:13:07 |#################   |  85% (1,423,631) 12.5 minPROGRESS> 18:13:44 |##################  |  90% (1,507,374) 13.1 minPROGRESS> 18:14:22 |################### |  95% (1,591,117) 13.7 minPROGRESS> 18:14:58 |####################| 100% (1,674,855) 14.3 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R2_pair-pass.fastq
+SEQUENCES1> 1692133
+SEQUENCES2> 1674855
+      PASS> 1615900
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:11 |Done                     | 1.6 min
+
+PROGRESS> 18:01:11 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:13 |#                   |   5% (   81,452) 1.0 minPROGRESS> 18:03:13 |##                  |  10% (  162,904) 2.0 minPROGRESS> 18:04:12 |###                 |  15% (  244,356) 3.0 minPROGRESS> 18:05:04 |####                |  20% (  325,808) 3.9 minPROGRESS> 18:05:46 |#####               |  25% (  407,260) 4.6 minPROGRESS> 18:06:28 |######              |  30% (  488,712) 5.3 minPROGRESS> 18:07:09 |#######             |  35% (  570,164) 6.0 minPROGRESS> 18:07:51 |########            |  40% (  651,616) 6.7 minPROGRESS> 18:08:33 |#########           |  45% (  733,068) 7.4 minPROGRESS> 18:09:16 |##########          |  50% (  814,520) 8.1 minPROGRESS> 18:09:58 |###########         |  55% (  895,972) 8.8 minPROGRESS> 18:10:41 |############        |  60% (  977,424) 9.5 minPROGRESS> 18:11:24 |#############       |  65% (1,058,876) 10.2 minPROGRESS> 18:12:06 |##############      |  70% (1,140,328) 10.9 minPROGRESS> 18:12:39 |###############     |  75% (1,221,780) 11.5 minPROGRESS> 18:13:12 |################    |  80% (1,303,232) 12.0 minPROGRESS> 18:13:44 |#################   |  85% (1,384,684) 12.6 minPROGRESS> 18:14:13 |##################  |  90% (1,466,136) 13.0 minPROGRESS> 18:14:39 |################### |  95% (1,547,588) 13.5 minPROGRESS> 18:15:04 |####################| 100% (1,629,028) 13.9 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R2_pair-pass.fastq
+SEQUENCES1> 1748113
+SEQUENCES2> 1629028
+      PASS> 1516704
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:06:04 |Indexing files           | 0.0 minPROGRESS> 18:06:55 |Done                     | 0.8 min
+
+PROGRESS> 18:06:55 |                    |   0% (        0) 0.0 minPROGRESS> 18:07:22 |#                   |   5% (   61,904) 0.4 minPROGRESS> 18:07:48 |##                  |  10% (  123,808) 0.9 minPROGRESS> 18:08:13 |###                 |  15% (  185,712) 1.3 minPROGRESS> 18:08:39 |####                |  20% (  247,616) 1.7 minPROGRESS> 18:09:07 |#####               |  25% (  309,520) 2.2 minPROGRESS> 18:09:35 |######              |  30% (  371,424) 2.7 minPROGRESS> 18:10:02 |#######             |  35% (  433,328) 3.1 minPROGRESS> 18:10:30 |########            |  40% (  495,232) 3.6 minPROGRESS> 18:10:56 |#########           |  45% (  557,136) 4.0 minPROGRESS> 18:11:23 |##########          |  50% (  619,040) 4.5 minPROGRESS> 18:11:50 |###########         |  55% (  680,944) 4.9 minPROGRESS> 18:12:18 |############        |  60% (  742,848) 5.4 minPROGRESS> 18:12:44 |#############       |  65% (  804,752) 5.8 minPROGRESS> 18:13:10 |##############      |  70% (  866,656) 6.2 minPROGRESS> 18:13:33 |###############     |  75% (  928,560) 6.6 minPROGRESS> 18:13:56 |################    |  80% (  990,464) 7.0 minPROGRESS> 18:14:17 |#################   |  85% (1,052,368) 7.4 minPROGRESS> 18:14:39 |##################  |  90% (1,114,272) 7.7 minPROGRESS> 18:14:59 |################### |  95% (1,176,176) 8.1 minPROGRESS> 18:15:16 |####################| 100% (1,238,075) 8.4 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R2_pair-pass.fastq
+SEQUENCES1> 1208314
+SEQUENCES2> 1238075
+      PASS> 954051
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:40 |Done                     | 1.1 min
+
+PROGRESS> 18:00:40 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:27 |#                   |   5% (   88,638) 0.8 minPROGRESS> 18:02:14 |##                  |  10% (  177,276) 1.6 minPROGRESS> 18:03:00 |###                 |  15% (  265,914) 2.3 minPROGRESS> 18:03:47 |####                |  20% (  354,552) 3.1 minPROGRESS> 18:04:34 |#####               |  25% (  443,190) 3.9 minPROGRESS> 18:05:21 |######              |  30% (  531,828) 4.7 minPROGRESS> 18:06:05 |#######             |  35% (  620,466) 5.4 minPROGRESS> 18:06:53 |########            |  40% (  709,104) 6.2 minPROGRESS> 18:07:36 |#########           |  45% (  797,742) 6.9 minPROGRESS> 18:08:21 |##########          |  50% (  886,380) 7.7 minPROGRESS> 18:09:07 |###########         |  55% (  975,018) 8.5 minPROGRESS> 18:09:55 |############        |  60% (1,063,656) 9.2 minPROGRESS> 18:10:42 |#############       |  65% (1,152,294) 10.0 minPROGRESS> 18:11:27 |##############      |  70% (1,240,932) 10.8 minPROGRESS> 18:12:14 |###############     |  75% (1,329,570) 11.6 minPROGRESS> 18:12:58 |################    |  80% (1,418,208) 12.3 minPROGRESS> 18:13:37 |#################   |  85% (1,506,846) 13.0 minPROGRESS> 18:14:18 |##################  |  90% (1,595,484) 13.6 minPROGRESS> 18:14:53 |################### |  95% (1,684,122) 14.2 minPROGRESS> 18:15:22 |####################| 100% (1,772,748) 14.7 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R2_pair-pass.fastq
+SEQUENCES1> 1736158
+SEQUENCES2> 1772748
+      PASS> 1688867
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:47 |Done                     | 1.3 min
+
+PROGRESS> 18:00:47 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:35 |#                   |   5% (   91,998) 0.8 minPROGRESS> 18:02:21 |##                  |  10% (  183,996) 1.6 minPROGRESS> 18:03:08 |###                 |  15% (  275,994) 2.3 minPROGRESS> 18:03:54 |####                |  20% (  367,992) 3.1 minPROGRESS> 18:04:40 |#####               |  25% (  459,990) 3.9 minPROGRESS> 18:05:24 |######              |  30% (  551,988) 4.6 minPROGRESS> 18:06:08 |#######             |  35% (  643,986) 5.3 minPROGRESS> 18:06:54 |########            |  40% (  735,984) 6.1 minPROGRESS> 18:07:37 |#########           |  45% (  827,982) 6.8 minPROGRESS> 18:08:22 |##########          |  50% (  919,980) 7.6 minPROGRESS> 18:09:09 |###########         |  55% (1,011,978) 8.4 minPROGRESS> 18:09:57 |############        |  60% (1,103,976) 9.2 minPROGRESS> 18:10:45 |#############       |  65% (1,195,974) 10.0 minPROGRESS> 18:11:30 |##############      |  70% (1,287,972) 10.7 minPROGRESS> 18:12:18 |###############     |  75% (1,379,970) 11.5 minPROGRESS> 18:13:03 |################    |  80% (1,471,968) 12.3 minPROGRESS> 18:13:44 |#################   |  85% (1,563,966) 12.9 minPROGRESS> 18:14:21 |##################  |  90% (1,655,964) 13.6 minPROGRESS> 18:14:57 |################### |  95% (1,747,962) 14.2 minPROGRESS> 18:15:27 |####################| 100% (1,839,942) 14.7 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R2_pair-pass.fastq
+SEQUENCES1> 1913872
+SEQUENCES2> 1839942
+      PASS> 1679886
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:44 |Done                     | 1.2 min
+
+PROGRESS> 18:00:44 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:33 |#                   |   5% (   96,567) 0.8 minPROGRESS> 18:02:21 |##                  |  10% (  193,134) 1.6 minPROGRESS> 18:03:08 |###                 |  15% (  289,701) 2.4 minPROGRESS> 18:03:56 |####                |  20% (  386,268) 3.2 minPROGRESS> 18:04:44 |#####               |  25% (  482,835) 4.0 minPROGRESS> 18:05:34 |######              |  30% (  579,402) 4.8 minPROGRESS> 18:06:24 |#######             |  35% (  675,969) 5.7 minPROGRESS> 18:07:13 |########            |  40% (  772,536) 6.5 minPROGRESS> 18:08:04 |#########           |  45% (  869,103) 7.3 minPROGRESS> 18:08:55 |##########          |  50% (  965,670) 8.2 minPROGRESS> 18:09:47 |###########         |  55% (1,062,237) 9.0 minPROGRESS> 18:10:36 |############        |  60% (1,158,804) 9.9 minPROGRESS> 18:11:27 |#############       |  65% (1,255,371) 10.7 minPROGRESS> 18:12:13 |##############      |  70% (1,351,938) 11.5 minPROGRESS> 18:12:52 |###############     |  75% (1,448,505) 12.1 minPROGRESS> 18:13:29 |################    |  80% (1,545,072) 12.7 minPROGRESS> 18:14:06 |#################   |  85% (1,641,639) 13.4 minPROGRESS> 18:14:37 |##################  |  90% (1,738,206) 13.9 minPROGRESS> 18:15:07 |################### |  95% (1,834,773) 14.4 minPROGRESS> 18:15:37 |####################| 100% (1,931,338) 14.9 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R2_pair-pass.fastq
+SEQUENCES1> 1892053
+SEQUENCES2> 1931338
+      PASS> 1811997
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:50 |Done                     | 1.3 min
+
+PROGRESS> 18:00:50 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:35 |#                   |   5% (   67,105) 0.7 minPROGRESS> 18:02:25 |##                  |  10% (  134,210) 1.6 minPROGRESS> 18:03:13 |###                 |  15% (  201,315) 2.4 minPROGRESS> 18:04:04 |####                |  20% (  268,420) 3.2 minPROGRESS> 18:04:51 |#####               |  25% (  335,525) 4.0 minPROGRESS> 18:05:41 |######              |  30% (  402,630) 4.9 minPROGRESS> 18:06:27 |#######             |  35% (  469,735) 5.6 minPROGRESS> 18:07:15 |########            |  40% (  536,840) 6.4 minPROGRESS> 18:08:05 |#########           |  45% (  603,945) 7.3 minPROGRESS> 18:08:52 |##########          |  50% (  671,050) 8.0 minPROGRESS> 18:09:39 |###########         |  55% (  738,155) 8.8 minPROGRESS> 18:10:28 |############        |  60% (  805,260) 9.6 minPROGRESS> 18:11:21 |#############       |  65% (  872,365) 10.5 minPROGRESS> 18:12:09 |##############      |  70% (  939,470) 11.3 minPROGRESS> 18:13:01 |###############     |  75% (1,006,575) 12.2 minPROGRESS> 18:13:52 |################    |  80% (1,073,680) 13.0 minPROGRESS> 18:14:30 |#################   |  85% (1,140,785) 13.7 minPROGRESS> 18:14:57 |##################  |  90% (1,207,890) 14.1 minPROGRESS> 18:15:18 |################### |  95% (1,274,995) 14.5 minPROGRESS> 18:15:39 |####################| 100% (1,342,088) 14.8 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R2_pair-pass.fastq
+SEQUENCES1> 1356380
+SEQUENCES2> 1342088
+      PASS> 1215131
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:42 |Done                     | 1.2 min
+
+PROGRESS> 18:00:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:30 |#                   |   5% (   94,864) 0.8 minPROGRESS> 18:02:18 |##                  |  10% (  189,728) 1.6 minPROGRESS> 18:03:07 |###                 |  15% (  284,592) 2.4 minPROGRESS> 18:03:55 |####                |  20% (  379,456) 3.2 minPROGRESS> 18:04:43 |#####               |  25% (  474,320) 4.0 minPROGRESS> 18:05:34 |######              |  30% (  569,184) 4.9 minPROGRESS> 18:06:24 |#######             |  35% (  664,048) 5.7 minPROGRESS> 18:07:14 |########            |  40% (  758,912) 6.5 minPROGRESS> 18:08:04 |#########           |  45% (  853,776) 7.4 minPROGRESS> 18:08:56 |##########          |  50% (  948,640) 8.2 minPROGRESS> 18:09:48 |###########         |  55% (1,043,504) 9.1 minPROGRESS> 18:10:39 |############        |  60% (1,138,368) 10.0 minPROGRESS> 18:11:31 |#############       |  65% (1,233,232) 10.8 minPROGRESS> 18:12:16 |##############      |  70% (1,328,096) 11.6 minPROGRESS> 18:12:56 |###############     |  75% (1,422,960) 12.2 minPROGRESS> 18:13:35 |################    |  80% (1,517,824) 12.9 minPROGRESS> 18:14:12 |#################   |  85% (1,612,688) 13.5 minPROGRESS> 18:14:43 |##################  |  90% (1,707,552) 14.0 minPROGRESS> 18:15:13 |################### |  95% (1,802,416) 14.5 minPROGRESS> 18:15:43 |####################| 100% (1,897,271) 15.0 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R2_pair-pass.fastq
+SEQUENCES1> 1896722
+SEQUENCES2> 1897271
+      PASS> 1814444
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:59 |Done                     | 1.4 min
+
+PROGRESS> 18:00:59 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:49 |#                   |   5% (   99,419) 0.8 minPROGRESS> 18:02:38 |##                  |  10% (  198,838) 1.7 minPROGRESS> 18:03:26 |###                 |  15% (  298,257) 2.5 minPROGRESS> 18:04:16 |####                |  20% (  397,676) 3.3 minPROGRESS> 18:05:07 |#####               |  25% (  497,095) 4.1 minPROGRESS> 18:05:59 |######              |  30% (  596,514) 5.0 minPROGRESS> 18:06:49 |#######             |  35% (  695,933) 5.8 minPROGRESS> 18:07:42 |########            |  40% (  795,352) 6.7 minPROGRESS> 18:08:35 |#########           |  45% (  894,771) 7.6 minPROGRESS> 18:09:27 |##########          |  50% (  994,190) 8.5 minPROGRESS> 18:10:19 |###########         |  55% (1,093,609) 9.3 minPROGRESS> 18:11:13 |############        |  60% (1,193,028) 10.2 minPROGRESS> 18:12:05 |#############       |  65% (1,292,447) 11.1 minPROGRESS> 18:12:46 |##############      |  70% (1,391,866) 11.8 minPROGRESS> 18:13:28 |###############     |  75% (1,491,285) 12.5 minPROGRESS> 18:14:05 |################    |  80% (1,590,704) 13.1 minPROGRESS> 18:14:37 |#################   |  85% (1,690,123) 13.6 minPROGRESS> 18:15:08 |##################  |  90% (1,789,542) 14.2 minPROGRESS> 18:15:39 |################### |  95% (1,888,961) 14.7 minPROGRESS> 18:16:10 |####################| 100% (1,988,378) 15.2 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R2_pair-pass.fastq
+SEQUENCES1> 1995566
+SEQUENCES2> 1988378
+      PASS> 1901749
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:48 |Done                     | 1.3 min
+
+PROGRESS> 18:00:48 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:38 |#                   |   5% (   97,721) 0.8 minPROGRESS> 18:02:30 |##                  |  10% (  195,442) 1.7 minPROGRESS> 18:03:20 |###                 |  15% (  293,163) 2.5 minPROGRESS> 18:04:10 |####                |  20% (  390,884) 3.4 minPROGRESS> 18:04:59 |#####               |  25% (  488,605) 4.2 minPROGRESS> 18:05:47 |######              |  30% (  586,326) 5.0 minPROGRESS> 18:06:37 |#######             |  35% (  684,047) 5.8 minPROGRESS> 18:07:32 |########            |  40% (  781,768) 6.7 minPROGRESS> 18:08:23 |#########           |  45% (  879,489) 7.6 minPROGRESS> 18:09:13 |##########          |  50% (  977,210) 8.4 minPROGRESS> 18:10:04 |###########         |  55% (1,074,931) 9.3 minPROGRESS> 18:10:54 |############        |  60% (1,172,652) 10.1 minPROGRESS> 18:11:45 |#############       |  65% (1,270,373) 11.0 minPROGRESS> 18:12:58 |##############      |  70% (1,368,094) 12.2 minPROGRESS> 18:14:05 |###############     |  75% (1,465,815) 13.3 minPROGRESS> 18:14:36 |################    |  80% (1,563,536) 13.8 minPROGRESS> 18:15:06 |#################   |  85% (1,661,257) 14.3 minPROGRESS> 18:15:36 |##################  |  90% (1,758,978) 14.8 minPROGRESS> 18:16:05 |################### |  95% (1,856,699) 15.3 minPROGRESS> 18:16:35 |####################| 100% (1,954,418) 15.8 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R2_pair-pass.fastq
+SEQUENCES1> 1957906
+SEQUENCES2> 1954418
+      PASS> 1814436
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:48 |Done                     | 1.3 min
+
+PROGRESS> 18:00:48 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:41 |#                   |   5% (  101,504) 0.9 minPROGRESS> 18:02:33 |##                  |  10% (  203,008) 1.8 minPROGRESS> 18:03:26 |###                 |  15% (  304,512) 2.6 minPROGRESS> 18:04:19 |####                |  20% (  406,016) 3.5 minPROGRESS> 18:05:10 |#####               |  25% (  507,520) 4.4 minPROGRESS> 18:06:02 |######              |  30% (  609,024) 5.2 minPROGRESS> 18:06:54 |#######             |  35% (  710,528) 6.1 minPROGRESS> 18:07:45 |########            |  40% (  812,032) 7.0 minPROGRESS> 18:08:34 |#########           |  45% (  913,536) 7.8 minPROGRESS> 18:09:26 |##########          |  50% (1,015,040) 8.6 minPROGRESS> 18:10:22 |###########         |  55% (1,116,544) 9.6 minPROGRESS> 18:11:12 |############        |  60% (1,218,048) 10.4 minPROGRESS> 18:12:05 |#############       |  65% (1,319,552) 11.3 minPROGRESS> 18:12:56 |##############      |  70% (1,421,056) 12.1 minPROGRESS> 18:13:43 |###############     |  75% (1,522,560) 12.9 minPROGRESS> 18:14:24 |################    |  80% (1,624,064) 13.6 minPROGRESS> 18:15:05 |#################   |  85% (1,725,568) 14.3 minPROGRESS> 18:15:38 |##################  |  90% (1,827,072) 14.8 minPROGRESS> 18:16:10 |################### |  95% (1,928,576) 15.4 minPROGRESS> 18:16:41 |####################| 100% (2,030,069) 15.9 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R2_pair-pass.fastq
+SEQUENCES1> 1983128
+SEQUENCES2> 2030069
+      PASS> 1900714
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:10:12 |Indexing files           | 0.0 minPROGRESS> 18:10:55 |Done                     | 0.7 min
+
+PROGRESS> 18:10:55 |                    |   0% (      0) 0.0 minPROGRESS> 18:11:19 |#                   |   5% ( 31,172) 0.4 minPROGRESS> 18:11:38 |##                  |  10% ( 62,344) 0.7 minPROGRESS> 18:11:58 |###                 |  15% ( 93,516) 1.0 minPROGRESS> 18:12:20 |####                |  20% (124,688) 1.4 minPROGRESS> 18:12:41 |#####               |  25% (155,860) 1.8 minPROGRESS> 18:13:04 |######              |  30% (187,032) 2.1 minPROGRESS> 18:13:26 |#######             |  35% (218,204) 2.5 minPROGRESS> 18:13:48 |########            |  40% (249,376) 2.9 minPROGRESS> 18:14:08 |#########           |  45% (280,548) 3.2 minPROGRESS> 18:14:27 |##########          |  50% (311,720) 3.5 minPROGRESS> 18:14:44 |###########         |  55% (342,892) 3.8 minPROGRESS> 18:15:00 |############        |  60% (374,064) 4.1 minPROGRESS> 18:15:17 |#############       |  65% (405,236) 4.4 minPROGRESS> 18:15:34 |##############      |  70% (436,408) 4.6 minPROGRESS> 18:15:51 |###############     |  75% (467,580) 4.9 minPROGRESS> 18:16:08 |################    |  80% (498,752) 5.2 minPROGRESS> 18:16:19 |#################   |  85% (529,924) 5.4 minPROGRESS> 18:16:28 |##################  |  90% (561,096) 5.5 minPROGRESS> 18:16:38 |################### |  95% (592,268) 5.7 minPROGRESS> 18:16:47 |####################| 100% (623,429) 5.9 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R2_pair-pass.fastq
+SEQUENCES1> 768704
+SEQUENCES2> 623429
+      PASS> 575697
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:11 |Done                     | 1.6 min
+
+PROGRESS> 18:01:11 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:16 |#                   |   5% (   88,210) 1.1 minPROGRESS> 18:03:24 |##                  |  10% (  176,420) 2.2 minPROGRESS> 18:04:30 |###                 |  15% (  264,630) 3.3 minPROGRESS> 18:05:33 |####                |  20% (  352,840) 4.4 minPROGRESS> 18:06:37 |#####               |  25% (  441,050) 5.4 minPROGRESS> 18:07:42 |######              |  30% (  529,260) 6.5 minPROGRESS> 18:08:44 |#######             |  35% (  617,470) 7.5 minPROGRESS> 18:09:41 |########            |  40% (  705,680) 8.5 minPROGRESS> 18:10:40 |#########           |  45% (  793,890) 9.5 minPROGRESS> 18:11:38 |##########          |  50% (  882,100) 10.4 minPROGRESS> 18:12:18 |###########         |  55% (  970,310) 11.1 minPROGRESS> 18:12:57 |############        |  60% (1,058,520) 11.8 minPROGRESS> 18:13:34 |#############       |  65% (1,146,730) 12.4 minPROGRESS> 18:14:06 |##############      |  70% (1,234,940) 12.9 minPROGRESS> 18:14:35 |###############     |  75% (1,323,150) 13.4 minPROGRESS> 18:15:02 |################    |  80% (1,411,360) 13.9 minPROGRESS> 18:15:30 |#################   |  85% (1,499,570) 14.3 minPROGRESS> 18:15:58 |##################  |  90% (1,587,780) 14.8 minPROGRESS> 18:16:25 |################### |  95% (1,675,990) 15.2 minPROGRESS> 18:16:53 |####################| 100% (1,764,182) 15.7 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R2_pair-pass.fastq
+SEQUENCES1> 1782588
+SEQUENCES2> 1764182
+      PASS> 1673976
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:04:35 |Indexing files           | 0.0 minPROGRESS> 18:05:59 |Done                     | 1.4 min
+
+PROGRESS> 18:05:59 |                    |   0% (        0) 0.0 minPROGRESS> 18:06:46 |#                   |   5% (   64,161) 0.8 minPROGRESS> 18:07:30 |##                  |  10% (  128,322) 1.5 minPROGRESS> 18:08:17 |###                 |  15% (  192,483) 2.3 minPROGRESS> 18:09:03 |####                |  20% (  256,644) 3.1 minPROGRESS> 18:09:46 |#####               |  25% (  320,805) 3.8 minPROGRESS> 18:10:25 |######              |  30% (  384,966) 4.4 minPROGRESS> 18:11:15 |#######             |  35% (  449,127) 5.3 minPROGRESS> 18:11:58 |########            |  40% (  513,288) 6.0 minPROGRESS> 18:12:45 |#########           |  45% (  577,449) 6.8 minPROGRESS> 18:13:34 |##########          |  50% (  641,610) 7.6 minPROGRESS> 18:14:20 |###########         |  55% (  705,771) 8.3 minPROGRESS> 18:14:40 |############        |  60% (  769,932) 8.7 minPROGRESS> 18:15:00 |#############       |  65% (  834,093) 9.0 minPROGRESS> 18:15:19 |##############      |  70% (  898,254) 9.3 minPROGRESS> 18:15:39 |###############     |  75% (  962,415) 9.7 minPROGRESS> 18:15:58 |################    |  80% (1,026,576) 10.0 minPROGRESS> 18:16:18 |#################   |  85% (1,090,737) 10.3 minPROGRESS> 18:16:37 |##################  |  90% (1,154,898) 10.6 minPROGRESS> 18:16:57 |################### |  95% (1,219,059) 11.0 minPROGRESS> 18:17:17 |####################| 100% (1,283,204) 11.3 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R2_pair-pass.fastq
+SEQUENCES1> 1364375
+SEQUENCES2> 1283204
+      PASS> 1191702
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:00:57 |Done                     | 1.4 min
+
+PROGRESS> 18:00:57 |                    |   0% (        0) 0.0 minPROGRESS> 18:01:54 |#                   |   5% (   75,167) 1.0 minPROGRESS> 18:02:50 |##                  |  10% (  150,334) 1.9 minPROGRESS> 18:03:48 |###                 |  15% (  225,501) 2.8 minPROGRESS> 18:04:42 |####                |  20% (  300,668) 3.7 minPROGRESS> 18:05:38 |#####               |  25% (  375,835) 4.7 minPROGRESS> 18:06:30 |######              |  30% (  451,002) 5.5 minPROGRESS> 18:07:24 |#######             |  35% (  526,169) 6.4 minPROGRESS> 18:08:15 |########            |  40% (  601,336) 7.3 minPROGRESS> 18:09:06 |#########           |  45% (  676,503) 8.2 minPROGRESS> 18:09:54 |##########          |  50% (  751,670) 9.0 minPROGRESS> 18:10:47 |###########         |  55% (  826,837) 9.8 minPROGRESS> 18:11:41 |############        |  60% (  902,004) 10.7 minPROGRESS> 18:12:37 |#############       |  65% (  977,171) 11.7 minPROGRESS> 18:13:33 |##############      |  70% (1,052,338) 12.6 minPROGRESS> 18:14:26 |###############     |  75% (1,127,505) 13.5 minPROGRESS> 18:15:07 |################    |  80% (1,202,672) 14.2 minPROGRESS> 18:15:48 |#################   |  85% (1,277,839) 14.9 minPROGRESS> 18:16:29 |##################  |  90% (1,353,006) 15.5 minPROGRESS> 18:17:00 |################### |  95% (1,428,173) 16.1 minPROGRESS> 18:17:23 |####################| 100% (1,503,328) 16.4 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R2_pair-pass.fastq
+SEQUENCES1> 1532697
+SEQUENCES2> 1503328
+      PASS> 1390031
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:06:06 |Indexing files           | 0.0 minPROGRESS> 18:07:15 |Done                     | 1.2 min
+
+PROGRESS> 18:07:15 |                    |   0% (        0) 0.0 minPROGRESS> 18:07:53 |#                   |   5% (   77,141) 0.6 minPROGRESS> 18:08:32 |##                  |  10% (  154,282) 1.3 minPROGRESS> 18:09:11 |###                 |  15% (  231,423) 1.9 minPROGRESS> 18:09:52 |####                |  20% (  308,564) 2.6 minPROGRESS> 18:10:33 |#####               |  25% (  385,705) 3.3 minPROGRESS> 18:11:10 |######              |  30% (  462,846) 3.9 minPROGRESS> 18:11:50 |#######             |  35% (  539,987) 4.6 minPROGRESS> 18:12:28 |########            |  40% (  617,128) 5.2 minPROGRESS> 18:13:06 |#########           |  45% (  694,269) 5.8 minPROGRESS> 18:13:44 |##########          |  50% (  771,410) 6.5 minPROGRESS> 18:14:16 |###########         |  55% (  848,551) 7.0 minPROGRESS> 18:14:50 |############        |  60% (  925,692) 7.6 minPROGRESS> 18:15:19 |#############       |  65% (1,002,833) 8.1 minPROGRESS> 18:15:43 |##############      |  70% (1,079,974) 8.5 minPROGRESS> 18:16:08 |###############     |  75% (1,157,115) 8.9 minPROGRESS> 18:16:32 |################    |  80% (1,234,256) 9.3 minPROGRESS> 18:16:57 |#################   |  85% (1,311,397) 9.7 minPROGRESS> 18:17:21 |##################  |  90% (1,388,538) 10.1 minPROGRESS> 18:17:46 |################### |  95% (1,465,679) 10.5 minPROGRESS> 18:18:10 |####################| 100% (1,542,804) 10.9 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R2_pair-pass.fastq
+SEQUENCES1> 1606986
+SEQUENCES2> 1542804
+      PASS> 1446981
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:10:23 |Indexing files           | 0.0 minPROGRESS> 18:11:37 |Done                     | 1.2 min
+
+PROGRESS> 18:11:37 |                    |   0% (      0) 0.0 minPROGRESS> 18:12:01 |#                   |   5% ( 37,306) 0.4 minPROGRESS> 18:12:28 |##                  |  10% ( 74,612) 0.8 minPROGRESS> 18:12:55 |###                 |  15% (111,918) 1.3 minPROGRESS> 18:13:23 |####                |  20% (149,224) 1.8 minPROGRESS> 18:13:50 |#####               |  25% (186,530) 2.2 minPROGRESS> 18:14:15 |######              |  30% (223,836) 2.6 minPROGRESS> 18:14:35 |#######             |  35% (261,142) 3.0 minPROGRESS> 18:14:54 |########            |  40% (298,448) 3.3 minPROGRESS> 18:15:14 |#########           |  45% (335,754) 3.6 minPROGRESS> 18:15:34 |##########          |  50% (373,060) 3.9 minPROGRESS> 18:15:54 |###########         |  55% (410,366) 4.3 minPROGRESS> 18:16:14 |############        |  60% (447,672) 4.6 minPROGRESS> 18:16:34 |#############       |  65% (484,978) 4.9 minPROGRESS> 18:16:54 |##############      |  70% (522,284) 5.3 minPROGRESS> 18:17:14 |###############     |  75% (559,590) 5.6 minPROGRESS> 18:17:26 |################    |  80% (596,896) 5.8 minPROGRESS> 18:17:38 |#################   |  85% (634,202) 6.0 minPROGRESS> 18:17:49 |##################  |  90% (671,508) 6.2 minPROGRESS> 18:18:00 |################### |  95% (708,814) 6.4 minPROGRESS> 18:18:11 |####################| 100% (746,114) 6.6 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R2_pair-pass.fastq
+SEQUENCES1> 1531187
+SEQUENCES2> 746114
+      PASS> 666870
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:10 |Done                     | 1.6 min
+
+PROGRESS> 18:01:10 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:16 |#                   |   5% (   82,356) 1.1 minPROGRESS> 18:03:19 |##                  |  10% (  164,712) 2.2 minPROGRESS> 18:04:24 |###                 |  15% (  247,068) 3.2 minPROGRESS> 18:05:28 |####                |  20% (  329,424) 4.3 minPROGRESS> 18:06:27 |#####               |  25% (  411,780) 5.3 minPROGRESS> 18:07:29 |######              |  30% (  494,136) 6.3 minPROGRESS> 18:08:31 |#######             |  35% (  576,492) 7.4 minPROGRESS> 18:09:29 |########            |  40% (  658,848) 8.3 minPROGRESS> 18:10:27 |#########           |  45% (  741,204) 9.3 minPROGRESS> 18:11:31 |##########          |  50% (  823,560) 10.3 minPROGRESS> 18:12:33 |###########         |  55% (  905,916) 11.4 minPROGRESS> 18:13:37 |############        |  60% (  988,272) 12.4 minPROGRESS> 18:14:34 |#############       |  65% (1,070,628) 13.4 minPROGRESS> 18:15:20 |##############      |  70% (1,152,984) 14.2 minPROGRESS> 18:16:00 |###############     |  75% (1,235,340) 14.8 minPROGRESS> 18:16:31 |################    |  80% (1,317,696) 15.3 minPROGRESS> 18:16:57 |#################   |  85% (1,400,052) 15.8 minPROGRESS> 18:17:22 |##################  |  90% (1,482,408) 16.2 minPROGRESS> 18:17:48 |################### |  95% (1,564,764) 16.6 minPROGRESS> 18:18:14 |####################| 100% (1,647,105) 17.1 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R2_pair-pass.fastq
+SEQUENCES1> 1669622
+SEQUENCES2> 1647105
+      PASS> 1565078
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:06 |Done                     | 1.6 min
+
+PROGRESS> 18:01:06 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:10 |#                   |   5% (   83,927) 1.1 minPROGRESS> 18:03:10 |##                  |  10% (  167,854) 2.1 minPROGRESS> 18:04:13 |###                 |  15% (  251,781) 3.1 minPROGRESS> 18:05:11 |####                |  20% (  335,708) 4.1 minPROGRESS> 18:06:12 |#####               |  25% (  419,635) 5.1 minPROGRESS> 18:07:13 |######              |  30% (  503,562) 6.1 minPROGRESS> 18:08:14 |#######             |  35% (  587,489) 7.1 minPROGRESS> 18:09:10 |########            |  40% (  671,416) 8.1 minPROGRESS> 18:10:05 |#########           |  45% (  755,343) 9.0 minPROGRESS> 18:11:00 |##########          |  50% (  839,270) 9.9 minPROGRESS> 18:11:57 |###########         |  55% (  923,197) 10.9 minPROGRESS> 18:13:00 |############        |  60% (1,007,124) 11.9 minPROGRESS> 18:14:04 |#############       |  65% (1,091,051) 13.0 minPROGRESS> 18:14:53 |##############      |  70% (1,174,978) 13.8 minPROGRESS> 18:15:39 |###############     |  75% (1,258,905) 14.6 minPROGRESS> 18:16:25 |################    |  80% (1,342,832) 15.3 minPROGRESS> 18:17:01 |#################   |  85% (1,426,759) 15.9 minPROGRESS> 18:17:27 |##################  |  90% (1,510,686) 16.3 minPROGRESS> 18:17:52 |################### |  95% (1,594,613) 16.8 minPROGRESS> 18:18:18 |####################| 100% (1,678,534) 17.2 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R2_pair-pass.fastq
+SEQUENCES1> 1634034
+SEQUENCES2> 1678534
+      PASS> 1551524
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:10:15 |Indexing files           | 0.0 minPROGRESS> 18:11:14 |Done                     | 1.0 min
+
+PROGRESS> 18:11:14 |                    |   0% (        0) 0.0 minPROGRESS> 18:11:46 |#                   |   5% (   62,532) 0.5 minPROGRESS> 18:12:18 |##                  |  10% (  125,064) 1.1 minPROGRESS> 18:12:48 |###                 |  15% (  187,596) 1.6 minPROGRESS> 18:13:18 |####                |  20% (  250,128) 2.1 minPROGRESS> 18:13:44 |#####               |  25% (  312,660) 2.5 minPROGRESS> 18:14:08 |######              |  30% (  375,192) 2.9 minPROGRESS> 18:14:33 |#######             |  35% (  437,724) 3.3 minPROGRESS> 18:14:57 |########            |  40% (  500,256) 3.7 minPROGRESS> 18:15:18 |#########           |  45% (  562,788) 4.1 minPROGRESS> 18:15:37 |##########          |  50% (  625,320) 4.4 minPROGRESS> 18:15:57 |###########         |  55% (  687,852) 4.7 minPROGRESS> 18:16:16 |############        |  60% (  750,384) 5.0 minPROGRESS> 18:16:35 |#############       |  65% (  812,916) 5.4 minPROGRESS> 18:16:55 |##############      |  70% (  875,448) 5.7 minPROGRESS> 18:17:14 |###############     |  75% (  937,980) 6.0 minPROGRESS> 18:17:33 |################    |  80% (1,000,512) 6.3 minPROGRESS> 18:17:53 |#################   |  85% (1,063,044) 6.6 minPROGRESS> 18:18:12 |##################  |  90% (1,125,576) 7.0 minPROGRESS> 18:18:31 |################### |  95% (1,188,108) 7.3 minPROGRESS> 18:18:51 |####################| 100% (1,250,638) 7.6 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R2_pair-pass.fastq
+SEQUENCES1> 1513814
+SEQUENCES2> 1250638
+      PASS> 1162055
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:06:53 |Indexing files           | 0.0 minPROGRESS> 18:08:40 |Done                     | 1.8 min
+
+PROGRESS> 18:08:40 |                    |   0% (        0) 0.0 minPROGRESS> 18:09:30 |#                   |   5% (   72,774) 0.8 minPROGRESS> 18:10:20 |##                  |  10% (  145,548) 1.7 minPROGRESS> 18:11:13 |###                 |  15% (  218,322) 2.5 minPROGRESS> 18:11:54 |####                |  20% (  291,096) 3.2 minPROGRESS> 18:12:32 |#####               |  25% (  363,870) 3.9 minPROGRESS> 18:13:09 |######              |  30% (  436,644) 4.5 minPROGRESS> 18:13:41 |#######             |  35% (  509,418) 5.0 minPROGRESS> 18:14:11 |########            |  40% (  582,192) 5.5 minPROGRESS> 18:14:39 |#########           |  45% (  654,966) 6.0 minPROGRESS> 18:15:07 |##########          |  50% (  727,740) 6.5 minPROGRESS> 18:15:30 |###########         |  55% (  800,514) 6.8 minPROGRESS> 18:15:53 |############        |  60% (  873,288) 7.2 minPROGRESS> 18:16:15 |#############       |  65% (  946,062) 7.6 minPROGRESS> 18:16:38 |##############      |  70% (1,018,836) 8.0 minPROGRESS> 18:17:01 |###############     |  75% (1,091,610) 8.3 minPROGRESS> 18:17:23 |################    |  80% (1,164,384) 8.7 minPROGRESS> 18:17:46 |#################   |  85% (1,237,158) 9.1 minPROGRESS> 18:18:08 |##################  |  90% (1,309,932) 9.5 minPROGRESS> 18:18:31 |################### |  95% (1,382,706) 9.8 minPROGRESS> 18:18:53 |####################| 100% (1,455,476) 10.2 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R2_pair-pass.fastq
+SEQUENCES1> 1429167
+SEQUENCES2> 1455476
+      PASS> 1372083
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:14 |Done                     | 1.7 min
+
+PROGRESS> 18:01:14 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:23 |#                   |   5% (   89,427) 1.1 minPROGRESS> 18:03:29 |##                  |  10% (  178,854) 2.2 minPROGRESS> 18:04:35 |###                 |  15% (  268,281) 3.3 minPROGRESS> 18:05:41 |####                |  20% (  357,708) 4.4 minPROGRESS> 18:06:47 |#####               |  25% (  447,135) 5.5 minPROGRESS> 18:07:51 |######              |  30% (  536,562) 6.6 minPROGRESS> 18:08:53 |#######             |  35% (  625,989) 7.6 minPROGRESS> 18:09:52 |########            |  40% (  715,416) 8.6 minPROGRESS> 18:10:55 |#########           |  45% (  804,843) 9.7 minPROGRESS> 18:11:57 |##########          |  50% (  894,270) 10.7 minPROGRESS> 18:13:02 |###########         |  55% (  983,697) 11.8 minPROGRESS> 18:14:09 |############        |  60% (1,073,124) 12.9 minPROGRESS> 18:15:01 |#############       |  65% (1,162,551) 13.8 minPROGRESS> 18:15:50 |##############      |  70% (1,251,978) 14.6 minPROGRESS> 18:16:39 |###############     |  75% (1,341,405) 15.4 minPROGRESS> 18:17:23 |################    |  80% (1,430,832) 16.1 minPROGRESS> 18:17:51 |#################   |  85% (1,520,259) 16.6 minPROGRESS> 18:18:18 |##################  |  90% (1,609,686) 17.1 minPROGRESS> 18:18:46 |################### |  95% (1,699,113) 17.5 minPROGRESS> 18:19:14 |####################| 100% (1,788,521) 18.0 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R2_pair-pass.fastq
+SEQUENCES1> 1828617
+SEQUENCES2> 1788521
+      PASS> 1653510
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:08:59 |Indexing files           | 0.0 minPROGRESS> 18:10:17 |Done                     | 1.3 min
+
+PROGRESS> 18:10:17 |                    |   0% (        0) 0.0 minPROGRESS> 18:11:03 |#                   |   5% (   65,857) 0.8 minPROGRESS> 18:11:47 |##                  |  10% (  131,714) 1.5 minPROGRESS> 18:12:34 |###                 |  15% (  197,571) 2.3 minPROGRESS> 18:13:22 |####                |  20% (  263,428) 3.1 minPROGRESS> 18:14:08 |#####               |  25% (  329,285) 3.9 minPROGRESS> 18:14:45 |######              |  30% (  395,142) 4.5 minPROGRESS> 18:15:20 |#######             |  35% (  460,999) 5.0 minPROGRESS> 18:15:52 |########            |  40% (  526,856) 5.6 minPROGRESS> 18:16:11 |#########           |  45% (  592,713) 5.9 minPROGRESS> 18:16:30 |##########          |  50% (  658,570) 6.2 minPROGRESS> 18:16:50 |###########         |  55% (  724,427) 6.6 minPROGRESS> 18:17:09 |############        |  60% (  790,284) 6.9 minPROGRESS> 18:17:29 |#############       |  65% (  856,141) 7.2 minPROGRESS> 18:17:49 |##############      |  70% (  921,998) 7.5 minPROGRESS> 18:18:08 |###############     |  75% (  987,855) 7.9 minPROGRESS> 18:18:28 |################    |  80% (1,053,712) 8.2 minPROGRESS> 18:18:47 |#################   |  85% (1,119,569) 8.5 minPROGRESS> 18:19:07 |##################  |  90% (1,185,426) 8.8 minPROGRESS> 18:19:26 |################### |  95% (1,251,283) 9.2 minPROGRESS> 18:19:46 |####################| 100% (1,317,132) 9.5 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R2_pair-pass.fastq
+SEQUENCES1> 1382335
+SEQUENCES2> 1317132
+      PASS> 1178509
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:11:23 |Indexing files           | 0.0 minPROGRESS> 18:12:42 |Done                     | 1.3 min
+
+PROGRESS> 18:12:42 |                    |   0% (        0) 0.0 minPROGRESS> 18:13:25 |#                   |   5% (   58,056) 0.7 minPROGRESS> 18:14:05 |##                  |  10% (  116,112) 1.4 minPROGRESS> 18:14:39 |###                 |  15% (  174,168) 2.0 minPROGRESS> 18:15:10 |####                |  20% (  232,224) 2.5 minPROGRESS> 18:15:41 |#####               |  25% (  290,280) 3.0 minPROGRESS> 18:15:59 |######              |  30% (  348,336) 3.3 minPROGRESS> 18:16:16 |#######             |  35% (  406,392) 3.6 minPROGRESS> 18:16:34 |########            |  40% (  464,448) 3.9 minPROGRESS> 18:16:51 |#########           |  45% (  522,504) 4.1 minPROGRESS> 18:17:09 |##########          |  50% (  580,560) 4.4 minPROGRESS> 18:17:26 |###########         |  55% (  638,616) 4.7 minPROGRESS> 18:17:44 |############        |  60% (  696,672) 5.0 minPROGRESS> 18:18:02 |#############       |  65% (  754,728) 5.3 minPROGRESS> 18:18:20 |##############      |  70% (  812,784) 5.6 minPROGRESS> 18:18:37 |###############     |  75% (  870,840) 5.9 minPROGRESS> 18:18:55 |################    |  80% (  928,896) 6.2 minPROGRESS> 18:19:13 |#################   |  85% (  986,952) 6.5 minPROGRESS> 18:19:31 |##################  |  90% (1,045,008) 6.8 minPROGRESS> 18:19:49 |################### |  95% (1,103,064) 7.1 minPROGRESS> 18:20:07 |####################| 100% (1,161,116) 7.4 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R2_pair-pass.fastq
+SEQUENCES1> 1189052
+SEQUENCES2> 1161116
+      PASS> 1072212
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 18:08:46 |Indexing files           | 0.0 minPROGRESS> 18:10:01 |Done                     | 1.2 min
+
+PROGRESS> 18:10:01 |                    |   0% (        0) 0.0 minPROGRESS> 18:10:45 |#                   |   5% (   89,254) 0.7 minPROGRESS> 18:11:27 |##                  |  10% (  178,508) 1.4 minPROGRESS> 18:12:11 |###                 |  15% (  267,762) 2.2 minPROGRESS> 18:12:53 |####                |  20% (  357,016) 2.9 minPROGRESS> 18:13:34 |#####               |  25% (  446,270) 3.6 minPROGRESS> 18:14:11 |######              |  30% (  535,524) 4.2 minPROGRESS> 18:14:46 |#######             |  35% (  624,778) 4.7 minPROGRESS> 18:15:16 |########            |  40% (  714,032) 5.3 minPROGRESS> 18:15:42 |#########           |  45% (  803,286) 5.7 minPROGRESS> 18:16:08 |##########          |  50% (  892,540) 6.1 minPROGRESS> 18:16:35 |###########         |  55% (  981,794) 6.6 minPROGRESS> 18:17:01 |############        |  60% (1,071,048) 7.0 minPROGRESS> 18:17:27 |#############       |  65% (1,160,302) 7.4 minPROGRESS> 18:17:53 |##############      |  70% (1,249,556) 7.9 minPROGRESS> 18:18:20 |###############     |  75% (1,338,810) 8.3 minPROGRESS> 18:18:46 |################    |  80% (1,428,064) 8.8 minPROGRESS> 18:19:12 |#################   |  85% (1,517,318) 9.2 minPROGRESS> 18:19:38 |##################  |  90% (1,606,572) 9.6 minPROGRESS> 18:20:05 |################### |  95% (1,695,826) 10.1 minPROGRESS> 18:20:31 |####################| 100% (1,785,066) 10.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R2_pair-pass.fastq
+SEQUENCES1> 1782387
+SEQUENCES2> 1785066
+      PASS> 1587850
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R2.fastq
+  FIELDS_1> BARCODE
+  FIELDS_2> None
+COORD_TYPE> illumina
+
+PROGRESS> 17:59:32 |Indexing files           | 0.0 minPROGRESS> 18:01:31 |Done                     | 2.0 min
+
+PROGRESS> 18:01:31 |                    |   0% (        0) 0.0 minPROGRESS> 18:02:46 |#                   |   5% (  145,820) 1.2 minPROGRESS> 18:04:01 |##                  |  10% (  291,640) 2.5 minPROGRESS> 18:05:14 |###                 |  15% (  437,460) 3.7 minPROGRESS> 18:06:27 |####                |  20% (  583,280) 4.9 minPROGRESS> 18:07:40 |#####               |  25% (  729,100) 6.1 minPROGRESS> 18:08:54 |######              |  30% (  874,920) 7.4 minPROGRESS> 18:10:07 |#######             |  35% (1,020,740) 8.6 minPROGRESS> 18:11:19 |########            |  40% (1,166,560) 9.8 minPROGRESS> 18:12:31 |#########           |  45% (1,312,380) 11.0 minPROGRESS> 18:13:38 |##########          |  50% (1,458,200) 12.1 minPROGRESS> 18:14:39 |###########         |  55% (1,604,020) 13.1 minPROGRESS> 18:15:29 |############        |  60% (1,749,840) 14.0 minPROGRESS> 18:16:13 |#############       |  65% (1,895,660) 14.7 minPROGRESS> 18:16:57 |##############      |  70% (2,041,480) 15.4 minPROGRESS> 18:17:41 |###############     |  75% (2,187,300) 16.2 minPROGRESS> 18:18:24 |################    |  80% (2,333,120) 16.9 minPROGRESS> 18:19:08 |#################   |  85% (2,478,940) 17.6 minPROGRESS> 18:19:52 |##################  |  90% (2,624,760) 18.4 minPROGRESS> 18:20:36 |################### |  95% (2,770,580) 19.1 minPROGRESS> 18:21:20 |####################| 100% (2,916,385) 19.8 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R2_pair-pass.fastq
+SEQUENCES1> 2887270
+SEQUENCES2> 2916385
+      PASS> 2682139
+       END> PairSeq
+

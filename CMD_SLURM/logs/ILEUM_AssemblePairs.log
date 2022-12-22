@@ -1,0 +1,1309 @@
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 11:26:26 |                    |   0% (      0) 0.0 minPROGRESS> 11:27:06 |#                   |   5% ( 12,761) 0.7 minPROGRESS> 11:27:45 |##                  |  10% ( 25,522) 1.3 minPROGRESS> 11:28:24 |###                 |  15% ( 38,283) 2.0 minPROGRESS> 11:29:04 |####                |  20% ( 51,044) 2.6 minPROGRESS> 11:29:45 |#####               |  25% ( 63,805) 3.3 minPROGRESS> 11:30:30 |######              |  30% ( 76,566) 4.1 minPROGRESS> 11:31:26 |#######             |  35% ( 89,327) 5.0 minPROGRESS> 11:32:19 |########            |  40% (102,088) 5.9 minPROGRESS> 11:33:17 |#########           |  45% (114,849) 6.9 minPROGRESS> 11:34:23 |##########          |  50% (127,610) 8.0 minPROGRESS> 11:35:28 |###########         |  55% (140,371) 9.0 minPROGRESS> 11:36:44 |############        |  60% (153,132) 10.3 minPROGRESS> 11:38:04 |#############       |  65% (165,893) 11.6 minPROGRESS> 11:39:45 |##############      |  70% (178,654) 13.3 minPROGRESS> 11:41:31 |###############     |  75% (191,415) 15.1 minPROGRESS> 11:43:18 |################    |  80% (204,176) 16.9 minPROGRESS> 11:45:04 |#################   |  85% (216,937) 18.6 minPROGRESS> 11:46:35 |##################  |  90% (229,698) 20.2 minPROGRESS> 11:48:18 |################### |  95% (242,459) 21.9 minPROGRESS> 11:50:02 |####################| 100% (255,206) 23.6 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 255206
+  PASS> 203887
+  FAIL> 51319
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 11:50:14 |                    |   0% (      0) 0.0 minPROGRESS> 11:50:52 |#                   |   5% ( 13,528) 0.6 minPROGRESS> 11:51:29 |##                  |  10% ( 27,056) 1.3 minPROGRESS> 11:52:10 |###                 |  15% ( 40,584) 1.9 minPROGRESS> 11:52:53 |####                |  20% ( 54,112) 2.6 minPROGRESS> 11:53:40 |#####               |  25% ( 67,640) 3.4 minPROGRESS> 11:54:27 |######              |  30% ( 81,168) 4.2 minPROGRESS> 11:55:16 |#######             |  35% ( 94,696) 5.0 minPROGRESS> 11:56:02 |########            |  40% (108,224) 5.8 minPROGRESS> 11:56:50 |#########           |  45% (121,752) 6.6 minPROGRESS> 11:57:44 |##########          |  50% (135,280) 7.5 minPROGRESS> 11:58:36 |###########         |  55% (148,808) 8.4 minPROGRESS> 11:59:30 |############        |  60% (162,336) 9.3 minPROGRESS> 12:00:27 |#############       |  65% (175,864) 10.2 minPROGRESS> 12:01:26 |##############      |  70% (189,392) 11.2 minPROGRESS> 12:02:22 |###############     |  75% (202,920) 12.1 minPROGRESS> 12:03:25 |################    |  80% (216,448) 13.2 minPROGRESS> 12:04:13 |#################   |  85% (229,976) 14.0 minPROGRESS> 12:05:10 |##################  |  90% (243,504) 14.9 minPROGRESS> 12:06:09 |################### |  95% (257,032) 15.9 minPROGRESS> 12:07:11 |####################| 100% (270,546) 16.9 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 270546
+  PASS> 232166
+  FAIL> 38380
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 12:07:29 |                    |   0% (      0) 0.0 minPROGRESS> 12:10:05 |#                   |   5% ( 24,093) 2.6 minPROGRESS> 12:12:44 |##                  |  10% ( 48,186) 5.2 minPROGRESS> 12:15:36 |###                 |  15% ( 72,279) 8.1 minPROGRESS> 12:18:34 |####                |  20% ( 96,372) 11.1 minPROGRESS> 12:21:39 |#####               |  25% (120,465) 14.2 minPROGRESS> 12:24:58 |######              |  30% (144,558) 17.5 minPROGRESS> 12:28:17 |#######             |  35% (168,651) 20.8 minPROGRESS> 12:31:46 |########            |  40% (192,744) 24.3 minPROGRESS> 12:35:13 |#########           |  45% (216,837) 27.7 minPROGRESS> 12:38:44 |##########          |  50% (240,930) 31.2 minPROGRESS> 12:42:28 |###########         |  55% (265,023) 35.0 minPROGRESS> 12:46:16 |############        |  60% (289,116) 38.8 minPROGRESS> 12:50:13 |#############       |  65% (313,209) 42.7 minPROGRESS> 12:55:31 |##############      |  70% (337,302) 48.0 minPROGRESS> 13:01:06 |###############     |  75% (361,395) 53.6 minPROGRESS> 13:06:45 |################    |  80% (385,488) 59.3 minPROGRESS> 13:12:13 |#################   |  85% (409,581) 64.7 minPROGRESS> 13:17:20 |##################  |  90% (433,674) 69.8 minPROGRESS> 13:22:53 |################### |  95% (457,767) 75.4 minPROGRESS> 13:28:12 |####################| 100% (481,855) 80.7 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 481855
+  PASS> 299999
+  FAIL> 181856
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 13:28:22 |                    |   0% (      0) 0.0 minPROGRESS> 13:28:42 |#                   |   5% (  7,825) 0.3 minPROGRESS> 13:29:01 |##                  |  10% ( 15,650) 0.7 minPROGRESS> 13:29:19 |###                 |  15% ( 23,475) 1.0 minPROGRESS> 13:29:37 |####                |  20% ( 31,300) 1.2 minPROGRESS> 13:29:54 |#####               |  25% ( 39,125) 1.5 minPROGRESS> 13:30:12 |######              |  30% ( 46,950) 1.8 minPROGRESS> 13:30:28 |#######             |  35% ( 54,775) 2.1 minPROGRESS> 13:30:44 |########            |  40% ( 62,600) 2.4 minPROGRESS> 13:31:01 |#########           |  45% ( 70,425) 2.7 minPROGRESS> 13:31:19 |##########          |  50% ( 78,250) 3.0 minPROGRESS> 13:31:36 |###########         |  55% ( 86,075) 3.2 minPROGRESS> 13:31:55 |############        |  60% ( 93,900) 3.6 minPROGRESS> 13:32:14 |#############       |  65% (101,725) 3.9 minPROGRESS> 13:32:33 |##############      |  70% (109,550) 4.2 minPROGRESS> 13:32:52 |###############     |  75% (117,375) 4.5 minPROGRESS> 13:33:10 |################    |  80% (125,200) 4.8 minPROGRESS> 13:33:28 |#################   |  85% (133,025) 5.1 minPROGRESS> 13:33:45 |##################  |  90% (140,850) 5.4 minPROGRESS> 13:34:03 |################### |  95% (148,675) 5.7 minPROGRESS> 13:34:22 |####################| 100% (156,492) 6.0 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 156492
+  PASS> 144115
+  FAIL> 12377
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 13:34:37 |                    |   0% (      0) 0.0 minPROGRESS> 13:35:31 |#                   |   5% ( 19,635) 0.9 minPROGRESS> 13:36:27 |##                  |  10% ( 39,270) 1.8 minPROGRESS> 13:37:27 |###                 |  15% ( 58,905) 2.8 minPROGRESS> 13:38:30 |####                |  20% ( 78,540) 3.9 minPROGRESS> 13:39:37 |#####               |  25% ( 98,175) 5.0 minPROGRESS> 13:40:49 |######              |  30% (117,810) 6.2 minPROGRESS> 13:41:58 |#######             |  35% (137,445) 7.3 minPROGRESS> 13:43:02 |########            |  40% (157,080) 8.4 minPROGRESS> 13:44:10 |#########           |  45% (176,715) 9.5 minPROGRESS> 13:45:18 |##########          |  50% (196,350) 10.7 minPROGRESS> 13:46:29 |###########         |  55% (215,985) 11.9 minPROGRESS> 13:47:41 |############        |  60% (235,620) 13.1 minPROGRESS> 13:48:56 |#############       |  65% (255,255) 14.3 minPROGRESS> 13:50:11 |##############      |  70% (274,890) 15.6 minPROGRESS> 13:51:28 |###############     |  75% (294,525) 16.8 minPROGRESS> 13:52:43 |################    |  80% (314,160) 18.1 minPROGRESS> 13:53:49 |#################   |  85% (333,795) 19.2 minPROGRESS> 13:55:05 |##################  |  90% (353,430) 20.5 minPROGRESS> 13:56:20 |################### |  95% (373,065) 21.7 minPROGRESS> 13:57:35 |####################| 100% (392,689) 23.0 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 392689
+  PASS> 337059
+  FAIL> 55630
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 13:57:48 |                    |   0% (      0) 0.0 minPROGRESS> 13:58:22 |#                   |   5% ( 13,253) 0.6 minPROGRESS> 13:58:54 |##                  |  10% ( 26,506) 1.1 minPROGRESS> 13:59:25 |###                 |  15% ( 39,759) 1.6 minPROGRESS> 13:59:54 |####                |  20% ( 53,012) 2.1 minPROGRESS> 14:00:24 |#####               |  25% ( 66,265) 2.6 minPROGRESS> 14:00:53 |######              |  30% ( 79,518) 3.1 minPROGRESS> 14:01:23 |#######             |  35% ( 92,771) 3.6 minPROGRESS> 14:01:51 |########            |  40% (106,024) 4.1 minPROGRESS> 14:02:17 |#########           |  45% (119,277) 4.5 minPROGRESS> 14:02:47 |##########          |  50% (132,530) 5.0 minPROGRESS> 14:03:16 |###########         |  55% (145,783) 5.5 minPROGRESS> 14:03:47 |############        |  60% (159,036) 6.0 minPROGRESS> 14:04:17 |#############       |  65% (172,289) 6.5 minPROGRESS> 14:04:47 |##############      |  70% (185,542) 7.0 minPROGRESS> 14:05:16 |###############     |  75% (198,795) 7.5 minPROGRESS> 14:05:46 |################    |  80% (212,048) 8.0 minPROGRESS> 14:06:17 |#################   |  85% (225,301) 8.5 minPROGRESS> 14:06:47 |##################  |  90% (238,554) 9.0 minPROGRESS> 14:07:17 |################### |  95% (251,807) 9.5 minPROGRESS> 14:07:49 |####################| 100% (265,043) 10.0 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 265043
+  PASS> 244522
+  FAIL> 20521
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 14:08:03 |                    |   0% (      0) 0.0 minPROGRESS> 14:08:54 |#                   |   5% ( 16,111) 0.9 minPROGRESS> 14:09:48 |##                  |  10% ( 32,222) 1.8 minPROGRESS> 14:10:47 |###                 |  15% ( 48,333) 2.7 minPROGRESS> 14:11:53 |####                |  20% ( 64,444) 3.8 minPROGRESS> 14:13:06 |#####               |  25% ( 80,555) 5.0 minPROGRESS> 14:14:32 |######              |  30% ( 96,666) 6.5 minPROGRESS> 14:16:02 |#######             |  35% (112,777) 8.0 minPROGRESS> 14:17:40 |########            |  40% (128,888) 9.6 minPROGRESS> 14:19:26 |#########           |  45% (144,999) 11.4 minPROGRESS> 14:21:12 |##########          |  50% (161,110) 13.2 minPROGRESS> 14:23:04 |###########         |  55% (177,221) 15.0 minPROGRESS> 14:25:01 |############        |  60% (193,332) 17.0 minPROGRESS> 14:27:11 |#############       |  65% (209,443) 19.1 minPROGRESS> 14:29:30 |##############      |  70% (225,554) 21.5 minPROGRESS> 14:31:56 |###############     |  75% (241,665) 23.9 minPROGRESS> 14:34:20 |################    |  80% (257,776) 26.3 minPROGRESS> 14:36:46 |#################   |  85% (273,887) 28.7 minPROGRESS> 14:39:02 |##################  |  90% (289,998) 31.0 minPROGRESS> 14:41:24 |################### |  95% (306,109) 33.4 minPROGRESS> 14:43:53 |####################| 100% (322,213) 35.8 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 322213
+  PASS> 231974
+  FAIL> 90239
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 14:44:06 |                    |   0% (      0) 0.0 minPROGRESS> 14:44:49 |#                   |   5% ( 14,483) 0.7 minPROGRESS> 14:45:42 |##                  |  10% ( 28,966) 1.6 minPROGRESS> 14:46:40 |###                 |  15% ( 43,449) 2.6 minPROGRESS> 14:47:40 |####                |  20% ( 57,932) 3.6 minPROGRESS> 14:48:42 |#####               |  25% ( 72,415) 4.6 minPROGRESS> 14:49:45 |######              |  30% ( 86,898) 5.6 minPROGRESS> 14:50:46 |#######             |  35% (101,381) 6.7 minPROGRESS> 14:51:42 |########            |  40% (115,864) 7.6 minPROGRESS> 14:52:50 |#########           |  45% (130,347) 8.7 minPROGRESS> 14:54:01 |##########          |  50% (144,830) 9.9 minPROGRESS> 14:55:16 |###########         |  55% (159,313) 11.2 minPROGRESS> 14:56:23 |############        |  60% (173,796) 12.3 minPROGRESS> 14:57:25 |#############       |  65% (188,279) 13.3 minPROGRESS> 14:58:26 |##############      |  70% (202,762) 14.3 minPROGRESS> 14:59:28 |###############     |  75% (217,245) 15.4 minPROGRESS> 15:00:31 |################    |  80% (231,728) 16.4 minPROGRESS> 15:01:25 |#################   |  85% (246,211) 17.3 minPROGRESS> 15:02:26 |##################  |  90% (260,694) 18.3 minPROGRESS> 15:03:28 |################### |  95% (275,177) 19.4 minPROGRESS> 15:04:30 |####################| 100% (289,653) 20.4 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 289653
+  PASS> 238656
+  FAIL> 50997
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 15:04:45 |                    |   0% (      0) 0.0 minPROGRESS> 15:05:38 |#                   |   5% ( 16,433) 0.9 minPROGRESS> 15:06:34 |##                  |  10% ( 32,866) 1.8 minPROGRESS> 15:07:33 |###                 |  15% ( 49,299) 2.8 minPROGRESS> 15:08:42 |####                |  20% ( 65,732) 3.9 minPROGRESS> 15:09:54 |#####               |  25% ( 82,165) 5.2 minPROGRESS> 15:11:21 |######              |  30% ( 98,598) 6.6 minPROGRESS> 15:12:50 |#######             |  35% (115,031) 8.1 minPROGRESS> 15:14:23 |########            |  40% (131,464) 9.6 minPROGRESS> 15:16:00 |#########           |  45% (147,897) 11.3 minPROGRESS> 15:17:34 |##########          |  50% (164,330) 12.8 minPROGRESS> 15:19:18 |###########         |  55% (180,763) 14.6 minPROGRESS> 15:21:09 |############        |  60% (197,196) 16.4 minPROGRESS> 15:23:09 |#############       |  65% (213,629) 18.4 minPROGRESS> 15:25:15 |##############      |  70% (230,062) 20.5 minPROGRESS> 15:27:27 |###############     |  75% (246,495) 22.7 minPROGRESS> 15:29:38 |################    |  80% (262,928) 24.9 minPROGRESS> 15:31:40 |#################   |  85% (279,361) 26.9 minPROGRESS> 15:33:43 |##################  |  90% (295,794) 29.0 minPROGRESS> 15:35:58 |################### |  95% (312,227) 31.2 minPROGRESS> 15:38:11 |####################| 100% (328,654) 33.4 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 328654
+  PASS> 244217
+  FAIL> 84437
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 15:38:24 |                    |   0% (      0) 0.0 minPROGRESS> 15:39:06 |#                   |   5% ( 12,666) 0.7 minPROGRESS> 15:39:48 |##                  |  10% ( 25,332) 1.4 minPROGRESS> 15:40:32 |###                 |  15% ( 37,998) 2.1 minPROGRESS> 15:41:19 |####                |  20% ( 50,664) 2.9 minPROGRESS> 15:42:12 |#####               |  25% ( 63,330) 3.8 minPROGRESS> 15:43:16 |######              |  30% ( 75,996) 4.9 minPROGRESS> 15:44:18 |#######             |  35% ( 88,662) 5.9 minPROGRESS> 15:45:22 |########            |  40% (101,328) 7.0 minPROGRESS> 15:46:35 |#########           |  45% (113,994) 8.2 minPROGRESS> 15:47:46 |##########          |  50% (126,660) 9.4 minPROGRESS> 15:49:03 |###########         |  55% (139,326) 10.7 minPROGRESS> 15:50:30 |############        |  60% (151,992) 12.1 minPROGRESS> 15:51:58 |#############       |  65% (164,658) 13.6 minPROGRESS> 15:53:57 |##############      |  70% (177,324) 15.6 minPROGRESS> 15:55:58 |###############     |  75% (189,990) 17.6 minPROGRESS> 15:58:01 |################    |  80% (202,656) 19.6 minPROGRESS> 16:00:02 |#################   |  85% (215,322) 21.6 minPROGRESS> 16:01:49 |##################  |  90% (227,988) 23.4 minPROGRESS> 16:03:49 |################### |  95% (240,654) 25.4 minPROGRESS> 16:05:53 |####################| 100% (253,307) 27.5 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 253307
+  PASS> 190565
+  FAIL> 62742
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 16:06:06 |                    |   0% (      0) 0.0 minPROGRESS> 16:06:57 |#                   |   5% ( 14,175) 0.8 minPROGRESS> 16:07:48 |##                  |  10% ( 28,350) 1.7 minPROGRESS> 16:08:43 |###                 |  15% ( 42,525) 2.6 minPROGRESS> 16:09:42 |####                |  20% ( 56,700) 3.6 minPROGRESS> 16:10:44 |#####               |  25% ( 70,875) 4.6 minPROGRESS> 16:11:53 |######              |  30% ( 85,050) 5.8 minPROGRESS> 16:13:02 |#######             |  35% ( 99,225) 6.9 minPROGRESS> 16:14:13 |########            |  40% (113,400) 8.1 minPROGRESS> 16:15:31 |#########           |  45% (127,575) 9.4 minPROGRESS> 16:16:39 |##########          |  50% (141,750) 10.5 minPROGRESS> 16:17:59 |###########         |  55% (155,925) 11.9 minPROGRESS> 16:19:24 |############        |  60% (170,100) 13.3 minPROGRESS> 16:20:57 |#############       |  65% (184,275) 14.8 minPROGRESS> 16:23:06 |##############      |  70% (198,450) 17.0 minPROGRESS> 16:25:41 |###############     |  75% (212,625) 19.6 minPROGRESS> 16:28:17 |################    |  80% (226,800) 22.2 minPROGRESS> 16:30:48 |#################   |  85% (240,975) 24.7 minPROGRESS> 16:33:01 |##################  |  90% (255,150) 26.9 minPROGRESS> 16:35:24 |################### |  95% (269,325) 29.3 minPROGRESS> 16:37:52 |####################| 100% (283,487) 31.8 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 283487
+  PASS> 212180
+  FAIL> 71307
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 16:38:08 |                    |   0% (      0) 0.0 minPROGRESS> 16:40:39 |#                   |   5% ( 19,289) 2.5 minPROGRESS> 16:43:10 |##                  |  10% ( 38,578) 5.0 minPROGRESS> 16:45:44 |###                 |  15% ( 57,867) 7.6 minPROGRESS> 16:48:21 |####                |  20% ( 77,156) 10.2 minPROGRESS> 16:51:07 |#####               |  25% ( 96,445) 13.0 minPROGRESS> 16:53:52 |######              |  30% (115,734) 15.7 minPROGRESS> 16:56:39 |#######             |  35% (135,023) 18.5 minPROGRESS> 16:59:27 |########            |  40% (154,312) 21.3 minPROGRESS> 17:02:12 |#########           |  45% (173,601) 24.1 minPROGRESS> 17:05:07 |##########          |  50% (192,890) 27.0 minPROGRESS> 17:08:06 |###########         |  55% (212,179) 30.0 minPROGRESS> 17:11:06 |############        |  60% (231,468) 33.0 minPROGRESS> 17:15:19 |#############       |  65% (250,757) 37.2 minPROGRESS> 17:19:59 |##############      |  70% (270,046) 41.9 minPROGRESS> 17:24:42 |###############     |  75% (289,335) 46.6 minPROGRESS> 17:29:28 |################    |  80% (308,624) 51.3 minPROGRESS> 17:34:05 |#################   |  85% (327,913) 56.0 minPROGRESS> 17:38:35 |##################  |  90% (347,202) 60.5 minPROGRESS> 17:43:18 |################### |  95% (366,491) 65.2 minPROGRESS> 17:47:58 |####################| 100% (385,767) 69.8 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 385767
+  PASS> 228589
+  FAIL> 157178
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 17:48:12 |                    |   0% (      0) 0.0 minPROGRESS> 17:49:10 |#                   |   5% ( 16,195) 1.0 minPROGRESS> 17:50:10 |##                  |  10% ( 32,390) 2.0 minPROGRESS> 17:51:13 |###                 |  15% ( 48,585) 3.0 minPROGRESS> 17:52:20 |####                |  20% ( 64,780) 4.1 minPROGRESS> 17:53:36 |#####               |  25% ( 80,975) 5.4 minPROGRESS> 17:54:54 |######              |  30% ( 97,170) 6.7 minPROGRESS> 17:56:23 |#######             |  35% (113,365) 8.2 minPROGRESS> 17:57:52 |########            |  40% (129,560) 9.7 minPROGRESS> 17:59:24 |#########           |  45% (145,755) 11.2 minPROGRESS> 18:01:00 |##########          |  50% (161,950) 12.8 minPROGRESS> 18:02:33 |###########         |  55% (178,145) 14.3 minPROGRESS> 18:04:15 |############        |  60% (194,340) 16.0 minPROGRESS> 18:06:09 |#############       |  65% (210,535) 17.9 minPROGRESS> 18:08:05 |##############      |  70% (226,730) 19.9 minPROGRESS> 18:10:29 |###############     |  75% (242,925) 22.3 minPROGRESS> 18:13:15 |################    |  80% (259,120) 25.0 minPROGRESS> 18:15:55 |#################   |  85% (275,315) 27.7 minPROGRESS> 18:18:18 |##################  |  90% (291,510) 30.1 minPROGRESS> 18:20:53 |################### |  95% (307,705) 32.7 minPROGRESS> 18:23:25 |####################| 100% (323,884) 35.2 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 323884
+  PASS> 241887
+  FAIL> 81997
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 18:23:37 |                    |   0% (      0) 0.0 minPROGRESS> 18:24:11 |#                   |   5% ( 11,750) 0.6 minPROGRESS> 18:24:47 |##                  |  10% ( 23,500) 1.2 minPROGRESS> 18:25:23 |###                 |  15% ( 35,250) 1.8 minPROGRESS> 18:26:02 |####                |  20% ( 47,000) 2.4 minPROGRESS> 18:26:43 |#####               |  25% ( 58,750) 3.1 minPROGRESS> 18:27:29 |######              |  30% ( 70,500) 3.9 minPROGRESS> 18:28:14 |#######             |  35% ( 82,250) 4.6 minPROGRESS> 18:29:04 |########            |  40% ( 94,000) 5.5 minPROGRESS> 18:29:49 |#########           |  45% (105,750) 6.2 minPROGRESS> 18:30:37 |##########          |  50% (117,500) 7.0 minPROGRESS> 18:31:31 |###########         |  55% (129,250) 7.9 minPROGRESS> 18:32:23 |############        |  60% (141,000) 8.8 minPROGRESS> 18:33:28 |#############       |  65% (152,750) 9.9 minPROGRESS> 18:34:37 |##############      |  70% (164,500) 11.0 minPROGRESS> 18:35:41 |###############     |  75% (176,250) 12.1 minPROGRESS> 18:36:46 |################    |  80% (188,000) 13.2 minPROGRESS> 18:37:45 |#################   |  85% (199,750) 14.1 minPROGRESS> 18:38:48 |##################  |  90% (211,500) 15.2 minPROGRESS> 18:39:52 |################### |  95% (223,250) 16.3 minPROGRESS> 18:40:54 |####################| 100% (234,981) 17.3 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 234981
+  PASS> 196665
+  FAIL> 38316
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 18:41:07 |                    |   0% (      0) 0.0 minPROGRESS> 18:41:48 |#                   |   5% ( 12,612) 0.7 minPROGRESS> 18:42:31 |##                  |  10% ( 25,224) 1.4 minPROGRESS> 18:43:15 |###                 |  15% ( 37,836) 2.1 minPROGRESS> 18:44:05 |####                |  20% ( 50,448) 3.0 minPROGRESS> 18:44:59 |#####               |  25% ( 63,060) 3.9 minPROGRESS> 18:45:57 |######              |  30% ( 75,672) 4.8 minPROGRESS> 18:46:58 |#######             |  35% ( 88,284) 5.8 minPROGRESS> 18:48:00 |########            |  40% (100,896) 6.9 minPROGRESS> 18:49:03 |#########           |  45% (113,508) 7.9 minPROGRESS> 18:50:12 |##########          |  50% (126,120) 9.1 minPROGRESS> 18:51:27 |###########         |  55% (138,732) 10.3 minPROGRESS> 18:52:42 |############        |  60% (151,344) 11.6 minPROGRESS> 18:54:11 |#############       |  65% (163,956) 13.1 minPROGRESS> 18:56:01 |##############      |  70% (176,568) 14.9 minPROGRESS> 18:57:46 |###############     |  75% (189,180) 16.6 minPROGRESS> 18:59:37 |################    |  80% (201,792) 18.5 minPROGRESS> 19:01:17 |#################   |  85% (214,404) 20.2 minPROGRESS> 19:02:53 |##################  |  90% (227,016) 21.8 minPROGRESS> 19:04:34 |################### |  95% (239,628) 23.4 minPROGRESS> 19:06:11 |####################| 100% (252,224) 25.1 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 252224
+  PASS> 194739
+  FAIL> 57485
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 19:06:26 |                    |   0% (      0) 0.0 minPROGRESS> 19:07:17 |#                   |   5% ( 16,742) 0.8 minPROGRESS> 19:08:09 |##                  |  10% ( 33,484) 1.7 minPROGRESS> 19:09:02 |###                 |  15% ( 50,226) 2.6 minPROGRESS> 19:10:01 |####                |  20% ( 66,968) 3.6 minPROGRESS> 19:11:04 |#####               |  25% ( 83,710) 4.6 minPROGRESS> 19:12:14 |######              |  30% (100,452) 5.8 minPROGRESS> 19:13:28 |#######             |  35% (117,194) 7.0 minPROGRESS> 19:14:41 |########            |  40% (133,936) 8.2 minPROGRESS> 19:16:02 |#########           |  45% (150,678) 9.6 minPROGRESS> 19:17:21 |##########          |  50% (167,420) 10.9 minPROGRESS> 19:18:50 |###########         |  55% (184,162) 12.4 minPROGRESS> 19:20:22 |############        |  60% (200,904) 13.9 minPROGRESS> 19:22:07 |#############       |  65% (217,646) 15.7 minPROGRESS> 19:24:08 |##############      |  70% (234,388) 17.7 minPROGRESS> 19:26:09 |###############     |  75% (251,130) 19.7 minPROGRESS> 19:28:05 |################    |  80% (267,872) 21.6 minPROGRESS> 19:30:00 |#################   |  85% (284,614) 23.6 minPROGRESS> 19:31:51 |##################  |  90% (301,356) 25.4 minPROGRESS> 19:33:50 |################### |  95% (318,098) 27.4 minPROGRESS> 19:35:46 |####################| 100% (334,829) 29.3 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 334829
+  PASS> 266394
+  FAIL> 68435
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 19:36:00 |                    |   0% (      0) 0.0 minPROGRESS> 19:36:53 |#                   |   5% ( 17,119) 0.9 minPROGRESS> 19:37:49 |##                  |  10% ( 34,238) 1.8 minPROGRESS> 19:38:50 |###                 |  15% ( 51,357) 2.8 minPROGRESS> 19:40:02 |####                |  20% ( 68,476) 4.0 minPROGRESS> 19:41:21 |#####               |  25% ( 85,595) 5.3 minPROGRESS> 19:42:51 |######              |  30% (102,714) 6.8 minPROGRESS> 19:44:20 |#######             |  35% (119,833) 8.3 minPROGRESS> 19:45:59 |########            |  40% (136,952) 10.0 minPROGRESS> 19:47:29 |#########           |  45% (154,071) 11.5 minPROGRESS> 19:49:11 |##########          |  50% (171,190) 13.2 minPROGRESS> 19:50:57 |###########         |  55% (188,309) 14.9 minPROGRESS> 19:52:46 |############        |  60% (205,428) 16.8 minPROGRESS> 19:54:44 |#############       |  65% (222,547) 18.7 minPROGRESS> 19:56:42 |##############      |  70% (239,666) 20.7 minPROGRESS> 19:58:44 |###############     |  75% (256,785) 22.7 minPROGRESS> 20:00:44 |################    |  80% (273,904) 24.7 minPROGRESS> 20:02:35 |#################   |  85% (291,023) 26.6 minPROGRESS> 20:04:29 |##################  |  90% (308,142) 28.5 minPROGRESS> 20:06:30 |################### |  95% (325,261) 30.5 minPROGRESS> 20:08:30 |####################| 100% (342,372) 32.5 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 342372
+  PASS> 260587
+  FAIL> 81785
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 20:08:48 |                    |   0% (      0) 0.0 minPROGRESS> 20:10:00 |#                   |   5% ( 21,422) 1.2 minPROGRESS> 20:11:16 |##                  |  10% ( 42,844) 2.5 minPROGRESS> 20:12:37 |###                 |  15% ( 64,266) 3.8 minPROGRESS> 20:14:05 |####                |  20% ( 85,688) 5.3 minPROGRESS> 20:15:39 |#####               |  25% (107,110) 6.9 minPROGRESS> 20:17:36 |######              |  30% (128,532) 8.8 minPROGRESS> 20:19:29 |#######             |  35% (149,954) 10.7 minPROGRESS> 20:21:32 |########            |  40% (171,376) 12.7 minPROGRESS> 20:23:55 |#########           |  45% (192,798) 15.1 minslurmstepd: error: _is_a_lwp: open() /proc/31929/status failed: No such file or directory
+PROGRESS> 20:26:26 |##########          |  50% (214,220) 17.6 minPROGRESS> 20:28:59 |###########         |  55% (235,642) 20.2 minPROGRESS> 20:31:44 |############        |  60% (257,064) 22.9 minPROGRESS> 20:34:37 |#############       |  65% (278,486) 25.8 minPROGRESS> 20:38:09 |##############      |  70% (299,908) 29.4 minPROGRESS> 20:41:44 |###############     |  75% (321,330) 32.9 minPROGRESS> 20:45:15 |################    |  80% (342,752) 36.4 minPROGRESS> 20:48:45 |#################   |  85% (364,174) 39.9 minPROGRESS> 20:51:55 |##################  |  90% (385,596) 43.1 minPROGRESS> 20:55:25 |################### |  95% (407,018) 46.6 minPROGRESS> 20:58:58 |####################| 100% (428,427) 50.2 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 428427
+  PASS> 305899
+  FAIL> 122528
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 20:59:11 |                    |   0% (      0) 0.0 minPROGRESS> 20:59:58 |#                   |   5% ( 13,475) 0.8 minPROGRESS> 21:00:59 |##                  |  10% ( 26,950) 1.8 minPROGRESS> 21:01:57 |###                 |  15% ( 40,425) 2.8 minPROGRESS> 21:02:57 |####                |  20% ( 53,900) 3.8 minPROGRESS> 21:04:04 |#####               |  25% ( 67,375) 4.9 minPROGRESS> 21:05:12 |######              |  30% ( 80,850) 6.0 minPROGRESS> 21:06:20 |#######             |  35% ( 94,325) 7.1 minPROGRESS> 21:07:34 |########            |  40% (107,800) 8.4 minPROGRESS> 21:08:45 |#########           |  45% (121,275) 9.6 minPROGRESS> 21:10:06 |##########          |  50% (134,750) 10.9 minPROGRESS> 21:11:55 |###########         |  55% (148,225) 12.7 minPROGRESS> 21:13:37 |############        |  60% (161,700) 14.4 minPROGRESS> 21:15:22 |#############       |  65% (175,175) 16.2 minPROGRESS> 21:16:58 |##############      |  70% (188,650) 17.8 minPROGRESS> 21:18:32 |###############     |  75% (202,125) 19.3 minPROGRESS> 21:20:03 |################    |  80% (215,600) 20.9 minPROGRESS> 21:21:27 |#################   |  85% (229,075) 22.3 minPROGRESS> 21:22:53 |##################  |  90% (242,550) 23.7 minPROGRESS> 21:24:18 |################### |  95% (256,025) 25.1 minPROGRESS> 21:25:41 |####################| 100% (269,497) 26.5 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 269497
+  PASS> 208348
+  FAIL> 61149
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 21:25:58 |                    |   0% (      0) 0.0 minPROGRESS> 21:31:04 |#                   |   5% ( 20,445) 5.1 minPROGRESS> 21:36:17 |##                  |  10% ( 40,890) 10.3 minPROGRESS> 21:41:34 |###                 |  15% ( 61,335) 15.6 minPROGRESS> 21:46:55 |####                |  20% ( 81,780) 21.0 minPROGRESS> 21:52:19 |#####               |  25% (102,225) 26.4 minPROGRESS> 21:57:42 |######              |  30% (122,670) 31.7 minPROGRESS> 22:02:57 |#######             |  35% (143,115) 37.0 minPROGRESS> 22:08:28 |########            |  40% (163,560) 42.5 minPROGRESS> 22:13:56 |#########           |  45% (184,005) 48.0 minPROGRESS> 22:19:31 |##########          |  50% (204,450) 53.5 minPROGRESS> 22:25:12 |###########         |  55% (224,895) 59.2 minPROGRESS> 22:31:03 |############        |  60% (245,340) 65.1 minPROGRESS> 22:36:54 |#############       |  65% (265,785) 70.9 minPROGRESS> 22:42:48 |##############      |  70% (286,230) 76.8 minPROGRESS> 22:48:39 |###############     |  75% (306,675) 82.7 minPROGRESS> 22:54:19 |################    |  80% (327,120) 88.3 minPROGRESS> 23:00:06 |#################   |  85% (347,565) 94.1 minPROGRESS> 23:06:11 |##################  |  90% (368,010) 100.2 minPROGRESS> 23:12:12 |################### |  95% (388,455) 106.2 minPROGRESS> 23:18:15 |####################| 100% (408,886) 112.3 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 408886
+  PASS> 140695
+  FAIL> 268191
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 23:18:59 |                    |   0% (      0) 0.0 minPROGRESS> 23:20:34 |#                   |   5% ( 19,422) 1.6 minPROGRESS> 23:22:17 |##                  |  10% ( 38,844) 3.3 minPROGRESS> 23:24:08 |###                 |  15% ( 58,266) 5.2 minPROGRESS> 23:29:16 |####                |  20% ( 77,688) 10.3 minPROGRESS> 23:31:19 |#####               |  25% ( 97,110) 12.3 minPROGRESS> 23:33:24 |######              |  30% (116,532) 14.4 minPROGRESS> 23:35:38 |#######             |  35% (135,954) 16.7 minPROGRESS> 23:37:57 |########            |  40% (155,376) 19.0 minPROGRESS> 23:40:18 |#########           |  45% (174,798) 21.3 minPROGRESS> 23:42:34 |##########          |  50% (194,220) 23.6 minPROGRESS> 23:45:07 |###########         |  55% (213,642) 26.1 minPROGRESS> 23:47:41 |############        |  60% (233,064) 28.7 minPROGRESS> 23:50:22 |#############       |  65% (252,486) 31.4 minPROGRESS> 23:54:16 |##############      |  70% (271,908) 35.3 minPROGRESS> 23:58:20 |###############     |  75% (291,330) 39.4 minPROGRESS> 00:02:16 |################    |  80% (310,752) 43.3 minPROGRESS> 00:06:16 |#################   |  85% (330,174) 47.3 minPROGRESS> 00:09:51 |##################  |  90% (349,596) 50.9 minPROGRESS> 00:13:42 |################### |  95% (369,018) 54.7 minPROGRESS> 00:17:29 |####################| 100% (388,439) 58.5 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 388439
+  PASS> 267752
+  FAIL> 120687
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 00:17:54 |                    |   0% (      0) 0.0 minPROGRESS> 00:18:43 |#                   |   5% ( 15,050) 0.8 minPROGRESS> 00:19:36 |##                  |  10% ( 30,100) 1.7 minPROGRESS> 00:20:32 |###                 |  15% ( 45,150) 2.6 minPROGRESS> 00:21:29 |####                |  20% ( 60,200) 3.6 minslurmstepd: error: _is_a_lwp: open() /proc/30494/status failed: No such file or directory
+PROGRESS> 00:22:27 |#####               |  25% ( 75,250) 4.6 minPROGRESS> 00:23:37 |######              |  30% ( 90,300) 5.7 minPROGRESS> 00:24:41 |#######             |  35% (105,350) 6.8 minPROGRESS> 00:25:50 |########            |  40% (120,400) 7.9 minPROGRESS> 00:27:05 |#########           |  45% (135,450) 9.2 minPROGRESS> 00:28:28 |##########          |  50% (150,500) 10.6 minPROGRESS> 00:29:49 |###########         |  55% (165,550) 11.9 minPROGRESS> 00:31:15 |############        |  60% (180,600) 13.3 minPROGRESS> 00:32:47 |#############       |  65% (195,650) 14.9 minPROGRESS> 00:34:50 |##############      |  70% (210,700) 16.9 minPROGRESS> 00:37:19 |###############     |  75% (225,750) 19.4 minPROGRESS> 00:39:45 |################    |  80% (240,800) 21.8 minPROGRESS> 00:42:05 |#################   |  85% (255,850) 24.2 minPROGRESS> 00:44:12 |##################  |  90% (270,900) 26.3 minPROGRESS> 00:46:27 |################### |  95% (285,950) 28.6 minPROGRESS> 00:48:41 |####################| 100% (300,997) 30.8 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 300997
+  PASS> 231815
+  FAIL> 69182
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 00:49:00 |                    |   0% (      0) 0.0 minPROGRESS> 00:50:30 |#                   |   5% ( 16,070) 1.5 minPROGRESS> 00:52:07 |##                  |  10% ( 32,140) 3.1 minPROGRESS> 00:53:43 |###                 |  15% ( 48,210) 4.7 minPROGRESS> 00:55:27 |####                |  20% ( 64,280) 6.5 minPROGRESS> 00:57:12 |#####               |  25% ( 80,350) 8.2 minPROGRESS> 00:59:10 |######              |  30% ( 96,420) 10.2 minPROGRESS> 01:01:01 |#######             |  35% (112,490) 12.0 minPROGRESS> 01:02:52 |########            |  40% (128,560) 13.9 minPROGRESS> 01:04:55 |#########           |  45% (144,630) 15.9 minPROGRESS> 01:07:04 |##########          |  50% (160,700) 18.1 minPROGRESS> 01:09:11 |###########         |  55% (176,770) 20.2 minPROGRESS> 01:11:31 |############        |  60% (192,840) 22.5 minPROGRESS> 01:13:47 |#############       |  65% (208,910) 24.8 minPROGRESS> 01:17:03 |##############      |  70% (224,980) 28.1 minPROGRESS> 01:21:31 |###############     |  75% (241,050) 32.5 minPROGRESS> 01:26:00 |################    |  80% (257,120) 37.0 minPROGRESS> 01:30:18 |#################   |  85% (273,190) 41.3 minPROGRESS> 01:34:25 |##################  |  90% (289,260) 45.4 minPROGRESS> 01:38:35 |################### |  95% (305,330) 49.6 minPROGRESS> 01:42:41 |####################| 100% (321,383) 53.7 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 321383
+  PASS> 198663
+  FAIL> 122720
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 01:42:57 |                    |   0% (      0) 0.0 minPROGRESS> 01:43:58 |#                   |   5% ( 20,410) 1.0 minPROGRESS> 01:44:58 |##                  |  10% ( 40,820) 2.0 minPROGRESS> 01:45:58 |###                 |  15% ( 61,230) 3.0 minPROGRESS> 01:47:01 |####                |  20% ( 81,640) 4.1 minPROGRESS> 01:48:07 |#####               |  25% (102,050) 5.2 minPROGRESS> 01:49:23 |######              |  30% (122,460) 6.4 minPROGRESS> 01:50:40 |#######             |  35% (142,870) 7.7 minPROGRESS> 01:52:03 |########            |  40% (163,280) 9.1 minPROGRESS> 01:53:24 |#########           |  45% (183,690) 10.4 minPROGRESS> 01:54:48 |##########          |  50% (204,100) 11.8 minPROGRESS> 01:56:20 |###########         |  55% (224,510) 13.4 minPROGRESS> 01:57:49 |############        |  60% (244,920) 14.9 minPROGRESS> 01:59:40 |#############       |  65% (265,330) 16.7 minPROGRESS> 02:01:35 |##############      |  70% (285,740) 18.6 minPROGRESS> 02:03:27 |###############     |  75% (306,150) 20.5 minPROGRESS> 02:05:18 |################    |  80% (326,560) 22.4 minPROGRESS> 02:07:07 |#################   |  85% (346,970) 24.2 minPROGRESS> 02:08:56 |##################  |  90% (367,380) 26.0 minPROGRESS> 02:10:49 |################### |  95% (387,790) 27.9 minPROGRESS> 02:12:40 |####################| 100% (408,194) 29.7 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 408194
+  PASS> 346225
+  FAIL> 61969
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 02:12:52 |                    |   0% (      0) 0.0 minPROGRESS> 02:13:27 |#                   |   5% ( 11,895) 0.6 minPROGRESS> 02:14:04 |##                  |  10% ( 23,790) 1.2 minPROGRESS> 02:14:42 |###                 |  15% ( 35,685) 1.8 minPROGRESS> 02:15:23 |####                |  20% ( 47,580) 2.5 minPROGRESS> 02:16:09 |#####               |  25% ( 59,475) 3.3 minPROGRESS> 02:17:03 |######              |  30% ( 71,370) 4.2 minPROGRESS> 02:18:01 |#######             |  35% ( 83,265) 5.1 minPROGRESS> 02:19:03 |########            |  40% ( 95,160) 6.2 minPROGRESS> 02:20:15 |#########           |  45% (107,055) 7.4 minPROGRESS> 02:21:14 |##########          |  50% (118,950) 8.4 minPROGRESS> 02:22:29 |###########         |  55% (130,845) 9.6 minPROGRESS> 02:23:45 |############        |  60% (142,740) 10.9 minPROGRESS> 02:25:09 |#############       |  65% (154,635) 12.3 minPROGRESS> 02:26:40 |##############      |  70% (166,530) 13.8 minPROGRESS> 02:28:13 |###############     |  75% (178,425) 15.4 minPROGRESS> 02:29:46 |################    |  80% (190,320) 16.9 minPROGRESS> 02:31:16 |#################   |  85% (202,215) 18.4 minPROGRESS> 02:32:44 |##################  |  90% (214,110) 19.9 minPROGRESS> 02:34:18 |################### |  95% (226,005) 21.4 minPROGRESS> 02:35:55 |####################| 100% (237,896) 23.0 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 237896
+  PASS> 183170
+  FAIL> 54726
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 02:36:09 |                    |   0% (      0) 0.0 minPROGRESS> 02:37:12 |#                   |   5% ( 15,956) 1.1 minPROGRESS> 02:38:24 |##                  |  10% ( 31,912) 2.3 minPROGRESS> 02:39:45 |###                 |  15% ( 47,868) 3.6 minPROGRESS> 02:41:10 |####                |  20% ( 63,824) 5.0 minPROGRESS> 02:42:45 |#####               |  25% ( 79,780) 6.6 minPROGRESS> 02:44:27 |######              |  30% ( 95,736) 8.3 minPROGRESS> 02:46:09 |#######             |  35% (111,692) 10.0 minPROGRESS> 02:47:58 |########            |  40% (127,648) 11.8 minPROGRESS> 02:49:39 |#########           |  45% (143,604) 13.5 minPROGRESS> 02:51:26 |##########          |  50% (159,560) 15.3 minPROGRESS> 02:53:24 |###########         |  55% (175,516) 17.3 minPROGRESS> 02:55:21 |############        |  60% (191,472) 19.2 minPROGRESS> 02:57:43 |#############       |  65% (207,428) 21.6 minPROGRESS> 03:00:38 |##############      |  70% (223,384) 24.5 minPROGRESS> 03:03:31 |###############     |  75% (239,340) 27.4 minPROGRESS> 03:06:24 |################    |  80% (255,296) 30.3 minPROGRESS> 03:09:06 |#################   |  85% (271,252) 33.0 minPROGRESS> 03:11:40 |##################  |  90% (287,208) 35.5 minPROGRESS> 03:14:26 |################### |  95% (303,164) 38.3 minPROGRESS> 03:17:06 |####################| 100% (319,111) 41.0 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 319111
+  PASS> 227289
+  FAIL> 91822
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 03:17:25 |                    |   0% (      0) 0.0 minPROGRESS> 03:19:18 |#                   |   5% ( 25,173) 1.9 minPROGRESS> 03:21:16 |##                  |  10% ( 50,346) 3.8 minPROGRESS> 03:23:17 |###                 |  15% ( 75,519) 5.9 minPROGRESS> 03:25:25 |####                |  20% (100,692) 8.0 minPROGRESS> 03:27:40 |#####               |  25% (125,865) 10.3 minPROGRESS> 03:30:10 |######              |  30% (151,038) 12.7 minPROGRESS> 03:32:37 |#######             |  35% (176,211) 15.2 minPROGRESS> 03:35:08 |########            |  40% (201,384) 17.7 minPROGRESS> 03:37:58 |#########           |  45% (226,557) 20.5 minPROGRESS> 03:40:48 |##########          |  50% (251,730) 23.4 minPROGRESS> 03:43:40 |###########         |  55% (276,903) 26.3 minPROGRESS> 03:46:47 |############        |  60% (302,076) 29.4 minPROGRESS> 03:50:00 |#############       |  65% (327,249) 32.6 minPROGRESS> 03:54:13 |##############      |  70% (352,422) 36.8 minPROGRESS> 03:59:17 |###############     |  75% (377,595) 41.9 minPROGRESS> 04:04:10 |################    |  80% (402,768) 46.7 minPROGRESS> 04:08:58 |#################   |  85% (427,941) 51.5 minPROGRESS> 04:13:22 |##################  |  90% (453,114) 56.0 minPROGRESS> 04:18:00 |################### |  95% (478,287) 60.6 minPROGRESS> 04:22:38 |####################| 100% (503,460) 65.2 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 503460
+  PASS> 350252
+  FAIL> 153208
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 04:22:52 |                    |   0% (      0) 0.0 minPROGRESS> 04:23:36 |#                   |   5% ( 14,771) 0.7 minPROGRESS> 04:24:23 |##                  |  10% ( 29,542) 1.5 minPROGRESS> 04:25:11 |###                 |  15% ( 44,313) 2.3 minPROGRESS> 04:26:05 |####                |  20% ( 59,084) 3.2 minPROGRESS> 04:27:02 |#####               |  25% ( 73,855) 4.2 minPROGRESS> 04:28:10 |######              |  30% ( 88,626) 5.3 minPROGRESS> 04:29:19 |#######             |  35% (103,397) 6.4 minPROGRESS> 04:30:29 |########            |  40% (118,168) 7.6 minPROGRESS> 04:31:40 |#########           |  45% (132,939) 8.8 minPROGRESS> 04:32:56 |##########          |  50% (147,710) 10.1 minPROGRESS> 04:34:21 |###########         |  55% (162,481) 11.5 minPROGRESS> 04:35:43 |############        |  60% (177,252) 12.9 minPROGRESS> 04:37:25 |#############       |  65% (192,023) 14.6 minPROGRESS> 04:39:17 |##############      |  70% (206,794) 16.4 minPROGRESS> 04:41:06 |###############     |  75% (221,565) 18.2 minPROGRESS> 04:42:52 |################    |  80% (236,336) 20.0 minPROGRESS> 04:44:30 |#################   |  85% (251,107) 21.6 minPROGRESS> 04:46:13 |##################  |  90% (265,878) 23.3 minPROGRESS> 04:47:58 |################### |  95% (280,649) 25.1 minPROGRESS> 04:49:43 |####################| 100% (295,418) 26.9 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 295418
+  PASS> 233740
+  FAIL> 61678
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 04:49:58 |                    |   0% (      0) 0.0 minPROGRESS> 04:50:52 |#                   |   5% ( 14,984) 0.9 minPROGRESS> 04:51:48 |##                  |  10% ( 29,968) 1.8 minPROGRESS> 04:52:47 |###                 |  15% ( 44,952) 2.8 minPROGRESS> 04:53:55 |####                |  20% ( 59,936) 3.9 minPROGRESS> 04:55:08 |#####               |  25% ( 74,920) 5.2 minPROGRESS> 04:56:22 |######              |  30% ( 89,904) 6.4 minPROGRESS> 04:57:44 |#######             |  35% (104,888) 7.8 minPROGRESS> 04:59:11 |########            |  40% (119,872) 9.2 minPROGRESS> 05:00:33 |#########           |  45% (134,856) 10.6 minPROGRESS> 05:01:57 |##########          |  50% (149,840) 12.0 minPROGRESS> 05:03:31 |###########         |  55% (164,824) 13.6 minPROGRESS> 05:05:06 |############        |  60% (179,808) 15.1 minPROGRESS> 05:07:00 |#############       |  65% (194,792) 17.0 minPROGRESS> 05:09:17 |##############      |  70% (209,776) 19.3 minPROGRESS> 05:11:32 |###############     |  75% (224,760) 21.6 minPROGRESS> 05:13:46 |################    |  80% (239,744) 23.8 minPROGRESS> 05:15:52 |#################   |  85% (254,728) 25.9 minPROGRESS> 05:17:56 |##################  |  90% (269,712) 28.0 minPROGRESS> 05:20:03 |################### |  95% (284,696) 30.1 minPROGRESS> 05:22:12 |####################| 100% (299,674) 32.2 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 299674
+  PASS> 227911
+  FAIL> 71763
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 05:22:25 |                    |   0% (      0) 0.0 minPROGRESS> 05:24:46 |#                   |   5% ( 13,071) 2.3 minPROGRESS> 05:27:04 |##                  |  10% ( 26,142) 4.6 minPROGRESS> 05:29:27 |###                 |  15% ( 39,213) 7.0 minPROGRESS> 05:31:56 |####                |  20% ( 52,284) 9.5 minPROGRESS> 05:34:22 |#####               |  25% ( 65,355) 11.9 minPROGRESS> 05:36:51 |######              |  30% ( 78,426) 14.4 minPROGRESS> 05:39:15 |#######             |  35% ( 91,497) 16.8 minPROGRESS> 05:41:40 |########            |  40% (104,568) 19.3 minslurmstepd: error: _is_a_lwp: open() /proc/78511/status failed: No such file or directory
+PROGRESS> 05:44:12 |#########           |  45% (117,639) 21.8 minPROGRESS> 05:46:47 |##########          |  50% (130,710) 24.4 minPROGRESS> 05:49:23 |###########         |  55% (143,781) 27.0 minPROGRESS> 05:52:48 |############        |  60% (156,852) 30.4 minPROGRESS> 05:56:26 |#############       |  65% (169,923) 34.0 minPROGRESS> 06:00:02 |##############      |  70% (182,994) 37.6 minPROGRESS> 06:03:40 |###############     |  75% (196,065) 41.3 minPROGRESS> 06:07:17 |################    |  80% (209,136) 44.9 minPROGRESS> 06:10:37 |#################   |  85% (222,207) 48.2 minPROGRESS> 06:14:15 |##################  |  90% (235,278) 51.8 minPROGRESS> 06:17:47 |################### |  95% (248,349) 55.4 minPROGRESS> 06:21:26 |####################| 100% (261,402) 59.0 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 261402
+  PASS> 123822
+  FAIL> 137580
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 06:21:36 |                    |   0% (      0) 0.0 minPROGRESS> 06:22:02 |#                   |   5% (  8,709) 0.4 minPROGRESS> 06:22:34 |##                  |  10% ( 17,418) 1.0 minPROGRESS> 06:23:04 |###                 |  15% ( 26,127) 1.5 minPROGRESS> 06:23:36 |####                |  20% ( 34,836) 2.0 minPROGRESS> 06:24:10 |#####               |  25% ( 43,545) 2.6 minPROGRESS> 06:24:43 |######              |  30% ( 52,254) 3.1 minPROGRESS> 06:25:22 |#######             |  35% ( 60,963) 3.8 minPROGRESS> 06:25:56 |########            |  40% ( 69,672) 4.3 minPROGRESS> 06:26:35 |#########           |  45% ( 78,381) 5.0 minPROGRESS> 06:27:27 |##########          |  50% ( 87,090) 5.9 minPROGRESS> 06:28:10 |###########         |  55% ( 95,799) 6.6 minPROGRESS> 06:28:48 |############        |  60% (104,508) 7.2 minPROGRESS> 06:29:21 |#############       |  65% (113,217) 7.8 minPROGRESS> 06:29:54 |##############      |  70% (121,926) 8.3 minPROGRESS> 06:30:26 |###############     |  75% (130,635) 8.8 minPROGRESS> 06:30:57 |################    |  80% (139,344) 9.3 minPROGRESS> 06:31:23 |#################   |  85% (148,053) 9.8 minPROGRESS> 06:31:55 |##################  |  90% (156,762) 10.3 minPROGRESS> 06:32:25 |################### |  95% (165,471) 10.8 minPROGRESS> 06:32:54 |####################| 100% (174,161) 11.3 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 174161
+  PASS> 149993
+  FAIL> 24168
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 06:33:08 |                    |   0% (      0) 0.0 minPROGRESS> 06:33:56 |#                   |   5% ( 15,773) 0.8 minPROGRESS> 06:34:44 |##                  |  10% ( 31,546) 1.6 minPROGRESS> 06:35:37 |###                 |  15% ( 47,319) 2.5 minPROGRESS> 06:36:36 |####                |  20% ( 63,092) 3.5 minPROGRESS> 06:37:41 |#####               |  25% ( 78,865) 4.5 minPROGRESS> 06:38:52 |######              |  30% ( 94,638) 5.7 minPROGRESS> 06:40:07 |#######             |  35% (110,411) 7.0 minPROGRESS> 06:41:28 |########            |  40% (126,184) 8.3 minPROGRESS> 06:42:32 |#########           |  45% (141,957) 9.4 minPROGRESS> 06:43:52 |##########          |  50% (157,730) 10.7 minPROGRESS> 06:45:13 |###########         |  55% (173,503) 12.1 minPROGRESS> 06:46:38 |############        |  60% (189,276) 13.5 minPROGRESS> 06:48:10 |#############       |  65% (205,049) 15.0 minPROGRESS> 06:49:48 |##############      |  70% (220,822) 16.7 minPROGRESS> 06:51:27 |###############     |  75% (236,595) 18.3 minPROGRESS> 06:53:05 |################    |  80% (252,368) 19.9 minPROGRESS> 06:54:31 |#################   |  85% (268,141) 21.4 minPROGRESS> 06:56:05 |##################  |  90% (283,914) 22.9 minPROGRESS> 06:57:42 |################### |  95% (299,687) 24.6 minPROGRESS> 06:59:21 |####################| 100% (315,459) 26.2 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 315459
+  PASS> 251891
+  FAIL> 63568
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 06:59:33 |                    |   0% (      0) 0.0 minPROGRESS> 07:00:12 |#                   |   5% ( 12,425) 0.6 minPROGRESS> 07:00:49 |##                  |  10% ( 24,850) 1.3 minPROGRESS> 07:01:28 |###                 |  15% ( 37,275) 1.9 minPROGRESS> 07:02:07 |####                |  20% ( 49,700) 2.6 minPROGRESS> 07:02:51 |#####               |  25% ( 62,125) 3.3 minPROGRESS> 07:03:41 |######              |  30% ( 74,550) 4.1 minPROGRESS> 07:04:43 |#######             |  35% ( 86,975) 5.2 minPROGRESS> 07:05:43 |########            |  40% ( 99,400) 6.2 minPROGRESS> 07:06:56 |#########           |  45% (111,825) 7.4 minPROGRESS> 07:07:58 |##########          |  50% (124,250) 8.4 minPROGRESS> 07:09:14 |###########         |  55% (136,675) 9.7 minPROGRESS> 07:10:33 |############        |  60% (149,100) 11.0 minPROGRESS> 07:12:04 |#############       |  65% (161,525) 12.5 minPROGRESS> 07:13:40 |##############      |  70% (173,950) 14.1 minPROGRESS> 07:15:22 |###############     |  75% (186,375) 15.8 minPROGRESS> 07:17:02 |################    |  80% (198,800) 17.5 minPROGRESS> 07:18:39 |#################   |  85% (211,225) 19.1 minPROGRESS> 07:20:09 |##################  |  90% (223,650) 20.6 minPROGRESS> 07:21:50 |################### |  95% (236,075) 22.3 minPROGRESS> 07:23:33 |####################| 100% (248,495) 24.0 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 248495
+  PASS> 192732
+  FAIL> 55763
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 07:23:50 |                    |   0% (      0) 0.0 minPROGRESS> 07:24:55 |#                   |   5% ( 20,241) 1.1 minPROGRESS> 07:26:02 |##                  |  10% ( 40,482) 2.2 minPROGRESS> 07:27:09 |###                 |  15% ( 60,723) 3.3 minPROGRESS> 07:28:20 |####                |  20% ( 80,964) 4.5 minPROGRESS> 07:29:38 |#####               |  25% (101,205) 5.8 minPROGRESS> 07:31:08 |######              |  30% (121,446) 7.3 minPROGRESS> 07:32:39 |#######             |  35% (141,687) 8.8 minPROGRESS> 07:34:16 |########            |  40% (161,928) 10.4 minPROGRESS> 07:36:06 |#########           |  45% (182,169) 12.3 minPROGRESS> 07:38:01 |##########          |  50% (202,410) 14.2 minPROGRESS> 07:39:59 |###########         |  55% (222,651) 16.2 minPROGRESS> 07:42:09 |############        |  60% (242,892) 18.3 minPROGRESS> 07:44:24 |#############       |  65% (263,133) 20.6 minPROGRESS> 07:47:16 |##############      |  70% (283,374) 23.4 minPROGRESS> 07:50:06 |###############     |  75% (303,615) 26.3 minPROGRESS> 07:53:00 |################    |  80% (323,856) 29.2 minPROGRESS> 07:55:56 |#################   |  85% (344,097) 32.1 minPROGRESS> 07:58:31 |##################  |  90% (364,338) 34.7 minPROGRESS> 08:01:21 |################### |  95% (384,579) 37.5 minPROGRESS> 08:04:15 |####################| 100% (404,808) 40.4 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 404808
+  PASS> 309036
+  FAIL> 95772
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 08:04:29 |                    |   0% (      0) 0.0 minPROGRESS> 08:05:55 |#                   |   5% ( 16,286) 1.4 minPROGRESS> 08:07:47 |##                  |  10% ( 32,572) 3.3 minPROGRESS> 08:09:12 |###                 |  15% ( 48,858) 4.7 minPROGRESS> 08:10:45 |####                |  20% ( 65,144) 6.3 minPROGRESS> 08:12:19 |#####               |  25% ( 81,430) 7.8 minPROGRESS> 08:14:10 |######              |  30% ( 97,716) 9.7 minPROGRESS> 08:16:00 |#######             |  35% (114,002) 11.5 minPROGRESS> 08:17:55 |########            |  40% (130,288) 13.4 minPROGRESS> 08:20:22 |#########           |  45% (146,574) 15.9 minPROGRESS> 08:22:51 |##########          |  50% (162,860) 18.4 minPROGRESS> 08:25:28 |###########         |  55% (179,146) 21.0 minPROGRESS> 08:28:51 |############        |  60% (195,432) 24.4 minPROGRESS> 08:31:56 |#############       |  65% (211,718) 27.4 minPROGRESS> 08:34:58 |##############      |  70% (228,004) 30.5 minPROGRESS> 08:37:58 |###############     |  75% (244,290) 33.5 minPROGRESS> 08:40:49 |################    |  80% (260,576) 36.3 minPROGRESS> 08:43:42 |#################   |  85% (276,862) 39.2 minPROGRESS> 08:46:11 |##################  |  90% (293,148) 41.7 minPROGRESS> 08:48:55 |################### |  95% (309,434) 44.4 minPROGRESS> 08:51:36 |####################| 100% (325,705) 47.1 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 325705
+  PASS> 212858
+  FAIL> 112847
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 08:51:49 |                    |   0% (      0) 0.0 minPROGRESS> 08:52:27 |#                   |   5% ( 13,492) 0.6 minPROGRESS> 08:53:07 |##                  |  10% ( 26,984) 1.3 minPROGRESS> 08:53:47 |###                 |  15% ( 40,476) 2.0 minPROGRESS> 08:54:33 |####                |  20% ( 53,968) 2.7 minPROGRESS> 08:55:22 |#####               |  25% ( 67,460) 3.5 minslurmstepd: error: _is_a_lwp: open() /proc/37940/status failed: No such file or directory
+PROGRESS> 08:56:13 |######              |  30% ( 80,952) 4.4 minPROGRESS> 08:57:04 |#######             |  35% ( 94,444) 5.3 minPROGRESS> 08:57:52 |########            |  40% (107,936) 6.1 minPROGRESS> 08:58:38 |#########           |  45% (121,428) 6.8 minPROGRESS> 08:59:34 |##########          |  50% (134,920) 7.7 minPROGRESS> 09:00:30 |###########         |  55% (148,412) 8.7 minPROGRESS> 09:01:31 |############        |  60% (161,904) 9.7 minPROGRESS> 09:02:32 |#############       |  65% (175,396) 10.7 minPROGRESS> 09:03:38 |##############      |  70% (188,888) 11.8 minPROGRESS> 09:04:50 |###############     |  75% (202,380) 13.0 minPROGRESS> 09:05:57 |################    |  80% (215,872) 14.1 minPROGRESS> 09:06:48 |#################   |  85% (229,364) 15.0 minPROGRESS> 09:07:52 |##################  |  90% (242,856) 16.1 minPROGRESS> 09:08:58 |################### |  95% (256,348) 17.2 minPROGRESS> 09:10:08 |####################| 100% (269,837) 18.3 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 269837
+  PASS> 225484
+  FAIL> 44353
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 09:10:23 |                    |   0% (      0) 0.0 minPROGRESS> 09:11:17 |#                   |   5% ( 16,963) 0.9 minPROGRESS> 09:12:12 |##                  |  10% ( 33,926) 1.8 minPROGRESS> 09:13:08 |###                 |  15% ( 50,889) 2.8 minPROGRESS> 09:14:13 |####                |  20% ( 67,852) 3.8 minPROGRESS> 09:15:24 |#####               |  25% ( 84,815) 5.0 minPROGRESS> 09:16:43 |######              |  30% (101,778) 6.3 minPROGRESS> 09:18:01 |#######             |  35% (118,741) 7.6 minPROGRESS> 09:19:30 |########            |  40% (135,704) 9.1 minPROGRESS> 09:21:10 |#########           |  45% (152,667) 10.8 minPROGRESS> 09:22:36 |##########          |  50% (169,630) 12.2 minPROGRESS> 09:24:19 |###########         |  55% (186,593) 13.9 minPROGRESS> 09:26:14 |############        |  60% (203,556) 15.9 minPROGRESS> 09:28:16 |#############       |  65% (220,519) 17.9 minPROGRESS> 09:30:44 |##############      |  70% (237,482) 20.4 minPROGRESS> 09:33:17 |###############     |  75% (254,445) 22.9 minPROGRESS> 09:35:52 |################    |  80% (271,408) 25.5 minPROGRESS> 09:38:24 |#################   |  85% (288,371) 28.0 minPROGRESS> 09:40:31 |##################  |  90% (305,334) 30.1 minPROGRESS> 09:42:59 |################### |  95% (322,297) 32.6 minPROGRESS> 09:45:35 |####################| 100% (339,252) 35.2 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 339252
+  PASS> 255007
+  FAIL> 84245
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 09:45:50 |                    |   0% (      0) 0.0 minPROGRESS> 09:47:15 |#                   |   5% ( 16,799) 1.4 minPROGRESS> 09:48:46 |##                  |  10% ( 33,598) 2.9 minPROGRESS> 09:50:25 |###                 |  15% ( 50,397) 4.6 minPROGRESS> 09:52:09 |####                |  20% ( 67,196) 6.3 minPROGRESS> 09:54:03 |#####               |  25% ( 83,995) 8.2 minPROGRESS> 09:56:02 |######              |  30% (100,794) 10.2 minPROGRESS> 09:58:05 |#######             |  35% (117,593) 12.2 minPROGRESS> 10:00:12 |########            |  40% (134,392) 14.4 minPROGRESS> 10:02:23 |#########           |  45% (151,191) 16.5 minPROGRESS> 10:04:35 |##########          |  50% (167,990) 18.8 minPROGRESS> 10:07:01 |###########         |  55% (184,789) 21.2 minPROGRESS> 10:09:21 |############        |  60% (201,588) 23.5 minPROGRESS> 10:11:53 |#############       |  65% (218,387) 26.0 minPROGRESS> 10:15:40 |##############      |  70% (235,186) 29.8 minPROGRESS> 10:19:26 |###############     |  75% (251,985) 33.6 minslurmstepd: error: _is_a_lwp: open() /proc/51272/status failed: No such file or directory
+PROGRESS> 10:23:11 |################    |  80% (268,784) 37.4 minPROGRESS> 10:26:53 |#################   |  85% (285,583) 41.1 minPROGRESS> 10:30:18 |##################  |  90% (302,382) 44.5 minPROGRESS> 10:33:57 |################### |  95% (319,181) 48.1 minPROGRESS> 10:37:28 |####################| 100% (335,963) 51.6 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 335963
+  PASS> 220170
+  FAIL> 115793
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 10:37:41 |                    |   0% (      0) 0.0 minPROGRESS> 10:38:25 |#                   |   5% ( 15,095) 0.7 minPROGRESS> 10:39:08 |##                  |  10% ( 30,190) 1.4 minPROGRESS> 10:39:51 |###                 |  15% ( 45,285) 2.2 minPROGRESS> 10:40:36 |####                |  20% ( 60,380) 2.9 minPROGRESS> 10:41:22 |#####               |  25% ( 75,475) 3.7 minPROGRESS> 10:42:14 |######              |  30% ( 90,570) 4.5 minPROGRESS> 10:43:05 |#######             |  35% (105,665) 5.4 minPROGRESS> 10:43:59 |########            |  40% (120,760) 6.3 minPROGRESS> 10:44:48 |#########           |  45% (135,855) 7.1 minPROGRESS> 10:45:44 |##########          |  50% (150,950) 8.0 minPROGRESS> 10:46:42 |###########         |  55% (166,045) 9.0 minPROGRESS> 10:47:42 |############        |  60% (181,140) 10.0 minPROGRESS> 10:48:54 |#############       |  65% (196,235) 11.2 minPROGRESS> 10:50:03 |##############      |  70% (211,330) 12.4 minPROGRESS> 10:51:15 |###############     |  75% (226,425) 13.6 minPROGRESS> 10:52:23 |################    |  80% (241,520) 14.7 minPROGRESS> 10:53:25 |#################   |  85% (256,615) 15.7 minPROGRESS> 10:54:34 |##################  |  90% (271,710) 16.9 minPROGRESS> 10:55:43 |################### |  95% (286,805) 18.0 minPROGRESS> 10:56:54 |####################| 100% (301,888) 19.2 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 301888
+  PASS> 258681
+  FAIL> 43207
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 10:57:09 |                    |   0% (      0) 0.0 minPROGRESS> 10:58:37 |#                   |   5% ( 17,449) 1.5 minPROGRESS> 11:00:17 |##                  |  10% ( 34,898) 3.1 minPROGRESS> 11:01:42 |###                 |  15% ( 52,347) 4.6 minPROGRESS> 11:03:11 |####                |  20% ( 69,796) 6.0 minPROGRESS> 11:04:37 |#####               |  25% ( 87,245) 7.5 minPROGRESS> 11:06:23 |######              |  30% (104,694) 9.2 minPROGRESS> 11:07:56 |#######             |  35% (122,143) 10.8 minPROGRESS> 11:09:38 |########            |  40% (139,592) 12.5 minPROGRESS> 11:11:40 |#########           |  45% (157,041) 14.5 minPROGRESS> 11:14:02 |##########          |  50% (174,490) 16.9 minPROGRESS> 11:16:18 |###########         |  55% (191,939) 19.2 minPROGRESS> 11:20:00 |############        |  60% (209,388) 22.8 minPROGRESS> 11:23:29 |#############       |  65% (226,837) 26.3 minPROGRESS> 11:27:09 |##############      |  70% (244,286) 30.0 minPROGRESS> 11:30:11 |###############     |  75% (261,735) 33.0 minPROGRESS> 11:33:05 |################    |  80% (279,184) 35.9 minPROGRESS> 11:35:51 |#################   |  85% (296,633) 38.7 minPROGRESS> 11:38:17 |##################  |  90% (314,082) 41.1 minPROGRESS> 11:40:55 |################### |  95% (331,531) 43.8 minPROGRESS> 11:43:35 |####################| 100% (348,977) 46.4 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 348977
+  PASS> 242618
+  FAIL> 106359
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 11:43:44 |                    |   0% (      0) 0.0 minPROGRESS> 11:44:03 |#                   |   5% (  7,020) 0.3 minPROGRESS> 11:44:22 |##                  |  10% ( 14,040) 0.6 minPROGRESS> 11:44:41 |###                 |  15% ( 21,060) 0.9 minPROGRESS> 11:45:01 |####                |  20% ( 28,080) 1.3 minPROGRESS> 11:45:22 |#####               |  25% ( 35,100) 1.6 minPROGRESS> 11:45:45 |######              |  30% ( 42,120) 2.0 minPROGRESS> 11:46:06 |#######             |  35% ( 49,140) 2.4 minPROGRESS> 11:46:26 |########            |  40% ( 56,160) 2.7 minPROGRESS> 11:46:47 |#########           |  45% ( 63,180) 3.0 minPROGRESS> 11:47:09 |##########          |  50% ( 70,200) 3.4 minPROGRESS> 11:47:31 |###########         |  55% ( 77,220) 3.8 minPROGRESS> 11:47:58 |############        |  60% ( 84,240) 4.2 minPROGRESS> 11:48:25 |#############       |  65% ( 91,260) 4.7 minPROGRESS> 11:48:53 |##############      |  70% ( 98,280) 5.1 minPROGRESS> 11:49:19 |###############     |  75% (105,300) 5.6 minPROGRESS> 11:49:47 |################    |  80% (112,320) 6.0 minPROGRESS> 11:50:10 |#################   |  85% (119,340) 6.4 minPROGRESS> 11:50:38 |##################  |  90% (126,360) 6.9 minPROGRESS> 11:51:05 |################### |  95% (133,380) 7.3 minPROGRESS> 11:51:30 |####################| 100% (140,391) 7.8 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 140391
+  PASS> 123207
+  FAIL> 17184
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 11:51:44 |                    |   0% (      0) 0.0 minPROGRESS> 11:52:34 |#                   |   5% ( 15,834) 0.8 minPROGRESS> 11:53:27 |##                  |  10% ( 31,668) 1.7 minPROGRESS> 11:54:25 |###                 |  15% ( 47,502) 2.7 minPROGRESS> 11:55:30 |####                |  20% ( 63,336) 3.8 minPROGRESS> 11:56:42 |#####               |  25% ( 79,170) 5.0 minPROGRESS> 11:58:05 |######              |  30% ( 95,004) 6.4 minPROGRESS> 11:59:29 |#######             |  35% (110,838) 7.8 minPROGRESS> 12:00:59 |########            |  40% (126,672) 9.3 minPROGRESS> 12:02:35 |#########           |  45% (142,506) 10.9 minPROGRESS> 12:04:05 |##########          |  50% (158,340) 12.4 minPROGRESS> 12:05:46 |###########         |  55% (174,174) 14.0 minPROGRESS> 12:07:30 |############        |  60% (190,008) 15.8 minPROGRESS> 12:09:16 |#############       |  65% (205,842) 17.5 minPROGRESS> 12:11:51 |##############      |  70% (221,676) 20.1 minPROGRESS> 12:14:23 |###############     |  75% (237,510) 22.7 minPROGRESS> 12:16:55 |################    |  80% (253,344) 25.2 minPROGRESS> 12:19:17 |#################   |  85% (269,178) 27.6 minslurmstepd: error: _is_a_lwp: open() /proc/27434/status failed: No such file or directory
+PROGRESS> 12:21:28 |##################  |  90% (285,012) 29.7 minPROGRESS> 12:23:51 |################### |  95% (300,846) 32.1 minPROGRESS> 12:26:10 |####################| 100% (316,678) 34.4 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 316678
+  PASS> 241252
+  FAIL> 75426
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 12:26:26 |                    |   0% (      0) 0.0 minPROGRESS> 12:27:56 |#                   |   5% ( 19,973) 1.5 minPROGRESS> 12:29:30 |##                  |  10% ( 39,946) 3.1 minPROGRESS> 12:31:08 |###                 |  15% ( 59,919) 4.7 minPROGRESS> 12:32:52 |####                |  20% ( 79,892) 6.4 minPROGRESS> 12:34:38 |#####               |  25% ( 99,865) 8.2 minPROGRESS> 12:36:37 |######              |  30% (119,838) 10.2 minPROGRESS> 12:38:30 |#######             |  35% (139,811) 12.1 minPROGRESS> 12:40:30 |########            |  40% (159,784) 14.1 minPROGRESS> 12:42:39 |#########           |  45% (179,757) 16.2 minPROGRESS> 12:44:52 |##########          |  50% (199,730) 18.4 minPROGRESS> 12:47:07 |###########         |  55% (219,703) 20.7 minPROGRESS> 12:49:33 |############        |  60% (239,676) 23.1 minPROGRESS> 12:52:08 |#############       |  65% (259,649) 25.7 minPROGRESS> 12:55:24 |##############      |  70% (279,622) 29.0 minPROGRESS> 13:00:00 |###############     |  75% (299,595) 33.6 minPROGRESS> 13:04:27 |################    |  80% (319,568) 38.0 minPROGRESS> 13:08:49 |#################   |  85% (339,541) 42.4 minPROGRESS> 13:12:51 |##################  |  90% (359,514) 46.4 minPROGRESS> 13:17:04 |################### |  95% (379,487) 50.6 minPROGRESS> 13:21:06 |####################| 100% (399,458) 54.7 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 399458
+  PASS> 275512
+  FAIL> 123946
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 13:21:22 |                    |   0% (      0) 0.0 minPROGRESS> 13:23:59 |#                   |   5% ( 20,462) 2.6 minPROGRESS> 13:26:44 |##                  |  10% ( 40,924) 5.4 minPROGRESS> 13:29:31 |###                 |  15% ( 61,386) 8.1 minPROGRESS> 13:32:19 |####                |  20% ( 81,848) 11.0 minPROGRESS> 13:35:17 |#####               |  25% (102,310) 13.9 minPROGRESS> 13:38:19 |######              |  30% (122,772) 17.0 minPROGRESS> 13:41:46 |#######             |  35% (143,234) 20.4 minPROGRESS> 13:44:57 |########            |  40% (163,696) 23.6 minPROGRESS> 13:48:26 |#########           |  45% (184,158) 27.1 minPROGRESS> 13:52:03 |##########          |  50% (204,620) 30.7 minPROGRESS> 13:55:41 |###########         |  55% (225,082) 34.3 minPROGRESS> 13:59:26 |############        |  60% (245,544) 38.1 minPROGRESS> 14:04:59 |#############       |  65% (266,006) 43.6 minPROGRESS> 14:10:36 |##############      |  70% (286,468) 49.2 minPROGRESS> 14:16:12 |###############     |  75% (306,930) 54.8 minPROGRESS> 14:21:47 |################    |  80% (327,392) 60.4 minPROGRESS> 14:27:02 |#################   |  85% (347,854) 65.7 minPROGRESS> 14:32:26 |##################  |  90% (368,316) 71.1 minPROGRESS> 14:38:00 |################### |  95% (388,778) 76.6 minPROGRESS> 14:43:28 |####################| 100% (409,240) 82.1 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 409240
+  PASS> 244188
+  FAIL> 165052
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 14:43:42 |                    |   0% (      0) 0.0 minPROGRESS> 14:46:40 |#                   |   5% ( 15,279) 3.0 minPROGRESS> 14:49:41 |##                  |  10% ( 30,558) 6.0 minPROGRESS> 14:52:51 |###                 |  15% ( 45,837) 9.2 minPROGRESS> 14:56:03 |####                |  20% ( 61,116) 12.4 minPROGRESS> 14:59:23 |#####               |  25% ( 76,395) 15.7 minPROGRESS> 15:02:42 |######              |  30% ( 91,674) 19.0 minPROGRESS> 15:06:04 |#######             |  35% (106,953) 22.4 minPROGRESS> 15:09:13 |########            |  40% (122,232) 25.5 minPROGRESS> 15:12:40 |#########           |  45% (137,511) 29.0 minPROGRESS> 15:16:12 |##########          |  50% (152,790) 32.5 minPROGRESS> 15:19:52 |###########         |  55% (168,069) 36.2 minPROGRESS> 15:23:27 |############        |  60% (183,348) 39.8 minPROGRESS> 15:28:11 |#############       |  65% (198,627) 44.5 minPROGRESS> 15:33:02 |##############      |  70% (213,906) 49.3 minPROGRESS> 15:37:52 |###############     |  75% (229,185) 54.2 minPROGRESS> 15:42:44 |################    |  80% (244,464) 59.0 minPROGRESS> 15:47:25 |#################   |  85% (259,743) 63.7 minPROGRESS> 15:52:15 |##################  |  90% (275,022) 68.6 minPROGRESS> 15:57:11 |################### |  95% (290,301) 73.5 minslurmstepd: error: _is_a_lwp: open() /proc/5582/status failed: No such file or directory
+PROGRESS> 16:02:03 |####################| 100% (305,570) 78.3 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 305570
+  PASS> 150574
+  FAIL> 154996
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 16:02:20 |                    |   0% (      0) 0.0 minPROGRESS> 16:03:34 |#                   |   5% ( 20,890) 1.2 minPROGRESS> 16:04:51 |##                  |  10% ( 41,780) 2.5 minPROGRESS> 16:06:13 |###                 |  15% ( 62,670) 3.9 minPROGRESS> 16:07:46 |####                |  20% ( 83,560) 5.4 minPROGRESS> 16:09:26 |#####               |  25% (104,450) 7.1 minPROGRESS> 16:11:28 |######              |  30% (125,340) 9.1 minPROGRESS> 16:13:29 |#######             |  35% (146,230) 11.2 minPROGRESS> 16:15:39 |########            |  40% (167,120) 13.3 minPROGRESS> 16:18:09 |#########           |  45% (188,010) 15.8 minPROGRESS> 16:20:39 |##########          |  50% (208,900) 18.3 minPROGRESS> 16:23:20 |###########         |  55% (229,790) 21.0 minPROGRESS> 16:26:12 |############        |  60% (250,680) 23.9 minPROGRESS> 16:29:09 |#############       |  65% (271,570) 26.8 minPROGRESS> 16:32:47 |##############      |  70% (292,460) 30.5 minPROGRESS> 16:36:27 |###############     |  75% (313,350) 34.1 minPROGRESS> 16:40:07 |################    |  80% (334,240) 37.8 minPROGRESS> 16:43:43 |#################   |  85% (355,130) 41.4 minPROGRESS> 16:46:59 |##################  |  90% (376,020) 44.7 minPROGRESS> 16:50:33 |################### |  95% (396,910) 48.2 minPROGRESS> 16:54:14 |####################| 100% (417,794) 51.9 min
+
+OUTPUT> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 417794
+  PASS> 307205
+  FAIL> 110589
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 16:54:31 |                    |   0% (      0) 0.0 minPROGRESS> 16:56:10 |#                   |   5% ( 21,191) 1.7 minPROGRESS> 16:57:56 |##                  |  10% ( 42,382) 3.4 minPROGRESS> 16:59:46 |###                 |  15% ( 63,573) 5.3 minPROGRESS> 17:01:43 |####                |  20% ( 84,764) 7.2 minPROGRESS> 17:03:47 |#####               |  25% (105,955) 9.3 minPROGRESS> 17:06:08 |######              |  30% (127,146) 11.6 minPROGRESS> 17:08:25 |#######             |  35% (148,337) 13.9 minPROGRESS> 17:10:44 |########            |  40% (169,528) 16.2 minPROGRESS> 17:13:16 |#########           |  45% (190,719) 18.8 minPROGRESS> 17:15:48 |##########          |  50% (211,910) 21.3 minPROGRESS> 17:18:25 |###########         |  55% (233,101) 23.9 minPROGRESS> 17:21:24 |############        |  60% (254,292) 26.9 minPROGRESS> 17:24:27 |#############       |  65% (275,483) 29.9 minPROGRESS> 17:28:20 |##############      |  70% (296,674) 33.8 minPROGRESS> 17:33:25 |###############     |  75% (317,865) 38.9 minPROGRESS> 17:38:27 |################    |  80% (339,056) 43.9 minPROGRESS> 17:43:20 |#################   |  85% (360,247) 48.8 minPROGRESS> 17:47:47 |##################  |  90% (381,438) 53.3 minPROGRESS> 17:52:32 |################### |  95% (402,629) 58.0 minPROGRESS> 17:57:19 |####################| 100% (423,805) 62.8 min
+
+OUTPUT> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 423805
+  PASS> 301871
+  FAIL> 121934
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 17:57:32 |                    |   0% (      0) 0.0 minPROGRESS> 17:58:57 |#                   |   5% ( 13,082) 1.4 minPROGRESS> 18:00:31 |##                  |  10% ( 26,164) 3.0 minPROGRESS> 18:02:12 |###                 |  15% ( 39,246) 4.7 minPROGRESS> 18:03:55 |####                |  20% ( 52,328) 6.4 minPROGRESS> 18:05:51 |#####               |  25% ( 65,410) 8.3 minPROGRESS> 18:07:48 |######              |  30% ( 78,492) 10.3 minPROGRESS> 18:09:54 |#######             |  35% ( 91,574) 12.4 minPROGRESS> 18:12:01 |########            |  40% (104,656) 14.5 minPROGRESS> 18:14:01 |#########           |  45% (117,738) 16.5 minPROGRESS> 18:16:15 |##########          |  50% (130,820) 18.7 minPROGRESS> 18:18:32 |###########         |  55% (143,902) 21.0 minPROGRESS> 18:20:48 |############        |  60% (156,984) 23.3 minPROGRESS> 18:23:42 |#############       |  65% (170,066) 26.2 minPROGRESS> 18:26:55 |##############      |  70% (183,148) 29.4 minPROGRESS> 18:30:01 |###############     |  75% (196,230) 32.5 minPROGRESS> 18:33:07 |################    |  80% (209,312) 35.6 minPROGRESS> 18:36:04 |#################   |  85% (222,394) 38.5 minslurmstepd: error: _is_a_lwp: open() /proc/9077/status failed: No such file or directory
+PROGRESS> 18:38:58 |##################  |  90% (235,476) 41.4 minPROGRESS> 18:41:59 |################### |  95% (248,558) 44.5 minPROGRESS> 18:44:59 |####################| 100% (261,624) 47.5 min
+
+OUTPUT> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 261624
+  PASS> 169410
+  FAIL> 92214
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 18:45:15 |                    |   0% (      0) 0.0 minPROGRESS> 18:46:41 |#                   |   5% ( 19,044) 1.4 minPROGRESS> 18:48:22 |##                  |  10% ( 38,088) 3.1 minPROGRESS> 18:50:16 |###                 |  15% ( 57,132) 5.0 minPROGRESS> 18:52:21 |####                |  20% ( 76,176) 7.1 minslurmstepd: error: _is_a_lwp: open() /proc/62553/status failed: No such file or directory
+PROGRESS> 18:54:35 |#####               |  25% ( 95,220) 9.3 minPROGRESS> 18:57:03 |######              |  30% (114,264) 11.8 minPROGRESS> 18:59:38 |#######             |  35% (133,308) 14.4 minPROGRESS> 19:02:24 |########            |  40% (152,352) 17.2 minPROGRESS> 19:05:05 |#########           |  45% (171,396) 19.8 minPROGRESS> 19:07:53 |##########          |  50% (190,440) 22.6 minPROGRESS> 19:10:55 |###########         |  55% (209,484) 25.7 minPROGRESS> 19:13:57 |############        |  60% (228,528) 28.7 minPROGRESS> 19:17:24 |#############       |  65% (247,572) 32.2 minPROGRESS> 19:21:42 |##############      |  70% (266,616) 36.5 minPROGRESS> 19:26:04 |###############     |  75% (285,660) 40.8 minPROGRESS> 19:30:21 |################    |  80% (304,704) 45.1 minPROGRESS> 19:34:18 |#################   |  85% (323,748) 49.0 minPROGRESS> 19:38:12 |##################  |  90% (342,792) 52.9 minPROGRESS> 19:42:12 |################### |  95% (361,836) 57.0 minPROGRESS> 19:46:11 |####################| 100% (380,875) 60.9 min
+
+OUTPUT> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 380875
+  PASS> 264707
+  FAIL> 116168
+   END> AssemblePairs
+
+       START> AssemblePairs
+     COMMAND> sequential
+       FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+       FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+  COORD_TYPE> presto
+     REFFILE> ../../metadata/databases/igblast/fasta/imgt_mouse_ig_v.fasta
+       ALPHA> 1e-05
+   MAX_ERROR> 0.3
+     MIN_LEN> 8
+     MAX_LEN> 1000
+SCAN_REVERSE> True
+   MIN_IDENT> 0.5
+      EVALUE> 1e-05
+    MAX_HITS> 100
+        FILL> False
+     ALIGNER> blastn
+       NPROC> 60
+
+PROGRESS> 19:46:24 |                    |   0% (      0) 0.0 minPROGRESS> 19:47:02 |#                   |   5% ( 13,549) 0.6 minPROGRESS> 19:47:41 |##                  |  10% ( 27,098) 1.3 minPROGRESS> 19:48:27 |###                 |  15% ( 40,647) 2.1 minPROGRESS> 19:49:16 |####                |  20% ( 54,196) 2.9 minPROGRESS> 19:50:17 |#####               |  25% ( 67,745) 3.9 minPROGRESS> 19:51:15 |######              |  30% ( 81,294) 4.9 minPROGRESS> 19:52:15 |#######             |  35% ( 94,843) 5.9 minPROGRESS> 19:53:13 |########            |  40% (108,392) 6.8 minPROGRESS> 19:54:10 |#########           |  45% (121,941) 7.8 minPROGRESS> 19:55:14 |##########          |  50% (135,490) 8.8 minPROGRESS> 19:56:17 |###########         |  55% (149,039) 9.9 minPROGRESS> 19:57:25 |############        |  60% (162,588) 11.0 minPROGRESS> 19:58:39 |#############       |  65% (176,137) 12.2 minPROGRESS> 19:59:54 |##############      |  70% (189,686) 13.5 minPROGRESS> 20:01:09 |###############     |  75% (203,235) 14.8 minPROGRESS> 20:02:24 |################    |  80% (216,784) 16.0 minPROGRESS> 20:03:24 |#################   |  85% (230,333) 17.0 minPROGRESS> 20:04:38 |##################  |  90% (243,882) 18.2 minPROGRESS> 20:05:55 |################### |  95% (257,431) 19.5 minPROGRESS> 20:07:14 |####################| 100% (270,968) 20.8 min
+
+OUTPUT> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_consensus-pass_pair-pass_assemble-pass.fastq
+ PAIRS> 270968
+  PASS> 227297
+  FAIL> 43671
+   END> AssemblePairs
+

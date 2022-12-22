@@ -1,0 +1,41 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+Error: '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S2_S2_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv' does not exist.
+Execution halted
+Error: '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv' does not exist.
+Execution halted
+Warning: 146 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+11225 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+13917 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+19557 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36175 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+38702 seqorie [... truncated]
+Warning: 280 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+13547 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+23413 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+24812 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+29301 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+29564 seqorie [... truncated]
+Warning: 272 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+10756 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+18090 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36284 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36603 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+51528 seqorie [... truncated]
+Warning: 247 parsing failures.
+   row       col           expected actual                                                                                                                                                   file
+ 82305 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 82952 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+112138 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+116362 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+134228 s [... truncated]
+Warning: 268 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+30376 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+43252 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+58984 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+61745 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+65618 seqorie [... truncated]

@@ -1,0 +1,900 @@
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:02 |Done                     | 0.5 min
+
+PROGRESS> 09:48:02 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:41 |#                   |   5% ( 13,879) 0.6 minPROGRESS> 09:49:23 |##                  |  10% ( 27,758) 1.3 minPROGRESS> 09:50:02 |###                 |  15% ( 41,637) 2.0 minPROGRESS> 09:50:37 |####                |  20% ( 55,516) 2.6 minPROGRESS> 09:51:09 |#####               |  25% ( 69,395) 3.1 minPROGRESS> 09:51:40 |######              |  30% ( 83,274) 3.6 minPROGRESS> 09:52:08 |#######             |  35% ( 97,153) 4.1 minPROGRESS> 09:52:34 |########            |  40% (111,032) 4.5 minPROGRESS> 09:53:00 |#########           |  45% (124,911) 5.0 minPROGRESS> 09:53:24 |##########          |  50% (138,790) 5.4 minPROGRESS> 09:53:50 |###########         |  55% (152,669) 5.8 minPROGRESS> 09:54:03 |############        |  60% (166,548) 6.0 minPROGRESS> 09:54:10 |#############       |  65% (180,427) 6.1 minPROGRESS> 09:54:18 |##############      |  70% (194,306) 6.3 minPROGRESS> 09:54:25 |###############     |  75% (208,185) 6.4 minPROGRESS> 09:54:33 |################    |  80% (222,064) 6.5 minPROGRESS> 09:54:41 |#################   |  85% (235,943) 6.6 minPROGRESS> 09:54:50 |##################  |  90% (249,822) 6.8 minPROGRESS> 09:54:59 |################### |  95% (263,701) 6.9 minPROGRESS> 09:55:08 |####################| 100% (277,564) 7.1 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 464814
+SEQUENCES2> 277564
+      PASS> 270546
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:55 |Done                     | 0.4 min
+
+PROGRESS> 09:47:55 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:29 |#                   |   5% ( 12,847) 0.6 minPROGRESS> 09:49:09 |##                  |  10% ( 25,694) 1.2 minPROGRESS> 09:49:49 |###                 |  15% ( 38,541) 1.9 minPROGRESS> 09:50:30 |####                |  20% ( 51,388) 2.6 minPROGRESS> 09:51:10 |#####               |  25% ( 64,235) 3.3 minPROGRESS> 09:51:50 |######              |  30% ( 77,082) 3.9 minPROGRESS> 09:52:27 |#######             |  35% ( 89,929) 4.5 minPROGRESS> 09:53:00 |########            |  40% (102,776) 5.1 minPROGRESS> 09:53:32 |#########           |  45% (115,623) 5.6 minPROGRESS> 09:54:04 |##########          |  50% (128,470) 6.2 minPROGRESS> 09:54:33 |###########         |  55% (141,317) 6.6 minPROGRESS> 09:54:59 |############        |  60% (154,164) 7.1 minPROGRESS> 09:55:18 |#############       |  65% (167,011) 7.4 minPROGRESS> 09:55:25 |##############      |  70% (179,858) 7.5 minPROGRESS> 09:55:31 |###############     |  75% (192,705) 7.6 minPROGRESS> 09:55:39 |################    |  80% (205,552) 7.7 minPROGRESS> 09:55:46 |#################   |  85% (218,399) 7.8 minPROGRESS> 09:55:53 |##################  |  90% (231,246) 8.0 minPROGRESS> 09:56:01 |################### |  95% (244,093) 8.1 minPROGRESS> 09:56:08 |####################| 100% (256,928) 8.2 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 334087
+SEQUENCES2> 256928
+      PASS> 252224
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:57 |Done                     | 0.4 min
+
+PROGRESS> 09:47:57 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:38 |#                   |   5% ( 15,085) 0.7 minPROGRESS> 09:49:24 |##                  |  10% ( 30,170) 1.4 minPROGRESS> 09:50:12 |###                 |  15% ( 45,255) 2.2 minPROGRESS> 09:50:59 |####                |  20% ( 60,340) 3.0 minPROGRESS> 09:51:44 |#####               |  25% ( 75,425) 3.8 minPROGRESS> 09:52:25 |######              |  30% ( 90,510) 4.5 minPROGRESS> 09:53:04 |#######             |  35% (105,595) 5.1 minPROGRESS> 09:53:42 |########            |  40% (120,680) 5.8 minPROGRESS> 09:54:15 |#########           |  45% (135,765) 6.3 minPROGRESS> 09:54:46 |##########          |  50% (150,850) 6.8 minPROGRESS> 09:55:14 |###########         |  55% (165,935) 7.3 minPROGRESS> 09:55:40 |############        |  60% (181,020) 7.7 minPROGRESS> 09:55:55 |#############       |  65% (196,105) 8.0 minPROGRESS> 09:56:04 |##############      |  70% (211,190) 8.1 minPROGRESS> 09:56:12 |###############     |  75% (226,275) 8.3 minPROGRESS> 09:56:20 |################    |  80% (241,360) 8.4 minPROGRESS> 09:56:29 |#################   |  85% (256,445) 8.5 minPROGRESS> 09:56:37 |##################  |  90% (271,530) 8.7 minPROGRESS> 09:56:46 |################### |  95% (286,615) 8.8 minPROGRESS> 09:56:55 |####################| 100% (301,684) 9.0 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 414522
+SEQUENCES2> 301684
+      PASS> 295418
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:18 |Done                     | 0.7 min
+
+PROGRESS> 09:48:18 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:59 |#                   |   5% ( 21,022) 0.7 minPROGRESS> 09:49:39 |##                  |  10% ( 42,044) 1.3 minPROGRESS> 09:50:16 |###                 |  15% ( 63,066) 2.0 minPROGRESS> 09:50:58 |####                |  20% ( 84,088) 2.7 minPROGRESS> 09:51:41 |#####               |  25% (105,110) 3.4 minPROGRESS> 09:52:20 |######              |  30% (126,132) 4.0 minPROGRESS> 09:52:59 |#######             |  35% (147,154) 4.7 minPROGRESS> 09:53:35 |########            |  40% (168,176) 5.3 minPROGRESS> 09:54:11 |#########           |  45% (189,198) 5.9 minPROGRESS> 09:54:46 |##########          |  50% (210,220) 6.5 minPROGRESS> 09:55:13 |###########         |  55% (231,242) 6.9 minPROGRESS> 09:55:24 |############        |  60% (252,264) 7.1 minPROGRESS> 09:55:36 |#############       |  65% (273,286) 7.3 minPROGRESS> 09:55:48 |##############      |  70% (294,308) 7.5 minPROGRESS> 09:56:02 |###############     |  75% (315,330) 7.7 minPROGRESS> 09:56:15 |################    |  80% (336,352) 7.9 minPROGRESS> 09:56:29 |#################   |  85% (357,374) 8.2 minPROGRESS> 09:56:44 |##################  |  90% (378,396) 8.4 minPROGRESS> 09:56:59 |################### |  95% (399,418) 8.7 minPROGRESS> 09:57:14 |####################| 100% (420,432) 8.9 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 525000
+SEQUENCES2> 420432
+      PASS> 408886
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:00 |Done                     | 0.4 min
+
+PROGRESS> 09:48:00 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:40 |#                   |   5% ( 14,457) 0.7 minPROGRESS> 09:49:21 |##                  |  10% ( 28,914) 1.4 minPROGRESS> 09:50:02 |###                 |  15% ( 43,371) 2.0 minPROGRESS> 09:50:47 |####                |  20% ( 57,828) 2.8 minPROGRESS> 09:51:32 |#####               |  25% ( 72,285) 3.5 minPROGRESS> 09:52:15 |######              |  30% ( 86,742) 4.2 minPROGRESS> 09:52:54 |#######             |  35% (101,199) 4.9 minPROGRESS> 09:53:31 |########            |  40% (115,656) 5.5 minPROGRESS> 09:54:07 |#########           |  45% (130,113) 6.1 minPROGRESS> 09:54:43 |##########          |  50% (144,570) 6.7 minPROGRESS> 09:55:16 |###########         |  55% (159,027) 7.3 minPROGRESS> 09:55:47 |############        |  60% (173,484) 7.8 minPROGRESS> 09:56:16 |#############       |  65% (187,941) 8.3 minPROGRESS> 09:56:33 |##############      |  70% (202,398) 8.6 minPROGRESS> 09:56:41 |###############     |  75% (216,855) 8.7 minPROGRESS> 09:56:50 |################    |  80% (231,312) 8.8 minPROGRESS> 09:56:58 |#################   |  85% (245,769) 9.0 minPROGRESS> 09:57:07 |##################  |  90% (260,226) 9.1 minPROGRESS> 09:57:15 |################### |  95% (274,683) 9.3 minPROGRESS> 09:57:25 |####################| 100% (289,132) 9.4 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 320601
+SEQUENCES2> 289132
+      PASS> 283487
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:57 |Done                     | 0.4 min
+
+PROGRESS> 09:47:57 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:42 |#                   |   5% ( 16,391) 0.8 minPROGRESS> 09:49:36 |##                  |  10% ( 32,782) 1.7 minPROGRESS> 09:50:28 |###                 |  15% ( 49,173) 2.5 minPROGRESS> 09:51:22 |####                |  20% ( 65,564) 3.4 minPROGRESS> 09:52:12 |#####               |  25% ( 81,955) 4.3 minPROGRESS> 09:52:58 |######              |  30% ( 98,346) 5.0 minPROGRESS> 09:53:45 |#######             |  35% (114,737) 5.8 minPROGRESS> 09:54:26 |########            |  40% (131,128) 6.5 minPROGRESS> 09:55:01 |#########           |  45% (147,519) 7.1 minPROGRESS> 09:55:33 |##########          |  50% (163,910) 7.6 minPROGRESS> 09:56:04 |###########         |  55% (180,301) 8.1 minPROGRESS> 09:56:32 |############        |  60% (196,692) 8.6 minPROGRESS> 09:56:52 |#############       |  65% (213,083) 8.9 minPROGRESS> 09:57:01 |##############      |  70% (229,474) 9.1 minPROGRESS> 09:57:09 |###############     |  75% (245,865) 9.2 minPROGRESS> 09:57:18 |################    |  80% (262,256) 9.3 minPROGRESS> 09:57:26 |#################   |  85% (278,647) 9.5 minPROGRESS> 09:57:34 |##################  |  90% (295,038) 9.6 minPROGRESS> 09:57:43 |################### |  95% (311,429) 9.8 minPROGRESS> 09:57:51 |####################| 100% (327,807) 9.9 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 351351
+SEQUENCES2> 327807
+      PASS> 322213
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:47 |Done                     | 0.2 min
+
+PROGRESS> 09:47:47 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:05 |#                   |   5% (  7,950) 0.3 minPROGRESS> 09:50:27 |##                  |  10% ( 15,900) 2.7 minPROGRESS> 09:51:30 |###                 |  15% ( 23,850) 3.7 minPROGRESS> 09:52:51 |####                |  20% ( 31,800) 5.1 minPROGRESS> 09:54:01 |#####               |  25% ( 39,750) 6.2 minPROGRESS> 09:54:42 |######              |  30% ( 47,700) 6.9 minPROGRESS> 09:55:39 |#######             |  35% ( 55,650) 7.9 minPROGRESS> 09:56:07 |########            |  40% ( 63,600) 8.3 minPROGRESS> 09:56:53 |#########           |  45% ( 71,550) 9.1 minPROGRESS> 09:57:18 |##########          |  50% ( 79,500) 9.5 minPROGRESS> 09:57:46 |###########         |  55% ( 87,450) 10.0 minPROGRESS> 09:57:53 |############        |  60% ( 95,400) 10.1 minPROGRESS> 09:57:58 |#############       |  65% (103,350) 10.2 minPROGRESS> 09:58:03 |##############      |  70% (111,300) 10.3 minPROGRESS> 09:58:08 |###############     |  75% (119,250) 10.4 minPROGRESS> 09:58:14 |################    |  80% (127,200) 10.4 minPROGRESS> 09:58:20 |#################   |  85% (135,150) 10.5 minPROGRESS> 09:58:27 |##################  |  90% (143,100) 10.7 minPROGRESS> 09:58:33 |################### |  95% (151,050) 10.8 minPROGRESS> 09:58:39 |####################| 100% (158,990) 10.9 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 277809
+SEQUENCES2> 158990
+      PASS> 156492
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:10 |Done                     | 0.6 min
+
+PROGRESS> 09:48:10 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:10 |#                   |   5% ( 20,727) 1.0 minPROGRESS> 09:50:15 |##                  |  10% ( 41,454) 2.1 minPROGRESS> 09:51:20 |###                 |  15% ( 62,181) 3.2 minPROGRESS> 09:52:22 |####                |  20% ( 82,908) 4.2 minPROGRESS> 09:53:17 |#####               |  25% (103,635) 5.1 minPROGRESS> 09:54:13 |######              |  30% (124,362) 6.0 minPROGRESS> 09:55:04 |#######             |  35% (145,089) 6.9 minPROGRESS> 09:55:50 |########            |  40% (165,816) 7.7 minPROGRESS> 09:56:32 |#########           |  45% (186,543) 8.4 minPROGRESS> 09:57:08 |##########          |  50% (207,270) 9.0 minPROGRESS> 09:57:40 |###########         |  55% (227,997) 9.5 minPROGRESS> 09:58:12 |############        |  60% (248,724) 10.0 minPROGRESS> 09:58:40 |#############       |  65% (269,451) 10.5 minPROGRESS> 09:58:52 |##############      |  70% (290,178) 10.7 minPROGRESS> 09:59:03 |###############     |  75% (310,905) 10.9 minPROGRESS> 09:59:14 |################    |  80% (331,632) 11.1 minPROGRESS> 09:59:24 |#################   |  85% (352,359) 11.2 minPROGRESS> 09:59:35 |##################  |  90% (373,086) 11.4 minPROGRESS> 09:59:45 |################### |  95% (393,813) 11.6 minPROGRESS> 09:59:56 |####################| 100% (414,528) 11.8 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 465438
+SEQUENCES2> 414528
+      PASS> 404808
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:04 |Done                     | 0.5 min
+
+PROGRESS> 09:48:04 |                    |   0% (      0) 0.0 minPROGRESS> 09:48:59 |#                   |   5% ( 21,159) 0.9 minPROGRESS> 09:49:59 |##                  |  10% ( 42,318) 1.9 minPROGRESS> 09:50:54 |###                 |  15% ( 63,477) 2.8 minPROGRESS> 09:51:50 |####                |  20% ( 84,636) 3.8 minPROGRESS> 09:52:44 |#####               |  25% (105,795) 4.7 minPROGRESS> 09:53:38 |######              |  30% (126,954) 5.6 minPROGRESS> 09:54:25 |#######             |  35% (148,113) 6.3 minPROGRESS> 09:55:12 |########            |  40% (169,272) 7.1 minPROGRESS> 09:55:58 |#########           |  45% (190,431) 7.9 minPROGRESS> 09:56:41 |##########          |  50% (211,590) 8.6 minPROGRESS> 09:57:19 |###########         |  55% (232,749) 9.2 minPROGRESS> 09:57:56 |############        |  60% (253,908) 9.9 minPROGRESS> 09:58:10 |#############       |  65% (275,067) 10.1 minPROGRESS> 09:58:22 |##############      |  70% (296,226) 10.3 minPROGRESS> 09:58:36 |###############     |  75% (317,385) 10.5 minPROGRESS> 09:58:51 |################    |  80% (338,544) 10.8 minPROGRESS> 09:59:06 |#################   |  85% (359,703) 11.0 minPROGRESS> 09:59:23 |##################  |  90% (380,862) 11.3 minPROGRESS> 09:59:41 |################### |  95% (402,021) 11.6 minPROGRESS> 09:59:59 |####################| 100% (423,172) 11.9 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 528277
+SEQUENCES2> 423172
+      PASS> 409240
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:12 |Done                     | 0.6 min
+
+PROGRESS> 09:48:12 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:47 |#                   |   5% (  9,313) 1.6 minPROGRESS> 09:51:17 |##                  |  10% ( 18,626) 3.1 minPROGRESS> 09:52:35 |###                 |  15% ( 27,939) 4.4 minPROGRESS> 09:53:58 |####                |  20% ( 37,252) 5.8 minPROGRESS> 09:55:10 |#####               |  25% ( 46,565) 7.0 minPROGRESS> 09:56:14 |######              |  30% ( 55,878) 8.0 minPROGRESS> 09:57:06 |#######             |  35% ( 65,191) 8.9 minPROGRESS> 09:57:52 |########            |  40% ( 74,504) 9.7 minPROGRESS> 09:58:32 |#########           |  45% ( 83,817) 10.3 minPROGRESS> 09:59:03 |##########          |  50% ( 93,130) 10.8 minPROGRESS> 09:59:42 |###########         |  55% (102,443) 11.5 minPROGRESS> 09:59:59 |############        |  60% (111,756) 11.8 minPROGRESS> 10:00:05 |#############       |  65% (121,069) 11.9 minPROGRESS> 10:00:12 |##############      |  70% (130,382) 12.0 minPROGRESS> 10:00:20 |###############     |  75% (139,695) 12.1 minPROGRESS> 10:00:30 |################    |  80% (149,008) 12.3 minPROGRESS> 10:00:40 |#################   |  85% (158,321) 12.5 minPROGRESS> 10:00:51 |##################  |  90% (167,634) 12.6 minPROGRESS> 10:01:02 |################### |  95% (176,947) 12.8 minPROGRESS> 10:01:13 |####################| 100% (186,245) 13.0 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 827072
+SEQUENCES2> 186245
+      PASS> 174161
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:11 |Done                     | 0.6 min
+
+PROGRESS> 09:48:11 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:27 |#                   |   5% ( 25,796) 1.3 minPROGRESS> 09:50:47 |##                  |  10% ( 51,592) 2.6 minPROGRESS> 09:52:06 |###                 |  15% ( 77,388) 3.9 minPROGRESS> 09:53:16 |####                |  20% (103,184) 5.1 minPROGRESS> 09:54:26 |#####               |  25% (128,980) 6.3 minPROGRESS> 09:55:27 |######              |  30% (154,776) 7.3 minPROGRESS> 09:56:25 |#######             |  35% (180,572) 8.2 minPROGRESS> 09:57:16 |########            |  40% (206,368) 9.1 minPROGRESS> 09:58:03 |#########           |  45% (232,164) 9.9 minPROGRESS> 09:58:44 |##########          |  50% (257,960) 10.5 minPROGRESS> 09:59:24 |###########         |  55% (283,756) 11.2 minPROGRESS> 10:00:02 |############        |  60% (309,552) 11.9 minPROGRESS> 10:00:38 |#############       |  65% (335,348) 12.5 minPROGRESS> 10:01:05 |##############      |  70% (361,144) 12.9 minPROGRESS> 10:01:18 |###############     |  75% (386,940) 13.1 minPROGRESS> 10:01:31 |################    |  80% (412,736) 13.3 minPROGRESS> 10:01:44 |#################   |  85% (438,532) 13.6 minPROGRESS> 10:01:57 |##################  |  90% (464,328) 13.8 minPROGRESS> 10:02:11 |################### |  95% (490,124) 14.0 minPROGRESS> 10:02:25 |####################| 100% (515,919) 14.2 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 561624
+SEQUENCES2> 515919
+      PASS> 503460
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:56 |Done                     | 0.4 min
+
+PROGRESS> 09:47:56 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:25 |#                   |   5% ( 13,546) 2.5 minPROGRESS> 09:52:25 |##                  |  10% ( 27,092) 4.5 minPROGRESS> 09:55:27 |###                 |  15% ( 40,638) 7.5 minPROGRESS> 09:56:27 |####                |  20% ( 54,184) 8.5 minPROGRESS> 09:57:55 |#####               |  25% ( 67,730) 10.0 minPROGRESS> 09:58:59 |######              |  30% ( 81,276) 11.1 minPROGRESS> 09:59:33 |#######             |  35% ( 94,822) 11.6 minPROGRESS> 10:00:31 |########            |  40% (108,368) 12.6 minPROGRESS> 10:01:17 |#########           |  45% (121,914) 13.3 minPROGRESS> 10:01:41 |##########          |  50% (135,460) 13.7 minPROGRESS> 10:02:22 |###########         |  55% (149,006) 14.4 minPROGRESS> 10:02:33 |############        |  60% (162,552) 14.6 minPROGRESS> 10:02:41 |#############       |  65% (176,098) 14.7 minPROGRESS> 10:02:49 |##############      |  70% (189,644) 14.9 minPROGRESS> 10:02:58 |###############     |  75% (203,190) 15.0 minPROGRESS> 10:03:06 |################    |  80% (216,736) 15.2 minPROGRESS> 10:03:14 |#################   |  85% (230,282) 15.3 minPROGRESS> 10:03:22 |##################  |  90% (243,828) 15.4 minPROGRESS> 10:03:30 |################### |  95% (257,374) 15.6 minPROGRESS> 10:03:40 |####################| 100% (270,916) 15.7 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 416329
+SEQUENCES2> 270916
+      PASS> 265043
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:51 |Done                     | 0.3 min
+
+PROGRESS> 09:47:51 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:21 |#                   |   5% (  7,164) 1.5 minPROGRESS> 09:52:30 |##                  |  10% ( 14,328) 4.7 minPROGRESS> 09:54:37 |###                 |  15% ( 21,492) 6.8 minPROGRESS> 09:56:40 |####                |  20% ( 28,656) 8.8 minPROGRESS> 09:58:08 |#####               |  25% ( 35,820) 10.3 minPROGRESS> 09:59:12 |######              |  30% ( 42,984) 11.4 minPROGRESS> 10:00:06 |#######             |  35% ( 50,148) 12.3 minPROGRESS> 10:00:58 |########            |  40% ( 57,312) 13.1 minPROGRESS> 10:01:42 |#########           |  45% ( 64,476) 13.9 minPROGRESS> 10:02:26 |##########          |  50% ( 71,640) 14.6 minPROGRESS> 10:03:02 |###########         |  55% ( 78,804) 15.2 minPROGRESS> 10:03:14 |############        |  60% ( 85,968) 15.4 minPROGRESS> 10:03:19 |#############       |  65% ( 93,132) 15.5 minPROGRESS> 10:03:23 |##############      |  70% (100,296) 15.5 minPROGRESS> 10:03:29 |###############     |  75% (107,460) 15.6 minPROGRESS> 10:03:36 |################    |  80% (114,624) 15.8 minPROGRESS> 10:03:43 |#################   |  85% (121,788) 15.9 minPROGRESS> 10:03:50 |##################  |  90% (128,952) 16.0 minPROGRESS> 10:03:58 |################### |  95% (136,116) 16.1 minPROGRESS> 10:04:06 |####################| 100% (143,266) 16.3 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 286405
+SEQUENCES2> 143266
+      PASS> 140391
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:53 |Done                     | 0.3 min
+
+PROGRESS> 09:47:53 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:41 |#                   |   5% ( 13,754) 1.8 minPROGRESS> 09:52:24 |##                  |  10% ( 27,508) 4.5 minPROGRESS> 09:54:03 |###                 |  15% ( 41,262) 6.2 minPROGRESS> 09:55:50 |####                |  20% ( 55,016) 7.9 minPROGRESS> 09:57:05 |#####               |  25% ( 68,770) 9.2 minPROGRESS> 09:58:14 |######              |  30% ( 82,524) 10.3 minPROGRESS> 09:59:12 |#######             |  35% ( 96,278) 11.3 minPROGRESS> 09:59:59 |########            |  40% (110,032) 12.1 minPROGRESS> 10:00:51 |#########           |  45% (123,786) 13.0 minPROGRESS> 10:01:31 |##########          |  50% (137,540) 13.6 minPROGRESS> 10:02:16 |###########         |  55% (151,294) 14.4 minPROGRESS> 10:03:00 |############        |  60% (165,048) 15.1 minPROGRESS> 10:03:08 |#############       |  65% (178,802) 15.2 minPROGRESS> 10:03:16 |##############      |  70% (192,556) 15.4 minPROGRESS> 10:03:24 |###############     |  75% (206,310) 15.5 minPROGRESS> 10:03:33 |################    |  80% (220,064) 15.7 minPROGRESS> 10:03:42 |#################   |  85% (233,818) 15.8 minPROGRESS> 10:03:50 |##################  |  90% (247,572) 15.9 minPROGRESS> 10:03:59 |################### |  95% (261,326) 16.1 minPROGRESS> 10:04:09 |####################| 100% (275,080) 16.3 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 353284
+SEQUENCES2> 275080
+      PASS> 270968
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:00 |Done                     | 0.4 min
+
+PROGRESS> 09:48:00 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:12 |#                   |   5% ( 17,131) 2.2 minPROGRESS> 09:52:28 |##                  |  10% ( 34,262) 4.5 minPROGRESS> 09:53:51 |###                 |  15% ( 51,393) 5.9 minPROGRESS> 09:55:11 |####                |  20% ( 68,524) 7.2 minPROGRESS> 09:56:46 |#####               |  25% ( 85,655) 8.8 minPROGRESS> 09:57:43 |######              |  30% (102,786) 9.7 minPROGRESS> 09:58:51 |#######             |  35% (119,917) 10.9 minPROGRESS> 09:59:32 |########            |  40% (137,048) 11.5 minPROGRESS> 10:00:32 |#########           |  45% (154,179) 12.5 minPROGRESS> 10:01:13 |##########          |  50% (171,310) 13.2 minPROGRESS> 10:01:51 |###########         |  55% (188,441) 13.9 minPROGRESS> 10:02:47 |############        |  60% (205,572) 14.8 minPROGRESS> 10:03:14 |#############       |  65% (222,703) 15.2 minPROGRESS> 10:03:23 |##############      |  70% (239,834) 15.4 minPROGRESS> 10:03:32 |###############     |  75% (256,965) 15.5 minPROGRESS> 10:03:41 |################    |  80% (274,096) 15.7 minPROGRESS> 10:03:50 |#################   |  85% (291,227) 15.8 minPROGRESS> 10:04:00 |##################  |  90% (308,358) 16.0 minPROGRESS> 10:04:11 |################### |  95% (325,489) 16.2 minPROGRESS> 10:04:21 |####################| 100% (342,601) 16.4 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 461602
+SEQUENCES2> 342601
+      PASS> 334829
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:25 |#                   |   5% ( 16,052) 2.4 minPROGRESS> 09:52:31 |##                  |  10% ( 32,104) 4.5 minPROGRESS> 09:54:13 |###                 |  15% ( 48,156) 6.2 minPROGRESS> 09:55:39 |####                |  20% ( 64,208) 7.7 minPROGRESS> 09:57:50 |#####               |  25% ( 80,260) 9.8 minPROGRESS> 09:58:48 |######              |  30% ( 96,312) 10.8 minPROGRESS> 09:59:52 |#######             |  35% (112,364) 11.9 minPROGRESS> 10:00:46 |########            |  40% (128,416) 12.8 minPROGRESS> 10:01:23 |#########           |  45% (144,468) 13.4 minPROGRESS> 10:02:02 |##########          |  50% (160,520) 14.1 minPROGRESS> 10:02:36 |###########         |  55% (176,572) 14.6 minPROGRESS> 10:03:05 |############        |  60% (192,624) 15.1 minPROGRESS> 10:03:18 |#############       |  65% (208,676) 15.3 minPROGRESS> 10:03:26 |##############      |  70% (224,728) 15.5 minPROGRESS> 10:03:35 |###############     |  75% (240,780) 15.6 minPROGRESS> 10:03:45 |################    |  80% (256,832) 15.8 minPROGRESS> 10:03:54 |#################   |  85% (272,884) 15.9 minPROGRESS> 10:04:04 |##################  |  90% (288,936) 16.1 minPROGRESS> 10:04:13 |################### |  95% (304,988) 16.2 minPROGRESS> 10:04:22 |####################| 100% (321,022) 16.4 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 386632
+SEQUENCES2> 321022
+      PASS> 315459
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:03 |Done                     | 0.5 min
+
+PROGRESS> 09:48:03 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:28 |#                   |   5% ( 12,040) 2.4 minPROGRESS> 09:52:42 |##                  |  10% ( 24,080) 4.7 minPROGRESS> 09:55:28 |###                 |  15% ( 36,120) 7.4 minPROGRESS> 09:57:10 |####                |  20% ( 48,160) 9.1 minPROGRESS> 09:58:30 |#####               |  25% ( 60,200) 10.4 minPROGRESS> 09:59:55 |######              |  30% ( 72,240) 11.9 minPROGRESS> 10:00:54 |#######             |  35% ( 84,280) 12.9 minPROGRESS> 10:01:40 |########            |  40% ( 96,320) 13.6 minPROGRESS> 10:02:28 |#########           |  45% (108,360) 14.4 minPROGRESS> 10:03:09 |##########          |  50% (120,400) 15.1 minPROGRESS> 10:03:50 |###########         |  55% (132,440) 15.8 minPROGRESS> 10:04:33 |############        |  60% (144,480) 16.5 minPROGRESS> 10:04:49 |#############       |  65% (156,520) 16.8 minPROGRESS> 10:04:56 |##############      |  70% (168,560) 16.9 minPROGRESS> 10:05:04 |###############     |  75% (180,600) 17.0 minPROGRESS> 10:05:11 |################    |  80% (192,640) 17.1 minPROGRESS> 10:05:19 |#################   |  85% (204,680) 17.3 minPROGRESS> 10:05:27 |##################  |  90% (216,720) 17.4 minPROGRESS> 10:05:36 |################### |  95% (228,760) 17.6 minPROGRESS> 10:05:45 |####################| 100% (240,784) 17.7 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 401450
+SEQUENCES2> 240784
+      PASS> 234981
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:00 |Done                     | 0.4 min
+
+PROGRESS> 09:48:00 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:47 |#                   |   5% ( 21,837) 1.8 minPROGRESS> 09:51:29 |##                  |  10% ( 43,674) 3.5 minPROGRESS> 09:53:17 |###                 |  15% ( 65,511) 5.3 minPROGRESS> 09:55:28 |####                |  20% ( 87,348) 7.5 minPROGRESS> 09:56:52 |#####               |  25% (109,185) 8.9 minPROGRESS> 09:58:01 |######              |  30% (131,022) 10.0 minPROGRESS> 09:59:37 |#######             |  35% (152,859) 11.6 minPROGRESS> 10:00:31 |########            |  40% (174,696) 12.5 minPROGRESS> 10:01:45 |#########           |  45% (196,533) 13.8 minPROGRESS> 10:02:34 |##########          |  50% (218,370) 14.6 minPROGRESS> 10:03:37 |###########         |  55% (240,207) 15.6 minPROGRESS> 10:04:15 |############        |  60% (262,044) 16.3 minPROGRESS> 10:04:57 |#############       |  65% (283,881) 16.9 minPROGRESS> 10:05:12 |##############      |  70% (305,718) 17.2 minPROGRESS> 10:05:24 |###############     |  75% (327,555) 17.4 minPROGRESS> 10:05:37 |################    |  80% (349,392) 17.6 minPROGRESS> 10:05:49 |#################   |  85% (371,229) 17.8 minPROGRESS> 10:06:01 |##################  |  90% (393,066) 18.0 minPROGRESS> 10:06:14 |################### |  95% (414,903) 18.2 minPROGRESS> 10:06:27 |####################| 100% (436,736) 18.4 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 472004
+SEQUENCES2> 436736
+      PASS> 428427
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:58 |Done                     | 0.4 min
+
+PROGRESS> 09:47:58 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:27 |#                   |   5% ( 13,755) 3.5 minPROGRESS> 09:54:18 |##                  |  10% ( 27,510) 6.3 minPROGRESS> 09:57:31 |###                 |  15% ( 41,265) 9.6 minPROGRESS> 09:59:18 |####                |  20% ( 55,020) 11.3 minPROGRESS> 10:00:36 |#####               |  25% ( 68,775) 12.6 minPROGRESS> 10:01:55 |######              |  30% ( 82,530) 14.0 minPROGRESS> 10:03:12 |#######             |  35% ( 96,285) 15.2 minPROGRESS> 10:04:20 |########            |  40% (110,040) 16.4 minPROGRESS> 10:05:07 |#########           |  45% (123,795) 17.2 minPROGRESS> 10:05:49 |##########          |  50% (137,550) 17.8 minPROGRESS> 10:06:32 |###########         |  55% (151,305) 18.6 minPROGRESS> 10:07:06 |############        |  60% (165,060) 19.1 minPROGRESS> 10:07:14 |#############       |  65% (178,815) 19.3 minPROGRESS> 10:07:22 |##############      |  70% (192,570) 19.4 minPROGRESS> 10:07:30 |###############     |  75% (206,325) 19.5 minPROGRESS> 10:07:39 |################    |  80% (220,080) 19.7 minPROGRESS> 10:07:48 |#################   |  85% (233,835) 19.8 minPROGRESS> 10:07:57 |##################  |  90% (247,590) 20.0 minPROGRESS> 10:08:06 |################### |  95% (261,345) 20.1 minPROGRESS> 10:08:16 |####################| 100% (275,085) 20.3 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 359300
+SEQUENCES2> 275085
+      PASS> 269837
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:11 |Done                     | 0.6 min
+
+PROGRESS> 09:48:11 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:48 |#                   |   5% ( 13,932) 3.6 minPROGRESS> 09:54:04 |##                  |  10% ( 27,864) 5.9 minPROGRESS> 09:57:15 |###                 |  15% ( 41,796) 9.1 minPROGRESS> 09:58:40 |####                |  20% ( 55,728) 10.5 minPROGRESS> 10:00:28 |#####               |  25% ( 69,660) 12.3 minPROGRESS> 10:01:31 |######              |  30% ( 83,592) 13.3 minPROGRESS> 10:02:45 |#######             |  35% ( 97,524) 14.6 minPROGRESS> 10:03:53 |########            |  40% (111,456) 15.7 minPROGRESS> 10:04:44 |#########           |  45% (125,388) 16.6 minPROGRESS> 10:05:32 |##########          |  50% (139,320) 17.4 minPROGRESS> 10:06:01 |###########         |  55% (153,252) 17.8 minPROGRESS> 10:06:39 |############        |  60% (167,184) 18.5 minPROGRESS> 10:07:09 |#############       |  65% (181,116) 19.0 minPROGRESS> 10:07:18 |##############      |  70% (195,048) 19.1 minPROGRESS> 10:07:26 |###############     |  75% (208,980) 19.3 minPROGRESS> 10:07:35 |################    |  80% (222,912) 19.4 minPROGRESS> 10:07:45 |#################   |  85% (236,844) 19.6 minPROGRESS> 10:07:56 |##################  |  90% (250,776) 19.8 minPROGRESS> 10:08:06 |################### |  95% (264,708) 19.9 minPROGRESS> 10:08:19 |####################| 100% (278,621) 20.1 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 541989
+SEQUENCES2> 278621
+      PASS> 269497
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:15 |#                   |   5% ( 15,578) 2.3 minPROGRESS> 09:52:40 |##                  |  10% ( 31,156) 4.7 minPROGRESS> 09:55:48 |###                 |  15% ( 46,734) 7.8 minPROGRESS> 09:58:18 |####                |  20% ( 62,312) 10.3 minPROGRESS> 10:00:03 |#####               |  25% ( 77,890) 12.1 minPROGRESS> 10:01:15 |######              |  30% ( 93,468) 13.3 minPROGRESS> 10:02:10 |#######             |  35% (109,046) 14.2 minPROGRESS> 10:03:06 |########            |  40% (124,624) 15.1 minPROGRESS> 10:04:04 |#########           |  45% (140,202) 16.1 minPROGRESS> 10:05:17 |##########          |  50% (155,780) 17.3 minPROGRESS> 10:05:58 |###########         |  55% (171,358) 18.0 minPROGRESS> 10:06:43 |############        |  60% (186,936) 18.7 minPROGRESS> 10:06:56 |#############       |  65% (202,514) 18.9 minPROGRESS> 10:07:05 |##############      |  70% (218,092) 19.1 minPROGRESS> 10:07:14 |###############     |  75% (233,670) 19.3 minPROGRESS> 10:07:27 |################    |  80% (249,248) 19.5 minPROGRESS> 10:07:40 |#################   |  85% (264,826) 19.7 minPROGRESS> 10:07:54 |##################  |  90% (280,404) 19.9 minPROGRESS> 10:08:08 |################### |  95% (295,982) 20.1 minPROGRESS> 10:08:23 |####################| 100% (311,556) 20.4 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 366237
+SEQUENCES2> 311556
+      PASS> 305570
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:57 |Done                     | 0.4 min
+
+PROGRESS> 09:47:57 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:10 |#                   |   5% ( 15,318) 2.2 minPROGRESS> 09:53:30 |##                  |  10% ( 30,636) 5.5 minPROGRESS> 09:56:08 |###                 |  15% ( 45,954) 8.2 minPROGRESS> 09:57:48 |####                |  20% ( 61,272) 9.9 minPROGRESS> 09:59:41 |#####               |  25% ( 76,590) 11.7 minPROGRESS> 10:01:12 |######              |  30% ( 91,908) 13.2 minPROGRESS> 10:02:05 |#######             |  35% (107,226) 14.1 minPROGRESS> 10:03:18 |########            |  40% (122,544) 15.4 minPROGRESS> 10:04:04 |#########           |  45% (137,862) 16.1 minPROGRESS> 10:05:14 |##########          |  50% (153,180) 17.3 minPROGRESS> 10:05:55 |###########         |  55% (168,498) 18.0 minPROGRESS> 10:06:55 |############        |  60% (183,816) 19.0 minPROGRESS> 10:07:19 |#############       |  65% (199,134) 19.4 minPROGRESS> 10:07:28 |##############      |  70% (214,452) 19.5 minPROGRESS> 10:07:38 |###############     |  75% (229,770) 19.7 minPROGRESS> 10:07:48 |################    |  80% (245,088) 19.8 minPROGRESS> 10:07:58 |#################   |  85% (260,406) 20.0 minPROGRESS> 10:08:07 |##################  |  90% (275,724) 20.2 minPROGRESS> 10:08:16 |################### |  95% (291,042) 20.3 minPROGRESS> 10:08:25 |####################| 100% (306,353) 20.5 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 420406
+SEQUENCES2> 306353
+      PASS> 299674
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:56 |Done                     | 0.4 min
+
+PROGRESS> 09:47:56 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:09 |#                   |   5% ( 13,363) 2.2 minPROGRESS> 09:54:37 |##                  |  10% ( 26,726) 6.7 minPROGRESS> 09:56:35 |###                 |  15% ( 40,089) 8.7 minPROGRESS> 09:57:58 |####                |  20% ( 53,452) 10.0 minPROGRESS> 10:00:21 |#####               |  25% ( 66,815) 12.4 minPROGRESS> 10:01:22 |######              |  30% ( 80,178) 13.4 minPROGRESS> 10:02:52 |#######             |  35% ( 93,541) 14.9 minPROGRESS> 10:03:56 |########            |  40% (106,904) 16.0 minPROGRESS> 10:04:48 |#########           |  45% (120,267) 16.9 minPROGRESS> 10:05:51 |##########          |  50% (133,630) 17.9 minPROGRESS> 10:06:36 |###########         |  55% (146,993) 18.7 minPROGRESS> 10:07:30 |############        |  60% (160,356) 19.6 minPROGRESS> 10:07:43 |#############       |  65% (173,719) 19.8 minPROGRESS> 10:07:49 |##############      |  70% (187,082) 19.9 minPROGRESS> 10:07:56 |###############     |  75% (200,445) 20.0 minPROGRESS> 10:08:03 |################    |  80% (213,808) 20.1 minPROGRESS> 10:08:10 |#################   |  85% (227,171) 20.2 minPROGRESS> 10:08:17 |##################  |  90% (240,534) 20.4 minPROGRESS> 10:08:25 |################### |  95% (253,897) 20.5 minPROGRESS> 10:08:33 |####################| 100% (267,259) 20.6 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 366244
+SEQUENCES2> 267259
+      PASS> 261624
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:00 |Done                     | 0.4 min
+
+PROGRESS> 09:48:00 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:40 |#                   |   5% ( 13,358) 2.7 minPROGRESS> 09:52:56 |##                  |  10% ( 26,716) 4.9 minPROGRESS> 09:55:55 |###                 |  15% ( 40,074) 7.9 minPROGRESS> 09:57:17 |####                |  20% ( 53,432) 9.3 minPROGRESS> 09:59:23 |#####               |  25% ( 66,790) 11.4 minPROGRESS> 10:00:22 |######              |  30% ( 80,148) 12.4 minPROGRESS> 10:02:02 |#######             |  35% ( 93,506) 14.0 minPROGRESS> 10:02:54 |########            |  40% (106,864) 14.9 minPROGRESS> 10:04:21 |#########           |  45% (120,222) 16.3 minPROGRESS> 10:05:08 |##########          |  50% (133,580) 17.1 minPROGRESS> 10:06:13 |###########         |  55% (146,938) 18.2 minPROGRESS> 10:06:31 |############        |  60% (160,296) 18.5 minPROGRESS> 10:06:41 |#############       |  65% (173,654) 18.7 minPROGRESS> 10:06:52 |##############      |  70% (187,012) 18.9 minPROGRESS> 10:07:07 |###############     |  75% (200,370) 19.1 minPROGRESS> 10:07:21 |################    |  80% (213,728) 19.3 minPROGRESS> 10:07:38 |#################   |  85% (227,086) 19.6 minPROGRESS> 10:07:54 |##################  |  90% (240,444) 19.9 minPROGRESS> 10:08:13 |################### |  95% (253,802) 20.2 minPROGRESS> 10:08:33 |####################| 100% (267,145) 20.6 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 371548
+SEQUENCES2> 267145
+      PASS> 261402
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:36 |Done                     | 1.0 min
+
+PROGRESS> 09:48:36 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:13 |#                   |   5% ( 15,489) 3.6 minPROGRESS> 09:55:14 |##                  |  10% ( 30,978) 6.6 minPROGRESS> 09:57:40 |###                 |  15% ( 46,467) 9.1 minPROGRESS> 09:59:24 |####                |  20% ( 61,956) 10.8 minPROGRESS> 10:00:49 |#####               |  25% ( 77,445) 12.2 minPROGRESS> 10:02:00 |######              |  30% ( 92,934) 13.4 minPROGRESS> 10:03:09 |#######             |  35% (108,423) 14.6 minPROGRESS> 10:04:05 |########            |  40% (123,912) 15.5 minPROGRESS> 10:05:00 |#########           |  45% (139,401) 16.4 minPROGRESS> 10:05:37 |##########          |  50% (154,890) 17.0 minPROGRESS> 10:06:28 |###########         |  55% (170,379) 17.9 minPROGRESS> 10:06:48 |############        |  60% (185,868) 18.2 minPROGRESS> 10:06:58 |#############       |  65% (201,357) 18.4 minPROGRESS> 10:07:09 |##############      |  70% (216,846) 18.5 minPROGRESS> 10:07:20 |###############     |  75% (232,335) 18.7 minPROGRESS> 10:07:33 |################    |  80% (247,824) 19.0 minPROGRESS> 10:07:48 |#################   |  85% (263,313) 19.2 minPROGRESS> 10:08:03 |##################  |  90% (278,802) 19.5 minPROGRESS> 10:08:19 |################### |  95% (294,291) 19.7 minPROGRESS> 10:08:37 |####################| 100% (309,763) 20.0 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 916658
+SEQUENCES2> 309763
+      PASS> 289653
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:54 |Done                     | 0.3 min
+
+PROGRESS> 09:47:54 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:58 |#                   |   5% ( 12,059) 3.1 minPROGRESS> 09:54:14 |##                  |  10% ( 24,118) 6.3 minPROGRESS> 09:56:34 |###                 |  15% ( 36,177) 8.7 minPROGRESS> 09:58:34 |####                |  20% ( 48,236) 10.7 minPROGRESS> 10:00:33 |#####               |  25% ( 60,295) 12.6 minPROGRESS> 10:01:57 |######              |  30% ( 72,354) 14.0 minPROGRESS> 10:03:25 |#######             |  35% ( 84,413) 15.5 minPROGRESS> 10:04:21 |########            |  40% ( 96,472) 16.4 minPROGRESS> 10:05:24 |#########           |  45% (108,531) 17.5 minPROGRESS> 10:06:15 |##########          |  50% (120,590) 18.3 minPROGRESS> 10:06:54 |###########         |  55% (132,649) 19.0 minPROGRESS> 10:07:29 |############        |  60% (144,708) 19.6 minPROGRESS> 10:07:56 |#############       |  65% (156,767) 20.0 minPROGRESS> 10:08:03 |##############      |  70% (168,826) 20.1 minPROGRESS> 10:08:10 |###############     |  75% (180,885) 20.3 minPROGRESS> 10:08:17 |################    |  80% (192,944) 20.4 minPROGRESS> 10:08:24 |#################   |  85% (205,003) 20.5 minPROGRESS> 10:08:30 |##################  |  90% (217,062) 20.6 minPROGRESS> 10:08:38 |################### |  95% (229,121) 20.7 minPROGRESS> 10:08:45 |####################| 100% (241,167) 20.8 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S10_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 271686
+SEQUENCES2> 241167
+      PASS> 237896
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:47:51 |Done                     | 0.3 min
+
+PROGRESS> 09:47:51 |                    |   0% (      0) 0.0 minPROGRESS> 09:49:57 |#                   |   5% ( 13,005) 2.1 minPROGRESS> 09:52:45 |##                  |  10% ( 26,010) 4.9 minPROGRESS> 09:55:21 |###                 |  15% ( 39,015) 7.5 minPROGRESS> 09:57:24 |####                |  20% ( 52,020) 9.6 minPROGRESS> 09:59:03 |#####               |  25% ( 65,025) 11.2 minPROGRESS> 10:01:03 |######              |  30% ( 78,030) 13.2 minPROGRESS> 10:02:57 |#######             |  35% ( 91,035) 15.1 minPROGRESS> 10:03:57 |########            |  40% (104,040) 16.1 minPROGRESS> 10:04:48 |#########           |  45% (117,045) 17.0 minPROGRESS> 10:06:02 |##########          |  50% (130,050) 18.2 minPROGRESS> 10:06:50 |###########         |  55% (143,055) 19.0 minPROGRESS> 10:07:22 |############        |  60% (156,060) 19.5 minPROGRESS> 10:08:14 |#############       |  65% (169,065) 20.4 minPROGRESS> 10:08:30 |##############      |  70% (182,070) 20.6 minPROGRESS> 10:08:38 |###############     |  75% (195,075) 20.8 minPROGRESS> 10:08:46 |################    |  80% (208,080) 20.9 minPROGRESS> 10:08:54 |#################   |  85% (221,085) 21.1 minPROGRESS> 10:09:02 |##################  |  90% (234,090) 21.2 minPROGRESS> 10:09:09 |################### |  95% (247,095) 21.3 minPROGRESS> 10:09:17 |####################| 100% (260,089) 21.4 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 304149
+SEQUENCES2> 260089
+      PASS> 255206
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:57 |Done                     | 0.4 min
+
+PROGRESS> 09:47:57 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:49 |#                   |   5% ( 12,949) 3.9 minPROGRESS> 09:54:33 |##                  |  10% ( 25,898) 6.6 minPROGRESS> 09:56:41 |###                 |  15% ( 38,847) 8.7 minPROGRESS> 09:58:19 |####                |  20% ( 51,796) 10.4 minPROGRESS> 10:00:08 |#####               |  25% ( 64,745) 12.2 minPROGRESS> 10:02:05 |######              |  30% ( 77,694) 14.1 minPROGRESS> 10:03:07 |#######             |  35% ( 90,643) 15.2 minPROGRESS> 10:04:09 |########            |  40% (103,592) 16.2 minPROGRESS> 10:05:28 |#########           |  45% (116,541) 17.5 minPROGRESS> 10:06:06 |##########          |  50% (129,490) 18.2 minPROGRESS> 10:07:11 |###########         |  55% (142,439) 19.2 minPROGRESS> 10:07:44 |############        |  60% (155,388) 19.8 minPROGRESS> 10:08:32 |#############       |  65% (168,337) 20.6 minPROGRESS> 10:08:43 |##############      |  70% (181,286) 20.8 minPROGRESS> 10:08:51 |###############     |  75% (194,235) 20.9 minPROGRESS> 10:08:58 |################    |  80% (207,184) 21.0 minPROGRESS> 10:09:04 |#################   |  85% (220,133) 21.1 minPROGRESS> 10:09:13 |##################  |  90% (233,082) 21.3 minPROGRESS> 10:09:20 |################### |  95% (246,031) 21.4 minPROGRESS> 10:09:29 |####################| 100% (258,976) 21.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 354746
+SEQUENCES2> 258976
+      PASS> 253307
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:50:59 |#                   |   5% ( 12,605) 3.0 minPROGRESS> 09:53:56 |##                  |  10% ( 25,210) 6.0 minPROGRESS> 09:56:50 |###                 |  15% ( 37,815) 8.8 minPROGRESS> 09:59:20 |####                |  20% ( 50,420) 11.3 minPROGRESS> 10:01:10 |#####               |  25% ( 63,025) 13.2 minPROGRESS> 10:02:45 |######              |  30% ( 75,630) 14.8 minPROGRESS> 10:04:00 |#######             |  35% ( 88,235) 16.0 minPROGRESS> 10:05:04 |########            |  40% (100,840) 17.1 minPROGRESS> 10:06:05 |#########           |  45% (113,445) 18.1 minPROGRESS> 10:06:57 |##########          |  50% (126,050) 19.0 minPROGRESS> 10:07:37 |###########         |  55% (138,655) 19.6 minPROGRESS> 10:08:16 |############        |  60% (151,260) 20.3 minPROGRESS> 10:08:41 |#############       |  65% (163,865) 20.7 minPROGRESS> 10:08:49 |##############      |  70% (176,470) 20.8 minPROGRESS> 10:08:56 |###############     |  75% (189,075) 20.9 minPROGRESS> 10:09:03 |################    |  80% (201,680) 21.1 minPROGRESS> 10:09:11 |#################   |  85% (214,285) 21.2 minPROGRESS> 10:09:19 |##################  |  90% (226,890) 21.3 minPROGRESS> 10:09:27 |################### |  95% (239,495) 21.5 minPROGRESS> 10:09:35 |####################| 100% (252,086) 21.6 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 283755
+SEQUENCES2> 252086
+      PASS> 248495
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:07 |#                   |   5% ( 15,474) 4.1 minPROGRESS> 09:56:32 |##                  |  10% ( 30,948) 8.6 minPROGRESS> 09:58:26 |###                 |  15% ( 46,422) 10.5 minPROGRESS> 09:59:57 |####                |  20% ( 61,896) 12.0 minPROGRESS> 10:02:05 |#####               |  25% ( 77,370) 14.1 minPROGRESS> 10:03:06 |######              |  30% ( 92,844) 15.1 minPROGRESS> 10:04:37 |#######             |  35% (108,318) 16.6 minPROGRESS> 10:05:25 |########            |  40% (123,792) 17.4 minPROGRESS> 10:06:26 |#########           |  45% (139,266) 18.5 minPROGRESS> 10:07:20 |##########          |  50% (154,740) 19.4 minPROGRESS> 10:07:55 |###########         |  55% (170,214) 19.9 minPROGRESS> 10:08:35 |############        |  60% (185,688) 20.6 minPROGRESS> 10:08:46 |#############       |  65% (201,162) 20.8 minPROGRESS> 10:08:55 |##############      |  70% (216,636) 20.9 minPROGRESS> 10:09:02 |###############     |  75% (232,110) 21.1 minPROGRESS> 10:09:12 |################    |  80% (247,584) 21.2 minPROGRESS> 10:09:21 |#################   |  85% (263,058) 21.4 minPROGRESS> 10:09:32 |##################  |  90% (278,532) 21.6 minPROGRESS> 10:09:42 |################### |  95% (294,006) 21.7 minPROGRESS> 10:09:52 |####################| 100% (309,465) 21.9 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 466622
+SEQUENCES2> 309465
+      PASS> 301888
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:05 |Done                     | 0.5 min
+
+PROGRESS> 09:48:05 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:02 |#                   |   5% ( 20,065) 3.9 minPROGRESS> 09:56:30 |##                  |  10% ( 40,130) 8.4 minPROGRESS> 09:58:54 |###                 |  15% ( 60,195) 10.8 minPROGRESS> 10:00:26 |####                |  20% ( 80,260) 12.3 minPROGRESS> 10:02:15 |#####               |  25% (100,325) 14.2 minPROGRESS> 10:03:43 |######              |  30% (120,390) 15.6 minPROGRESS> 10:04:49 |#######             |  35% (140,455) 16.7 minPROGRESS> 10:05:37 |########            |  40% (160,520) 17.5 minPROGRESS> 10:06:41 |#########           |  45% (180,585) 18.6 minPROGRESS> 10:07:35 |##########          |  50% (200,650) 19.5 minPROGRESS> 10:08:25 |###########         |  55% (220,715) 20.3 minPROGRESS> 10:08:39 |############        |  60% (240,780) 20.6 minPROGRESS> 10:08:48 |#############       |  65% (260,845) 20.7 minPROGRESS> 10:08:57 |##############      |  70% (280,910) 20.9 minPROGRESS> 10:09:07 |###############     |  75% (300,975) 21.0 minPROGRESS> 10:09:17 |################    |  80% (321,040) 21.2 minPROGRESS> 10:09:28 |#################   |  85% (341,105) 21.4 minPROGRESS> 10:09:39 |##################  |  90% (361,170) 21.6 minPROGRESS> 10:09:50 |################### |  95% (381,235) 21.7 minPROGRESS> 10:10:02 |####################| 100% (401,294) 21.9 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 549665
+SEQUENCES2> 401294
+      PASS> 392689
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:01 |Done                     | 0.5 min
+
+PROGRESS> 09:48:01 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:27 |#                   |   5% ( 15,411) 3.4 minPROGRESS> 09:54:47 |##                  |  10% ( 30,822) 6.8 minPROGRESS> 09:57:02 |###                 |  15% ( 46,233) 9.0 minPROGRESS> 09:58:47 |####                |  20% ( 61,644) 10.8 minPROGRESS> 10:00:42 |#####               |  25% ( 77,055) 12.7 minPROGRESS> 10:02:07 |######              |  30% ( 92,466) 14.1 minPROGRESS> 10:03:22 |#######             |  35% (107,877) 15.3 minPROGRESS> 10:04:34 |########            |  40% (123,288) 16.5 minPROGRESS> 10:05:42 |#########           |  45% (138,699) 17.7 minPROGRESS> 10:06:28 |##########          |  50% (154,110) 18.5 minPROGRESS> 10:07:20 |###########         |  55% (169,521) 19.3 minPROGRESS> 10:08:07 |############        |  60% (184,932) 20.1 minPROGRESS> 10:08:43 |#############       |  65% (200,343) 20.7 minPROGRESS> 10:09:08 |##############      |  70% (215,754) 21.1 minPROGRESS> 10:09:18 |###############     |  75% (231,165) 21.3 minPROGRESS> 10:09:27 |################    |  80% (246,576) 21.4 minPROGRESS> 10:09:36 |#################   |  85% (261,987) 21.6 minPROGRESS> 10:09:46 |##################  |  90% (277,398) 21.8 minPROGRESS> 10:09:56 |################### |  95% (292,809) 21.9 minPROGRESS> 10:10:05 |####################| 100% (308,210) 22.1 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 379644
+SEQUENCES2> 308210
+      PASS> 300997
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:05 |Done                     | 0.5 min
+
+PROGRESS> 09:48:05 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:29 |#                   |   5% ( 16,656) 3.4 minPROGRESS> 09:56:24 |##                  |  10% ( 33,312) 8.3 minPROGRESS> 09:58:26 |###                 |  15% ( 49,968) 10.3 minPROGRESS> 10:00:08 |####                |  20% ( 66,624) 12.0 minPROGRESS> 10:02:45 |#####               |  25% ( 83,280) 14.7 minPROGRESS> 10:03:57 |######              |  30% ( 99,936) 15.9 minPROGRESS> 10:05:14 |#######             |  35% (116,592) 17.2 minPROGRESS> 10:06:38 |########            |  40% (133,248) 18.5 minPROGRESS> 10:07:27 |#########           |  45% (149,904) 19.4 minPROGRESS> 10:08:15 |##########          |  50% (166,560) 20.2 minPROGRESS> 10:08:56 |###########         |  55% (183,216) 20.8 minPROGRESS> 10:09:17 |############        |  60% (199,872) 21.2 minPROGRESS> 10:09:46 |#############       |  65% (216,528) 21.7 minPROGRESS> 10:09:59 |##############      |  70% (233,184) 21.9 minPROGRESS> 10:10:09 |###############     |  75% (249,840) 22.1 minPROGRESS> 10:10:18 |################    |  80% (266,496) 22.2 minPROGRESS> 10:10:28 |#################   |  85% (283,152) 22.4 minPROGRESS> 10:10:38 |##################  |  90% (299,808) 22.5 minPROGRESS> 10:10:47 |################### |  95% (316,464) 22.7 minPROGRESS> 10:10:55 |####################| 100% (333,109) 22.8 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 437755
+SEQUENCES2> 333109
+      PASS> 325705
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:00 |Done                     | 0.4 min
+
+PROGRESS> 09:48:00 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:09 |#                   |   5% ( 16,297) 3.2 minPROGRESS> 09:54:44 |##                  |  10% ( 32,594) 6.7 minPROGRESS> 09:57:19 |###                 |  15% ( 48,891) 9.3 minPROGRESS> 09:59:12 |####                |  20% ( 65,188) 11.2 minPROGRESS> 10:00:59 |#####               |  25% ( 81,485) 13.0 minPROGRESS> 10:02:46 |######              |  30% ( 97,782) 14.8 minPROGRESS> 10:04:11 |#######             |  35% (114,079) 16.2 minPROGRESS> 10:05:22 |########            |  40% (130,376) 17.4 minPROGRESS> 10:06:39 |#########           |  45% (146,673) 18.7 minPROGRESS> 10:07:40 |##########          |  50% (162,970) 19.7 minPROGRESS> 10:08:35 |###########         |  55% (179,267) 20.6 minPROGRESS> 10:09:19 |############        |  60% (195,564) 21.3 minPROGRESS> 10:09:46 |#############       |  65% (211,861) 21.8 minPROGRESS> 10:09:55 |##############      |  70% (228,158) 21.9 minPROGRESS> 10:10:06 |###############     |  75% (244,455) 22.1 minPROGRESS> 10:10:15 |################    |  80% (260,752) 22.3 minPROGRESS> 10:10:25 |#################   |  85% (277,049) 22.4 minPROGRESS> 10:10:35 |##################  |  90% (293,346) 22.6 minPROGRESS> 10:10:46 |################### |  95% (309,643) 22.8 minPROGRESS> 10:10:56 |####################| 100% (325,937) 22.9 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 421283
+SEQUENCES2> 325937
+      PASS> 319111
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:06 |Done                     | 0.5 min
+
+PROGRESS> 09:48:06 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:44 |#                   |   5% ( 20,873) 3.6 minPROGRESS> 09:55:16 |##                  |  10% ( 41,746) 7.2 minPROGRESS> 09:57:54 |###                 |  15% ( 62,619) 9.8 minPROGRESS> 09:59:26 |####                |  20% ( 83,492) 11.3 minPROGRESS> 10:01:22 |#####               |  25% (104,365) 13.3 minPROGRESS> 10:02:40 |######              |  30% (125,238) 14.6 minPROGRESS> 10:04:25 |#######             |  35% (146,111) 16.3 minPROGRESS> 10:05:22 |########            |  40% (166,984) 17.3 minPROGRESS> 10:06:28 |#########           |  45% (187,857) 18.4 minPROGRESS> 10:07:32 |##########          |  50% (208,730) 19.4 minPROGRESS> 10:08:22 |###########         |  55% (229,603) 20.3 minPROGRESS> 10:09:03 |############        |  60% (250,476) 20.9 minPROGRESS> 10:09:30 |#############       |  65% (271,349) 21.4 minPROGRESS> 10:09:42 |##############      |  70% (292,222) 21.6 minPROGRESS> 10:09:54 |###############     |  75% (313,095) 21.8 minPROGRESS> 10:10:05 |################    |  80% (333,968) 22.0 minPROGRESS> 10:10:17 |#################   |  85% (354,841) 22.2 minPROGRESS> 10:10:31 |##################  |  90% (375,714) 22.4 minPROGRESS> 10:10:44 |################### |  95% (396,587) 22.6 minPROGRESS> 10:10:56 |####################| 100% (417,454) 22.8 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 537361
+SEQUENCES2> 417454
+      PASS> 408194
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:53:08 |#                   |   5% ( 16,281) 5.1 minPROGRESS> 09:56:39 |##                  |  10% ( 32,562) 8.7 minPROGRESS> 09:58:46 |###                 |  15% ( 48,843) 10.8 minPROGRESS> 10:00:29 |####                |  20% ( 65,124) 12.5 minPROGRESS> 10:02:55 |#####               |  25% ( 81,405) 14.9 minPROGRESS> 10:04:05 |######              |  30% ( 97,686) 16.1 minPROGRESS> 10:05:38 |#######             |  35% (113,967) 17.7 minPROGRESS> 10:06:40 |########            |  40% (130,248) 18.7 minPROGRESS> 10:07:53 |#########           |  45% (146,529) 19.9 minPROGRESS> 10:08:35 |##########          |  50% (162,810) 20.6 minPROGRESS> 10:09:15 |###########         |  55% (179,091) 21.3 minPROGRESS> 10:09:48 |############        |  60% (195,372) 21.8 minPROGRESS> 10:10:13 |#############       |  65% (211,653) 22.2 minPROGRESS> 10:10:24 |##############      |  70% (227,934) 22.4 minPROGRESS> 10:10:32 |###############     |  75% (244,215) 22.5 minPROGRESS> 10:10:40 |################    |  80% (260,496) 22.7 minPROGRESS> 10:10:49 |#################   |  85% (276,777) 22.8 minPROGRESS> 10:10:57 |##################  |  90% (293,058) 23.0 minPROGRESS> 10:11:05 |################### |  95% (309,339) 23.1 minPROGRESS> 10:11:15 |####################| 100% (325,605) 23.3 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 472936
+SEQUENCES2> 325605
+      PASS> 316678
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:02 |Done                     | 0.5 min
+
+PROGRESS> 09:48:02 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:47 |#                   |   5% ( 17,272) 3.7 minPROGRESS> 09:55:10 |##                  |  10% ( 34,544) 7.1 minPROGRESS> 09:57:40 |###                 |  15% ( 51,816) 9.6 minPROGRESS> 09:59:42 |####                |  20% ( 69,088) 11.7 minPROGRESS> 10:02:39 |#####               |  25% ( 86,360) 14.6 minPROGRESS> 10:04:11 |######              |  30% (103,632) 16.1 minPROGRESS> 10:05:17 |#######             |  35% (120,904) 17.2 minPROGRESS> 10:06:50 |########            |  40% (138,176) 18.8 minPROGRESS> 10:07:58 |#########           |  45% (155,448) 19.9 minPROGRESS> 10:08:40 |##########          |  50% (172,720) 20.6 minPROGRESS> 10:09:25 |###########         |  55% (189,992) 21.4 minPROGRESS> 10:09:53 |############        |  60% (207,264) 21.8 minPROGRESS> 10:10:21 |#############       |  65% (224,536) 22.3 minPROGRESS> 10:10:34 |##############      |  70% (241,808) 22.5 minPROGRESS> 10:10:44 |###############     |  75% (259,080) 22.7 minPROGRESS> 10:10:53 |################    |  80% (276,352) 22.8 minPROGRESS> 10:11:01 |#################   |  85% (293,624) 23.0 minPROGRESS> 10:11:09 |##################  |  90% (310,896) 23.1 minPROGRESS> 10:11:17 |################### |  95% (328,168) 23.2 minPROGRESS> 10:11:25 |####################| 100% (345,431) 23.4 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 378546
+SEQUENCES2> 345431
+      PASS> 339252
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:09 |Done                     | 0.6 min
+
+PROGRESS> 09:48:09 |                    |   0% (      0) 0.0 minPROGRESS> 09:53:11 |#                   |   5% ( 17,474) 5.0 minPROGRESS> 09:57:06 |##                  |  10% ( 34,948) 8.9 minPROGRESS> 09:59:26 |###                 |  15% ( 52,422) 11.3 minPROGRESS> 10:01:41 |####                |  20% ( 69,896) 13.5 minPROGRESS> 10:03:31 |#####               |  25% ( 87,370) 15.4 minPROGRESS> 10:04:53 |######              |  30% (104,844) 16.7 minPROGRESS> 10:06:24 |#######             |  35% (122,318) 18.2 minPROGRESS> 10:07:27 |########            |  40% (139,792) 19.3 minPROGRESS> 10:08:16 |#########           |  45% (157,266) 20.1 minPROGRESS> 10:09:01 |##########          |  50% (174,740) 20.9 minPROGRESS> 10:09:38 |###########         |  55% (192,214) 21.5 minPROGRESS> 10:10:08 |############        |  60% (209,688) 22.0 minPROGRESS> 10:10:26 |#############       |  65% (227,162) 22.3 minPROGRESS> 10:10:36 |##############      |  70% (244,636) 22.4 minPROGRESS> 10:10:46 |###############     |  75% (262,110) 22.6 minPROGRESS> 10:10:56 |################    |  80% (279,584) 22.8 minPROGRESS> 10:11:04 |#################   |  85% (297,058) 22.9 minPROGRESS> 10:11:13 |##################  |  90% (314,532) 23.1 minPROGRESS> 10:11:22 |################### |  95% (332,006) 23.2 minPROGRESS> 10:11:30 |####################| 100% (349,470) 23.3 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 441975
+SEQUENCES2> 349470
+      PASS> 342372
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:24 |#                   |   5% ( 16,812) 4.4 minPROGRESS> 09:56:34 |##                  |  10% ( 33,624) 8.6 minPROGRESS> 09:59:35 |###                 |  15% ( 50,436) 11.6 minPROGRESS> 10:01:29 |####                |  20% ( 67,248) 13.5 minPROGRESS> 10:03:35 |#####               |  25% ( 84,060) 15.6 minPROGRESS> 10:05:09 |######              |  30% (100,872) 17.2 minPROGRESS> 10:06:37 |#######             |  35% (117,684) 18.6 minPROGRESS> 10:07:46 |########            |  40% (134,496) 19.8 minPROGRESS> 10:08:39 |#########           |  45% (151,308) 20.7 minPROGRESS> 10:09:15 |##########          |  50% (168,120) 21.3 minPROGRESS> 10:09:52 |###########         |  55% (184,932) 21.9 minPROGRESS> 10:10:20 |############        |  60% (201,744) 22.4 minPROGRESS> 10:10:38 |#############       |  65% (218,556) 22.7 minPROGRESS> 10:10:46 |##############      |  70% (235,368) 22.8 minPROGRESS> 10:10:53 |###############     |  75% (252,180) 22.9 minPROGRESS> 10:11:01 |################    |  80% (268,992) 23.0 minPROGRESS> 10:11:08 |#################   |  85% (285,804) 23.2 minPROGRESS> 10:11:15 |##################  |  90% (302,616) 23.3 minPROGRESS> 10:11:23 |################### |  95% (319,428) 23.4 minPROGRESS> 10:11:30 |####################| 100% (336,231) 23.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 436804
+SEQUENCES2> 336231
+      PASS> 328654
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:03 |Done                     | 0.5 min
+
+PROGRESS> 09:48:03 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:15 |#                   |   5% ( 19,505) 4.2 minPROGRESS> 09:56:38 |##                  |  10% ( 39,010) 8.6 minPROGRESS> 09:58:54 |###                 |  15% ( 58,515) 10.9 minPROGRESS> 10:00:54 |####                |  20% ( 78,020) 12.9 minPROGRESS> 10:02:36 |#####               |  25% ( 97,525) 14.6 minPROGRESS> 10:03:49 |######              |  30% (117,030) 15.8 minPROGRESS> 10:05:27 |#######             |  35% (136,535) 17.4 minPROGRESS> 10:06:25 |########            |  40% (156,040) 18.4 minPROGRESS> 10:07:33 |#########           |  45% (175,545) 19.5 minPROGRESS> 10:08:25 |##########          |  50% (195,050) 20.4 minPROGRESS> 10:09:06 |###########         |  55% (214,555) 21.1 minPROGRESS> 10:09:50 |############        |  60% (234,060) 21.8 minPROGRESS> 10:10:18 |#############       |  65% (253,565) 22.3 minPROGRESS> 10:10:30 |##############      |  70% (273,070) 22.5 minPROGRESS> 10:10:42 |###############     |  75% (292,575) 22.7 minPROGRESS> 10:10:52 |################    |  80% (312,080) 22.8 minPROGRESS> 10:11:03 |#################   |  85% (331,585) 23.0 minPROGRESS> 10:11:12 |##################  |  90% (351,090) 23.2 minPROGRESS> 10:11:22 |################### |  95% (370,595) 23.3 minPROGRESS> 10:11:31 |####################| 100% (390,090) 23.5 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 505592
+SEQUENCES2> 390090
+      PASS> 380875
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:01 |Done                     | 0.5 min
+
+PROGRESS> 09:48:01 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:23 |#                   |   5% ( 17,884) 3.4 minPROGRESS> 09:54:23 |##                  |  10% ( 35,768) 6.4 minPROGRESS> 09:58:36 |###                 |  15% ( 53,652) 10.6 minPROGRESS> 10:00:45 |####                |  20% ( 71,536) 12.7 minPROGRESS> 10:02:21 |#####               |  25% ( 89,420) 14.3 minPROGRESS> 10:04:32 |######              |  30% (107,304) 16.5 minPROGRESS> 10:05:46 |#######             |  35% (125,188) 17.8 minPROGRESS> 10:07:06 |########            |  40% (143,072) 19.1 minPROGRESS> 10:08:17 |#########           |  45% (160,956) 20.3 minPROGRESS> 10:09:00 |##########          |  50% (178,840) 21.0 minPROGRESS> 10:09:36 |###########         |  55% (196,724) 21.6 minPROGRESS> 10:10:03 |############        |  60% (214,608) 22.0 minPROGRESS> 10:10:26 |#############       |  65% (232,492) 22.4 minPROGRESS> 10:10:43 |##############      |  70% (250,376) 22.7 minPROGRESS> 10:10:53 |###############     |  75% (268,260) 22.9 minPROGRESS> 10:11:02 |################    |  80% (286,144) 23.0 minPROGRESS> 10:11:10 |#################   |  85% (304,028) 23.2 minPROGRESS> 10:11:19 |##################  |  90% (321,912) 23.3 minPROGRESS> 10:11:28 |################### |  95% (339,796) 23.4 minPROGRESS> 10:11:35 |####################| 100% (357,663) 23.6 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S7_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 464000
+SEQUENCES2> 357663
+      PASS> 348977
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:08 |Done                     | 0.6 min
+
+PROGRESS> 09:48:08 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:34 |#                   |   5% ( 17,257) 3.4 minPROGRESS> 09:56:50 |##                  |  10% ( 34,514) 8.7 minPROGRESS> 09:59:00 |###                 |  15% ( 51,771) 10.9 minPROGRESS> 10:00:40 |####                |  20% ( 69,028) 12.5 minPROGRESS> 10:03:09 |#####               |  25% ( 86,285) 15.0 minPROGRESS> 10:04:26 |######              |  30% (103,542) 16.3 minPROGRESS> 10:05:43 |#######             |  35% (120,799) 17.6 minPROGRESS> 10:07:10 |########            |  40% (138,056) 19.0 minPROGRESS> 10:08:06 |#########           |  45% (155,313) 20.0 minPROGRESS> 10:09:02 |##########          |  50% (172,570) 20.9 minPROGRESS> 10:09:37 |###########         |  55% (189,827) 21.5 minPROGRESS> 10:10:11 |############        |  60% (207,084) 22.0 minPROGRESS> 10:10:36 |#############       |  65% (224,341) 22.5 minPROGRESS> 10:10:47 |##############      |  70% (241,598) 22.6 minPROGRESS> 10:10:55 |###############     |  75% (258,855) 22.8 minPROGRESS> 10:11:03 |################    |  80% (276,112) 22.9 minPROGRESS> 10:11:11 |#################   |  85% (293,369) 23.1 minPROGRESS> 10:11:19 |##################  |  90% (310,626) 23.2 minPROGRESS> 10:11:28 |################### |  95% (327,883) 23.3 minPROGRESS> 10:11:36 |####################| 100% (345,138) 23.5 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S4_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 453451
+SEQUENCES2> 345138
+      PASS> 335963
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:02 |Done                     | 0.5 min
+
+PROGRESS> 09:48:02 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:23 |#                   |   5% ( 16,498) 3.3 minPROGRESS> 09:55:56 |##                  |  10% ( 32,996) 7.9 minPROGRESS> 09:59:24 |###                 |  15% ( 49,494) 11.4 minPROGRESS> 10:01:05 |####                |  20% ( 65,992) 13.0 minPROGRESS> 10:02:31 |#####               |  25% ( 82,490) 14.5 minPROGRESS> 10:03:54 |######              |  30% ( 98,988) 15.9 minPROGRESS> 10:05:54 |#######             |  35% (115,486) 17.9 minPROGRESS> 10:06:58 |########            |  40% (131,984) 18.9 minPROGRESS> 10:07:52 |#########           |  45% (148,482) 19.8 minPROGRESS> 10:08:57 |##########          |  50% (164,980) 20.9 minPROGRESS> 10:09:30 |###########         |  55% (181,478) 21.5 minPROGRESS> 10:10:00 |############        |  60% (197,976) 22.0 minPROGRESS> 10:10:26 |#############       |  65% (214,474) 22.4 minPROGRESS> 10:10:45 |##############      |  70% (230,972) 22.7 minPROGRESS> 10:11:00 |###############     |  75% (247,470) 23.0 minPROGRESS> 10:11:07 |################    |  80% (263,968) 23.1 minPROGRESS> 10:11:15 |#################   |  85% (280,466) 23.2 minPROGRESS> 10:11:24 |##################  |  90% (296,964) 23.4 minPROGRESS> 10:11:31 |################### |  95% (313,462) 23.5 minPROGRESS> 10:11:38 |####################| 100% (329,959) 23.6 min
+
+   OUTPUT1> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19250_I7_S7_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 359498
+SEQUENCES2> 329959
+      PASS> 323884
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:34 |Indexing files           | 0.0 minPROGRESS> 09:48:09 |Done                     | 0.6 min
+
+PROGRESS> 09:48:09 |                    |   0% (      0) 0.0 minPROGRESS> 09:53:11 |#                   |   5% ( 21,319) 5.0 minPROGRESS> 09:56:42 |##                  |  10% ( 42,638) 8.6 minPROGRESS> 10:00:08 |###                 |  15% ( 63,957) 12.0 minPROGRESS> 10:01:52 |####                |  20% ( 85,276) 13.7 minPROGRESS> 10:04:04 |#####               |  25% (106,595) 15.9 minPROGRESS> 10:05:39 |######              |  30% (127,914) 17.5 minPROGRESS> 10:06:55 |#######             |  35% (149,233) 18.8 minPROGRESS> 10:08:02 |########            |  40% (170,552) 19.9 minPROGRESS> 10:08:56 |#########           |  45% (191,871) 20.8 minPROGRESS> 10:09:41 |##########          |  50% (213,190) 21.5 minPROGRESS> 10:10:20 |###########         |  55% (234,509) 22.2 minPROGRESS> 10:10:48 |############        |  60% (255,828) 22.6 minPROGRESS> 10:11:09 |#############       |  65% (277,147) 23.0 minPROGRESS> 10:11:20 |##############      |  70% (298,466) 23.2 minPROGRESS> 10:11:30 |###############     |  75% (319,785) 23.4 minPROGRESS> 10:11:39 |################    |  80% (341,104) 23.5 minPROGRESS> 10:11:47 |#################   |  85% (362,423) 23.6 minPROGRESS> 10:11:56 |##################  |  90% (383,742) 23.8 minPROGRESS> 10:12:05 |################### |  95% (405,061) 23.9 minPROGRESS> 10:12:14 |####################| 100% (426,361) 24.1 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S6_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 478506
+SEQUENCES2> 426361
+      PASS> 417794
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:59 |Done                     | 0.4 min
+
+PROGRESS> 09:47:59 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:43 |#                   |   5% ( 19,900) 3.7 minPROGRESS> 09:56:10 |##                  |  10% ( 39,800) 8.2 minPROGRESS> 09:58:52 |###                 |  15% ( 59,700) 10.9 minPROGRESS> 10:01:17 |####                |  20% ( 79,600) 13.3 minPROGRESS> 10:03:04 |#####               |  25% ( 99,500) 15.1 minPROGRESS> 10:04:57 |######              |  30% (119,400) 17.0 minPROGRESS> 10:06:49 |#######             |  35% (139,300) 18.8 minPROGRESS> 10:08:06 |########            |  40% (159,200) 20.1 minPROGRESS> 10:09:06 |#########           |  45% (179,100) 21.1 minPROGRESS> 10:09:55 |##########          |  50% (199,000) 21.9 minPROGRESS> 10:10:34 |###########         |  55% (218,900) 22.6 minPROGRESS> 10:11:01 |############        |  60% (238,800) 23.0 minPROGRESS> 10:11:17 |#############       |  65% (258,700) 23.3 minPROGRESS> 10:11:26 |##############      |  70% (278,600) 23.5 minPROGRESS> 10:11:35 |###############     |  75% (298,500) 23.6 minPROGRESS> 10:11:44 |################    |  80% (318,400) 23.8 minPROGRESS> 10:11:53 |#################   |  85% (338,300) 23.9 minPROGRESS> 10:12:03 |##################  |  90% (358,200) 24.1 minPROGRESS> 10:12:12 |################### |  95% (378,100) 24.2 minPROGRESS> 10:12:22 |####################| 100% (397,982) 24.4 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S3_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 489370
+SEQUENCES2> 397982
+      PASS> 385767
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:10 |Done                     | 0.6 min
+
+PROGRESS> 09:48:10 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:53 |#                   |   5% ( 19,961) 3.7 minPROGRESS> 09:55:46 |##                  |  10% ( 39,922) 7.6 minPROGRESS> 09:58:44 |###                 |  15% ( 59,883) 10.6 minPROGRESS> 10:00:42 |####                |  20% ( 79,844) 12.5 minPROGRESS> 10:03:03 |#####               |  25% ( 99,805) 14.9 minPROGRESS> 10:04:47 |######              |  30% (119,766) 16.6 minPROGRESS> 10:06:25 |#######             |  35% (139,727) 18.3 minPROGRESS> 10:07:58 |########            |  40% (159,688) 19.8 minPROGRESS> 10:08:57 |#########           |  45% (179,649) 20.8 minPROGRESS> 10:09:56 |##########          |  50% (199,610) 21.8 minPROGRESS> 10:10:32 |###########         |  55% (219,571) 22.4 minPROGRESS> 10:11:00 |############        |  60% (239,532) 22.8 minPROGRESS> 10:11:22 |#############       |  65% (259,493) 23.2 minPROGRESS> 10:11:34 |##############      |  70% (279,454) 23.4 minPROGRESS> 10:11:42 |###############     |  75% (299,415) 23.5 minPROGRESS> 10:11:50 |################    |  80% (319,376) 23.7 minPROGRESS> 10:11:58 |#################   |  85% (339,337) 23.8 minPROGRESS> 10:12:07 |##################  |  90% (359,298) 24.0 minPROGRESS> 10:12:15 |################### |  95% (379,259) 24.1 minPROGRESS> 10:12:24 |####################| 100% (399,216) 24.2 min
+
+   OUTPUT1> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19253_I10_S10_001_PRIMER-S1_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 483183
+SEQUENCES2> 399216
+      PASS> 388439
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:02 |Done                     | 0.5 min
+
+PROGRESS> 09:48:02 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:29 |#                   |   5% ( 21,683) 3.4 minPROGRESS> 09:56:12 |##                  |  10% ( 43,366) 8.2 minPROGRESS> 09:59:06 |###                 |  15% ( 65,049) 11.1 minPROGRESS> 10:01:28 |####                |  20% ( 86,732) 13.4 minPROGRESS> 10:03:07 |#####               |  25% (108,415) 15.1 minPROGRESS> 10:04:53 |######              |  30% (130,098) 16.9 minPROGRESS> 10:06:45 |#######             |  35% (151,781) 18.7 minPROGRESS> 10:07:58 |########            |  40% (173,464) 19.9 minPROGRESS> 10:08:58 |#########           |  45% (195,147) 20.9 minPROGRESS> 10:09:52 |##########          |  50% (216,830) 21.8 minPROGRESS> 10:10:31 |###########         |  55% (238,513) 22.5 minPROGRESS> 10:11:01 |############        |  60% (260,196) 23.0 minPROGRESS> 10:11:24 |#############       |  65% (281,879) 23.4 minPROGRESS> 10:11:41 |##############      |  70% (303,562) 23.7 minPROGRESS> 10:11:51 |###############     |  75% (325,245) 23.8 minPROGRESS> 10:11:59 |################    |  80% (346,928) 24.0 minPROGRESS> 10:12:09 |#################   |  85% (368,611) 24.1 minPROGRESS> 10:12:17 |##################  |  90% (390,294) 24.2 minPROGRESS> 10:12:26 |################### |  95% (411,977) 24.4 minPROGRESS> 10:12:35 |####################| 100% (433,656) 24.5 min
+
+   OUTPUT1> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19251_I8_S8_001_PRIMER-S8_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 483489
+SEQUENCES2> 433656
+      PASS> 423805
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:01 |Done                     | 0.5 min
+
+PROGRESS> 09:48:01 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:22 |#                   |   5% ( 20,400) 4.4 minPROGRESS> 09:56:12 |##                  |  10% ( 40,800) 8.2 minPROGRESS> 09:58:50 |###                 |  15% ( 61,200) 10.8 minPROGRESS> 10:02:03 |####                |  20% ( 81,600) 14.0 minPROGRESS> 10:04:24 |#####               |  25% (102,000) 16.4 minPROGRESS> 10:05:45 |######              |  30% (122,400) 17.7 minPROGRESS> 10:07:10 |#######             |  35% (142,800) 19.1 minPROGRESS> 10:08:52 |########            |  40% (163,200) 20.8 minPROGRESS> 10:09:37 |#########           |  45% (183,600) 21.6 minPROGRESS> 10:10:15 |##########          |  50% (204,000) 22.2 minPROGRESS> 10:10:47 |###########         |  55% (224,400) 22.8 minPROGRESS> 10:11:10 |############        |  60% (244,800) 23.1 minPROGRESS> 10:11:31 |#############       |  65% (265,200) 23.5 minPROGRESS> 10:11:46 |##############      |  70% (285,600) 23.8 minPROGRESS> 10:11:55 |###############     |  75% (306,000) 23.9 minPROGRESS> 10:12:03 |################    |  80% (326,400) 24.0 minPROGRESS> 10:12:11 |#################   |  85% (346,800) 24.2 minPROGRESS> 10:12:19 |##################  |  90% (367,200) 24.3 minPROGRESS> 10:12:27 |################### |  95% (387,600) 24.4 minPROGRESS> 10:12:35 |####################| 100% (407,998) 24.6 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S5_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 439833
+SEQUENCES2> 407998
+      PASS> 399458
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:47:54 |Done                     | 0.3 min
+
+PROGRESS> 09:47:54 |                    |   0% (      0) 0.0 minPROGRESS> 09:53:56 |#                   |   5% ( 16,385) 6.0 minPROGRESS> 09:59:37 |##                  |  10% ( 32,770) 11.7 minPROGRESS> 10:02:28 |###                 |  15% ( 49,155) 14.6 minPROGRESS> 10:05:28 |####                |  20% ( 65,540) 17.6 minPROGRESS> 10:07:34 |#####               |  25% ( 81,925) 19.7 minPROGRESS> 10:08:59 |######              |  30% ( 98,310) 21.1 minPROGRESS> 10:09:52 |#######             |  35% (114,695) 22.0 minPROGRESS> 10:10:28 |########            |  40% (131,080) 22.6 minPROGRESS> 10:10:53 |#########           |  45% (147,465) 23.0 minPROGRESS> 10:11:13 |##########          |  50% (163,850) 23.3 minPROGRESS> 10:11:32 |###########         |  55% (180,235) 23.6 minPROGRESS> 10:11:46 |############        |  60% (196,620) 23.9 minPROGRESS> 10:12:00 |#############       |  65% (213,005) 24.1 minPROGRESS> 10:12:12 |##############      |  70% (229,390) 24.3 minPROGRESS> 10:12:18 |###############     |  75% (245,775) 24.4 minPROGRESS> 10:12:25 |################    |  80% (262,160) 24.5 minPROGRESS> 10:12:31 |#################   |  85% (278,545) 24.6 minPROGRESS> 10:12:38 |##################  |  90% (294,930) 24.7 minPROGRESS> 10:12:44 |################### |  95% (311,315) 24.8 minPROGRESS> 10:12:51 |####################| 100% (327,694) 24.9 min
+
+   OUTPUT1> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19249_I6_S6_001_PRIMER-S9_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 355027
+SEQUENCES2> 327694
+      PASS> 321383
+       END> PairSeq
+
+     START> PairSeq
+     FILE1> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass.fastq
+     FILE2> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R2_pair-pass_consensus-pass.fastq
+  FIELDS_1> None
+  FIELDS_2> None
+COORD_TYPE> presto
+
+PROGRESS> 09:47:33 |Indexing files           | 0.0 minPROGRESS> 09:48:11 |Done                     | 0.6 min
+
+PROGRESS> 09:48:11 |                    |   0% (      0) 0.0 minPROGRESS> 09:52:57 |#                   |   5% ( 24,663) 4.8 minPROGRESS> 09:56:50 |##                  |  10% ( 49,326) 8.6 minPROGRESS> 10:01:13 |###                 |  15% ( 73,989) 13.0 minPROGRESS> 10:03:10 |####                |  20% ( 98,652) 15.0 minPROGRESS> 10:05:41 |#####               |  25% (123,315) 17.5 minPROGRESS> 10:07:11 |######              |  30% (147,978) 19.0 minPROGRESS> 10:08:51 |#######             |  35% (172,641) 20.7 minPROGRESS> 10:09:43 |########            |  40% (197,304) 21.5 minPROGRESS> 10:10:29 |#########           |  45% (221,967) 22.3 minPROGRESS> 10:11:00 |##########          |  50% (246,630) 22.8 minPROGRESS> 10:11:26 |###########         |  55% (271,293) 23.2 minPROGRESS> 10:11:46 |############        |  60% (295,956) 23.6 minPROGRESS> 10:12:05 |#############       |  65% (320,619) 23.9 minPROGRESS> 10:12:17 |##############      |  70% (345,282) 24.1 minPROGRESS> 10:12:27 |###############     |  75% (369,945) 24.3 minPROGRESS> 10:12:36 |################    |  80% (394,608) 24.4 minPROGRESS> 10:12:46 |#################   |  85% (419,271) 24.6 minPROGRESS> 10:12:55 |##################  |  90% (443,934) 24.7 minPROGRESS> 10:13:05 |################### |  95% (468,597) 24.9 minPROGRESS> 10:13:15 |####################| 100% (493,249) 25.1 min
+
+   OUTPUT1> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R1_consensus-pass_pair-pass.fastq
+   OUTPUT2> dedup-mpg_L19252_I9_S9_001_PRIMER-S2_R2_pair-pass_consensus-pass_pair-pass.fastq
+SEQUENCES1> 536332
+SEQUENCES2> 493249
+      PASS> 481855
+       END> PairSeq
+

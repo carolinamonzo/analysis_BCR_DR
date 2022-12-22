@@ -1,0 +1,1256 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+Warning: 219 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 5250 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+16944 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+56834 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+64346 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+67099 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 215 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+  7492 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 51535 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+113674 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+113753 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+115246 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 18 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 187 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 24800 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 47261 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+102500 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+109303 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+114578 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 20 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 168 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 8178 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+38810 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+67072 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+79659 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+94669 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+2: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+3: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-69*02_A41T: IGHV1-69*03,IGHV1-69*02_A41T,IGHV1-69*01_T226G
+4: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-69*03 (less mutated positions, not D, same length, same allele)
+5: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference allele (IGHV1-69*03) different from polymorphism_call allele (IGHV1-69*02_A41T)
+6: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+7: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-69*01_T226G: IGHV1-69*03,IGHV1-69*02_A41T,IGHV1-69*01_T226G
+8: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-69*03 (less mutated positions, not D, same length, same allele)
+9: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference allele (IGHV1-69*03) different from polymorphism_call allele (IGHV1-69*01_T226G)
+10: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 204 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+25243 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+27068 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+59337 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+61252 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+67871 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G: IGHV1-52*01,IGHV1-61*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-61*01 (less mutated positions, not D, same length, same allele)
+3: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV10S3*01_C86G: IGHV10S3*01,IGHV10S4*01
+4: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV10S3*01 (less mutated positions, not D, same length, same allele)
+5: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T: IGHV14-3*01,IGHV14-3*02
+6: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*02 (less mutated positions, not D, same length, same allele)
+7: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV8-5*01_T6C_C104A_A106G_A107G_A115G_C120T_A150G_A162C_C163A_C205T_T208G_A274T: IGHV8-5*01,IGHV8-8*01,IGHV8-8*02
+8: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV8-5*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 108 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 55092 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 75212 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 76058 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+113794 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+136721 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: Warning message:
+In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C: IGHV1S67*02,IGHV1S81*01
+Execution halted
+Warning: 234 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 26431 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 84120 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+128247 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+143169 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+144956 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted
+Warning: 165 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 76043 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 94478 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+100645 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+103566 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+105618 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G
+2: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G (less mutated positions, not D, same length, same allele)
+3: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+4: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+5: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G
+6: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G (less mutated positions, not D, same length, same allele)
+7: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+8: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+9: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A: IGHV14-2*01,IGHV14-3*01
+10: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-2*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 214 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+  9547 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+132732 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+187283 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+200043 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+203631 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-34*02_A15G_A50C_G63A_C81A_T112A_A196G_T204C_G220A: IGHV1-34*02,IGHV1S100*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-34*02 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 164 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 30341 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 82678 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+124095 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+177195 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+239676 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 15 warnings (use warnings() to see them)
+Execution halted
+Warning: 293 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 46371 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+101511 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+120796 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+136678 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+144006 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T: IGHV14-3*01,IGHV14-3*02
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*02 (less mutated positions, not D, same length, same allele)
+3: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C: IGHV1S67*02,IGHV1S81*01
+Execution halted
+Warning: 363 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+  4327 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 32033 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+129640 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+185056 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+190483 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 26 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 231 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 36848 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 57701 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 79111 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+113088 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+137416 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 15 warnings (use warnings() to see them)
+Execution halted
+Warning: 302 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 15289 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 31055 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 99075 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+134556 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+182873 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T: IGHV1-52*01,IGHV1-61*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-52*01 (less mutated positions, not D, same length, same allele)
+3: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T: IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T,IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G
+4: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T,IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G (less mutated positions, not D, same length, same allele)
+5: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G: IGHV1-52*01,IGHV1-61*01
+6: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-61*01 (less mutated positions, not D, same length, same allele)
+7: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G: IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T,IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G
+8: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-52*01_G41A_T49G_T120C_A139G_T140G_C165T,IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G (less mutated positions, not D, same length, same allele)
+9: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV10S3*01_C86G: IGHV10S3*01,IGHV10S4*01
+10: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV10S3*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 170 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 8572 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+50092 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+85692 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+92896 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+94397 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 12 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 249 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+199412 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+247806 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+293086 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+299138 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+303180 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 327 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+16055 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+25222 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+40412 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+51051 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+79966 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+2: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+3: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G: IGHV14-3*01,IGHV14-3*02
+4: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*01 (less mutated positions, not D, same length, same allele)
+5: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G: IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G,IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T
+6: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G,IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T (less mutated positions, not D, same length, same allele)
+7: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T: IGHV14-3*01,IGHV14-3*02
+8: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*02 (less mutated positions, not D, same length, same allele)
+9: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T: IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G,IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T
+10: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G,IGHV14-3*02_A27T_A41G_C84T_A109G_C110A_A203C_G221A_A237T (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 421 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 22449 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 42003 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 57143 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 72910 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+103199 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-34*02_A15G_A50C_G63A_C81A_T112A_A196G_T204C_G220A: IGHV1-34*02,IGHV1S100*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-34*02 (less mutated positions, not D, same length, same allele)
+3: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-61*01_G41A_T49G_G118C_T120C_C165T_T169G: IGHV1-52*01,IGHV1-61*01
+4: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-61*01 (less mutated positions, not D, same length, same allele)
+5: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1-61*01_A9G_C34A_T49G_C61T_G118C_T120C_A153G_C165G_T169G_C171T_G275A_G291A: IGHV1-52*01,IGHV1-61*01
+6: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV1-61*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 152 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 81829 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 83205 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 98189 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+111965 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+112198 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV10S3*01_C86G: IGHV10S3*01,IGHV10S4*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV10S3*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 287 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 39629 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 72391 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+104045 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+116622 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+132074 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 14 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 168 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 6980 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+21262 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36698 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+37287 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+42054 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 14 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 198 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 1259 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+46981 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+53513 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+57303 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+59095 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 30 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 220 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+18782 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+20532 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+45231 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+50906 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+53242 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-69*02_A41T: IGHV1-69*03,IGHV1-69*02_A41T,IGHV1-69*01_T226G
+2: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-69*03 (less mutated positions, not D, same length, same allele)
+3: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference allele (IGHV1-69*03) different from polymorphism_call allele (IGHV1-69*02_A41T)
+4: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+5: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-69*01_T226G: IGHV1-69*03,IGHV1-69*02_A41T,IGHV1-69*01_T226G
+6: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-69*03 (less mutated positions, not D, same length, same allele)
+7: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference allele (IGHV1-69*03) different from polymorphism_call allele (IGHV1-69*01_T226G)
+8: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 153 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 3864 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 4824 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 8635 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+22030 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+27631 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: Warning messages:
+1: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+2: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+3: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C: IGHV1S67*02,IGHV1S81*01
+Execution halted
+Warning: 243 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 24312 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 64940 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 92927 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+100284 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+117588 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 26 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 257 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+31106 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+56917 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+60816 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+72293 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_igblast_db-pass_parse-select_parse-select.tsv'
+72645 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 220 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+19548 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+33158 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+35176 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+75834 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+79172 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 12 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 205 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 48037 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 49619 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 95194 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 97247 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+124957 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 1206 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+18708 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+29934 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+38208 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+53422 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_igblast_db-pass_parse-select_parse-select.tsv'
+62895 seqorient 1 [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 22 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 237 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 21013 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 95327 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 96269 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 97779 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+126094 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A: IGHV14-2*01,IGHV14-3*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-2*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 335 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 30457 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+142210 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+145573 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+192570 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+194966 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted
+Warning: 281 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+16759 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+22657 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+35143 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+41398 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+45096 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 36 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 294 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 64812 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 89481 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 95212 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 99495 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_igblast_db-pass_parse-select_parse-select.tsv'
+100254 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 13 warnings (use warnings() to see them)
+Execution halted
+Warning: 187 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+ 7715 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+60203 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+64921 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+67466 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_igblast_db-pass_parse-select_parse-select.tsv'
+67913 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G
+2: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G (less mutated positions, not D, same length, same allele)
+3: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+4: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+5: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G
+6: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-19*01_T32A_T114C_C135T_G163C_T164G_A166G_T175A_A176G_C186T_T237A_T240A_G246A_T250C_C251T_G268C_A300G,IGHV1-26*01_A18G_A63G_G87A_C135T_G163C_A164G_A166G_A176G_T237A_G246A_T250C_C251T_G268C_C274A_G275A_A300G (less mutated positions, not D, same length, same allele)
+7: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+8: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+9: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference gene difference
+10: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 283 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 20417 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 53393 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 72758 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+112716 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_igblast_db-pass_parse-select_parse-select.tsv'
+147190 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 14 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 149 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 36011 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+102968 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+119786 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+178382 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_igblast_db-pass_parse-select_parse-select.tsv'
+192156 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 15 warnings (use warnings() to see them)
+Execution halted
+Warning: 107 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 24768 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 49640 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 51181 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+107668 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_igblast_db-pass_parse-select_parse-select.tsv'
+107926 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV1-69*01_T226G: IGHV1-69*03,IGHV1-69*01_T226G
+2: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV1-69*03 (less mutated positions, not D, same length, same allele)
+3: In .addEvidence(., germline_set = germline_set, germline_db = germline_db) :
+  closest reference allele (IGHV1-69*03) different from polymorphism_call allele (IGHV1-69*01_T226G)
+4: In ref_imgt != novel_imgt :
+  longer object length is not a multiple of shorter object length
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 332 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 47752 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 69909 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+135719 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+136272 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_igblast_db-pass_parse-select_parse-select.tsv'
+157402 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 18 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 153 parsing failures.
+  row       col           expected actual                                                                                                                                                  file
+23017 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+39229 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+60297 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+69953 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+70842 seqorient 1/ [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted
+Warning: 280 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+13547 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+23413 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+24812 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+29301 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+29564 seqorie [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*01_T23G_A27T_C84T_A106G_A109G_C110A_G221A_A301G: IGHV14-3*01,IGHV14-3*02
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 146 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+11225 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+13917 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+19557 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36175 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+38702 seqorie [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+There were 26 warnings (use warnings() to see them)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 272 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+10756 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+18090 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36284 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+36603 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+51528 seqorie [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A: IGHV14-2*01,IGHV14-3*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-2*01 (less mutated positions, not D, same length, same allele)
+3: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A: IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A,IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A
+4: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A,IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A (less mutated positions, not D, same length, same allele)
+5: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A: IGHV14-2*01,IGHV14-3*01
+6: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-3*01 (less mutated positions, not D, same length, same allele)
+7: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  More than one closest reference found for IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A: IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A,IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A
+8: In .findClosestReference(novel_imgt, names(germline_set), germline_set,  :
+  Use: IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A,IGHV14-3*01_T23G_A106G_C110G_T112C_A113T_A163T_C176A_A184G_A190G_T192A_G221A (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 247 parsing failures.
+   row       col           expected actual                                                                                                                                                   file
+ 82305 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 82952 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+112138 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+116362 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+134228 s [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning messages:
+1: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  More than one closest reference found for IGHV14-2*01_A41G_T109A_A110G_T112C_A113T_A136C_A163T_A210G_G221A_A237T_G301A: IGHV14-2*01,IGHV14-3*01
+2: In .findClosestReference(novel_imgt, names(germline_db), germline_db,  :
+  Use: IGHV14-2*01 (less mutated positions, not D, same length, same allele)
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 268 parsing failures.
+  row       col           expected actual                                                                                                                                                   file
+30376 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+43252 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+58984 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+61745 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_igblast_db-pass_parse-select_parse-select.tsv'
+65618 seqorie [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Warning message:
+In write.table(evidence %>% select(gene, allele, polymorphism_call,  :
+  appending column names to file
+Warning: 234 parsing failures.
+   row       col           expected actual                                                                                                                                                  file
+ 26431 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+ 84120 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+128247 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+143169 seqorient 1/0/T/F/TRUE/FALSE     RC '/beegfs/group_lp/home/CMonzo/CM_IGseq/analysis/productive_vdj/dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_igblast_db-pass_parse-select_parse-select.tsv'
+144956 seqori [... truncated]
+Warning message:
+In write.table(nov, file = logfile, append = TRUE, col.names = TRUE,  :
+  appending column names to file
+Warning message:
+In write.table(geno_bayesian %>% arrange(total), file = logfile,  :
+  appending column names to file
+Warning message:
+In write.table(sample_db %>% filter(v_call != v_call_genotyped) %>%  :
+  appending column names to file
+Warning message:
+In write.table(data.frame(Ambiguous = c(mean(grepl(",", sample_db$v_call)),  :
+  appending column names to file
+Error in .findClosestReference(novel_imgt, names(germline_db), germline_db,  : 
+  Multiple closest reference found for IGHV1S16*01_C12G_A31G_G36T_G127A_T130C_A222C:
+IGHV1S67*02,IGHV1S81*01
+Calls: generateEvidence ... do.rowwise_df -> eval_tidy -> .addEvidence -> .findClosestReference
+In addition: There were 11 warnings (use warnings() to see them)
+Execution halted

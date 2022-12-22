@@ -1,0 +1,5 @@
+Loading rlang/3.6.3
+  Loading requirement: jdk/13.0.1
+Error in library(alakazam) : there is no package called ‘alakazam’
+Calls: suppressPackageStartupMessages -> withCallingHandlers -> library
+Execution halted
