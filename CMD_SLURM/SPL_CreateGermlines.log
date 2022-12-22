@@ -1,0 +1,980 @@
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:22 |Sorting by clone    | 0.0 minPROGRESS> 09:34:29 |Done                | 3.1 min
+
+PROGRESS> 09:34:29 |                    |   0% (     0) 0.0 minPROGRESS> 09:34:51 |##                  |  10% ( 7,234) 0.4 minPROGRESS> 09:35:54 |########            |  40% (28,936) 1.4 minPROGRESS> 09:36:15 |##########          |  50% (36,170) 1.8 minPROGRESS> 09:36:56 |##############      |  70% (50,638) 2.4 minPROGRESS> 09:37:58 |####################| 100% (72,340) 3.5 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S10_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 72340
+   PASS> 72327
+   FAIL> 13
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:35 |Sorting by clone    | 0.0 minPROGRESS> 09:37:35 |Done                | 6.0 min
+
+PROGRESS> 09:37:35 |                    |   0% (      0) 0.0 minPROGRESS> 09:39:53 |#######             |  35% ( 47,390) 2.3 minPROGRESS> 09:41:32 |############        |  60% ( 81,240) 4.0 minPROGRESS> 09:44:11 |####################| 100% (135,385) 6.6 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 135385
+   PASS> 135370
+   FAIL> 15
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:39 |Sorting by clone    | 0.0 minPROGRESS> 09:38:03 |Done                | 6.4 min
+
+PROGRESS> 09:38:03 |                    |   0% (      0) 0.0 minPROGRESS> 09:41:36 |##########          |  50% ( 73,710) 3.5 minPROGRESS> 09:45:13 |####################| 100% (147,401) 7.2 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S8_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 147401
+   PASS> 147355
+   FAIL> 46
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:42 |Sorting by clone    | 0.0 minPROGRESS> 09:38:39 |Done                | 7.0 min
+
+PROGRESS> 09:38:39 |                    |   0% (      0) 0.0 minPROGRESS> 09:44:29 |###############     |  75% (121,425) 5.8 minPROGRESS> 09:46:27 |####################| 100% (161,890) 7.8 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S6_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 161890
+   PASS> 161875
+   FAIL> 15
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:41 |Sorting by clone    | 0.0 minPROGRESS> 09:38:49 |Done                | 7.1 min
+
+PROGRESS> 09:38:49 |                    |   0% (      0) 0.0 minPROGRESS> 09:39:13 |#                   |   5% (  8,236) 0.4 minPROGRESS> 09:45:59 |##################  |  90% (148,248) 7.2 minPROGRESS> 09:46:48 |####################| 100% (164,715) 8.0 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S2_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 164715
+   PASS> 164701
+   FAIL> 14
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:44 |Sorting by clone    | 0.0 minPROGRESS> 09:39:30 |Done                | 7.8 min
+
+PROGRESS> 09:39:30 |                    |   0% (      0) 0.0 minPROGRESS> 09:46:16 |################    |  80% (141,088) 6.8 minPROGRESS> 09:47:08 |##################  |  90% (158,724) 7.6 minPROGRESS> 09:47:33 |################### |  95% (167,542) 8.1 minPROGRESS> 09:47:59 |####################| 100% (176,346) 8.5 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 176346
+   PASS> 176333
+   FAIL> 13
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:45 |Sorting by clone    | 0.0 minPROGRESS> 09:39:44 |Done                | 8.0 min
+
+PROGRESS> 09:39:44 |                    |   0% (      0) 0.0 minPROGRESS> 09:41:03 |###                 |  15% ( 27,219) 1.3 minPROGRESS> 09:47:14 |#################   |  85% (154,241) 7.5 minPROGRESS> 09:48:34 |####################| 100% (181,443) 8.8 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S5_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 181443
+   PASS> 181409
+   FAIL> 34
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:39:28 |Sorting by clone    | 0.0 minPROGRESS> 09:45:13 |Done                | 5.8 min
+
+PROGRESS> 09:45:13 |                    |   0% (      0) 0.0 minPROGRESS> 09:51:34 |####################| 100% (132,980) 6.4 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S10_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 132980
+   PASS> 132951
+   FAIL> 29
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:31:57 |Sorting by clone    | 0.0 minPROGRESS> 09:42:17 |Done                | 10.3 min
+
+PROGRESS> 09:42:17 |                    |   0% (      0) 0.0 minPROGRESS> 09:42:51 |#                   |   5% ( 11,695) 0.6 minPROGRESS> 09:53:48 |####################| 100% (233,895) 11.5 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S7_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 233895
+   PASS> 233889
+   FAIL> 6
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:32:00 |Sorting by clone    | 0.0 minPROGRESS> 09:43:14 |Done                | 11.2 min
+
+PROGRESS> 09:43:14 |                    |   0% (      0) 0.0 minPROGRESS> 09:55:39 |####################| 100% (252,548) 12.4 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S9_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 252548
+   PASS> 252519
+   FAIL> 29
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:32:06 |Sorting by clone    | 0.0 minPROGRESS> 09:43:54 |Done                | 11.8 min
+
+PROGRESS> 09:43:54 |                    |   0% (      0) 0.0 minPROGRESS> 09:47:51 |######              |  30% ( 81,372) 4.0 minPROGRESS> 09:57:04 |####################| 100% (271,227) 13.2 min
+
+ OUTPUT> dedup-mpg_L19244_S1_S1_001_PRIMER-S1_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 271227
+   PASS> 271134
+   FAIL> 93
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:45:49 |Sorting by clone    | 0.0 minPROGRESS> 09:53:02 |Done                | 7.2 min
+
+PROGRESS> 09:53:02 |                    |   0% (      0) 0.0 minPROGRESS> 09:53:26 |#                   |   5% (  8,148) 0.4 minPROGRESS> 09:53:50 |##                  |  10% ( 16,296) 0.8 minPROGRESS> 09:54:15 |###                 |  15% ( 24,444) 1.2 minPROGRESS> 10:01:02 |####################| 100% (162,950) 8.0 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S1_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 162950
+   PASS> 162649
+   FAIL> 301
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:53:07 |Sorting by clone    | 0.0 minPROGRESS> 09:59:08 |Done                | 6.0 min
+
+PROGRESS> 09:59:08 |                    |   0% (      0) 0.0 minPROGRESS> 10:00:48 |#####               |  25% ( 34,000) 1.7 minPROGRESS> 10:02:28 |##########          |  50% ( 68,000) 3.3 minPROGRESS> 10:05:48 |####################| 100% (135,994) 6.7 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S8_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 135994
+   PASS> 135981
+   FAIL> 13
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:58:41 |Sorting by clone    | 0.0 minPROGRESS> 10:04:41 |Done                | 6.0 min
+
+PROGRESS> 10:04:41 |                    |   0% (      0) 0.0 minPROGRESS> 10:11:05 |####################| 100% (135,361) 6.4 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S1_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 135361
+   PASS> 135335
+   FAIL> 26
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:48:44 |Sorting by clone    | 0.0 minPROGRESS> 09:59:31 |Done                | 10.8 min
+
+PROGRESS> 09:59:31 |                    |   0% (      0) 0.0 minPROGRESS> 10:03:03 |######              |  30% ( 73,200) 3.5 minPROGRESS> 10:11:24 |####################| 100% (243,985) 11.9 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 243985
+   PASS> 243881
+   FAIL> 104
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:48:27 |Sorting by clone    | 0.0 minPROGRESS> 09:59:54 |Done                | 11.5 min
+
+PROGRESS> 09:59:54 |                    |   0% (      0) 0.0 minPROGRESS> 10:06:06 |##########          |  50% (128,780) 6.2 minPROGRESS> 10:12:21 |####################| 100% (257,557) 12.4 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 257557
+   PASS> 257529
+   FAIL> 28
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:13:52 |Sorting by clone    | 0.0 minPROGRESS> 10:18:00 |Done                | 4.1 min
+
+PROGRESS> 10:18:00 |                    |   0% (     0) 0.0 minPROGRESS> 10:20:32 |###########         |  55% (52,591) 2.5 minPROGRESS> 10:21:41 |################    |  80% (76,496) 3.7 minPROGRESS> 10:22:37 |####################| 100% (95,614) 4.6 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S6_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 95614
+   PASS> 95576
+   FAIL> 38
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:50:56 |Sorting by clone    | 0.0 minPROGRESS> 10:07:02 |Done                | 16.1 min
+
+PROGRESS> 10:07:02 |                    |   0% (      0) 0.0 minPROGRESS> 10:09:40 |###                 |  15% ( 54,081) 2.6 minPROGRESS> 10:18:24 |#############       |  65% (234,351) 11.4 minPROGRESS> 10:24:29 |####################| 100% (360,524) 17.4 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S6_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 360524
+   PASS> 360456
+   FAIL> 68
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:47:48 |Sorting by clone    | 0.0 minPROGRESS> 10:06:14 |Done                | 18.4 min
+
+PROGRESS> 10:06:14 |                    |   0% (      0) 0.0 minPROGRESS> 10:24:13 |##################  |  90% (374,598) 18.0 minPROGRESS> 10:26:12 |####################| 100% (416,215) 20.0 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S2_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 416215
+   PASS> 416179
+   FAIL> 36
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:07:36 |Sorting by clone    | 0.0 minPROGRESS> 10:16:29 |Done                | 8.9 min
+
+PROGRESS> 10:16:29 |                    |   0% (      0) 0.0 minPROGRESS> 10:22:50 |#############       |  65% (131,651) 6.3 minPROGRESS> 10:25:48 |################### |  95% (192,413) 9.3 minPROGRESS> 10:26:18 |####################| 100% (202,537) 9.8 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 202537
+   PASS> 202516
+   FAIL> 21
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:12:46 |Sorting by clone    | 0.0 minPROGRESS> 10:20:12 |Done                | 7.4 min
+
+PROGRESS> 10:20:12 |                    |   0% (      0) 0.0 minPROGRESS> 10:25:08 |############        |  60% (101,772) 4.9 minPROGRESS> 10:28:27 |####################| 100% (169,608) 8.2 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 169608
+   PASS> 169531
+   FAIL> 77
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:56:09 |Sorting by clone    | 0.0 minPROGRESS> 10:11:35 |Done                | 15.4 min
+
+PROGRESS> 10:11:35 |                    |   0% (      0) 0.0 minPROGRESS> 10:28:31 |####################| 100% (350,982) 16.9 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S9_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 350982
+   PASS> 350958
+   FAIL> 24
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:50:35 |Sorting by clone    | 0.0 minPROGRESS> 10:09:39 |Done                | 19.1 min
+
+PROGRESS> 10:09:39 |                    |   0% (      0) 0.0 minPROGRESS> 10:25:03 |###############     |  75% (318,195) 15.4 minPROGRESS> 10:29:53 |####################| 100% (424,256) 20.2 min
+
+ OUTPUT> dedup-mpg_L19245_S2_S2_001_PRIMER-S5_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 424256
+   PASS> 416857
+   FAIL> 7399
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 09:58:01 |Sorting by clone    | 0.0 minPROGRESS> 10:13:33 |Done                | 15.5 min
+
+PROGRESS> 10:13:33 |                    |   0% (      0) 0.0 minPROGRESS> 10:14:24 |#                   |   5% ( 17,571) 0.9 minPROGRESS> 10:30:30 |####################| 100% (351,418) 16.9 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S10_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 351418
+   PASS> 351377
+   FAIL> 41
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:23:59 |Sorting by clone    | 0.0 minPROGRESS> 10:28:23 |Done                | 4.4 min
+
+PROGRESS> 10:28:23 |                    |   0% (     0) 0.0 minPROGRESS> 10:33:16 |####################| 100% (99,258) 4.9 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S7_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 99258
+   PASS> 99229
+   FAIL> 29
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:27:34 |Sorting by clone    | 0.0 minPROGRESS> 10:30:22 |Done                | 2.8 min
+
+PROGRESS> 10:30:22 |                    |   0% (     0) 0.0 minPROGRESS> 10:30:41 |##                  |  10% ( 6,352) 0.3 minPROGRESS> 10:31:18 |######              |  30% (19,056) 0.9 minPROGRESS> 10:31:37 |########            |  40% (25,408) 1.3 minPROGRESS> 10:33:28 |####################| 100% (63,516) 3.1 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S9_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 63516
+   PASS> 63508
+   FAIL> 8
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:30:00 |Sorting by clone    | 0.0 minPROGRESS> 10:31:46 |Done                | 1.8 min
+
+PROGRESS> 10:31:46 |                    |   0% (     0) 0.0 minPROGRESS> 10:31:52 |#                   |   5% ( 1,991) 0.1 minPROGRESS> 10:32:22 |######              |  30% (11,946) 0.6 minPROGRESS> 10:33:14 |###############     |  75% (29,865) 1.5 minPROGRESS> 10:33:43 |####################| 100% (39,802) 2.0 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S2_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 39802
+   PASS> 39417
+   FAIL> 385
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:03:20 |Sorting by clone    | 0.0 minPROGRESS> 10:18:32 |Done                | 15.2 min
+
+PROGRESS> 10:18:32 |                    |   0% (      0) 0.0 minPROGRESS> 10:19:22 |#                   |   5% ( 17,099) 0.8 minPROGRESS> 10:21:02 |###                 |  15% ( 51,297) 2.5 minPROGRESS> 10:35:11 |####################| 100% (341,963) 16.7 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S2_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 341963
+   PASS> 341951
+   FAIL> 12
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:26:04 |Sorting by clone    | 0.0 minPROGRESS> 10:30:40 |Done                | 4.6 min
+
+PROGRESS> 10:30:40 |                    |   0% (      0) 0.0 minPROGRESS> 10:32:13 |######              |  30% ( 30,960) 1.5 minPROGRESS> 10:33:59 |#############       |  65% ( 67,080) 3.3 minPROGRESS> 10:35:45 |####################| 100% (103,185) 5.1 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S8_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 103185
+   PASS> 103176
+   FAIL> 9
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:13:25 |Sorting by clone    | 0.0 minPROGRESS> 10:24:05 |Done                | 10.7 min
+
+PROGRESS> 10:24:05 |                    |   0% (      0) 0.0 minPROGRESS> 10:25:14 |##                  |  10% ( 23,762) 1.2 minPROGRESS> 10:35:07 |################### |  95% (225,739) 11.0 minPROGRESS> 10:35:42 |####################| 100% (237,611) 11.6 min
+
+ OUTPUT> dedup-mpg_L19246_S3_S3_001_PRIMER-S5_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 237611
+   PASS> 237512
+   FAIL> 99
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:31:36 |Sorting by clone    | 0.0 minPROGRESS> 10:37:17 |Done                | 5.7 min
+
+PROGRESS> 10:37:17 |                    |   0% (      0) 0.0 minPROGRESS> 10:43:30 |####################| 100% (127,511) 6.2 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 127511
+   PASS> 127350
+   FAIL> 161
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:37:07 |Sorting by clone    | 0.0 minPROGRESS> 10:40:30 |Done                | 3.4 min
+
+PROGRESS> 10:40:30 |                    |   0% (     0) 0.0 minPROGRESS> 10:41:16 |####                |  20% (15,660) 0.8 minPROGRESS> 10:44:08 |################### |  95% (74,385) 3.6 minPROGRESS> 10:44:20 |####################| 100% (78,284) 3.8 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S10_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 78284
+   PASS> 78248
+   FAIL> 36
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:30:13 |Sorting by clone    | 0.0 minPROGRESS> 10:38:44 |Done                | 8.5 min
+
+PROGRESS> 10:38:44 |                    |   0% (      0) 0.0 minPROGRESS> 10:42:02 |#######             |  35% ( 66,255) 3.3 minPROGRESS> 10:48:03 |####################| 100% (189,285) 9.3 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S1_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 189285
+   PASS> 189241
+   FAIL> 44
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:37:14 |Sorting by clone    | 0.0 minPROGRESS> 10:42:55 |Done                | 5.7 min
+
+PROGRESS> 10:42:55 |                    |   0% (      0) 0.0 minPROGRESS> 10:43:34 |##                  |  10% ( 13,066) 0.6 minPROGRESS> 10:46:09 |##########          |  50% ( 65,330) 3.2 minPROGRESS> 10:47:46 |###############     |  75% ( 97,995) 4.8 minPROGRESS> 10:49:22 |####################| 100% (130,651) 6.4 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S9_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 130651
+   PASS> 130631
+   FAIL> 20
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:28:16 |Sorting by clone    | 0.0 minPROGRESS> 10:38:56 |Done                | 10.7 min
+
+PROGRESS> 10:38:56 |                    |   0% (      0) 0.0 minPROGRESS> 10:40:05 |##                  |  10% ( 23,972) 1.2 minPROGRESS> 10:40:40 |###                 |  15% ( 35,958) 1.7 minPROGRESS> 10:50:24 |####################| 100% (239,705) 11.5 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S10_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 239705
+   PASS> 239631
+   FAIL> 74
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:49:19 |Sorting by clone    | 0.0 minPROGRESS> 10:51:31 |Done                | 2.2 min
+
+PROGRESS> 10:51:31 |                    |   0% (     0) 0.0 minPROGRESS> 10:52:07 |#####               |  25% (12,545) 0.6 minPROGRESS> 10:52:15 |######              |  30% (15,054) 0.7 minPROGRESS> 10:52:51 |###########         |  55% (27,599) 1.3 minPROGRESS> 10:53:52 |####################| 100% (50,165) 2.4 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S3_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 50165
+   PASS> 48200
+   FAIL> 1965
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:32:34 |Sorting by clone    | 0.0 minPROGRESS> 10:43:08 |Done                | 10.6 min
+
+PROGRESS> 10:43:08 |                    |   0% (      0) 0.0 minPROGRESS> 10:49:57 |############        |  60% (143,448) 6.8 minPROGRESS> 10:53:24 |##################  |  90% (215,172) 10.3 minPROGRESS> 10:54:32 |####################| 100% (239,072) 11.4 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 239072
+   PASS> 239019
+   FAIL> 53
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:35:05 |Sorting by clone    | 0.0 minPROGRESS> 10:44:34 |Done                | 9.5 min
+
+PROGRESS> 10:44:34 |                    |   0% (      0) 0.0 minPROGRESS> 10:45:37 |##                  |  10% ( 21,672) 1.0 minPROGRESS> 10:47:43 |######              |  30% ( 65,016) 3.1 minPROGRESS> 10:55:05 |####################| 100% (216,706) 10.5 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S5_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 216706
+   PASS> 216691
+   FAIL> 15
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:45:52 |Sorting by clone    | 0.0 minPROGRESS> 10:52:21 |Done                | 6.5 min
+
+PROGRESS> 10:52:21 |                    |   0% (      0) 0.0 minPROGRESS> 10:52:44 |#                   |   5% (  7,293) 0.4 minPROGRESS> 10:55:56 |##########          |  50% ( 72,930) 3.6 minPROGRESS> 10:58:25 |#################   |  85% (123,981) 6.1 minPROGRESS> 10:59:29 |####################| 100% (145,850) 7.1 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S2_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 145850
+   PASS> 145797
+   FAIL> 53
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:35:27 |Sorting by clone    | 0.0 minPROGRESS> 10:47:20 |Done                | 11.9 min
+
+PROGRESS> 10:47:20 |                    |   0% (      0) 0.0 minPROGRESS> 11:00:15 |####################| 100% (266,523) 12.9 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S6_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 266523
+   PASS> 266505
+   FAIL> 18
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:45:09 |Sorting by clone    | 0.0 minPROGRESS> 10:52:41 |Done                | 7.5 min
+
+PROGRESS> 10:52:41 |                    |   0% (      0) 0.0 minPROGRESS> 11:00:47 |####################| 100% (169,388) 8.1 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S1_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 169388
+   PASS> 169267
+   FAIL> 121
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:35:49 |Sorting by clone    | 0.0 minPROGRESS> 10:49:31 |Done                | 13.7 min
+
+PROGRESS> 10:49:31 |                    |   0% (      0) 0.0 minPROGRESS> 11:03:44 |####################| 100% (307,609) 14.2 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S7_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 307609
+   PASS> 307571
+   FAIL> 38
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 11:00:53 |Sorting by clone    | 0.0 minPROGRESS> 11:04:34 |Done                | 3.7 min
+
+PROGRESS> 11:04:34 |                    |   0% (      0) 0.0 minPROGRESS> 11:04:46 |#                   |   5% (  5,379) 0.2 minPROGRESS> 11:06:25 |##########          |  50% ( 53,790) 1.8 minPROGRESS> 11:08:18 |####################| 100% (107,576) 3.7 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S9_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 107576
+   PASS> 107562
+   FAIL> 14
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:52:22 |Sorting by clone    | 0.0 minPROGRESS> 11:02:41 |Done                | 10.3 min
+
+PROGRESS> 11:02:41 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:45 |####################| 100% (244,216) 8.1 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S5_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 244216
+   PASS> 244202
+   FAIL> 14
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:55:44 |Sorting by clone    | 0.0 minPROGRESS> 11:04:47 |Done                | 9.1 min
+
+PROGRESS> 11:04:47 |                    |   0% (      0) 0.0 minPROGRESS> 11:05:35 |##                  |  10% ( 23,248) 0.8 minPROGRESS> 11:11:53 |####################| 100% (232,480) 7.1 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S6_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 232480
+   PASS> 232474
+   FAIL> 6
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:51:25 |Sorting by clone    | 0.0 minPROGRESS> 11:03:23 |Done                | 12.0 min
+
+PROGRESS> 11:03:23 |                    |   0% (      0) 0.0 minPROGRESS> 11:12:13 |####################| 100% (287,700) 8.8 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S4_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 287700
+   PASS> 287619
+   FAIL> 81
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:57:05 |Sorting by clone    | 0.0 minPROGRESS> 11:06:15 |Done                | 9.2 min
+
+PROGRESS> 11:06:15 |                    |   0% (      0) 0.0 minPROGRESS> 11:10:10 |##########          |  50% (122,910) 3.9 minPROGRESS> 11:12:50 |####################| 100% (245,817) 6.6 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S8_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 245817
+   PASS> 245210
+   FAIL> 607
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:38:08 |Sorting by clone    | 0.0 minPROGRESS> 10:59:58 |Done                | 21.8 min
+
+PROGRESS> 10:59:58 |                    |   0% (      0) 0.0 minPROGRESS> 11:07:58 |#########           |  45% (218,511) 8.0 minPROGRESS> 11:13:30 |####################| 100% (485,574) 13.5 min
+
+ OUTPUT> dedup-mpg_L19247_S4_S4_001_PRIMER-S8_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 485574
+   PASS> 485385
+   FAIL> 189
+    END> CreateGermlines
+
+      START> CreateGermlines
+       FILE> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_genotype_airr_clone-pass.tsv
+ GERM_TYPES> dmask
+  SEQ_FIELD> sequence_alignment
+    V_FIELD> v_call_genotyped
+    D_FIELD> d_call
+    J_FIELD> j_call
+     CLONED> True
+CLONE_FIELD> clone_id
+
+PROGRESS> 10:56:49 |Sorting by clone    | 0.0 minPROGRESS> 11:08:29 |Done                | 11.7 min
+
+PROGRESS> 11:08:29 |                    |   0% (      0) 0.0 minPROGRESS> 11:13:54 |####################| 100% (322,315) 5.4 min
+
+ OUTPUT> dedup-mpg_L19248_S5_S5_001_PRIMER-S7_R1_genotype_airr_clone-pass_germ-pass.tsv
+RECORDS> 322315
+   PASS> 322297
+   FAIL> 18
+    END> CreateGermlines
+
