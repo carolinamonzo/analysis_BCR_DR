@@ -2,7 +2,7 @@
   
 ## Scripts for B cell receptor repertoire analysis
 
-Monzo ́ et al., Dietary restriction mitigates the age-associated decline in mouse B cell receptor repertoire diversity, Cell Reports (2023), https://doi.org/10.1016/j.celrep.2023.112722
+Monzó et al., Dietary restriction mitigates the age-associated decline in mouse B cell receptor repertoire diversity, Cell Reports (2023), https://doi.org/10.1016/j.celrep.2023.112722
   
 Immunosenescence is the decline in adaptive immune function with age that increases vulnerability to infection and participates in the feedback cycle that decreases health in old age.  
   
