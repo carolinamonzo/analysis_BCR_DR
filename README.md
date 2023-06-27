@@ -1,10 +1,12 @@
 # analysis_BCR_DR
   
 ## Scripts for B cell receptor repertoire analysis
+
+Monzo ́ et al., Dietary restriction mitigates the age-associated decline in mouse B cell receptor repertoire diversity, Cell Reports (2023), https://doi.org/10.1016/j.celrep.2023.112722
   
 Immunosenescence is the decline in adaptive immune function with age that increases vulnerability to infection and participates in the feedback cycle that decreases health in old age.  
   
-In this study we have 40 mice corresponding to 8 biological conditions. We performed BCR-Seq based on the work by Turchainova et al 2017 and prepared libraries from frozen spleen and ileum.  
+In this study we have 45 mice corresponding to 8 biological conditions. We performed BCR-Seq based on the work by Turchainova et al 2017 and prepared libraries from frozen spleen and ileum.  
   
 ```
 General processing steps in analysis_BCR_DR/scripts/CMD_SLURM/ call into CMD_FOF:  
